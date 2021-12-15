@@ -13,6 +13,6 @@ pages:
     - cp -r result/* public/
   artifacts:
     paths:
-      - images
+      - public
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
