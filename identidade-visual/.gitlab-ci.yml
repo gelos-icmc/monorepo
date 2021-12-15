@@ -10,7 +10,7 @@ pages:
   script:
     - nix build
     - mkdir images
-    - cp -r result/* images/
+    - cp -r result/* public/
   artifacts:
     paths:
       - images
