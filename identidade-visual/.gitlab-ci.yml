@@ -1,0 +1,19 @@
+image: nixos/nix:latest
+
+variables:
+  NIX_PATH: "nixpkgs=channel:nixos-unstable"
+  NIX_CONFIG: "experimental-features = nix-command flakes"
+
+pages:
+  before_script:
+    - nix-env -iA nixpkgs.nixUnstable
+    - nix-env -iA nixpkgs.git
+  script:
+    - nix build
+    - mkdir images
+    - cp -r result/* images/
+  artifacts:
+    paths:
+      - images
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
