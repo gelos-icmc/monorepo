@@ -18,9 +18,14 @@ stdenv.mkDerivation {
   FONTCONFIG_FILE=fontConf;
 
   # Renderizar SVGs em PNGs
-  buildPhase = ''
+  # E criar árvores html para indexar os arquivos
+  buildPhase = let
+    tree = ''tree -T "Identidade Visual GELOS" -H '.' --noreport -I "index.html" --charset utf-8'';
+  in ''
     inkscape --export-type=png **/*.svg -w 512 -h 512
-    tree -H '.' --noreport --charset utf-8 -I "index.html" -o index.html
+    ${tree} -o index.html .
+    ${tree} -o logo/index.html logo
+    ${tree} -o icon/index.html icon
   '';
 
   # Mover imagens para output
