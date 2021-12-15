@@ -9,7 +9,7 @@ pages:
     - nix-env -iA nixpkgs.git
   script:
     - nix build
-    - mkdir images
+    - mkdir public
     - cp -r result/* public/
   artifacts:
     paths:
