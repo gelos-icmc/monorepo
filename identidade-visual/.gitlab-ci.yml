@@ -11,6 +11,9 @@ pages:
     - nix build
     - mkdir public
     - cp -r result/* public/
+    - cd public/
+    - find -print > ../.tree
+    - mv ../.tree .tree
   artifacts:
     paths:
       - public
