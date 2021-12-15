@@ -19,13 +19,13 @@ stdenv.mkDerivation {
 
   # Renderizar SVGs em PNGs
   buildPhase = ''
-    inkscape --export-type=png *.svg -w 512 -h 512
-    tree -H '.' -L 1 --noreport --charset utf-8 -P "*.svg|*.png" -o index.html
+    inkscape --export-type=png **/*.svg -w 512 -h 512
+    tree -H '.' --noreport --charset utf-8 -I "index.html" -o index.html
   '';
 
   # Mover imagens para output
   installPhase = ''
     mkdir -p $out
-    cp *.{svg,png} index.html $out
+    cp -r * $out
   '';
 }
