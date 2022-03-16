@@ -22,7 +22,7 @@ stdenv.mkDerivation {
   buildPhase = let
     tree = ''tree -T "Identidade Visual GELOS" -H '.' --noreport -I "index.html" --charset utf-8'';
   in ''
-    inkscape --export-type=png **/*.svg -w 512 -h 512
+    inkscape --export-type=png **/*.svg -w 4096 -h 4096
     ${tree} -o index.html .
     ${tree} -o logo/index.html logo
     ${tree} -o icon/index.html icon
