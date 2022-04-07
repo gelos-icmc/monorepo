@@ -1,4 +1,4 @@
-{ lib, writeText, stdenv, inkscape, fira, fontconfig, tree }:
+{ lib, writeText, stdenv, inkscape, fira, fontconfig, tree, size ? 4096 }:
 let
   # Gerar fontconfig com a Fira Sans inclusa
   fontConf = writeText "00-fira-fonts.conf" ''
@@ -22,7 +22,7 @@ stdenv.mkDerivation {
   buildPhase = let
     tree = ''tree -T "Identidade Visual GELOS" -H '.' --noreport -I "index.html" --charset utf-8'';
   in ''
-    inkscape --export-type=png **/*.svg -w 4096 -h 4096
+    inkscape --export-type=png **/*.svg -w ${toString size} -h ${toString size}
     ${tree} -o index.html .
     ${tree} -o logo/index.html logo
     ${tree} -o icon/index.html icon
