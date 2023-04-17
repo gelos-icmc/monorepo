@@ -34,49 +34,24 @@ A estrutura de pastas é a seguinte:
 
 `src/vertical` - Logo vertical do GELOS contendo um floco de neve seguido pelo nome "GELOS" na vertical
 
-A seguir alguns modelos exemplos com a cor padrão do GELOS (Azul):
+A seguir alguns modelos exemplos com a cor padrão do GELOS (Azul escuro):
 
-<style>
-.container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-</style>
+Logo principal (horizontal), use na maioria dos casos:
 
-<div class="container">
-  <div class="icon">
+![Logo principal](src/horizontal/gelos-fullname-blue.svg)
 
-  <p>Ícone padrão</p>
-  <img src="src/icon/snowflake-blue.svg"/>
+Ícone (sem texto), use quando o nome do grupo já está presente em outro lugar do material:
 
-  </div>
+![Icone](src/icon/snowflake-blue.svg)
 
-  <div class="icon">
-  
-  <p>Logo horizontal</p>
-  <img src="src/horizontal/gelos-fullname-blue.svg"/>
+Logo simplificado (vertical, sem subtítulo), use quando o subtítulo ficar ruim para ler:
 
-  </div>
-
-  <div class="icon">
-
-  <p>Logo vertical</p>
-  <img src="src/vertical/gelos-snowflake-blue.svg"/>
-
-  </div>
-</div>
+![Logo simplificado](src/vertical/gelos-snowflake-blue.svg)
 
 ## Cores
 
-As cores utilizadas no GELOS são:
+As cores utilizadas pelo GELOS são:
 
-- **Branco:** `#FFFFFF`
-- **Preto:** `#000000`
-- **Azul:** Gradiente em azul entre `#20ABCF` e `#4035E6`
-- **Azul claro:** Gradiente em azul claro entre `#2BD7FF` e `#737DFF`
+- **Azul escuro**, para fundos claros: Gradiente em azul entre `#20ABCF` e `#4035E6`
+- **Azul claro:**, para fundos escuros: Gradiente em azul claro entre `#2BD7FF` e `#737DFF`
+- **Branco** ou **Preto**, para fundos coloridos: `#FFF` ou `#000`
