@@ -43,15 +43,16 @@
       # Texlive environment containing the theme
       texlive-env = pkgs.texlive.withPackages (_: default.tlDeps ++ [default]);
 
-      # A sample pdf using the theme
-      sample = pkgs.stdenvNoCC.mkDerivation {
-        name = "sample";
-        src = ./.;
-        version = self.shortRev or "unstable";
+      # A function to easen usage
+      mkGelosSlides = name: src: pkgs.stdenvNoCC.mkDerivation {
+        inherit name src;
         nativeBuildInputs = [pkgs.pandoc texlive-env];
-        buildPhase = "pandoc -t beamer sample.md -o sample.pdf";
-        installPhase = "install -D sample.pdf -t $out";
+        buildPhase = "pandoc -t beamer *.md -o ${name}.pdf";
+        installPhase = "install -D ${name}.pdf -t $out";
       };
+
+      # A sample pdf using the theme
+      sample = mkGelosSlides "sample" ./.;
     });
     formatter = eachSystem (pkgs: pkgs.alejandra);
   };

@@ -14,3 +14,32 @@ Por exemplo:
 echo "# Olá mundo" > teste.md
 pandoc -t beamer -V theme=gelos -V title=Oie teste.md -o teste.pdf
 ```
+
+Ou use o sample que provemos:
+
+```
+pandoc -t beamer sample.md -o sample.pdf
+```
+
+### Com nix (via flakes)
+
+```
+{
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-23.11";
+    systems.url = "github:nix-systems/default";
+
+    gelos-theme.url = "github:gelos-icmc/beamer-theme";
+    gelos-theme.inputs.nixpkgs.follows = "nixpkgs";
+  };
+
+  outputs = { systems, nixpkgs, gelos-theme, ...}: let
+    eachSystem = nixpkgs.lib.genAttrs (import systems);
+  in {
+    packages = eachSystem (system: {
+      default = gelos-theme.packages.${system}.mkGelosSlides "exemplo" ./.;
+    });
+  };
+}
+
+```
