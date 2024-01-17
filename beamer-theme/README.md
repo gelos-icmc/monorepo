@@ -2,32 +2,38 @@
 
 ## Preview
 
+```
+pandoc -t beamer sample.md -o sample.pdf
+nix build .#sample
+```
+
 [sample.pdf](https://github.com/gelos-icmc/beamer-theme/files/13964340/sample.pdf)
 
 ## Como usar
 
-Basta copiar/linkar a .sty e as .png's para o diretório do seu projeto, configure sua apresentação para usar o tema "gelos", e é isso.
+Além de alguns pacotes tex e pandoc, você precisa ter esse tema disponível para
+o seu projeto usar ele. Há algumas formas de fazer:
+- Copiando o .sty e as .png's pro mesmo diretório dos seus .md's
+- Clonando esse repo em qualquer lugar (e.g. dentro do seu projeto) e setando `$TEXINPUTS`
+- Clonando esse repo em `~/texmf/tex/latex/gelosbeamer`
 
 Por exemplo:
 
 ```
+mkdir -p ~/texmf/tex/latex
+git clone https://github.com/gelos-icmc/beamer-theme ~/texmf/tex/latex/gelosbeamer
+
 echo "# Olá mundo" > teste.md
 pandoc -t beamer -V theme=gelos -V title=Oie teste.md -o teste.pdf
 ```
 
-Ou use o sample que provemos:
-
-```
-pandoc -t beamer sample.md -o sample.pdf
-```
-
 ### Com nix (via flakes)
 
-Outputs disponíveis:
+Com nix é bem mais tranquilo. Esse flake provê:
 - `packages.theme` (ou`packages.default`): apenas o pacote tex do tema
     - As dependencias nescessárias para buildar slides que usem ele estão em `packages.themes.tlDeps`
 - `packages.texlive-env`: um ambiente texlive contendo o tema e suas dependencias
-- `packages.mkGelosSlides`: uma função de conveniência para fazer slides markdown usando o tema
+- `packages.mkGelosSlides`: uma função de conveniência para empacotar slides, usando o ambiente acima
 - `packages.sample`: slides exemplo
 
 Exemplo de flake usando a função `mkGelosSlides`:
@@ -44,10 +50,21 @@ Exemplo de flake usando a função `mkGelosSlides`:
   outputs = { systems, nixpkgs, gelos-theme, ...}: let
     eachSystem = nixpkgs.lib.genAttrs (import systems);
   in {
-    packages = eachSystem (system: {
-      default = gelos-theme.packages.${system}.mkGelosSlides {
-        pname = "exemplo";
+    packages = eachSystem (system: let
+      pkgs = nixpkgs.legacyPackages.${system};
+      theme-pkgs = gelos-theme.packages.${system};
+    in {
+      default = theme-pkgs.mkGelosSlides {
+        # Diretório com seus .md's (obrigatório)
         src = ./.;
+
+        # Será usado para o nome do pdf final
+        # pname = "slides";
+        # Permite ignorar alguns arquivos que você não quer nos slides
+        # ignore = [ "README.md" ];
+        # Você pode também personalizar qual ambiente texlive usar
+        # texlive = theme-pkgs.texlive-env;
+        # texlive = pkgs.texlive.withPackages (ps: [ps.scheme-medium ps.foo ps.bar theme-pkgs.theme]);
       };
     });
   };
@@ -55,3 +72,14 @@ Exemplo de flake usando a função `mkGelosSlides`:
 
 ```
 
+Daí é só partir pro abraço:
+```bash
+nix build
+```
+
+Ao empacotar seus slides, você ganha de brinde uma nix shell onde pode usar o
+`pandoc` sem se preocupar com dependencias:
+```bash
+nix develop
+pandoc -t beamer exemplo.md -o exemplo.pdf
+```

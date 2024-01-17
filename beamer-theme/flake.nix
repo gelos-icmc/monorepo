@@ -49,14 +49,16 @@
         version ? "unstable",
         src,
         ignore ? ["README.md"],
+        texlive ? texlive-env,
+        pandoc ? pkgs.pandoc,
         ...
       }@args:
       pkgs.stdenvNoCC.mkDerivation {
         inherit pname version src;
-        nativeBuildInputs = [pkgs.pandoc texlive-env];
+        nativeBuildInputs = [pandoc texlive];
         buildPhase = ''
           rm -f ${builtins.concatStringsSep " " ignore}
-          pandoc -t beamer *.md -o ${pname}.pdf
+          pandoc -t beamer -V theme=gelos *.md -o ${pname}.pdf
         '';
         installPhase = "install -D ${pname}.pdf -t $out";
       } // args;
