@@ -2,7 +2,7 @@
 
 ## Preview
 
-TODO
+[sample.pdf](https://github.com/gelos-icmc/beamer-theme/files/13964340/sample.pdf)
 
 ## Como usar
 
