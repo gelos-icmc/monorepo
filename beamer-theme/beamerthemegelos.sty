@@ -59,17 +59,17 @@
 \setbeamertemplate{frametitle}{}
 
 % add some space below the footnotes so they don't end up on the progress bar
-\setbeamertemplate{footnote}{ 
-	\parindent 0em
-	\noindent 
-	\raggedright 
-	\hbox to 0.8em{\hfil\insertfootnotemark}
-	\insertfootnotetext
-	\par
-	\vspace{2em}
+\setbeamertemplate{footnote}{
+    \parindent 0em
+    \noindent
+    \raggedright
+    \hbox to 0.8em{\hfil\insertfootnotemark}
+    \insertfootnotetext
+    \par
+    \vspace{2em}
 }
 
-% add the same vspace both before and after quotes 
+% add the same vspace both before and after quotes
 \setbeamertemplate{quote begin}{\vspace{0.5em}}
 \setbeamertemplate{quote end}{\vspace{0.5em}}
 
@@ -81,108 +81,84 @@
 \newcounter{showSlideTotal}
 \setcounter{showSlideTotal}{1}
 
-% use \makeatletter for our progress bar definitions
-% progress bar idea from http://tex.stackexchange.com/a/59749/44221
-% slightly adapted for visual purposes here
 \makeatletter
-\newcount\progressbar@tmpcounta% auxiliary counter
-\newcount\progressbar@tmpcountb% auxiliary counter
-\newdimen\progressbar@pbwidth %progressbar width
-\newdimen\progressbar@tmpdim % auxiliary dimension
 
-\newdimen\slidewidth % auxiliary dimension
-\newdimen\slideheight % auxiliary dimension
-
-% make the progress bar go across the screen
-\progressbar@pbwidth=\the\paperwidth
-\slidewidth=\the\paperwidth
-\slideheight=\the\paperheight
-
-% draw everything with tikz
 \setbeamertemplate{background}{ % all slides
-	% progress bar stuff
-	\progressbar@tmpcounta=\insertframenumber
-	\progressbar@tmpcountb=\inserttotalframenumber
-	\progressbar@tmpdim=\progressbar@pbwidth
-	\divide\progressbar@tmpdim by 100
-	\multiply\progressbar@tmpdim by \progressbar@tmpcounta
-	\divide\progressbar@tmpdim by \progressbar@tmpcountb
-	\multiply\progressbar@tmpdim by 100
+    \begin{tikzpicture}
+        % set up the entire slide as the canvas
+        \useasboundingbox (0,0) rectangle(\paperwidth,\paperheight);
 
-	\begin{tikzpicture}
-		% set up the entire slide as the canvas
-		\useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+        % background
+        \fill[color=BackgroundColor] (0,0) rectangle(\paperwidth,\paperheight);
 
-		% background
-		\fill[color=BackgroundColor] (0,0) rectangle(\the\paperwidth,\the\paperheight);
-
-		\ifnum\thepage=1\relax % only title slides
-			% primary color rectangle
-			\fill[color=PrimaryColor] (0, 4cm) rectangle(\slidewidth,\slideheight);
+        \ifnum\thepage=1\relax % only title slides
+            % primary color rectangle
+            \fill[color=PrimaryColor] (0, 4cm) rectangle(\paperwidth,\paperheight);
             % logo
-            \node[anchor=north] at (0.5\slidewidth,\slideheight-0.5cm){\includegraphics[width=3cm,height=3cm]{gelos-\@theme.png}};
+            \node[anchor=north] at (0.5\paperwidth,\paperheight-0.5cm){\includegraphics[width=3cm,height=3cm]{gelos-\@theme.png}};
 
-			% text (title, subtitle, author, date)
-			\node[anchor=south,text width=\slidewidth-1cm,inner xsep=0.5cm] at (0.5\slidewidth,4cm) {\color{BackgroundColor}\Huge\textbf{\inserttitle}};
-			\node[anchor=north east,text width=\slidewidth-1cm,align=right] at (\slidewidth-0.4cm,4cm) {\color{PrimaryColor}\large\textbf{\insertsubtitle}};
-			\node at (0.5\slidewidth,2cm) {\color{PrimaryColor}\LARGE\insertauthor};
-			\node at (0.5\slidewidth,1.25cm) {\color{PrimaryColor}\Large\insertinstitute};
-			\node[anchor=south east] at(\slidewidth,0cm) {\color{PrimaryColor}\footnotesize\insertdate};
-		\else % other slides
-			% title bar
-			\fill[color=PrimaryColor] (0, \slideheight-1.2cm) rectangle(\slidewidth,\slideheight);
+            % text (title, subtitle, author, date)
+            \node[anchor=south,text width=\paperwidth-1cm,inner xsep=0.5cm] at (0.5\paperwidth,4cm) {\color{BackgroundColor}\Huge\textbf{\inserttitle}};
+            \node[anchor=north east,text width=\paperwidth-1cm,align=right] at (\paperwidth-0.4cm,4cm) {\color{PrimaryColor}\large\textbf{\insertsubtitle}};
+            \node at (0.5\paperwidth,2cm) {\color{PrimaryColor}\LARGE\insertauthor};
+            \node at (0.5\paperwidth,1.25cm) {\color{PrimaryColor}\Large\insertinstitute};
+            \node[anchor=south east] at(\paperwidth,0cm) {\color{PrimaryColor}\footnotesize\insertdate};
+        \else % other slides
+            % title bar
+            \fill[color=PrimaryColor] (0, \paperheight-1.2cm) rectangle(\paperwidth,\paperheight);
 
-			% slide title
-			\node[anchor=north,text width=\slidewidth-2cm,inner xsep=0.5cm,inner ysep=0.25cm] at (0.5\slidewidth,\slideheight-0.1cm) {\color{BackgroundColor}\LARGE\textbf{\insertframetitle}};
+            % slide title
+            \node[anchor=north,text width=\paperwidth-2cm,inner xsep=0.5cm,inner ysep=0.25cm] at (0.5\paperwidth,\paperheight-0.1cm) {\color{BackgroundColor}\LARGE\textbf{\insertframetitle}};
 
-			% logo
-			\node[anchor=north east] at (\slidewidth-0.25cm,\slideheight){\includegraphics[width=1cm,height=1cm]{gelos-\@theme.png}};
+            % logo
+            \node[anchor=north east] at (\paperwidth-0.25cm,\paperheight){\includegraphics[width=1cm,height=1cm]{gelos-\@theme.png}};
 
-			% show progress bar
-			\ifnum \value{showProgressBar}>0\relax%
-				% progress bar icon in the middle of the screen
-				\draw[fill=ProgBarBGColor,draw=none] (0cm,0cm) rectangle(\slidewidth,0.1cm);
-				\draw[fill=PrimaryColor,draw=none] (0cm,0cm) rectangle(\progressbar@tmpdim,0.1cm);
+            % show progress bar
+            \ifnum \value{showProgressBar}>0\relax
+                % gambiarra: min helps avoid this scalar getting >1 in some edge cases
+                \pgfmathsetmacro{\progress}{min(1, \insertframenumber/\inserttotalframenumber)}
+                \fill[color=ProgBarBGColor] (0, 0) rectangle(\paperwidth, 0.1cm);
+                \fill[color=PrimaryColor] (0, 0) rectangle(\progress * \paperwidth, 0.1cm);
 
-				% bottom info
-				\node[anchor=south west] at(0cm,0.1cm) {\color{PrimaryColor}\footnotesize\vphantom{lp}\insertsection};
-				% if slide numbers are active
-				\ifnum \value{showSlideNumbers}>0\relax%
-					% if slide totals are active
-					\ifnum \value{showSlideTotal}>0\relax%
-						% draw both slide number and slide total
-						\node[anchor=south east] at(\slidewidth,0.1cm) {\color{PrimaryColor}\footnotesize\insertframenumber/\inserttotalframenumber};
-					\else
-						\node[anchor=south east] at(\slidewidth,0.1cm) {\color{PrimaryColor}\footnotesize\insertframenumber};
-					\fi
-				\fi
-			\else
-				% section title in the bottom left
-				\node[anchor=south west] at(0cm,0cm) {\color{PrimaryColor}\footnotesize\vphantom{lp}\insertsection};
-				% if we're showing slide numbers
-				\ifnum \value{showSlideNumbers}>0\relax%
-					% if slide totals are active
-					\ifnum \value{showSlideTotal}>0\relax%
-						% slide number and slide total
-						\node[anchor=south east] at(\slidewidth,0cm) {\color{PrimaryColor}\footnotesize\insertframenumber/\inserttotalframenumber};
-					\else
-						\node[anchor=south east] at(\slidewidth,0cm) {\color{PrimaryColor}\footnotesize\insertframenumber};
-					\fi
-				\fi
-			\fi
-		\fi
-	\end{tikzpicture}
+                % bottom info
+                \node[anchor=south west] at(0cm,0.1cm) {\color{PrimaryColor}\footnotesize\vphantom{lp}\insertsection};
+                % if slide numbers are active
+                \ifnum \value{showSlideNumbers}>0\relax
+                    % if slide totals are active
+                    \ifnum \value{showSlideTotal}>0\relax
+                        % draw both slide number and slide total
+                        \node[anchor=south east] at(\paperwidth,0.1cm) {\color{PrimaryColor}\footnotesize\insertframenumber/\inserttotalframenumber};
+                    \else
+                        \node[anchor=south east] at(\paperwidth,0.1cm) {\color{PrimaryColor}\footnotesize\insertframenumber};
+                    \fi
+                \fi
+            \else
+                % section title in the bottom left
+                \node[anchor=south west] at(0cm,0cm) {\color{PrimaryColor}\footnotesize\vphantom{lp}\insertsection};
+                % if we're showing slide numbers
+                \ifnum \value{showSlideNumbers}>0\relax
+                    % if slide totals are active
+                    \ifnum \value{showSlideTotal}>0\relax
+                        % slide number and slide total
+                        \node[anchor=south east] at(\paperwidth,0cm) {\color{PrimaryColor}\footnotesize\insertframenumber/\inserttotalframenumber};
+                    \else
+                        \node[anchor=south east] at(\paperwidth,0cm) {\color{PrimaryColor}\footnotesize\insertframenumber};
+                    \fi
+                \fi
+            \fi
+        \fi
+    \end{tikzpicture}
 }
 \makeatother
 
 \AtBeginSection{\frame{\sectionpage}} % section pages
 \setbeamertemplate{section page}
 {
-	\begin{tikzpicture}
-		% set up the entire slide as the canvas
-		\useasboundingbox (0,0) rectangle(\slidewidth,\slideheight);
-		\fill[color=BackgroundColor] (-1cm, 2cm) rectangle (\slidewidth, \slideheight+0.1cm);
-		\fill[color=PrimaryColor] (-1cm, 0.5\slideheight-1cm) rectangle(\slidewidth, 0.5\slideheight+1cm);
-		\node[text width=\the\paperwidth-1cm,align=center] at (0.4\slidewidth, 0.5\slideheight) {\color{BackgroundColor}\Huge\textbf{\insertsection}};
-	\end{tikzpicture}
+    \begin{tikzpicture}
+        % set up the entire slide as the canvas
+        \useasboundingbox (0,0) rectangle(\paperwidth,\paperheight);
+        \fill[color=BackgroundColor] (-1cm, 2cm) rectangle (\paperwidth, \paperheight+0.1cm);
+        \fill[color=PrimaryColor] (-1cm, 0.5\paperheight-1cm) rectangle(\paperwidth, 0.5\paperheight+1cm);
+        \node[text width=\paperwidth-1cm,align=center] at (0.4\paperwidth, 0.5\paperheight) {\color{BackgroundColor}\Huge\textbf{\insertsection}};
+    \end{tikzpicture}
 }
