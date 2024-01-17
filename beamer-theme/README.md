@@ -31,7 +31,7 @@ Outputs disponíveis:
 - `packages.sample`: slides exemplo
 
 Exemplo de flake usando a função `mkGelosSlides`:
-```
+```nix
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-23.11";
@@ -45,7 +45,10 @@ Exemplo de flake usando a função `mkGelosSlides`:
     eachSystem = nixpkgs.lib.genAttrs (import systems);
   in {
     packages = eachSystem (system: {
-      default = gelos-theme.packages.${system}.mkGelosSlides "exemplo" ./.;
+      default = gelos-theme.packages.${system}.mkGelosSlides {
+        pname = "exemplo";
+        src = ./.;
+      };
     });
   };
 }
