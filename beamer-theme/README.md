@@ -23,6 +23,14 @@ pandoc -t beamer sample.md -o sample.pdf
 
 ### Com nix (via flakes)
 
+Outputs disponíveis:
+- `packages.theme` (ou`packages.default`): apenas o pacote tex do tema
+    - As dependencias nescessárias para buildar slides que usem ele estão em `packages.themes.tldDeps`
+- `packages.texlive-env`: um ambiente texlive contendo o tema e suas dependencias
+- `packages.mkGelosSlides`: uma função de conveniência para fazer slides markdown usando o tema
+- `packages.sample`: slides exemplo
+
+Exemplo de flake usando a função `mkGelosSlides`:
 ```
 {
   inputs = {
@@ -43,3 +51,4 @@ pandoc -t beamer sample.md -o sample.pdf
 }
 
 ```
+
