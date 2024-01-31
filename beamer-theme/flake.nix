@@ -17,31 +17,30 @@
     packages = eachSystem (pkgs: rec {
       # Tex package
       default = theme;
-      theme = pkgs.stdenvNoCC.mkDerivation rec {
+      theme = let
+        texDeps = ps: with ps; [
+          scheme-basic
+          fancyvrb
+          beamer
+          xkeyval
+          fira
+          fontaxes
+        ];
+      in pkgs.stdenvNoCC.mkDerivation {
         pname = "gelos-beamer";
         version = self.shortRev or "unstable";
         src = ./.;
-        outputs = ["tex"];
-        passthru = {
-          tlDeps = with pkgs.texlive; [
-            scheme-basic
-            fancyvrb
-            beamer
-            xkeyval
-            fira
-            fontaxes
-          ];
-          tlType = "run";
-        };
-        nativeBuildInputs = [
-          (pkgs.texlive.withPackages (_: passthru.tlDeps))
-          (pkgs.writeShellScript "force-tex-output.sh" ''out="''${tex-}"'')
-        ];
-        installPhase = "install -D beamerthemegelos.sty gelos-dark.png gelos-light.png -t $tex/tex/latex/gelosbeamer";
+        outputs = ["tex" "out"];
+        passthru.tlDeps = texDeps pkgs.texlive;
+        nativeBuildInputs = [(pkgs.texlive.withPackages texDeps)];
+        installPhase = ''
+          install -D beamerthemegelos.sty gelos-dark.png gelos-light.png -t $out/tex/latex/gelosbeamer
+          ln -s $out $tex
+        '';
       };
 
       # Texlive environment containing the theme
-      texlive-env = pkgs.texlive.withPackages (_: default.tlDeps ++ [default]);
+      texlive-env = pkgs.texlive.withPackages (_: [default]);
 
       # A function to easen usage
       mkGelosSlides = {
@@ -51,9 +50,10 @@
         ignore ? ["README.md"],
         texlive ? texlive-env,
         pandoc ? pkgs.pandoc,
+        stdenv ? pkgs.stdenvNoCC,
         ...
       }@args:
-      pkgs.stdenvNoCC.mkDerivation {
+      stdenv.mkDerivation {
         inherit pname version src;
         nativeBuildInputs = [pandoc texlive];
         buildPhase = ''
