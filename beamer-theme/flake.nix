@@ -13,7 +13,7 @@
       nixpkgs.lib.genAttrs
       (import systems)
       (system: f nixpkgs.legacyPackages.${system});
-  in {
+  in rec {
     packages = eachSystem (pkgs: rec {
       # Tex package
       default = theme;
@@ -69,6 +69,13 @@
         src = ./.;
       };
     });
+
+    devShells = eachSystem (pkgs: {
+      default = pkgs.mkShell {
+        packages = [packages.${pkgs.system}.texlive-env pkgs.pandoc];
+      };
+    });
+
     formatter = eachSystem (pkgs: pkgs.alejandra);
   };
 }

@@ -2,11 +2,6 @@
 
 ## Preview
 
-```
-pandoc -t beamer sample.md -o sample.pdf
-nix build .#sample
-```
-
 [sample.pdf](https://github.com/gelos-icmc/beamer-theme/files/13964340/sample.pdf)
 
 ## Como usar
@@ -27,14 +22,26 @@ echo "# Olá mundo" > teste.md
 pandoc -t beamer -V theme=gelos -V title=Oie teste.md -o teste.pdf
 ```
 
-### Com nix (via flakes)
+## Com nix
 
-Com nix é bem mais tranquilo. Esse flake provê:
-- `packages.theme` (ou`packages.default`): apenas o pacote tex do tema
-    - As dependencias nescessárias para buildar slides que usem ele estão em `packages.themes.tlDeps`
+Esse flake provê:
+- `packages.theme`: apenas o pacote tex do tema
 - `packages.texlive-env`: um ambiente texlive contendo o tema e suas dependencias
-- `packages.mkGelosSlides`: uma função de conveniência para empacotar slides, usando o ambiente acima
-- `packages.sample`: slides exemplo
+- `packages.mkGelosSlides`: uma função de conveniência para empacotar slides, usando o `texlive-env` + `pandoc`
+- `packages.sample`: slides exemplo, empacotado com `mkGelosSlides`
+- `devShells.default`: dev shell contendo o `texlive-env` + `pandoc`
+
+### Usando a `devShell`
+
+Uma forma simples de ter uma shell com pandoc, texlive, e nosso tema nix develop:
+
+```
+nix develop github:gelos-icmc/beamer-theme -c $SHELL
+echo "# Olá mundo" > teste.md
+pandoc -t beamer -V theme=gelos -V title=Oie teste.md -o teste.pdf
+```
+
+### Empacotando com `mkGelosSlides`
 
 Exemplo de flake usando a função `mkGelosSlides`:
 ```nix
