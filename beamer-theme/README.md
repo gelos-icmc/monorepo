@@ -2,7 +2,7 @@
 
 ## Preview
 
-[sample.pdf](https://github.com/gelos-icmc/beamer-theme/files/13964340/sample.pdf)
+[sample.pdf](https://github.com/user-attachments/files/16849029/sample.pdf)
 
 ## Como usar
 
