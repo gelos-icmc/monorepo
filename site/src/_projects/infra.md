@@ -11,7 +11,7 @@ Trabalhos de DevOps e SysOps no GELOS.
 
 Visando ter uma infraestrutura aberta, de baixa manutenção, e fácil de contribuir, usamos [NixOS](https://nixos.org), uma distribuição declarativa de Linux, para gerir nossas máquinas.
 
-Temos dois servidores: O [`galapagos`](https://github.com/gelos-icmc/infra/tree/main/hosts/galapagos) é usado para nossa infraestrutura principal (site, nextcloud, jitsi); o [`emperor`](https://github.com/gelos-icmc/infra/tree/main/hosts/emperor), temporariamente fora de uso (enquanto buscamos um lugar mais adequado para ele), deve ser usado no futuro como um [tilde](https://tildeverse.org)/[pubnix](https://github.com/cwmccabe/pubnixhist) para os membros do grupo, bem como hospedar VMs para projetos de ensino.
+Temos dois servidores: O [`galapagos`](https://github.com/gelos-icmc/monorepo/tree/main/hosts/servers/galapagos) é usado para nossa infraestrutura principal (site, nextcloud, jitsi); o [`emperor`](https://github.com/gelos-icmc/monorepo/tree/main/hosts/servers/emperor), temporariamente fora de uso (enquanto buscamos um lugar mais adequado para ele), deve ser usado no futuro como um [tilde](https://tildeverse.org)/[pubnix](https://github.com/cwmccabe/pubnixhist) para os membros do grupo, bem como hospedar VMs para projetos de ensino.
 
 ## Repositórios
 
