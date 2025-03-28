@@ -25,7 +25,7 @@ Confira abaixo as próximas datas
 | Mais datas em breve!|                          |                 |
 
 
-*Para se voluntariar, basta [editar](https://github.com/gelos-icmc/site/blob/main/src/_projects/plantao.md) a tabela acima e adicionar os dias e horários que você estará na salinha para ajudar*
+*Para se voluntariar, basta [editar](https://github.com/gelos-icmc/monorepo/blob/main/site/src/_projects/plantao.md) a tabela acima e adicionar os dias e horários que você estará na salinha para ajudar*
 
 ## Problemas Recorrentes
 
