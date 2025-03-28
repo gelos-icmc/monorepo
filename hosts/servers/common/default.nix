@@ -4,13 +4,7 @@
   lib,
   ...
 }: {
-  boot = {
-    kernelPackages = pkgs.linuxPackages_hardened;
-    loader = {
-      systemd-boot.enable = true;
-      efi.canTouchEfiVariables = true;
-    };
-  };
+  boot.kernelPackages = pkgs.linuxPackages_hardened;
 
   nix = {
     # Adicionar flake inputs no registry
@@ -26,12 +20,7 @@
     };
   };
 
-  nixpkgs = {
-    config = {
-      allowUnfree = true;
-    };
-    hostPlatform = "x86_64-linux";
-  };
+  nixpkgs.config.allowUnfree = true;
 
   services = {
     openssh = {
@@ -40,7 +29,6 @@
         PermitRootLogin = "no";
         PasswordAuthentication = false;
       };
-      ports = [ 2112 ];
     };
   };
 
@@ -67,5 +55,4 @@
   };
 
   time.timeZone = "America/Sao_Paulo";
-  system.stateVersion = "21.11";
 }
