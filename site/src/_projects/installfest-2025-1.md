@@ -19,7 +19,7 @@ Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
 - Baixe [as ISOs](#distros) que você pretende usar
     - Para usar várias ISOs em um único pendrive, use o [ventoy](https://ventoy.net).
     - Caso queira, você pode aplicar o [nosso tema](https://github.com/gelos-icmc/tema-ventoy).
-- Adicione seu nome (e pendrives) [na lista](https://github.com/gelos-icmc/site/blob/main/src/_data/if6/if6-volunteers.yml).
+- Adicione seu nome (e pendrives) [na lista](https://github.com/gelos-icmc/monorepo/blob/main/src/site/_data/if6/if6-volunteers.yml).
     - Isso atualizará as planilhas abaixo automaticamente.
     - Caso você tenha dificuldade com git, basta pedir no [telegram](https://t.me/gelos_geral) que alguém faça por você.
 - Lembre de pedir que a pessoa preencha o [formulário de instalação](TODO_REPLACE_ME). Utilizamos isso para nos isentar de possíveis problemas, coletar contatos, e também ter um censo de quantas instalações foram feitas.
