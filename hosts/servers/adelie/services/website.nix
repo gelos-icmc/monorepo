@@ -57,13 +57,8 @@ in {
       };
     };
     "gelos.icmc.usp.br" = {
-      forceSSL = true;
-      enableACME = true;
-      locations."/".return = "302 https://gelos.club$request_uri";
-    };
-    "galapagos.gelos.icmc.usp.br" = {
-      forceSSL = true;
-      enableACME = true;
+      forceSSL = false;
+      enableACME = false; # TODO
       locations."/".return = "302 https://gelos.club$request_uri";
     };
 

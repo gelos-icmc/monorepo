@@ -4,9 +4,12 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
     hardware.url = "github:nixos/nixos-hardware";
-
     nix-flatpak.url = "github:gmodena/nix-flatpak";
 
+    disko = {
+      url = "github:nix-community/disko";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     deploy-rs = {
       url = "github:serokell/deploy-rs";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -35,6 +38,10 @@
         modules = [./hosts/servers/emperor/configuration.nix];
         specialArgs = {inherit inputs outputs;};
       };
+      adelie = nixpkgs.lib.nixosSystem {
+        modules = [./hosts/servers/adelie/configuration.nix];
+        specialArgs = {inherit inputs outputs;};
+      };
       macaroni = nixpkgs.lib.nixosSystem {
         modules = [./hosts/desktops/macaroni/configuration.nix];
         specialArgs = {inherit inputs outputs;};
@@ -57,6 +64,14 @@
           path = activate "nixos" nixosConfigurations.galapagos;
         };
         remoteBuild = true;
+      };
+      adelie = {
+        hostname = "adelie.gelos.club";
+        sshUser = "admin";
+        profiles.system = {
+          user = "root";
+          path = activate "nixos" nixosConfigurations.adelie;
+        };
       };
       /* Não estamos usando no momento, devido ao ruído alto que ele gera na sala
       emperor = {

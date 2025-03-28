@@ -1,6 +1,7 @@
 keys:
   - &servers
     - &server_galapagos age17umps050l2qnz0axplv550025njeq24uv82vpyncyaupk2l5mcas8eekwc
+    - &server_adelie age17umps050l2qnz0axplv550025njeq24uv82vpyncyaupk2l5mcas8eekwc
   - &admins
     - &admin_misterio 7088C7421873E0DB97FF17C2245CAB70B4C225E9
 creation_rules:
@@ -8,5 +9,11 @@ creation_rules:
     key_groups:
     - age:
       - *server_galapagos
+      pgp:
+      - *admin_misterio
+  - path_regex: hosts/servers/adelie/secrets.yml$
+    key_groups:
+    - age:
+      - *server_adelie
       pgp:
       - *admin_misterio
