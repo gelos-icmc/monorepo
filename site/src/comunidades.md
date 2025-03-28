@@ -23,4 +23,4 @@ Abaixo estão listadas algumas comunidades brasileiras que tenham como tema FLOS
 
 {% endfor %}
 
-Faltou alguma? [Adicione aqui!](https://github.com/gelos-icmc/site/blob/main/src/_data/communities.yml)
+Faltou alguma? [Adicione aqui!](https://github.com/gelos-icmc/monorepo/blob/main/site/src/_data/communities.yml)
