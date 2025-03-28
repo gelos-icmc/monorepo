@@ -1,0 +1,2 @@
+hosts/*/secrets.yml diff=sopsdiffer
+hosts/*/secrets.yaml diff=sopsdiffer

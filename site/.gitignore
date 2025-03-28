@@ -1,0 +1,10 @@
+_site
+
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+
+result
+.direnv
+
+.lycheecache

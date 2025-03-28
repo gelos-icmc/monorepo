@@ -1,0 +1,41 @@
+name: "CI"
+on:
+  push:
+    branches:
+      - "**"
+      - "!main"
+  pull_request:
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      configs: ${{ steps.list-configs.outputs.configs }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: determinatesystems/nix-installer-action@v4
+      - name: nix flake check
+        run: |
+          nix flake check
+      - name: List NixOS configurations
+        id: list-configs
+        run:
+          echo "configs=$(nix flake show --json | jq -c '.nixosConfigurations | keys')" > $GITHUB_OUTPUT
+  build:
+    runs-on: ubuntu-latest
+    needs:
+      - check
+    strategy:
+      fail-fast: false
+      matrix:
+        system: ${{ fromJSON(needs.check.outputs.configs) }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: determinatesystems/nix-installer-action@v4
+      - env:
+          NIXOS_CONFIG: ${{ matrix.system }}
+        run: |
+          nix build ".#nixosConfigurations.$NIXOS_CONFIG.config.system.build.toplevel"
+
