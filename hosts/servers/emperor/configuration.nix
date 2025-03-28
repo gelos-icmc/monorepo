@@ -5,6 +5,8 @@
     ../common
   ];
 
+  services.openssh.ports = [2112];
+
   networking = {
     hostName = "emperor";
     nameservers = ["143.107.253.3"];

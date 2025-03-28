@@ -6,6 +6,9 @@
     ./services
     ../common
   ];
+
+  services.openssh.ports = [2112];
+
   # Para o servidor de Minecraft
   nixpkgs.overlays = [ inputs.nix-minecraft.overlay ];
 
