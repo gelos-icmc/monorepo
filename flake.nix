@@ -91,6 +91,6 @@
       default = deploy;
     });
 
-    formatter = forAllSystems (system: nixpkgs.legacyPackages.${system}.alejandra);
+    formatter = forAllSystems ({system, ...}: nixpkgs.legacyPackages.${system}.alejandra);
   };
 }
