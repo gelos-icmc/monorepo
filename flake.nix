@@ -22,6 +22,11 @@
       url = "github:misterio77/nix-minecraft";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    gelos-beamer-theme = {
+      url = "github:gelos-icmc/beamer-theme";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = {
@@ -93,10 +98,11 @@
       */
     };
 
-    packages = forAllSystems ({pkgs, ...}: rec {
+    packages = forAllSystems ({pkgs, system, ...}: rec {
       site = pkgs.callPackage ./site/default.nix { inherit atas; };
-      atas = pkgs.callPackage ./site/atas.nix { inherit beamer-theme; };
-      beamer-theme = pkgs.callPackage ./beamer-theme/default.nix { };
+      atas = pkgs.callPackage ./site/atas.nix {
+        beamer-theme = inputs.gelos-beamer-theme.packages.${system}.theme;
+      };
       identidade-visual = pkgs.callPackage ./identidade-visual/default.nix { };
     });
 
