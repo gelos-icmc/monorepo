@@ -1,6 +1,7 @@
 {
   services.nginx = {
     enable = true;
+    enableReload = true;
     recommendedTlsSettings = true;
     recommendedProxySettings = true;
     recommendedGzipSettings = true;
