@@ -39,3 +39,11 @@ jobs:
         run: |
           nix build ".#nixosConfigurations.$NIXOS_CONFIG.config.system.build.toplevel"
 
+  required: # group all required workflows into one to avoid reconfiguring this in Actions settings
+    needs:
+      - check
+      - build
+    if: ${{ always() && !contains(needs.*.result, 'cancelled') }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: ${{ contains(needs.*.result, 'failure') && 'false' || 'true' }}

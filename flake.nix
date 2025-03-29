@@ -2,7 +2,7 @@
   description = "Infraestrutura principal para serviços hospedados pelo GELOS";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
     hardware.url = "github:nixos/nixos-hardware";
 
     nix-flatpak.url = "github:gmodena/nix-flatpak";
@@ -31,10 +31,6 @@
     forAllSystems = f: nixpkgs.lib.genAttrs systems (system: f { inherit system; pkgs = nixpkgs.legacyPackages.${system}; });
   in rec {
     nixosConfigurations = {
-      galapagos = nixpkgs.lib.nixosSystem {
-        modules = [./hosts/servers/galapagos/configuration.nix];
-        specialArgs = {inherit inputs outputs;};
-      };
       emperor = nixpkgs.lib.nixosSystem {
         modules = [./hosts/servers/emperor/configuration.nix];
         specialArgs = {inherit inputs outputs;};
@@ -91,6 +87,6 @@
       default = deploy;
     });
 
-    formatter = forAllSystems (system: nixpkgs.legacyPackages.${system}.alejandra);
+    formatter = forAllSystems ({system, ...}: nixpkgs.legacyPackages.${system}.alejandra);
   };
 }
