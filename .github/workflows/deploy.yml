@@ -2,6 +2,8 @@ name: "Deploy"
 on:
   push:
     branches: [ main ]
+concurrency:
+  group: ${{ github-workflow }}
 jobs:
   deploy:
     runs-on: ubuntu-latest
