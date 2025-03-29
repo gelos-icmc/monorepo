@@ -34,6 +34,10 @@ in {
     };
   };
 
+  nixpkgs.config.permittedInsecurePackages = [
+    "nextcloud-28.0.14"
+  ];
+
   sops.secrets.nextcloud-password = {
     owner = "nextcloud";
     group = "nextcloud";

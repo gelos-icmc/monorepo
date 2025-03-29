@@ -34,14 +34,20 @@
     forAllSystems = f: nixpkgs.lib.genAttrs systems (system: f { inherit system; pkgs = nixpkgs.legacyPackages.${system}; });
   in rec {
     nixosConfigurations = {
-      emperor = nixpkgs.lib.nixosSystem {
-        modules = [./hosts/servers/emperor/configuration.nix];
-        specialArgs = {inherit inputs outputs;};
-      };
       adelie = nixpkgs.lib.nixosSystem {
         modules = [./hosts/servers/adelie/configuration.nix];
         specialArgs = {inherit inputs outputs;};
       };
+    /*
+      galapagos = nixpkgs.lib.nixosSystem {
+        modules = [./hosts/servers/galapagos/configuration.nix];
+        specialArgs = {inherit inputs outputs;};
+      };
+      emperor = nixpkgs.lib.nixosSystem {
+        modules = [./hosts/servers/emperor/configuration.nix];
+        specialArgs = {inherit inputs outputs;};
+      };
+    */
       macaroni = nixpkgs.lib.nixosSystem {
         modules = [./hosts/desktops/macaroni/configuration.nix];
         specialArgs = {inherit inputs outputs;};
@@ -55,6 +61,15 @@
     deploy.nodes = let
       activate = kind: config: inputs.deploy-rs.lib.${config.pkgs.system}.activate.${kind} config;
     in {
+      adelie = {
+        hostname = "adelie.gelos.club";
+        sshUser = "admin";
+        profiles.system = {
+          user = "root";
+          path = activate "nixos" nixosConfigurations.adelie;
+        };
+      };
+      /* Temporariamente desativados
       galapagos = {
         hostname = "galapagos.gelos.club";
         sshUser = "admin";
@@ -65,15 +80,6 @@
         };
         remoteBuild = true;
       };
-      adelie = {
-        hostname = "adelie.gelos.club";
-        sshUser = "admin";
-        profiles.system = {
-          user = "root";
-          path = activate "nixos" nixosConfigurations.adelie;
-        };
-      };
-      /* Não estamos usando no momento, devido ao ruído alto que ele gera na sala
       emperor = {
         hostname = "emperor.gelos.club";
         sshUser = "admin";
