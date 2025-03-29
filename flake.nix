@@ -31,10 +31,6 @@
     forAllSystems = f: nixpkgs.lib.genAttrs systems (system: f { inherit system; pkgs = nixpkgs.legacyPackages.${system}; });
   in rec {
     nixosConfigurations = {
-      galapagos = nixpkgs.lib.nixosSystem {
-        modules = [./hosts/servers/galapagos/configuration.nix];
-        specialArgs = {inherit inputs outputs;};
-      };
       emperor = nixpkgs.lib.nixosSystem {
         modules = [./hosts/servers/emperor/configuration.nix];
         specialArgs = {inherit inputs outputs;};
