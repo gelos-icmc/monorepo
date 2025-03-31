@@ -17,7 +17,7 @@
       {% elsif post.authors %}
         |
         {% for author in post.authors %}
-          {% include person.html short=true name=author -%}
+          {% include person.html name=author -%}
           {%- unless forloop.last %}, {% endunless %}
         {%- endfor -%}
       {% endif %}

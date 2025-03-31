@@ -9,6 +9,9 @@
       {{- member.title -}}
     {%- endif -%}
   </a>
+  {%- if include.detailed -%}
+    {%- if member.nusp %} ({{ member.nusp }}){%- endif -%}
+  {%- endif -%}
 {%- else -%}
   {{- include.name -}}
 {%- endif -%}
