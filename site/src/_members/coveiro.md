@@ -2,6 +2,7 @@
 title: Carlos Henrique Craveiro Aquino Veras
 draft: false
 role: "inactive"
+nusp: 12547187
 ---
 
 Github: @CarlosCraveiro

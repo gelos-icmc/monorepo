@@ -4,6 +4,7 @@ links:
     Site: guip.dev
 email: me@guip.dev
 role: "active"
+nusp: 11796079
 ---
 
 Nada a perder, a não ser nossos grilhões! ☭🚩
