@@ -8,6 +8,7 @@ links:
     mastodon: mastodon.social/@bakaq
 draft: false
 role: "active"
+nusp: 11212226
 ---
 
 Sou um físico formado no IFSC USP, em breve entrarei no mestrado.
