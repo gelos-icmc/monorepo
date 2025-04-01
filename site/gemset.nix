@@ -238,7 +238,7 @@
       sha256 = "08ximcyfjy94pm1rhcx04ny1vx2sk0x4y185gzn86yfsbzwkng53";
       type = "gem";
     };
-    version = "3.2.5";
+    version = "3.4.1";
   };
   rouge = {
     groups = ["default"];
@@ -300,6 +300,6 @@
       sha256 = "1d4cvgmxhfczxiq5fr534lmizkhigd15bsx5719r5ds7k7ivisc7";
       type = "gem";
     };
-    version = "1.7.0";
+    version = "1.8.2";
   };
 }
