@@ -10,7 +10,7 @@ state: in_progress
 Evento de instalação de Linux, será realizado no dia 10/04 das 14h às 19h, no vão da
 biblioteca do ICMC.
 
-[**Post de divulgação**](/2025/03/2025/03/25/installfest-2025-1.html)
+[**Post de divulgação**](/2025/03/25/installfest-2025-1.html)
 
 ## Como participar
 
@@ -109,8 +109,9 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 - [ ] Levantar pessoas
     - [ ] Preencher tabela de voluntários
     - [ ] Preencher tabela de pendrives
-- [ ] Formulário de instalação (cryptpad? forms? papel?)
+- [ ] Formulário de instalação (cryptpad, mas se algum instalador preferir fazer em papel pode (desde que passe os dados para a tabela, mas lembre de guardar o papel))
 - [ ] Coffee break
+    - [ ] Vaquinha
     - [ ] Salgados
     - [ ] Bolos
     - [ ] Refrigerantes
