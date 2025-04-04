@@ -1,0 +1,5 @@
+# By default, make infra own everything
+* @gelos-icmc/infra
+
+# Site changes can be merged by the site team
+/site @gelos-icmc/site
