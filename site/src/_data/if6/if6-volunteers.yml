@@ -23,4 +23,12 @@
   pendrives:
     - descricao: SanDisk vermelho e preto
       tamanho: 32GB
-      isos: Fedora workstation, openSUSE, Nixos (x86_64), EndeavorOS, Debian, PopOS, Ubuntu, Alpine
+      isos: Fedora workstation, openSUSE, Nixos (x86_64), EndeavourOS, Debian, PopOS, Ubuntu, Alpine
+
+- nome: Lívia Lelis
+  email: livialelis@usp.br
+  horarios: 14:00 ~ 16:00, 17:00 ~ 19:00
+  pendrives:
+    - descricao: Kingston DataTraveler 3.0
+      tamanho: 32GB
+      isos: Arch Linux, Fedora (GNOME e KDE), EndeavourOS, openSUSE Tumbleweed
