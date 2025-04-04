@@ -1,5 +1,4 @@
 {
-  inputs,
   pkgs,
   lib,
   ...
@@ -7,8 +6,6 @@
   boot.kernelPackages = pkgs.linuxPackages_hardened;
 
   nix = {
-    # Adicionar flake inputs no registry
-    registry = builtins.mapAttrs (_name: value: {flake = value;}) inputs;
     extraOptions = "experimental-features = nix-command flakes";
     gc = {
       automatic = lib.mkDefault true;
@@ -17,6 +14,7 @@
     settings = {
       trusted-users = ["root" "@wheel"];
       auto-optimise-store = true;
+      flake-registry = "";
     };
   };
 
