@@ -14,3 +14,6 @@ Sou a Lívia Lelis, estudante do Bacharelado de Ciências da Computação do ICM
 USP, ingressante em 2021. Sou de Belo Horizonte - MG, e gosto muito de jogar,
 café e programar.
 
+Atuo bastante na área de desenvolvimento web e infraestrutura, mas frequentemente
+exploro outras áreas como ciência de dados, inteligência aritificial, dispositivos
+embarcados, etc.
