@@ -1,7 +1,7 @@
 keys:
   - &servers
     - &server_galapagos age17umps050l2qnz0axplv550025njeq24uv82vpyncyaupk2l5mcas8eekwc
-    - &server_adelie age17umps050l2qnz0axplv550025njeq24uv82vpyncyaupk2l5mcas8eekwc
+    - &server_adelie age1n6yuqumkfvwajgd9vnzmfewtwdp3r3w3yaq088pqtfm7ysu6fcfqdyg67j
   - &admins
     - &admin_misterio 7088C7421873E0DB97FF17C2245CAB70B4C225E9
 creation_rules:
