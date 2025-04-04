@@ -1,4 +1,6 @@
 name: "Deploy"
+environment:
+  name: Prod
 on:
   push:
     branches: [ main ]
@@ -16,7 +18,7 @@ jobs:
           authToken: '${{ secrets.CACHIX_KEY }}'
       - uses: webfactory/ssh-agent@v0.6.0
         with:
-          ssh-private-key: ${{ secrets.DEPLOYER_SSH_KEY }}
+          ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
       - name: Configurar hosts SSH conhecidos
         run: |
           cat <<EOF >> ~/.ssh/known_hosts
