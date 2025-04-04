@@ -21,6 +21,7 @@ jobs:
           authToken: '${{ secrets.CACHIX_KEY }}'
       - name: nix flake check
         run: |
+          echo hi there
           nix flake check
       - name: List NixOS configurations
         id: list-configs
