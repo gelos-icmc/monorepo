@@ -20,7 +20,6 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-|  02/04/2025         |   15:20 ~ 18:20          | Luana           |
 |  07/04/2025         |   16:20 ~ 18:00          | Yuri            |
 | Mais datas em breve!|                          |                 |
 
@@ -92,6 +91,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 04/04/2025          |   14:50 ~ 19:00          | 2 (arrumar jogo steam, ajuda programação)          | Luana, Gabs e Lívia | 
 | 28/03/2025          |   14:30 ~ 19:10          | 3 (troca gutta p/ fedora, troca win11 p/ opensuse, dúvidas servidores)|Luana e Gabs|
 | 21/03/2025          |   14:50 ~ 19:05          | 2 (dual boot openSUSE+w10, troubleshoot btrfs corruption)| Luana e Kauê |
 | 17/03/2025          |   16:00 ~ 18:20          | 1 (fedora (db win11), drivers Nvidia e snapper)| Luana e Yuri     |
