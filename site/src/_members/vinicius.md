@@ -1,9 +1,8 @@
 ---
 title: Vinicius Santos
-email: vinicius.santos927@outlook.com
+email: vinicius@vinicius.qsl.br
 links:
     Site: vinicius.qsl.br
-    Fediverso: social.vinicius.qsl.br/@vinicius
     GitHub: github.com/ViniciusDMSantos
 nusp: 13748137
 role: "active"
