@@ -100,3 +100,11 @@
     - descricao: Sandisk preto
       tamanho: 128GB
       isos: Todas
+      
+- nome: Vinicius
+  email: vinicius.santos927@usp.br
+  horarios: 14-19h
+  pendrives:
+    - descricao: Sandisk Preto/Vermelho
+      tamanho: 32GB
+      isos: Todas
