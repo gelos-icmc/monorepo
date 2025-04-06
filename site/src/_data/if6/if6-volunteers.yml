@@ -32,3 +32,12 @@
     - descricao: Kingston DataTraveler 3.0
       tamanho: 32GB
       isos: Arch Linux, Fedora (GNOME e KDE), EndeavourOS, openSUSE Tumbleweed
+
+
+- nome: Louis
+  email: boehmlou@usp.br
+  horarios: 17:00 ~ 19:00
+  pendrives:
+    - descricao: Intenso Twist Line
+      tamanho: 64GB
+      isos: Mint, openSUSE Tumbleweed, PopOS
