@@ -49,3 +49,11 @@
     - descricao: SanDisk prateado (USB-C e USB-A)
       tamanho: 256GB
       isos: Todas
+
+- nome: Yuri
+  email: yuri@m7.rs
+  horarios: 16:00 ~ 19:00
+  pendrives:
+    - descricao: Kingston
+      tamanho: 32GB
+      isos: Fedora, Mint, Arch e Ubuntu
