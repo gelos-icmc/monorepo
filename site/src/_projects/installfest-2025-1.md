@@ -76,7 +76,7 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [x] Conferir data pra postar (jekyll n posta post com data futura)
 - [ ] Flyer
     - [x] Preparar
-    - [ ] Imprimir
+    - [x] Imprimir
     - [ ] Colar
 - [x] Fazer permalink /if6 para pag no blog
 - [x] Arrumar permalink /if6 para pag no blog
@@ -92,7 +92,7 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
       - [ ] Done
     - EESC
       - [x] Solicitar
-      - [ ] Done
+      - [x] Done
     - IAU
       - [x] Solicitar
       - [ ] Done
