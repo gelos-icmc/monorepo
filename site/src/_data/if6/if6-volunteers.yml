@@ -41,3 +41,11 @@
     - descricao: Intenso Twist Line
       tamanho: 64GB
       isos: Mint, openSUSE Tumbleweed, PopOS
+
+- nome: Gabriel
+  email: g.fontes@usp.br
+  horarios: 16:30 ~ 19:00
+  pendrives:
+    - descricao: SanDisk prateado (USB-C e USB-A)
+      tamanho: 256GB
+      isos: Todas
