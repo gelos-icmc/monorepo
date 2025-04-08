@@ -24,7 +24,7 @@ Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
     - Caso você tenha dificuldade com git, basta pedir no [telegram](https://t.me/gelos_geral) que alguém faça por você.
 - Lembre de pedir que a pessoa preencha o [formulário de instalação](https://cryptpad.fr/form/#/2/form/view/v1J3EUGmt-HAiwcnM1Z2uRVW9FwT9YQw8gw+4x19Oiw/). Utilizamos isso para nos isentar de possíveis problemas, coletar contatos, e também ter um censo de quantas instalações foram feitas.
   - É de EXTREMA importância que TODOS preencham o formulário, tanto para termos um balanço de nosso alcance quanto para coletarmos o termo de consentimento e nos isentarmos de possíveis problemas.
-  - Caso algum instalador sinta dificuldade em fazer as pessoas preencherem o formulário digital, ele pode fazer uma tabelinha própria em papel para a pessoa preencher, mas lembre de imprimir o termo de consentimento e de adicionar na tabela em papel uma coluna para a aceitação dele.
+  - Caso algum instalador sinta dificuldade em fazer as pessoas preencherem o formulário digital ele pode fazer uma tabelinha própria em papel para a pessoa preencher, mas lembre de imprimir o termo de consentimento e de adicionar na tabela em papel uma coluna para a aceitação dele.
     - Nesse caso, o instalador se compromete a passar os dados para a tabela digital ao fim da installfest, mas guardando também o papel (já que ele é a “via original” do termo nesse caso).
   - O preenchimento do formulário e concordância com o termo de consentimento é essencial para a instalação. A recusa do preenchimento deve implicar na recusa da instalação.
 
