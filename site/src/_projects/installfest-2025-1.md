@@ -22,7 +22,7 @@ Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
 - Adicione seu nome (e pendrives) [na lista](https://github.com/gelos-icmc/monorepo/blob/main/src/site/_data/if6/if6-volunteers.yml).
     - Isso atualizará as planilhas abaixo automaticamente.
     - Caso você tenha dificuldade com git, basta pedir no [telegram](https://t.me/gelos_geral) que alguém faça por você.
-- Lembre de pedir que a pessoa preencha o [formulário de instalação](TODO_REPLACE_ME). Utilizamos isso para nos isentar de possíveis problemas, coletar contatos, e também ter um censo de quantas instalações foram feitas.
+- Lembre de pedir que a pessoa preencha o [formulário de instalação](https://cryptpad.fr/form/#/2/form/view/v1J3EUGmt-HAiwcnM1Z2uRVW9FwT9YQw8gw+4x19Oiw/). Utilizamos isso para nos isentar de possíveis problemas, coletar contatos, e também ter um censo de quantas instalações foram feitas.
 
 ### Voluntários
 
@@ -74,19 +74,19 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 - [x] Reservar espaço
 - [x] Post de divulgação
     - [x] Conferir data pra postar (jekyll n posta post com data futura)
-- [ ] Flyer
+- [x] Flyer
     - [x] Preparar
     - [x] Imprimir
-    - [ ] Colar
+    - [x] Colar
 - [x] Fazer permalink /if6 para pag no blog
 - [x] Arrumar permalink /if6 para pag no blog
-- [ ] Divulgar nas listas
+- [x] Divulgar nas listas
     - IFSC
       - [x] Solicitar
       - [x] Done
     - ICMC
       - [x] Solicitar
-      - [ ] Done
+      - [x] Done
     - IQSC
       - [x] Solicitar
       - [ ] Done
@@ -96,7 +96,7 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - IAU
       - [x] Solicitar
       - [ ] Done
-- [ ] Divulgar nos grupos
+- [x] Divulgar nos grupos
     - [x] IFSC
     - [x] ICMC
     - [ ] EESC
@@ -109,7 +109,7 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 - [ ] Levantar pessoas
     - [ ] Preencher tabela de voluntários
     - [ ] Preencher tabela de pendrives
-- [ ] Formulário de instalação (cryptpad, mas se algum instalador preferir fazer em papel pode (desde que passe os dados para a tabela, mas lembre de guardar o papel))
+- [x] Formulário de instalação (cryptpad, mas se algum instalador preferir fazer em papel pode (desde que passe os dados para a tabela, mas lembre de guardar o papel))
 - [ ] Coffee break
     - [ ] Vaquinha
     - [ ] Salgados
