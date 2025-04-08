@@ -58,9 +58,9 @@
   email: vinicius.santos927@usp.br
   horarios: 17h-19h
   pendrives:
-    - descricao: Kingston vermelho e preto
+    - descricao: Sandisk vermelho e preto
       tamanho: 32GB
-      isos: TBD
+      isos: Alpine, Arch, Debian, EndeavourOS, Fedora XFCE, Fedora Workstation, Mint, openSUSE, PopOS, Ubuntu. (Apenas x86-64)
 
 - nome: Silmar
   email: silmar.junior@usp.br
@@ -99,12 +99,4 @@
   pendrives:
     - descricao: Sandisk preto
       tamanho: 128GB
-      isos: Todas
-      
-- nome: Vinicius
-  email: vinicius.santos927@usp.br
-  horarios: 14-19h
-  pendrives:
-    - descricao: Sandisk Preto/Vermelho
-      tamanho: 32GB
       isos: Todas
