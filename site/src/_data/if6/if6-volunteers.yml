@@ -57,3 +57,11 @@
     - descricao: Kingston
       tamanho: 32GB
       isos: Fedora, Mint, Arch e Ubuntu
+
+- nome: Vinicius Dada Moura Santos
+  email: vinicius.santos927@usp.br
+  horarios: 14h-19h
+  pendrives:
+    - descricao: Sandisk vermelho e preto
+      tamanho: 32GB
+      isos: Alpine, Arch, Debian, EndeavourOS, Fedora XFCE, Fedora Workstation, Mint, openSUSE, PopOS, Ubuntu. (Apenas x86-64)
