@@ -111,12 +111,12 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [x] Terminar de atualizar tabela com links e checksums atuais
     - [x] Mirror das isos do openSUSE
     - [x] Criar arquivo com checksums
-- [ ] Levantar pessoas
-    - [ ] Preencher tabela de voluntários
-    - [ ] Preencher tabela de pendrives
+- [x] Levantar pessoas
+    - [x] Preencher tabela de voluntários
+    - [x] Preencher tabela de pendrives
 - [x] Formulário de instalação (cryptpad, mas se algum instalador preferir fazer em papel pode (desde que passe os dados para a tabela, mas lembre de guardar o papel))
 - [ ] Coffee break
-    - [ ] Vaquinha
+    - [x] Vaquinha
     - [ ] Salgados
     - [ ] Bolos
     - [ ] Refrigerantes
