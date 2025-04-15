@@ -3,6 +3,7 @@
     inputs.sops-nix.nixosModules.sops
     ./hardware-configuration.nix
     ../common
+    ./services
   ];
 
   services.openssh.ports = [
