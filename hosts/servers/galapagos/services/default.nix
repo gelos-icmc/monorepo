@@ -8,7 +8,6 @@
     ./onlyoffice.nix
     ./mtproxy.nix
     ./staging-webserver.nix
-    ./matterbridge.nix
     ./minecraft-server.nix
   ];
 }
