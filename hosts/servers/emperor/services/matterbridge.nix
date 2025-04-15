@@ -1,18 +1,5 @@
 { config, ... }:
 {
-  nixpkgs.overlays = [(final: prev: {
-    # TODO: move to services.matterbridge.package when https://github.com/NixOS/nixpkgs/pull/340180 is available
-    matterbridge = prev.matterbridge.overrideAttrs (_: {
-      version = "unstable-2024-08-27";
-      src = final.fetchFromGitHub {
-        owner = "42wim";
-        repo = "matterbridge";
-        rev = "c4157a4d5b49fce79c80a30730dc7c404bacd663";
-        hash = "sha256-ZnNVDlrkZd/I0NWmQMZzJ3RIruH0ARoVKJ4EyYVdMiw=";
-      };
-    });
-  })];
-
   services.nginx.virtualHosts."matterbridge-files.gelos.club" = {
     enableACME = true;
     forceSSL = true;
@@ -25,6 +12,15 @@
   services.matterbridge = {
     enable = true;
     configPath = config.sops.templates."matterbridge".path;
+    package = matterbridge.overrideAttrs (_: {
+      version = "unstable-2024-08-27";
+      src = final.fetchFromGitHub {
+        owner = "42wim";
+        repo = "matterbridge";
+        rev = "c4157a4d5b49fce79c80a30730dc7c404bacd663";
+        hash = "sha256-ZnNVDlrkZd/I0NWmQMZzJ3RIruH0ARoVKJ4EyYVdMiw=";
+      };
+    });
   };
 
   sops.secrets = {
