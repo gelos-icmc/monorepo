@@ -73,6 +73,7 @@
           user = "root";
           path = activate "nixos" nixosConfigurations.adelie;
         };
+        remoteBuild = true;
       };
       emperor = {
         hostname = "emperor.gelos.club";
@@ -82,6 +83,7 @@
           user = "root";
           path = activate "nixos" nixosConfigurations.emperor;
         };
+        remoteBuild = true;
       };
       /* Temporariamente desativados
       galapagos = {
