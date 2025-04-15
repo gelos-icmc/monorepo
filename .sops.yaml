@@ -1,6 +1,7 @@
 keys:
   - &servers
     - &server_galapagos age17umps050l2qnz0axplv550025njeq24uv82vpyncyaupk2l5mcas8eekwc
+    - &server_emperor age1u845msr4h883m0t3gn9y3n6uj6vmtkc6s08xrfy9hlh9jnsscawsy87usj
     - &server_adelie age1n6yuqumkfvwajgd9vnzmfewtwdp3r3w3yaq088pqtfm7ysu6fcfqdyg67j
   - &admins
     - &admin_misterio 7088C7421873E0DB97FF17C2245CAB70B4C225E9
@@ -15,5 +16,11 @@ creation_rules:
     key_groups:
     - age:
       - *server_adelie
+      pgp:
+      - *admin_misterio
+  - path_regex: hosts/servers/emperor/secrets.yml$
+    key_groups:
+    - age:
+      - *server_emperor
       pgp:
       - *admin_misterio

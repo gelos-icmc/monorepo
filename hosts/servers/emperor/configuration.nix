@@ -5,11 +5,11 @@
     ../common
   ];
 
-  services.openssh.ports = [2112];
+  networking.hostId = "a41da101";
 
   networking = {
     hostName = "emperor";
-    nameservers = ["143.107.253.3"];
+    nameservers = ["1.1.1.1"];
     interfaces = {
       # Interface WAN
       # Conectada a internet da USP, IP estatico
@@ -34,5 +34,5 @@
     };
   };
 
-  system.stateVersion = "21.11";
+  system.stateVersion = "24.05";
 }

@@ -48,11 +48,11 @@
         modules = [./hosts/servers/galapagos/configuration.nix];
         specialArgs = {inherit inputs outputs;};
       };
+    */
       emperor = nixpkgs.lib.nixosSystem {
         modules = [./hosts/servers/emperor/configuration.nix];
         specialArgs = {inherit inputs outputs;};
       };
-    */
       macaroni = nixpkgs.lib.nixosSystem {
         modules = [./hosts/desktops/macaroni/configuration.nix];
         specialArgs = {inherit inputs outputs;};
@@ -74,6 +74,14 @@
           path = activate "nixos" nixosConfigurations.adelie;
         };
       };
+      emperor = {
+        hostname = "emperor.gelos.club";
+        sshUser = "admin";
+        profiles.system = {
+          user = "root";
+          path = activate "nixos" nixosConfigurations.emperor;
+        };
+      };
       /* Temporariamente desativados
       galapagos = {
         hostname = "galapagos.gelos.club";
@@ -82,16 +90,6 @@
         profiles.system = {
           user = "root";
           path = activate "nixos" nixosConfigurations.galapagos;
-        };
-        remoteBuild = true;
-      };
-      emperor = {
-        hostname = "emperor.gelos.club";
-        sshUser = "admin";
-        sshOpts = ["-p" "2112"];
-        profiles.system = {
-          user = "root";
-          path = activate "nixos" nixosConfigurations.emperor;
         };
         remoteBuild = true;
       };
