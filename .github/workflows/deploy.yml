@@ -23,6 +23,7 @@ jobs:
         run: |
           cat <<EOF >> ~/.ssh/known_hosts
           adelie.gelos.club ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ8AVRh97esFD7kEFIQFWlHZed8Ejo+SZKSFLUxrQVQt
+          emperor.gelos.club ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFXyXkipNN3//CBlPmx5ZDQ3az7Dn3O5dlC1T9Hzrid1
           EOF
       - name: Deploy
         run: nix run .#deploy -- --skip-checks
