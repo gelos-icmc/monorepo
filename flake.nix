@@ -77,6 +77,7 @@
       emperor = {
         hostname = "emperor.gelos.club";
         sshUser = "admin";
+        sshOpts = ["-p" "2112"];
         profiles.system = {
           user = "root";
           path = activate "nixos" nixosConfigurations.emperor;

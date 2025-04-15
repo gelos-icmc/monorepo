@@ -5,6 +5,11 @@
     ../common
   ];
 
+  services.openssh.ports = [
+    22
+    # Precisamos de outra porta, pois a 22 só é acessível dentro da USP
+    2112
+  ];
   networking.hostId = "a41da101";
 
   networking = {
