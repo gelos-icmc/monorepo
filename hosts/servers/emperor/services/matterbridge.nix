@@ -1,4 +1,4 @@
-{ config, ... }:
+{ config, pkgs, ... }:
 {
   services.nginx.virtualHosts."matterbridge-files.gelos.club" = {
     enableACME = true;
@@ -12,9 +12,9 @@
   services.matterbridge = {
     enable = true;
     configPath = config.sops.templates."matterbridge".path;
-    package = matterbridge.overrideAttrs (_: {
+    package = pkgs.matterbridge.overrideAttrs (_: {
       version = "unstable-2024-08-27";
-      src = final.fetchFromGitHub {
+      src = pkgs.fetchFromGitHub {
         owner = "42wim";
         repo = "matterbridge";
         rev = "c4157a4d5b49fce79c80a30730dc7c404bacd663";
