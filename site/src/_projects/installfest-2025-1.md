@@ -115,16 +115,16 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [x] Preencher tabela de voluntários
     - [x] Preencher tabela de pendrives
 - [x] Formulário de instalação (cryptpad, mas se algum instalador preferir fazer em papel pode (desde que passe os dados para a tabela, mas lembre de guardar o papel))
-- [ ] Coffee break
+- [x] Coffee break
     - [x] Vaquinha
-    - [ ] Salgados
+    - [x] Salgados
     - [ ] Bolos
-    - [ ] Refrigerantes
+    - [x] Refrigerantes
     - [ ] Café
 
 ### Pós evento
 
-- [ ] Levantar números (instalações, pessoas presentes, etc)
+- [x] Levantar números (instalações, pessoas presentes, etc): 14 instalações (Distros: 6 Fedora, 3 Mint, 2 Ubuntu, 1 openSUSE, 1 Debian, 1 Arch) (Voluntáries: Yuri 4, Luana 3, Furry 2, Vinicius 2, Tarcísio 2, Silmar 1)
 
 ## Data e Local
 
