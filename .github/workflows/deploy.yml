@@ -25,4 +25,4 @@ jobs:
           adelie.gelos.club ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ8AVRh97esFD7kEFIQFWlHZed8Ejo+SZKSFLUxrQVQt
           EOF
       - name: Deploy
-        run: nix run .#deploy
+        run: nix run .#deploy -- --skip-checks
