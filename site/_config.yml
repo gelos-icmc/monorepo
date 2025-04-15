@@ -24,6 +24,11 @@ collections:
     output: true
     permalink: /reunioes/:year-:month-:day:output_ext
     name: Reuniões
+  # Relatórios diversos
+  reports:
+    output: true
+    permalink: /relatorios/:title:output_ext
+    name: Relatórios
   # Informações sobre projetos/atividades contínuas
   projects:
     output: true
@@ -56,6 +61,13 @@ defaults:
       show_date: true
       layout: article
       parent: /reunioes/
+  -
+    scope:
+      type: reports
+    values:
+      show_date: true
+      layout: article
+      parent: /relatorios/
   -
     scope:
       type: projects
