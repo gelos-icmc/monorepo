@@ -8,7 +8,7 @@ links:
 role: active
 ---
 
-Oi :)
+Oiiiiiii! 🙋‍♀️🏳️‍🌈
 
 Sou a Lívia Lelis, estudante do Bacharelado de Ciências da Computação do ICMC -
 USP, ingressante em 2021. Sou de Belo Horizonte - MG, e gosto muito de jogar,
