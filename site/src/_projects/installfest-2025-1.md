@@ -4,7 +4,7 @@ authors:
     - Luana
     - Gabriel
 lang: pt-BR
-state: in_progress
+state: finished
 ---
 
 Evento de instalação de Linux, será realizado no dia 10/04 das 14h às 19h, no vão da
