@@ -1,11 +1,8 @@
 ---
 title: CTFs
 description: Participações em eventos de Capture the Flag
-collection_src: ctfs
+state: in_progress
 ---
-
-# {{ page.title }}
-{{ page.description }}
 
 Além dos outros eventos dos quais o GELOS participa e promove, o grupo também
 participa de eventos de Capture the Flag, tanto de maneira independente, quanto 

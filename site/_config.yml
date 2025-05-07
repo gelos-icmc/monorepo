@@ -47,7 +47,7 @@ collections:
   # Participações do GELOS em CTFs
   ctfs:
     output: true
-    permalink: /:year/:month/:day/:title:output_ext
+    permalink: /projetos/ctf/:year/:month/:day/:title:output_ext
     name: CTFs
 
 defaults:
