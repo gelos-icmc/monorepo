@@ -44,6 +44,11 @@ collections:
     output: true
     permalink: /membros/:title/
     name: Membros
+  # Participações do GELOS em CTFs
+  ctfs:
+    output: true
+    permalink: /:year/:month/:day/:title:output_ext
+    name: CTFs
 
 defaults:
   -
@@ -53,6 +58,13 @@ defaults:
       show_date: true
       layout: article
       parent: /blog/
+  -
+    scope:
+      type: ctfs
+    values:
+      show_date: true
+      layout: article
+      parent: /ctfs/
   -
     scope:
       type: meetings

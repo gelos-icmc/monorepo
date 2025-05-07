@@ -10,3 +10,5 @@
   url: /reunioes/
 - name: Membros
   url: /membros/
+- name: CTFs
+  url: /ctf/
