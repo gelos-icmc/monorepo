@@ -28,16 +28,6 @@ layout: default
           {{ site.data.project_states[page.state] | default: "Desconhecido" }}
         </p>
       {% endif %}
-
-      {% if page.attendees %}
-      <ul><strong>Presentes</strong>:
-        {% for attendee in page.attendees %}
-          <li>
-            {%- include person.html name=attendee -%}
-          </li>
-        {% endfor %}
-      </ul>
-      {% endif %}
     </blockquote>
     {% if page.pdf %}
     <p><a href="{{ page.url | replace: ".html", ".pdf" | relative_url }}">Também disponível em PDF</a></p>
@@ -45,5 +35,25 @@ layout: default
   </header>
 
   {{ content }}
-</article>
 
+  <footer>
+    <blockquote>
+      {% if page.attendees %}
+      <ul><strong>Participantes</strong>:
+        {% for attendee in page.attendees %}
+          <li>
+            {%- include person.html name=attendee -%}
+          </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if page.project %}
+        {% assign project = site.projects | find: "slug",page.project %}
+        <p><strong>Parte do projeto</strong>:
+          <a href={{ project.url }}>{{ project.title }}</a>
+        </p>
+      {% endif %}
+    </blockquote>
+  </footer>
+</article>
