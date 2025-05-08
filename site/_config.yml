@@ -64,7 +64,7 @@ defaults:
     values:
       show_date: true
       layout: article
-      parent: /ctfs/
+      parent: /projetos/ctfs/
   -
     scope:
       type: meetings
