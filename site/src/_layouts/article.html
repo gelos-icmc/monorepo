@@ -38,6 +38,13 @@ layout: default
         {% endfor %}
       </ul>
       {% endif %}
+
+      {% if page.project %}
+        {% assign project = site.projects | find: "slug",page.project %}
+        <p><strong>Projeto</strong>:
+          <a href={{ project.url }}>{{ project.title }}</a>
+        </p>
+      {% endif %}
     </blockquote>
     {% if page.pdf %}
     <p><a href="{{ page.url | replace: ".html", ".pdf" | relative_url }}">Também disponível em PDF</a></p>
@@ -46,4 +53,3 @@ layout: default
 
   {{ content }}
 </article>
-
