@@ -2,7 +2,7 @@
 title: Plantões de Dúvidas
 lang: pt-BR
 state: permanent
-author : Luana
+author: Luana
 ---
 
 Plantões para tirar dúvidas com Linux e outras ferramentas livres.
@@ -20,7 +20,8 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-|  07/04/2025         |   16:20 ~ 18:00          | Yuri            |
+|  09/05/2025         |   10:20 ~ 11:00          | Luana           |
+|  09/05/2025         |   16:20 ~ 17:40          | Luana           |
 | Mais datas em breve!|                          |                 |
 
 
