@@ -20,8 +20,6 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
-|  09/05/2025         |   10:20 ~ 11:00          | Luana           |
-|  09/05/2025         |   16:20 ~ 17:40          | Luana           |
 | Mais datas em breve!|                          |                 |
 
 
@@ -92,6 +90,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 09/05/2025          |   10:40 ~ 18:00          | 3 (db win+opensuse, ajuda NixOS, db win+opensuse)      | Luana               | 
 | 04/04/2025          |   14:50 ~ 19:00          | 2 (arrumar jogo steam, ajuda programação)          | Luana, Gabs e Lívia | 
 | 28/03/2025          |   14:30 ~ 19:10          | 3 (troca gutta p/ fedora, troca win11 p/ opensuse, dúvidas servidores)|Luana e Gabs|
 | 21/03/2025          |   14:50 ~ 19:05          | 2 (dual boot openSUSE+w10, troubleshoot btrfs corruption)| Luana e Kauê |
