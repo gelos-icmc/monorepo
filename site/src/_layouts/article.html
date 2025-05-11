@@ -36,6 +36,7 @@ layout: default
 
   {{ content }}
 
+  {% if page.attendees or page.project %}
   <footer>
     <blockquote>
       {% if page.attendees %}
@@ -56,4 +57,5 @@ layout: default
       {% endif %}
     </blockquote>
   </footer>
+  {% endif %}
 </article>
