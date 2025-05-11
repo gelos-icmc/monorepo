@@ -2,6 +2,8 @@
 title: CTFs
 description: Participações em eventos de Capture the Flag
 state: in_progress
+author: Furry
+featured: true
 ---
 
 Além dos outros eventos dos quais o GELOS participa e promove, o grupo também
