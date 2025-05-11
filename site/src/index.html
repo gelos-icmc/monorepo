@@ -6,6 +6,31 @@ layout: root
 
 <div class="splash">
   {% include header.html full=true %}
+
+  <div class="news-box">
+    <h3>Últimas Novidades</h3>
+    <p>
+      {% for post in site.posts limit:2 %}
+        {%- include listagem.html %}
+      {% endfor %}
+      <h6>
+        <a href="/blog">> Ver todos os posts no Blog</a>
+      </h6>
+    </p>
+
+    <h3>Projetos em Destaque</h3>
+    <p>
+      {% for post in site.projects %}
+        {%- if post.featured %}
+          {%- include listagem.html %}
+        {%- endif %}
+      {% endfor %}
+      <h6>
+        <a href="/projetos">> Ver todos os Projetos</a>
+      </h6>
+    </p>
+  </div>
+
   <footer>
     {% include footer.html %}
   </footer>

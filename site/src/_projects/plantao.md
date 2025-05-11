@@ -3,6 +3,7 @@ title: Plantões de Dúvidas
 lang: pt-BR
 state: permanent
 author: Luana
+featured: true
 ---
 
 Plantões para tirar dúvidas com Linux e outras ferramentas livres.
