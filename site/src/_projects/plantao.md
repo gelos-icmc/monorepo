@@ -90,6 +90,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 15/05/2025          |   15:40 ~ 18:50          | 2 (db win+fedora, macbook fedora eduroam troubleshoot) | Luana e Gus         |
 | 09/05/2025          |   10:40 ~ 18:00          | 3 (db win+opensuse, ajuda NixOS, db win+opensuse)      | Luana               | 
 | 04/04/2025          |   14:50 ~ 19:00          | 2 (arrumar jogo steam, ajuda programação)          | Luana, Gabs e Lívia | 
 | 28/03/2025          |   14:30 ~ 19:10          | 3 (troca gutta p/ fedora, troca win11 p/ opensuse, dúvidas servidores)|Luana e Gabs|
