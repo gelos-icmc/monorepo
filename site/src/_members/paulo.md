@@ -8,6 +8,7 @@ links:
   Twitch: https://twitch.tv/thotypous
 role: active
 draft: false
+nusp: 5626309
 ---
 
 Oi, eu sou o Paulo! 🐕

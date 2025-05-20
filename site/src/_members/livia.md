@@ -6,6 +6,7 @@ links:
   GitHub: github.com/LiviaLelis
   Steam: steamcommunity.com/id/ymegam
 role: active
+nusp: 12543822
 ---
 
 Oiiiiiii! 🙋‍♀️🏳️‍🌈

@@ -4,6 +4,7 @@ email: ra.pha@live.com
 links:
   Github: github.com/FulecoRafa
 role: "active"
+nusp: 11219071
 ---
 
 Ex-estudante do Bacharelado em Ciências da Computação do ICMC-USP,
