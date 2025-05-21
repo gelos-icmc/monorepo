@@ -20,6 +20,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                  | Voluntárie(s)   |
 |---------------------|--------------------------|-----------------|
+| 23/05/2025          | 10:20 ~ 12:00            | Luana           |
 | Mais datas em breve!|                          |                 |
 
 
