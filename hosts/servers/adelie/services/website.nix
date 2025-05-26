@@ -68,7 +68,7 @@ in {
     "telegram.gelos.club" = {
       forceSSL = true;
       enableACME = true;
-      locations."/".return = "302 https://t.me/gelos_geral";
+      locations."/".return = "302 https://t.me/gelos_geral$request_uri";
     };
     "matrix.gelos.club" = {
       forceSSL = true;

@@ -28,7 +28,7 @@ Confira abaixo as próximas datas
 Tendo em vista manter uma documentação para consulta futura, aqui são listados os problemas que encontramos nos plantões (ou nas installfests), bem como suas respectivas soluções.
 
 #### Como converter Windows Legacy para UEFI, para dual boot
-- [Artigo Bom](https://answers.microsoft.com/en-us/windows/forum/all/convert-an-existing-windows-10-installation-from/aa8c2de3-460b-4a8c-b30b-641405f800d7) ([arquivado (telegram)](https://t.me/gelos_geral/34212/382318))
+- [Artigo Bom](https://answers.microsoft.com/en-us/windows/forum/all/convert-an-existing-windows-10-installation-from/aa8c2de3-460b-4a8c-b30b-641405f800d7) ([arquivado (telegram)](https://telegram.gelos.club/34212/382318))
 - Erro sobre WinRE pode ser ignorado caso a operação tenha dado certo.
 
 
