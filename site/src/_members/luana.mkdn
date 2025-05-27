@@ -8,7 +8,7 @@ links:
     GitHub: github.com/LuNeder
 fediversecreator: luana@wetdry.world
 nusp: 13836963
-role: "active"
+role: "alumni"
 extra_css: |
     :root {
         --background-color: black;
