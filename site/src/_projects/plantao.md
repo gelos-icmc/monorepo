@@ -9,19 +9,17 @@ Plantões para tirar dúvidas com Linux e outras ferramentas livres.
 
 Usa Linux e esbarrou em algum problema? Usa algum software open source e tem alguma dúvida? Estamos aqui para ajudar!
 
-Nos plantões, haverá ao menos ume voluntárie na sala do GELOS (3-155) para tirar dúvidas ou ajudar a resolver problemas com Linux ou outros softwares livres ou open source.
+Nos plantões, haverá ao menos ume voluntárie na sala do GELOS (3-153) para tirar dúvidas ou ajudar a resolver problemas com Linux ou outros softwares livres ou open source.
 Caso tenha um problema ou precise de alguma ajuda, é só aparecer!
-
-*Veja também nosso [blog post]({% link _posts/2024-08-17-plantoes.md %}) de anúncio dos plantões*
 
 Confira abaixo as próximas datas
 
 ## Próximos Horários
 
-| Data                | Horário                  | Voluntárie(s)   |
-|---------------------|--------------------------|-----------------|
-| 23/05/2025          | 10:20 ~ 12:00            | Luana           |
-| Mais datas em breve!|                          |                 |
+| Data                | Horário                 | Voluntárie(s)    |
+|---------------------|-------------------------|------------------|
+| 30/05/2025          | 15:40 ~ 17:40           |Luana (+ aula nix)|
+| Mais datas em breve!|                         |                  |
 
 
 *Para se voluntariar, basta [editar](https://github.com/gelos-icmc/monorepo/blob/main/site/src/_projects/plantao.md) a tabela acima e adicionar os dias e horários que você estará na salinha para ajudar*
@@ -91,6 +89,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 23/05/2025          |   10:20 ~ 12:20          | 0                                                      | Luana               |
 | 15/05/2025          |   15:40 ~ 18:50          | 2 (db win+fedora, macbook fedora eduroam troubleshoot) | Luana e Gus         |
 | 09/05/2025          |   10:40 ~ 18:00          | 3 (db win+opensuse, ajuda NixOS, db win+opensuse)      | Luana               | 
 | 04/04/2025          |   14:50 ~ 19:00          | 2 (arrumar jogo steam, ajuda programação)          | Luana, Gabs e Lívia | 
