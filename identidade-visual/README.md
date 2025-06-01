@@ -1,40 +1,12 @@
 # Identidade Visual - GELOS
 
-> Repositório contendo arquivos de identidade visual do GELOS.
+> Subtree contendo arquivos de identidade visual do GELOS.
 
-## Estrutura de pastas e arquivos
+Cada pasta contém arquivos de identidade visual do GELOS em diferentes cores, todas em formato SVG. Você pode acessar versões em PNG buildadas no nosso site: https://gelos.club/identidade/
 
-Cada pasta contém arquivos de identidade visual do GELOS em diferentes cores, todas em formato SVG.
+## Guia de uso
 
-A estrutura de pastas é a seguinte:
-
-```text
-├── identidade-visual
-│   ├── src
-│   │   ├── horizontal
-│   │   │   ├── gelos-fullname-black.svg
-│   │   │   ├── gelos-fullname-blue.svg
-│   │   │   ├── gelos-fullname-lightblue.svg
-│   │   │   ├── gelos-fullname-white.svg
-│   │   ├── icon
-│   │   │   ├── snowflake-black.svg
-│   │   │   ├── snowflake-blue.svg
-│   │   │   ├── snowflake-lightblue.svg
-│   │   │   ├── snowflake-white.svg
-│   │   ├── vertical
-│   │   │   ├── gelos-snowflake-black.svg
-│   │   │   ├── gelos-snowflake-blue.svg
-│   │   │   ├── gelos-snowflake-lightblue.svg
-│   │   │   ├── gelos-snowflake-white.svg
-```
-
-`src/icon` - Ícone padrão do GELOS contendo um floco de neve
-
-`src/horizontal` - Logo horizontal do GELOS contendo o nome "GELOS" e logo em seguida como subtítulo o nome em extenso do grupo
-
-`src/vertical` - Logo vertical do GELOS contendo um floco de neve seguido pelo nome "GELOS" na vertical
-
-A seguir alguns modelos exemplos com a cor padrão do GELOS (Azul escuro):
+### Tipos de logo
 
 Logo principal (horizontal), use na maioria dos casos:
 
@@ -48,10 +20,32 @@ Logo simplificado (vertical, sem subtítulo), use quando o subtítulo ficar ruim
 
 ![Logo simplificado](src/vertical/gelos-snowflake-blue.svg)
 
-## Cores
+### Cores
 
 As cores utilizadas pelo GELOS são:
 
 - **Azul escuro**, para fundos claros: Gradiente em azul entre `#20ABCF` e `#4035E6`
 - **Azul claro:**, para fundos escuros: Gradiente em azul claro entre `#2BD7FF` e `#737DFF`
 - **Branco** ou **Preto**, para fundos coloridos: `#FFF` ou `#000`
+
+## Estrutura
+
+A estrutura desse repositório pastas é a seguinte:
+
+- `src/icon` - Ícone padrão do GELOS contendo um floco de neve
+- `src/horizontal` - Logo horizontal do GELOS contendo o nome "GELOS" e logo em seguida como subtítulo o nome em extenso do grupo
+- `src/vertical` - Logo vertical do GELOS contendo um floco de neve seguido pelo nome "GELOS" na vertical
+
+## Desenvolvendo
+
+A única coisa buildada aqui são as PNGs e esse site estático com as listagens. Para validar use:
+
+```
+nix build .#identidade-visual  
+```
+
+E abra a `result/index.html` no seu navegador preferido, por exemplo:
+
+```
+xdg-open result/index.html
+```
