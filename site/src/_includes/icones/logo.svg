@@ -23,7 +23,7 @@
        <animateTransform attributeName="gradientTransform"
         type="translate"
         values="0 0; 67.733 67.733"
-        dur="12s"
+        dur="{% if site.gay %}24s{% else %}6s{% endif %}"
         repeatCount="indefinite"/>
     {% endif %}
   </linearGradient>
