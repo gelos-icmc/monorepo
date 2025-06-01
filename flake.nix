@@ -47,8 +47,9 @@
     ...
   } @ inputs: let
     inherit (self) outputs;
-    inherit (nixpkgs.lib) genAttrs getExe;
+    inherit (nixpkgs.lib) genAttrs getExe mapAttrs' mapAttrs filterAttrs elem nameValuePair;
     forAllSystems = f: genAttrs (import systems) (system: f nixpkgs.legacyPackages.${system});
+    prefixAttrs = pfx: mapAttrs' (n: v: nameValuePair "${pfx}${n}" v);
   in {
     nixosConfigurations = {
       adelie = nixpkgs.lib.nixosSystem {
@@ -128,5 +129,14 @@
     });
 
     formatter = forAllSystems (pkgs: pkgs.alejandra);
+
+    checks = forAllSystems (
+      pkgs:
+        (prefixAttrs "packages-"
+          (filterAttrs (_: x: elem pkgs.system x.meta.platforms) self.packages.${pkgs.system}))
+        // (prefixAttrs "nixos-"
+          (mapAttrs (_: x: x.config.system.build.toplevel)
+            (filterAttrs (_: x: x.pkgs.system == pkgs.system) self.nixosConfigurations)))
+    );
   };
 }
