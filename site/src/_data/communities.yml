@@ -5,20 +5,14 @@
 # - name: GELOS - ICMC/USP
 #   description: Grupo de Extensão em Livre & Open Source do Instituto de Ciências Matemáticas e de Computação da USP.
 #   links:
-#     Telegram: https://t.me/gelos_geral
+#     Telegram: https://telegram.gelos.club
 #     Matrix: https://matrix.to/#/#gelos:matrix.org
 #     Instagram: https://instagram.com/gelos.icmc
 #     Website: https://gelos.club/
 #
 # REGRAS:
 #
-# 1. Colocar apenas URLs com os **domínios oficiais** de cada rede social
-#
-# Exemplo:
-#  x Telegram: https://telegram.gelos.club
-#  ✓ Telegram: https://t.me/gelos_geral
-#
-# 2. Não colocar a URL com parâmetros que não sirvam para o acesso ao grupo, como refers e afins.
+# 1. Não colocar a URL com parâmetros que não sirvam para o acesso ao grupo, como refers e afins.
 #
 # Exemplo:
 #
