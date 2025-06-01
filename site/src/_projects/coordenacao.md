@@ -3,7 +3,17 @@ title: Coordenação
 authors: 
     - Gabriel
     - Furry
+    - Livia
+former:
     - Natan
+    - Setembru
+    - Guip
+    - Ryan
+    - Silmar
+    - Procopio
+    - Charles
+    - Deanderson
+    - Julio
 lang: pt-BR
 state: permanent
 ---
@@ -31,6 +41,12 @@ Os deveres e poderes definidos para a coordenação são:
 
 As plenárias (e reuniões com quórum equivalente) são soberanas, tendo poder de override sobre quaisquer decisões da coordenação.
 A discussão sobre outros modelos de coordenação está sempre aberta em reuniões plenárias.
+
+As pessoas a seguir já foram parte da coordenação no passado:
+
+{% for name in page.former %}
+  - {% include person.html name=name %}  
+{%- endfor %}
 
 ## Documentação Interna
 
