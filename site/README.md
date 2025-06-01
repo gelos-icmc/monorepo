@@ -85,6 +85,11 @@ jekyll usando `bundle exec jekyll` (por exemplo, `bundle exec jekyll serve`)
 
 ## Convenções
 
+### Idioma
+
 No momento ainda não temos páginas internacionalizadas, mas a convenção é que a
 URL siga sempre o idioma do conteúdo da página. A primeira opção de idioma para
 páginas acessadas por humanos deve ser o português.
+
+A preferência para o código (e.g. variáveis e strings não visíveis para
+usuários) é o inglês.
