@@ -30,23 +30,25 @@ são relevantes para cada um.
 
 ## Convenções
 
-Cada mudança independente (i.e. pode existir sozinha) deve ser um commit
-separado. Um PR pode conter vários commits, se eles foram feitos num mesmo
-contexto.
+Essa seção apresenta algumas convenções que usamos para facilitar o trabalho.
+Elas não são regras, então, na dúvida, pode fazer como for mais confortável.
+
+Se tiver dificuldade com alguma, em especial com commits e branching, sinta-se a
+vontade para pedir ajuda aos membros mais experientes!
 
 ### Mensagens de commits
+
+Cada mudança independente (i.e. pode existir sozinha) deve ser um commit
+separado.
 
 Utilizamos [conventional
 commits](https://www.conventionalcommits.org/en/v1.0.0/#summary). Escreva em
 **inglês**, no **imperativo**. Lembre-se de especificar o escopo.
 
-Geralmente o escopo será algo como `(<subtree>[/componente])`, com quantos
-componentes achar nescessário. Caso sua mudança seja na raiz, use o escopo
-`root`, `ci`, ou `flake`, dependendo do que for. Caso sua mudança atinga várias
-subtrees, use `treewide`. Tudo bem o escopo tiver termos em português.
-
-Num geral, se sua mensagem é `fix(foo): update abc in xyz` ou `feat(foo): add
-abc to xyz`, `xyz` deveria ser um componente no escopo.
+O escopo é `(<subtree>[/componente])`, com quantos componentes precisar. Caso
+sua mudança seja na raiz, use `root`, `ci`, ou `flake`, dependendo do que for.
+Caso sua mudança atinga várias subtrees, use `treewide`. Tudo bem o escopo tiver
+termos em português.
 
 Exemplos de boas mensagens:
 
@@ -58,18 +60,20 @@ Exemplos de boas mensagens:
 
 ### PRs
 
-Prefira o **título em inglês**, começando com letra maiúscula.
+Um PR pode conter vários commits, se eles foram feitos num mesmo
+contexto.
 
-Somos menos rígidos com as descrições. Prefira em inglês, mas escreva como achar
-mais confortável para melhor explicar seu trabalho e o contexto.
+Prefira o título em **inglês**, começando com letra maiúscula.
+
+Prefira descrição em inglês se possível, mas use a língua que achar mais
+confortável para explicar seu trabalho e o contexto.
 
 Sempre faça **rebase para atualizar** (verifique o dropdown do github ao fazer
 pela UI) sua branch, e **evite commits de fixup** (squasheie eles ao commit
 que eles ajustam).
 
 Merges devem ser limpos (i.e. branch atualizada), e preferimos **merge commits
-explicitos** para trackear o contexto dos PRs. Não squasheie arbitrariamente
-ao mergear.
+explicitos** para simbolizar os PRs. Não squasheie arbitrariamente ao mergear.
 
 Exemplo de histórico (ligeiramente fictício):
 
