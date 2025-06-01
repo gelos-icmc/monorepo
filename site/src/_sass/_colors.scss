@@ -14,6 +14,17 @@
 
   // Cor do texto base
   --color-text: #111;
+
+  --rainbow0: hsl(0   100% 40%);
+  --rainbow1: hsl(36  100% 40%); 
+  --rainbow2: hsl(72  100% 40%); 
+  --rainbow3: hsl(108 100% 40%); 
+  --rainbow4: hsl(144 100% 40%); 
+  --rainbow5: hsl(180 100% 40%); 
+  --rainbow6: hsl(216 100% 40%); 
+  --rainbow7: hsl(252 100% 40%); 
+  --rainbow8: hsl(288 100% 40%); 
+  --rainbow9: hsl(324 100% 40%); 
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,5 +44,16 @@
 
     // Cor do texto base
     --color-text: #ccc;
+
+    --rainbow0: hsl(0   85% 55%);
+    --rainbow1: hsl(36  85% 55%); 
+    --rainbow2: hsl(72  85% 55%); 
+    --rainbow3: hsl(108 85% 55%); 
+    --rainbow4: hsl(144 85% 55%); 
+    --rainbow5: hsl(180 85% 55%); 
+    --rainbow6: hsl(216 85% 55%); 
+    --rainbow7: hsl(252 85% 55%); 
+    --rainbow8: hsl(288 85% 55%); 
+    --rainbow9: hsl(324 85% 55%); 
   }
 }
