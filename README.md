@@ -28,6 +28,19 @@ roda. Recomendamos rodar antes de dar push nas suas mudanças.
 Cada subprojeto tem uma README.md explicando quais checks, pacotes, e devshells
 são relevantes para cada um.
 
+## Permissões e reviews
+
+Todos os membros do GELOS podem entrar na org, e recebem permissão
+para adicionar branches ao monorepo. A main só pode receber
+commits por meio de PRs onde o CI passou e que foram aprovados
+pelos [times](https://github.com/orgs/gelos-icmc/teams) de
+[codeowners](https://github.com/gelos-icmc/monorepo/blob/main/.github/CODEOWNERS
+).
+
+Reviews são solicitadas automágicamente aos times, mas sinta-se livre para
+solicitar a de alguém específico e/ou pingar alguém no telegram para dar uma
+olhada!
+
 ## Convenções
 
 Essa seção apresenta algumas convenções que usamos para facilitar o trabalho.
@@ -102,17 +115,3 @@ Exemplo de histórico (ligeiramente fictício):
 │ ◆  feat(site/reports/salinha): init
 ├─╯
 ```
-
-## Times, codeowners, e permissões
-
-O gelos organiza permissões nas subtrees pelos
-[times](https://github.com/orgs/gelos-icmc/teams). Normalmente cada frente deve ter um time.
-
-As diferentes partes do monorepo têm time(s) atribuídos pelo [arquivo
-codeowners](https://github.com/gelos-icmc/monorepo/blob/main/.github/CODEOWNERS). Esses ditam de quem é nescessária review para mergear.
-
-Todos os membros do GELOS podem entrar na org, e recebem permissão para
-adicionar branches ao monorepo.
-
-A main só pode receber commits por meio de PRs onde o CI passou e que foram
-aprovados por ao menos um codeowner.
