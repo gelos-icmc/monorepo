@@ -1,6 +1,15 @@
 {
   description = "Infraestrutura principal para serviços hospedados pelo GELOS";
 
+  nixConfig = {
+    extra-substituters = [
+      "https://gelos-icmc.cachix.org"
+    ];
+    extra-trusted-public-keys = [
+      "gelos-icmc.cachix.org-1:IQxtwf+SS2LUWWoPgzYQMAYUvsBA+7tdooE42KRcCWk="
+    ];
+  };
+
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
     hardware.url = "github:nixos/nixos-hardware";
