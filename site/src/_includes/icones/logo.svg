@@ -15,7 +15,7 @@
     <stop offset="1"   stop-color="var(--rainbow0)"/>
    {% else %}
     <stop stop-color="currentColor" offset="0"/>
-    <stop stop-color="var(--color-trim)" offset="0.5"/>
+    <stop stop-color="var(--color-fade)" offset="0.5"/>
     <stop stop-color="currentColor" offset="1"/>
    {% endif %}
 
@@ -23,7 +23,7 @@
        <animateTransform attributeName="gradientTransform"
         type="translate"
         values="0 0; 67.733 67.733"
-        dur="6s"
+        dur="12s"
         repeatCount="indefinite"/>
     {% endif %}
   </linearGradient>
