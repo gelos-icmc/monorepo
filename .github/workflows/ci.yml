@@ -18,6 +18,7 @@ jobs:
           matrix="$(nix eval --json '.#githubActions.matrix')"
           echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
           echo "$matrix" | jq
+
   nix-build:
     name: ${{ matrix.name }} (${{ matrix.system }})
     needs: nix-matrix
@@ -33,3 +34,12 @@ jobs:
           name: gelos-icmc
           authToken: '${{ secrets.CACHIX_KEY }}'
       - run: nix build -L '.#${{ matrix.attr }}'
+
+  required: # group all required workflows into one to avoid reconfiguring this in Actions settings
+    needs:
+      - nix-matrix
+      - nix-build
+    if: ${{ always() && !contains(needs.*.result, 'cancelled') }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: ${{ contains(needs.*.result, 'failure') && 'false' || 'true' }}
