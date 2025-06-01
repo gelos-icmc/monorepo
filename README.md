@@ -95,3 +95,17 @@ Exemplo de histórico (ligeiramente fictício):
 │ ◆  feat(site/reports/salinha): init
 ├─╯
 ```
+
+## Times, codeowners, e permissões
+
+O gelos organiza permissões nas subtrees pelos
+[times](https://github.com/orgs/gelos-icmc/teams). Normalmente cada frente deve ter um time.
+
+As diferentes partes do monorepo têm time(s) atribuídos pelo [arquivo
+codeowners](https://github.com/gelos-icmc/monorepo/blob/main/.github/CODEOWNERS). Esses ditam de quem é nescessária review para mergear.
+
+Todos os membros do GELOS podem entrar na org, e recebem permissão para
+adicionar branches ao monorepo.
+
+A main só pode receber commits por meio de PRs onde o CI passou e que foram
+aprovados por ao menos um codeowner.
