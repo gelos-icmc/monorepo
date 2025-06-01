@@ -1,6 +1,6 @@
 # GELOS - Site institucional
 
-Esse repositório contém o site institucional do [**GELOS** (**Grupo de Extensão
+Essa subtree contém o site institucional do [**GELOS** (**Grupo de Extensão
 em Livre & Open Source**)](https://gelos.club).
 
 ## Como contribuir
@@ -19,14 +19,59 @@ localmente. Não se preocupe, é bem simples.
 ### Com Nix
 
 A forma mais fácil é usando o [Nix](https://nixos.org/nix), o gerenciador de
-pacotes e sistema de builds que usamos nos projetos do GELOS..
+pacotes e sistema de builds que usamos nos projetos do GELOS.
 
-Basta usar `nix develop` para entrar numa shell com tudo que você precisa para
-desenvolver. Nessa shell você pode usar os comandos do jekyll, como `jekyll
-serve`.
+#### Shell de desenvolvimento
 
-Você também pode usar `nix build` e `nix run` para construir/servir o site
-preparado para release.
+A shell contém tudo que você precisa para desenvolver:
+
+```
+nix develop .#site -c $SHELL
+```
+
+Ou use o direnv:
+
+```
+direnv allow
+```
+
+Nessa shell você pode usar os comandos do jekyll:
+
+```
+jekyll serve
+```
+
+#### Build release
+
+A forma que o jekyll serve pode ser ligeiramente diferente que a da release
+(e.g. mais leniente com /foo == /foo.html).
+
+Para validar melhor, você pode usar construir o site preparado para release:
+
+```
+nix build .#site
+```
+
+E então sirva, por exemplo, com webfs:
+
+```
+nix run nixpkgs#webfs -- -dF -p 4000 -f index.html -r result/public
+```
+
+E abra no seu navegador favorito:
+```
+xdg-open http://localhost:4000
+```
+
+#### Redirects e afins
+
+Note que, evidentemente, lógica implementada no configuração NixOS do
+servidor (e.g. redirects) não estará disponível em nenhuma dessas duas opções.
+Caso precise testar isso, rode uma VM com a config (veja a tree `../hosts`).
+
+Recomendamos que páginas internas do site prefiram sempre usar links canônicos e
+a tag [`{% link %}`](https://jekyllrb.com/docs/liquid/tags/#link) para manté-los
+sempre corretos.
 
 ### Manualmente
 
