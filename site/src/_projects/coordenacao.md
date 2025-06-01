@@ -12,7 +12,7 @@ former:
     - Silmar
     - Procopio
     - Charles
-    - Deanderson
+    - Deandreson
     - Julio
 lang: pt-BR
 state: permanent
