@@ -36,6 +36,9 @@ Elas não são regras, então, na dúvida, pode fazer como for mais confortável
 Se tiver dificuldade com alguma, em especial com commits e branching, sinta-se a
 vontade para pedir ajuda aos membros mais experientes!
 
+Em especial, para facilitar fixups e rebases, recomendamos experimentar o
+[jujutsu](https://github.com/jj-vcs/jj).
+
 ### Mensagens de commits
 
 Cada mudança independente (i.e. pode existir sozinha) deve ser um commit
