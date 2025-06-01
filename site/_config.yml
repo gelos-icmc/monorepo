@@ -1,6 +1,7 @@
 name: "GELOS"
 description: "Grupo de Extensão em Livre & Open Source - ICMC USP"
 url: "https://gelos.club"
+gay: true
 
 sass:
   style: compact
