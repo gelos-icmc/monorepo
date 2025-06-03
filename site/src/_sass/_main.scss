@@ -247,3 +247,12 @@ ul ul,
 :target {
   background: var(--color-bg-alt);
 }
+
+:root {
+  --animation-duration: 6s;
+}
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --animation-duration: 1000s;
+  }
+}
