@@ -34,4 +34,6 @@ stdenv.mkDerivation {
     mkdir -p $out
     cp -r * $out
   '';
+
+  meta.platforms = lib.platforms.linux;
 }

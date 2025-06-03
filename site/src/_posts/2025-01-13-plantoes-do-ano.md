@@ -28,4 +28,4 @@ Temos que expandir o conhecimento das pessoas, mostrar que a fama de que "Linux 
 Em 2025 planejamos continuar cumprindo esse papel. Além dos plantões, esperem nossas installfests, novos Open Source Shows, minicursos e muito mais.
 
 **Quer ajudar?** Participe você também dessa importante iniciativa!  
-Entre em nosso grupo no [Telegram](https://t.me/gelos_geral) ou [Matrix](https://matrix.to/#/#gelos:matrix.org) para se juntar ao GELOS, ou nos siga no [Mastodon](https://floss.social/@gelos) para se manter atualizade com as novidades do grupo.
+Entre em nosso grupo no [Telegram](https://telegram.gelos.club) ou [Matrix](https://matrix.to/#/#gelos:matrix.org) para se juntar ao GELOS, ou nos siga no [Mastodon](https://floss.social/@gelos) para se manter atualizade com as novidades do grupo.

@@ -9,19 +9,16 @@ Plantões para tirar dúvidas com Linux e outras ferramentas livres.
 
 Usa Linux e esbarrou em algum problema? Usa algum software open source e tem alguma dúvida? Estamos aqui para ajudar!
 
-Nos plantões, haverá ao menos ume voluntárie na sala do GELOS (3-155) para tirar dúvidas ou ajudar a resolver problemas com Linux ou outros softwares livres ou open source.
+Nos plantões, haverá ao menos ume voluntárie na sala do GELOS (3-153) para tirar dúvidas ou ajudar a resolver problemas com Linux ou outros softwares livres ou open source.
 Caso tenha um problema ou precise de alguma ajuda, é só aparecer!
-
-*Veja também nosso [blog post]({% link _posts/2024-08-17-plantoes.md %}) de anúncio dos plantões*
 
 Confira abaixo as próximas datas
 
 ## Próximos Horários
 
-| Data                | Horário                  | Voluntárie(s)   |
-|---------------------|--------------------------|-----------------|
-| 23/05/2025          | 10:20 ~ 12:00            | Luana           |
-| Mais datas em breve!|                          |                 |
+| Data                | Horário                 | Voluntárie(s)    |
+|---------------------|-------------------------|------------------|
+| Mais datas em breve!|                         |                  |
 
 
 *Para se voluntariar, basta [editar](https://github.com/gelos-icmc/monorepo/blob/main/site/src/_projects/plantao.md) a tabela acima e adicionar os dias e horários que você estará na salinha para ajudar*
@@ -31,7 +28,7 @@ Confira abaixo as próximas datas
 Tendo em vista manter uma documentação para consulta futura, aqui são listados os problemas que encontramos nos plantões (ou nas installfests), bem como suas respectivas soluções.
 
 #### Como converter Windows Legacy para UEFI, para dual boot
-- [Artigo Bom](https://answers.microsoft.com/en-us/windows/forum/all/convert-an-existing-windows-10-installation-from/aa8c2de3-460b-4a8c-b30b-641405f800d7) ([arquivado (telegram)](https://t.me/gelos_geral/34212/382318))
+- [Artigo Bom](https://answers.microsoft.com/en-us/windows/forum/all/convert-an-existing-windows-10-installation-from/aa8c2de3-460b-4a8c-b30b-641405f800d7) ([arquivado (telegram)](https://telegram.gelos.club/34212/382318))
 - Erro sobre WinRE pode ser ignorado caso a operação tenha dado certo.
 
 
@@ -91,6 +88,8 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 30/05/2025          |   15:30 ~ 20:00          | 3 (aula nix (3), fediverso, site (1))        | Luana e Kauê       |
+| 23/05/2025          |   10:20 ~ 12:20          | 0                                                      | Luana               |
 | 15/05/2025          |   15:40 ~ 18:50          | 2 (db win+fedora, macbook fedora eduroam troubleshoot) | Luana e Gus         |
 | 09/05/2025          |   10:40 ~ 18:00          | 3 (db win+opensuse, ajuda NixOS, db win+opensuse)      | Luana               | 
 | 04/04/2025          |   14:50 ~ 19:00          | 2 (arrumar jogo steam, ajuda programação)          | Luana, Gabs e Lívia | 

@@ -30,4 +30,6 @@ stdenv.mkDerivation {
     cp -Tr _site $out/public
     ${lib.optionalString (atas != null) "cp ${atas}/*.pdf $out/public/reunioes/"}
   '';
+
+  meta.platforms = lib.platforms.linux;
 }

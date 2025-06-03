@@ -6,12 +6,18 @@
   boot.kernelPackages = pkgs.linuxPackages_hardened;
 
   nix = {
-    extraOptions = "experimental-features = nix-command flakes";
     gc = {
       automatic = lib.mkDefault true;
       dates = lib.mkDefault "weekly";
     };
     settings = {
+      extra-substituters = [
+        "https://gelos-icmc.cachix.org"
+      ];
+      extra-trusted-public-keys = [
+        "gelos-icmc.cachix.org-1:IQxtwf+SS2LUWWoPgzYQMAYUvsBA+7tdooE42KRcCWk="
+      ];
+      experimental-features = ["nix-command" "flakes"];
       trusted-users = ["root" "@wheel"];
       auto-optimise-store = true;
       flake-registry = "";

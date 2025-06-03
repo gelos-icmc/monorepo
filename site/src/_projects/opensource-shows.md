@@ -28,6 +28,6 @@ Para fazer uma apresentação no Open Source Show, basta escolher um tema relaci
 
 O grupo irá revisar seu tema, para verificar que se encaixa com a proposta do Open Source Show.
 
-Se você já faz parte GELOS (ou queira fazer), convidamos que participe do grupo de trabalho no [telegram](https://t.me/gelos_geral) para uma discussão e revisão mais dinâmica. Caso contrário, daremos esse *feedback* por email.
+Se você já faz parte GELOS (ou queira fazer), convidamos que participe do grupo de trabalho no [telegram](https://telegram.gelos.club) para uma discussão e revisão mais dinâmica. Caso contrário, daremos esse *feedback* por email.
 
 Estando tudo certo, entraremos em contato para marcar a data e local da apresentação!

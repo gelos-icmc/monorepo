@@ -1,4 +1,4 @@
-{ stdenvNoCC, texlive, pandoc, beamer-theme }:
+{ lib, stdenvNoCC, texlive, pandoc, beamer-theme }:
 
 stdenvNoCC.mkDerivation {
   name = "gelos-atas";
@@ -16,4 +16,6 @@ stdenvNoCC.mkDerivation {
     wait
   '';
   installPhase = "mkdir -p $out && cp *.pdf $out/";
+
+  meta.platforms = lib.platforms.linux;
 }
