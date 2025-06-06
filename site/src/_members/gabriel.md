@@ -7,32 +7,13 @@ links:
     GitHub: github.com/misterio77
 nusp: 10856803
 role: "active"
-extra_css: |
-    :root {
-        --bi-pink: #D60270;
-        --bi-purple: #9B4F96;
-        --bi-blue: #0038A8;
-
-        --rainbow0: var(--bi-pink);
-        --rainbow1: var(--bi-pink); 
-        --rainbow2: var(--bi-pink); 
-        --rainbow3: color-mix(in srgb,
-            var(--bi-pink),
-            var(--bi-purple)
-        ); 
-        --rainbow4: var(--bi-purple); 
-        --rainbow5: color-mix(in srgb,
-            var(--bi-purple),
-            var(--bi-blue)
-        ); 
-        --rainbow6: var(--bi-blue); 
-        --rainbow7: var(--bi-blue); 
-        --rainbow8: var(--bi-blue); 
-        --rainbow9: color-mix(in srgb,
-            var(--bi-blue),
-            var(--bi-pink)
-        ); 
-    }
+gay_colors:
+    - "#D60270"
+    - "#D60270"
+    - "#9B4F96"
+    - "#0038A8"
+    - "#0038A8"
+    - "#9B4F96"
 ---
 
 Já conhece o GELOS? ❄️

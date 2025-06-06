@@ -1,18 +1,28 @@
 <svg width="3.5em" height="3.5em" version="1.1" viewBox="0 0 67.733 67.733" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <linearGradient id="logo-gradient" spreadMethod="repeat" x1="50%" x2="100%" y1="50%" y2="100%" gradientUnits="userSpaceOnUse">
-   {% if site.gay %}
-    <stop offset="0"   stop-color="var(--rainbow0)"/>
-    <stop offset="0.1" stop-color="var(--rainbow1)"/>
-    <stop offset="0.2" stop-color="var(--rainbow2)"/>
-    <stop offset="0.3" stop-color="var(--rainbow3)"/>
-    <stop offset="0.4" stop-color="var(--rainbow4)"/>
-    <stop offset="0.5" stop-color="var(--rainbow5)"/>
-    <stop offset="0.6" stop-color="var(--rainbow6)"/>
-    <stop offset="0.7" stop-color="var(--rainbow7)"/>
-    <stop offset="0.8" stop-color="var(--rainbow8)"/>
-    <stop offset="0.9" stop-color="var(--rainbow9)"/>
-    <stop offset="1"   stop-color="var(--rainbow0)"/>
+   {% if site.gay or page.always_gay %}
+    {% for color in page.gay_colors %}
+     {% assign stops = page.gay_colors | size | times: 1.0 %}
+     <stop offset="{{ 1 | divided_by: stops | times: forloop.index0 }}" stop-color="{{ color }}"/>
+     {% if forloop.last %}
+      <stop offset="1" stop-color="{{ page.gay_colors | first }}"/>
+     {% elsif forloop.first %}
+     {% endif %}
+    {# If not, fallback to our pretty pride flag #}
+    {% else %}
+     <stop offset="0"   stop-color="var(--rainbow0)"/>
+     <stop offset="0.1" stop-color="var(--rainbow1)"/>
+     <stop offset="0.2" stop-color="var(--rainbow2)"/>
+     <stop offset="0.3" stop-color="var(--rainbow3)"/>
+     <stop offset="0.4" stop-color="var(--rainbow4)"/>
+     <stop offset="0.5" stop-color="var(--rainbow5)"/>
+     <stop offset="0.6" stop-color="var(--rainbow6)"/>
+     <stop offset="0.7" stop-color="var(--rainbow7)"/>
+     <stop offset="0.8" stop-color="var(--rainbow8)"/>
+     <stop offset="0.9" stop-color="var(--rainbow9)"/>
+     <stop offset="1"   stop-color="var(--rainbow0)"/>
+    {% endfor %}
    {% else %}
     <stop stop-color="currentColor" offset="0"/>
     <stop stop-color="var(--color-fade)" offset="0.5"/>
@@ -23,7 +33,7 @@
        <animateTransform attributeName="gradientTransform"
         type="translate"
         values="0 0; 67.733 67.733"
-        dur="{% if site.gay %}24s{% else %}6s{% endif %}"
+        dur="{% if site.gay or page.always_gay %}24s{% else %}6s{% endif %}"
         repeatCount="indefinite"/>
     {% endif %}
   </linearGradient>
