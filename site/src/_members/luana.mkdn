@@ -10,6 +10,14 @@ fediversecreator: luana@wetdry.world
 nusp: 13836963
 role: "active"
 always_gay: true
+gay_colors:
+    - "#fff"
+    - "#ff9a56"
+    - "#ef7627"
+    - "#d52d00"
+    - "#d162a4"
+    - "#b55690"
+    - "#a30262"
 extra_css: |
     :root {
         --background-color: black;
