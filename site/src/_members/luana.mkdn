@@ -20,15 +20,11 @@ gay_colors:
     - "#a30262"
 extra_css: |
     :root {
-        --background-color: black;
+        --color-bg: black;
         --color-text: DarkSeaGreen;
-        --link-color: pink;
-        --color-bg-alt: #34343d;
-    }
-
-    body {
-        background-color: var(--background-color);
-        color: var(--color-text);
+        --color-fade: SkyBlue;
+        --color-blossom: pink;
+        --color-bg-alt: #333;
     }
 
     #rotating {
@@ -71,14 +67,6 @@ extra_css: |
         100% {
             color: red;
         }
-    }
-
-    header, nav, footer {
-        color: var(--text-color);
-    }
-
-    a {
-        color: var(--link-color);
     }
 ---
 
