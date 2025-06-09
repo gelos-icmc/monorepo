@@ -7,26 +7,15 @@ links:
 nusp: 14559479
 role: "active"
 extra_css: |
-
-  header svg{
-    color: #5BCEFA;
+  :root {
+      --color-blossom: #2696bd;
+      --color-fade: #e26e8b;
   }
-
-  header svg:hover {
-    color:#F5A9B8
-  }
-
-  main a {
-    color: #5BCEFA;
-  }
-  main a:hover {
-    color: #F5A9B8;
-  }
-  main h1, main h2, main h3 {
-    color: #5BCEFA;
-  }
-  main h1:hover, main h2:hover, main h3:hover {
-    color: #F5A9B8;
+  @media (prefers-color-scheme: dark) {
+      :root {
+          --color-blossom: #5BCEFA;
+          --color-fade: #F5A9B8;
+      }
   }
 ---
 
