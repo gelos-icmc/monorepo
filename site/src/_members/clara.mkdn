@@ -6,6 +6,17 @@ links:
   GitHub: github.com/clr-cera
 nusp: 14559479
 role: "active"
+extra_css: |
+  :root {
+      --color-blossom: #2696bd;
+      --color-fade: #e26e8b;
+  }
+  @media (prefers-color-scheme: dark) {
+      :root {
+          --color-blossom: #5BCEFA;
+          --color-fade: #F5A9B8;
+      }
+  }
 ---
 
 # clr-cera 🐈‍⬛
