@@ -1,6 +1,6 @@
 ---
-title: Gus "Sergay"
-description: Aspergers with a side of fries
+title: Gus Sergay
+description: Aspergers with a side of fries 🦦
 site: joaoser.gay
 email: gustavobloisrr@usp.br
 telegram: @Zig_StarRust
