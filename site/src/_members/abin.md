@@ -1,16 +1,13 @@
 ---
-title: Gus "Abin" B
-description: A Lamb's psychedelic breakfast
+title: Gus "Sergay"
+description: Aspergers with a side of fries
+site: joaoser.gay
 email: gustavobloisrr@usp.br
+telegram: @Zig_StarRust
 role: "active"
 nusp: 13688162
 ---
 
-Prazer, eu sou o Abin.
+Oi, eu sou o João Sergay.
 
-Sou BSI024 e tenho bastante carinho por programação funcional, mas uso qualquer ferramenta que deixe o trabalho pronto em tempo hábil.
-
-Interesses: vns, shaders, arte, bots de mmos que eu não tenho tempo pra jogar.
-
-Se me encontrar, me dê um alô :)
-
+Tô tentando aprender mais sobre segurança, IoT e software livre. Fora isso, gosto bastante de arte, musculação e Zig.
