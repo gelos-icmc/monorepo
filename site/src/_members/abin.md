@@ -1,9 +1,9 @@
 ---
 title: Gus Sergay
-description: Aspergers with a side of fries 🦦
+description: 🦦🦦🦦
 site: joaoser.gay
 email: gustavobloisrr@usp.br
-telegram: @Zig_StarRust
+telegram: @AtomHeartOtter
 role: "active"
 nusp: 13688162
 ---
