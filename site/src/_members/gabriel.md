@@ -18,7 +18,7 @@ gay_colors:
 
 Já conhece o GELOS? ❄️
 
-Um dos membros fundadores e atual diretor do GELOS.
+Co-fundador e um dos atuais diretores do GELOS.
 
 Bacharel em [Sistemas de
 Informação](https://www.icmc.usp.br/graduacao/sistemas-de-informacao-bacharelado)
