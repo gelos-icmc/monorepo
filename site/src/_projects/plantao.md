@@ -18,6 +18,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                 | Voluntárie(s)    |
 |---------------------|-------------------------|------------------|
+| 18/08/2025          | 15:00 ~ 17:00           | Luana, Gabs      |
 | Mais datas em breve!|                         |                  |
 
 
