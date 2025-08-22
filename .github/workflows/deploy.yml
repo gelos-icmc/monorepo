@@ -11,7 +11,8 @@ jobs:
       name: Prod
     steps:
       - uses: actions/checkout@v3
-      - uses: cachix/install-nix-action@v25
+      - uses: wimpysworld/nothing-but-nix@bfeb418c0047173b701321078aca83b342e77ec2
+      - uses: cachix/install-nix-action@v31
       - uses: cachix/cachix-action@v14
         with:
           name: gelos-icmc
