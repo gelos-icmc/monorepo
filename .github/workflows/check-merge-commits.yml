@@ -1,4 +1,4 @@
-name: "CI"
+name: "Check merge commits"
 on:
   pull_request:
 
