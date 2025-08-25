@@ -18,7 +18,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                 | Voluntárie(s)    |
 |---------------------|-------------------------|------------------|
-| 18/08/2025          | 15:00 ~ 17:00           | Luana, Gabs      |
+| 27/08/2025          | 15:00 ~ 17:00           | Luana            |
 | Mais datas em breve!|                         |                  |
 
 
@@ -89,6 +89,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 18/08/2025          |   15:00 ~ 19:30          | 1 (instalar Mint)   | Luana, Gabs e Abin |
 | 30/05/2025          |   15:30 ~ 20:00          | 3 (aula nix (3), fediverso, site (1))        | Luana e Kauê       |
 | 23/05/2025          |   10:20 ~ 12:20          | 0                                                      | Luana               |
 | 15/05/2025          |   15:40 ~ 18:50          | 2 (db win+fedora, macbook fedora eduroam troubleshoot) | Luana e Gus         |
