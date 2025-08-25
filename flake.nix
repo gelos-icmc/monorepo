@@ -88,6 +88,7 @@
       adelie = {
         hostname = "adelie.gelos.club";
         sshUser = "admin";
+        sshOpts = ["-o" "StrictHostKeyChecking=no"];
         profiles.system = {
           user = "root";
           path = activate "nixos" self.nixosConfigurations.adelie;
@@ -96,7 +97,7 @@
       emperor = {
         hostname = "emperor.gelos.club";
         sshUser = "admin";
-        sshOpts = ["-p" "2112"];
+        sshOpts = ["-p" "2112" "-o" "StrictHostKeyChecking=no"];
         profiles.system = {
           user = "root";
           path = activate "nixos" self.nixosConfigurations.emperor;

@@ -5,8 +5,30 @@ on:
 concurrency:
   group: ${{ github.workflow }}
 jobs:
-  deploy:
+  nix-matrix:
     runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: wimpysworld/nothing-but-nix@bfeb418c0047173b701321078aca83b342e77ec2
+      - uses: cachix/install-nix-action@v31
+      - id: set-matrix
+        name: Generate Nix Matrix
+        run: |
+          set -euo pipefail
+          matrix="$(nix eval --json '.#deploy.nodes' --apply 'builtins.attrNames')"
+          echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
+          echo "$matrix" | jq
+
+  deploy:
+    name: ${{ matrix.hostname }}
+    needs: nix-matrix
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        hostname: ${{fromJSON(needs.nix-matrix.outputs.matrix)}}
     environment:
       name: Prod
     steps:
@@ -20,11 +42,5 @@ jobs:
       - uses: webfactory/ssh-agent@v0.6.0
         with:
           ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
-      - name: Configurar hosts SSH conhecidos
-        run: |
-          cat <<EOF >> ~/.ssh/known_hosts
-          adelie.gelos.club ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ8AVRh97esFD7kEFIQFWlHZed8Ejo+SZKSFLUxrQVQt
-          emperor.gelos.club ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFXyXkipNN3//CBlPmx5ZDQ3az7Dn3O5dlC1T9Hzrid1
-          EOF
       - name: Deploy
-        run: nix run .#deploy -- --skip-checks
+        run: nix run .#deploy -- '.#${{ matrix.hostname }}' --skip-checks
