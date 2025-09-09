@@ -18,6 +18,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                 | Voluntárie(s)    |
 |---------------------|-------------------------|------------------|
+| 9/9/2025            | 14:20 ~ 17:00           | Luana e Gabs     |
 | Mais datas em breve!|                         |                  |
 
 
