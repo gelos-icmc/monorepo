@@ -37,23 +37,25 @@ layout: default
   {{ content }}
 
   <footer>
-    <blockquote>
-      {% if page.attendees %}
-      <ul><strong>Participantes</strong>:
-        {% for attendee in page.attendees %}
-          <li>
-            {%- include person.html name=attendee -%}
-          </li>
-        {% endfor %}
-      </ul>
-      {% endif %}
+    {% if page.attendees or page.project %}
+      <blockquote>
+        {% if page.attendees %}
+        <ul><strong>Participantes</strong>:
+          {% for attendee in page.attendees %}
+            <li>
+              {%- include person.html name=attendee -%}
+            </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
 
-      {% if page.project %}
-        {% assign project = site.projects | find: "slug",page.project %}
-        <p><strong>Parte do projeto</strong>:
-          <a href={{ project.url }}>{{ project.title }}</a>
-        </p>
-      {% endif %}
-    </blockquote>
+        {% if page.project %}
+          {% assign project = site.projects | find: "slug",page.project %}
+          <p><strong>Parte do projeto</strong>:
+            <a href={{ project.url }}>{{ project.title }}</a>
+          </p>
+        {% endif %}
+      </blockquote>
+    {% endif %}
   </footer>
 </article>
