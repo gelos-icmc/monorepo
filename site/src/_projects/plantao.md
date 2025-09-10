@@ -18,7 +18,6 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                 | Voluntárie(s)    |
 |---------------------|-------------------------|------------------|
-| 9/9/2025            | 14:20 ~ 17:00           | Luana e Gabs     |
 | Mais datas em breve!|                         |                  |
 
 
@@ -89,6 +88,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 10/09/2025          |   14:20 ~ 18:20          | 1 (nixos binary cache) | Luana e Gabs |
 | 27/08/2025          |   15:00 ~ 17:20          | 2 (inst debian, db tumbleweed+w10)| Luana, Grilo |
 | 18/08/2025          |   15:00 ~ 19:30          | 1 (instalar Mint)   | Luana, Gabs e Abin |
 | 30/05/2025          |   15:30 ~ 20:00          | 3 (aula nix (3), fediverso, site (1))        | Luana e Kauê       |
