@@ -20,12 +20,14 @@ stdenv.mkDerivation {
   # Renderizar SVGs em PNGs
   # E criar árvores html para indexar os arquivos
   buildPhase = let
-    tree = ''tree -T "Identidade Visual GELOS" -H '.' --noreport -I "index.html" --charset utf-8'';
+    tree = ''tree -T "Identidade Visual GELOS" -H "" --noreport -I "index.html" --charset utf-8'';
   in ''
     inkscape --export-type=png **/*.svg -w ${toString size} -h ${toString size}
     ${tree} -o index.html .
     for d in */; do
-      ${tree} -o "$d/index.html" "$d"
+      pushd "$d"
+      ${tree} -o "index.html" .
+      popd
     done
   '';
 
