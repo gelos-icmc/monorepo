@@ -1,90 +1,89 @@
-  
-- name: Fedora KDE XX.X (x86_64)
-  size: 2.6GB
-  link: https://download.fedoraproject.org/pub/fedora/linux/releases/
-  filename: Fedora-KDE-Live-x86_64-41-1.4.iso
-  sha256: 9a4dc999cb2b8345b4970f7ff6480a0f7589ef2e74f753aa04a54932c4946ec3
-
-- name: Fedora KDE XX.X (aarch64)
-  size: 2.6GB
-  link: https://download.fedoraproject.org/pub/fedora/linux/releases/
-  filename: Fedora-KDE-Live-aarch64-41-1.4.iso
-  sha256: 83407f03d4ff351d869f4706bf513e07bb7c735f38b5e7733c20e841a45ea4ab
-
-- name: Fedora Xfce XX.X
-  size: 1.8GB
-  link: https://download.fedoraproject.org/pub/fedora/linux/releases/
-  filename: Fedora-Xfce-Live-x86_64-41-1.4.iso
-  sha256: 627babeab82b37fea2a1392f9fa4b7ed4e180b1d93d000dcc49666cdd7c4e92f
-
-- name: Fedora Workstation XX.X
-  size: 2.3GB
-  link: https://download.fedoraproject.org/pub/fedora/linux/releases/
-  filename: Fedora-Workstation-Live-x86_64-41-1.4.iso
-  sha256: a2dd3caf3224b8f3a640d9e31b1016d2a4e98a6d7cb435a1e2030235976d6da2
-
-- name: openSUSE Tumbleweed XXXXXXXX
-  size: 4.3GB
-  link: https://s.natanbc.net/
-  filename: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20250325-Media.iso
-  sha256: 2924be5ffdec5e3dd959a97138eb3737c7cd27c538b153d952aedfce29a17236
-
-- name: NixOS XX.XX (x86_64)
-  size: 3.0GB
-  link: https://releases.nixos.org/nixos/
-  filename: nixos-plasma6-24.11.715908.7105ae395770-x86_64-linux.iso
-  sha256: 097abd28771e7ef0fb18ffb7718812a9ce28b5be723806935fbe2e824a5878a4
-
-- name: NixOS XX.XX (aarch64)
-  size: 3.1GB
-  link: https://releases.nixos.org/nixos/
-  filename: nixos-plasma6-24.11.715908.7105ae395770-aarch64-linux.iso
-  sha256: 9db7f57c86e92d2dc40e132d35aa4cd26a061e54f6f947cd060a5c87212d4e86
-
-- name: Linux Mint XX.X Cinnamon
-  size: 2.8GB
-  link: https://mint.c3sl.ufpr.br/stable/
-  filename: linuxmint-22.1-cinnamon-64bit.iso
-  sha256: ccf482436df954c0ad6d41123a49fde79352ca71f7a684a97d5e0a0c39d7f39f
-
-- name: EndeavourOS Mercury Neo XXXX.XX.XX
-  size: 2.9GB
-  link: https://mirror.leitecastro.com/endeavouros/iso/
-  filename: EndeavourOS_Mercury-Neo-2025.03.19.iso
-  sha256: 79719b8de4c517edb54c8380cd65e4bae470eec701235fa718157c199c29ebba
-
-- name: Debian XX.XX.X
-  size: 3.7GB
-  link: https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/
-  filename: debian-12.10.0-amd64-DVD-1.iso
-  sha256: eb5034ff88a20c176066a670268f22e3f681117189c03bdae964566995652181
-
-- name: PopOS XX.XX
-  size: 2.6GB
-  link: https://iso.pop-os.org/
-  filename: pop-os_22.04_amd64_intel_51.iso
-  sha256: 5621e7544a00c1e358d667ce36eb5ae0741fe63431c92cf68c17ff66630b5ded
-
-- name: Arch Linux XXXX.XX.XX
-  size: 1.2GB
-  link: https://mirror.ufscar.br/archlinux/iso/
-  filename: archlinux-2025.03.01-x86_64.iso
-  sha256: 8150e3c1a479de9134baa13cea4ff78856cca5ebeb9bdfa87ecfce2e47ac9b5b
-
-- name: Alpine Linux X.XX.X
-  size: 0.25GB
-  link: https://dl-cdn.alpinelinux.org/alpine/
-  filename: alpine-standard-3.21.3-x86_64.iso
-  sha256: e5a5b9f57e9c258b69f9e3eecf10a169f7186cb1520c14fc955115099bea2a50
-
-- name: Chimera Linux XX.X
-  size: 2.1GB
-  link: https://repo.chimera-linux.org/live/
-  filename: chimera-linux-x86_64-LIVE-20250214-plasma.iso
-  sha256: 1d1e966e8ec4387edbafcb60a31394630b541ed484567c8eaf681576976a89bc
-
-- name: Ubuntu XX.XX
-  size: 5.3GB
-  link: https://releases.ubuntu.com/
-  filename: ubuntu-24.10-desktop-amd64.iso
-  sha256: 489079483487f92ad0d2f3d4b6c88a7b197969eb286b277534047920854a8b03
+# - name: Fedora KDE XX.X (x86_64)
+#   size: 2.6GB
+#   link: https://download.fedoraproject.org/pub/fedora/linux/releases/
+#   filename: Fedora-KDE-Live-x86_64-41-1.4.iso
+#   sha256: 9a4dc999cb2b8345b4970f7ff6480a0f7589ef2e74f753aa04a54932c4946ec3
+# 
+# - name: Fedora KDE XX.X (aarch64)
+#   size: 2.6GB
+#   link: https://download.fedoraproject.org/pub/fedora/linux/releases/
+#   filename: Fedora-KDE-Live-aarch64-41-1.4.iso
+#   sha256: 83407f03d4ff351d869f4706bf513e07bb7c735f38b5e7733c20e841a45ea4ab
+# 
+# - name: Fedora Xfce XX.X
+#   size: 1.8GB
+#   link: https://download.fedoraproject.org/pub/fedora/linux/releases/
+#   filename: Fedora-Xfce-Live-x86_64-41-1.4.iso
+#   sha256: 627babeab82b37fea2a1392f9fa4b7ed4e180b1d93d000dcc49666cdd7c4e92f
+# 
+# - name: Fedora Workstation XX.X
+#   size: 2.3GB
+#   link: https://download.fedoraproject.org/pub/fedora/linux/releases/
+#   filename: Fedora-Workstation-Live-x86_64-41-1.4.iso
+#   sha256: a2dd3caf3224b8f3a640d9e31b1016d2a4e98a6d7cb435a1e2030235976d6da2
+# 
+# - name: openSUSE Tumbleweed XXXXXXXX
+#   size: 4.3GB
+#   link: https://s.natanbc.net/
+#   filename: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20250325-Media.iso
+#   sha256: 2924be5ffdec5e3dd959a97138eb3737c7cd27c538b153d952aedfce29a17236
+# 
+# - name: NixOS XX.XX (x86_64)
+#   size: 3.0GB
+#   link: https://releases.nixos.org/nixos/
+#   filename: nixos-plasma6-24.11.715908.7105ae395770-x86_64-linux.iso
+#   sha256: 097abd28771e7ef0fb18ffb7718812a9ce28b5be723806935fbe2e824a5878a4
+# 
+# - name: NixOS XX.XX (aarch64)
+#   size: 3.1GB
+#   link: https://releases.nixos.org/nixos/
+#   filename: nixos-plasma6-24.11.715908.7105ae395770-aarch64-linux.iso
+#   sha256: 9db7f57c86e92d2dc40e132d35aa4cd26a061e54f6f947cd060a5c87212d4e86
+# 
+# - name: Linux Mint XX.X Cinnamon
+#   size: 2.8GB
+#   link: https://mint.c3sl.ufpr.br/stable/
+#   filename: linuxmint-22.1-cinnamon-64bit.iso
+#   sha256: ccf482436df954c0ad6d41123a49fde79352ca71f7a684a97d5e0a0c39d7f39f
+# 
+# - name: EndeavourOS Mercury Neo XXXX.XX.XX
+#   size: 2.9GB
+#   link: https://mirror.leitecastro.com/endeavouros/iso/
+#   filename: EndeavourOS_Mercury-Neo-2025.03.19.iso
+#   sha256: 79719b8de4c517edb54c8380cd65e4bae470eec701235fa718157c199c29ebba
+# 
+# - name: Debian XX.XX.X
+#   size: 3.7GB
+#   link: https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/
+#   filename: debian-12.10.0-amd64-DVD-1.iso
+#   sha256: eb5034ff88a20c176066a670268f22e3f681117189c03bdae964566995652181
+# 
+# - name: PopOS XX.XX
+#   size: 2.6GB
+#   link: https://iso.pop-os.org/
+#   filename: pop-os_22.04_amd64_intel_51.iso
+#   sha256: 5621e7544a00c1e358d667ce36eb5ae0741fe63431c92cf68c17ff66630b5ded
+# 
+# - name: Arch Linux XXXX.XX.XX
+#   size: 1.2GB
+#   link: https://mirror.ufscar.br/archlinux/iso/
+#   filename: archlinux-2025.03.01-x86_64.iso
+#   sha256: 8150e3c1a479de9134baa13cea4ff78856cca5ebeb9bdfa87ecfce2e47ac9b5b
+# 
+# - name: Alpine Linux X.XX.X
+#   size: 0.25GB
+#   link: https://dl-cdn.alpinelinux.org/alpine/
+#   filename: alpine-standard-3.21.3-x86_64.iso
+#   sha256: e5a5b9f57e9c258b69f9e3eecf10a169f7186cb1520c14fc955115099bea2a50
+# 
+# - name: Chimera Linux XX.X
+#   size: 2.1GB
+#   link: https://repo.chimera-linux.org/live/
+#   filename: chimera-linux-x86_64-LIVE-20250214-plasma.iso
+#   sha256: 1d1e966e8ec4387edbafcb60a31394630b541ed484567c8eaf681576976a89bc
+# 
+# - name: Ubuntu XX.XX
+#   size: 5.3GB
+#   link: https://releases.ubuntu.com/
+#   filename: ubuntu-24.10-desktop-amd64.iso
+#   sha256: 489079483487f92ad0d2f3d4b6c88a7b197969eb286b277534047920854a8b03
