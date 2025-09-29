@@ -18,6 +18,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                 | Voluntárie(s)    |
 |---------------------|-------------------------|------------------|
+| 20/10/2025          |  15:00 ~ 17:00          |  Luana           |
 | Mais datas em breve!|                         |                  |
 
 

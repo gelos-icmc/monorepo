@@ -57,6 +57,7 @@ in {
         "=/installfest-6".return = "301 https://gelos.club/2025/03/25/installfest-2025-1.html";
         "=/if6".return = "301 https://gelos.club/2025/03/25/installfest-2025-1.html";
         "~* ^/AulaShell2025$".return = "301 https://gelos.club/2025/03/24/aula-shell.html";
+        "=/if7".return = "301 https://gelos.club/2025/09/25/installfest-2025-2.html";
       };
     };
     "gelos.icmc.usp.br" = {
