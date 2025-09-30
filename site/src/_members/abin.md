@@ -3,7 +3,7 @@ title: Gus Sergay
 description: 🦦🦦🦦
 site: joaoser.gay
 email: gustavobloisrr@usp.br
-telegram: @AtomHeartOtter
+telegram: AtomHeartOtter
 role: "active"
 nusp: 13688162
 ---
