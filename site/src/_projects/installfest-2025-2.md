@@ -85,32 +85,34 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 - [x] Arrumar permalink /if7 para pag no blog
 - [ ] Divulgar nas listas
     - IFSC
-      - [ ] Solicitar
+      - [x] Solicitar
       - [ ] Done
     - ICMC
-      - [ ] Solicitar
+      - [x] Solicitar
       - [ ] Done
     - IQSC
-      - [ ] Solicitar
+      - [x] Solicitar
       - [ ] Done
     - EESC
-      - [ ] Solicitar
+      - [x] Solicitar
       - [ ] Done
     - IAU
-      - [ ] Solicitar
+      - [x] Solicitar
       - [ ] Done
 - [ ] Divulgar nos grupos
-    - [ ] IFSC
-    - [ ] ICMC
+    - [x] IFSC
+    - [x] ICMC
     - [ ] EESC
     - [ ] IAU
     - [ ] IQSC
+    - [x] Outros grupos
 - [ ] Divulgar nas redes sociais
-    - [ ] Fediverso
+    - [x] Fediverso
     - [ ] Outras
-- [ ] Divulgações Extras
-    - [ ] EndOf10
-    - [ ] mapeamento.softwarelivre.tec.br
+- [x] Divulgações Extras
+    - [x] [EndOf10](https://endof10.org/events/)
+    - [x] Atualizar [mapeamento.softwarelivre.tec.br installfest](https://mapeamento.softwarelivre.tec.br/locais/gelos-linux-installfest/)
+    - [x] [movimento.softwarelivre.tec.br](https://movimento.softwarelivre.tec.br/eventos/)
 - [ ] ISOs
     - [ ] Atualizar tabela com links e checksums atuais
     - [ ] Mirror das isos do openSUSE
