@@ -2,10 +2,10 @@
 title: Paulo "thotypous" Matias
 email: matias@ufscar.br
 links:
-  Site: https://matias.co.in
-  Mastodon: https://nso.group/@thotypous
-  GitHub: https://github.com/thotypous
-  Twitch: https://twitch.tv/thotypous
+  Site: matias.co.in
+  Mastodon: nso.group/@thotypous
+  GitHub: github.com/thotypous
+  Twitch: twitch.tv/thotypous
 role: active
 draft: false
 nusp: 5626309
