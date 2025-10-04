@@ -89,6 +89,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 23/09/2025          |   14:50 ~ 15:20          | 1 (openSUSE tw inst)  | Luana e Furry |
 | 10/09/2025          |   14:20 ~ 18:20          | 1 (nixos binary cache) | Luana e Gabs |
 | 27/08/2025          |   15:00 ~ 17:20          | 2 (inst debian, db tumbleweed+w10)| Luana, Grilo |
 | 18/08/2025          |   15:00 ~ 19:30          | 1 (instalar Mint)   | Luana, Gabs e Abin |
