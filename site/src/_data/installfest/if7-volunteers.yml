@@ -24,3 +24,11 @@
     - descricao: Sandisk vermelho e preto
       tamanho: 64GB
       isos: Todas
+
+- nome: Silmar
+  email: silmar.junior@usp.br
+  horarios: 16:00 ~ 19:00
+  pendrives:
+    - descricao: Sandisk vermelho e preto
+      tamanha: 32GB
+      isos: Fedora, OpenSUSE, Nix, Mint, Endeavor, PopOS, Arch, Ubuntu
