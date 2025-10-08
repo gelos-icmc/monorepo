@@ -20,7 +20,7 @@ Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
 - Adicione seu nome (e pendrives) [na lista](https://github.com/gelos-icmc/monorepo/blob/main/site/src/_data/installfest/if7-volunteers.yml).
     - Isso atualizará as planilhas abaixo automaticamente.
     - Caso você tenha dificuldade com git, basta pedir no [telegram](https://telegram.gelos.club) que alguém faça por você.
-- Lembre de pedir que a pessoa preencha o [formulário de instalação](https://cryptpad.fr/form/#/2/form/view/v1J3EUGmt-HAiwcnM1Z2uRVW9FwT9YQw8gw+4x19Oiw/). Utilizamos isso para nos isentar de possíveis problemas, coletar contatos, e também ter um censo de quantas instalações foram feitas.
+- Lembre de pedir que a pessoa preencha o [formulário de instalação](https://cryptpad.fr/form/#/2/form/view/LF+2HH4f+VxOdbzd0cjH3YuUIF+VDAjc9E0ewlZPSUI/). Utilizamos isso para nos isentar de possíveis problemas, coletar contatos, e também ter um censo de quantas instalações foram feitas.
   - É de EXTREMA importância que TODOS preencham o formulário, tanto para termos um balanço de nosso alcance quanto para coletarmos o termo de consentimento e nos isentarmos de possíveis problemas.
   - Caso algum instalador sinta dificuldade em fazer as pessoas preencherem o formulário digital ele pode fazer uma tabelinha própria em papel para a pessoa preencher, mas lembre de imprimir o termo de consentimento e de adicionar na tabela em papel uma coluna para a aceitação dele.
     - Nesse caso, o instalador se compromete a passar os dados para a tabela digital ao fim da installfest, mas guardando também o papel (já que ele é a “via original” do termo nesse caso).
@@ -99,7 +99,7 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - IAU
       - [x] Solicitar
       - [ ] Done
-- [x] Divulgar nos grupos (1a vez, mas bom ir relembrando varias vezes!)
+- [x] Divulgar nos grupos (1a vez, mas bom ir relembrando várias vezes!)
     - [x] IFSC
     - [x] ICMC
     - [x] EESC
@@ -113,14 +113,14 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [x] [EndOf10](https://endof10.org/events/)
     - [x] Atualizar [mapeamento.softwarelivre.tec.br installfest](https://mapeamento.softwarelivre.tec.br/locais/gelos-linux-installfest/)
     - [x] [movimento.softwarelivre.tec.br](https://movimento.softwarelivre.tec.br/eventos/)
-- [ ] ISOs
-    - [ ] Atualizar tabela com links e checksums atuais
-    - [ ] Mirror das isos do openSUSE
-    - [ ] Criar arquivo com checksums
+- [x] ISOs
+    - [x] Atualizar tabela com links e checksums atuais
+    - [x] Mirror das isos do openSUSE
+    - [x] Criar arquivo com checksums
 - [ ] Levantar pessoas
     - [ ] Preencher tabela de voluntários
     - [ ] Preencher tabela de pendrives
-- [ ] Formulário de instalação (cryptpad/nextcloud/similar)
+- [x] [Formulário de instalação (cryptpad/nextcloud/similar)](https://cryptpad.fr/form/#/2/form/view/LF+2HH4f+VxOdbzd0cjH3YuUIF+VDAjc9E0ewlZPSUI/)
 - [ ] Coffee break
     - [ ] Vaquinha
     - [ ] Salgados
