@@ -17,3 +17,10 @@
       tamanho: 256GB
       isos: Todas
 
+- nome: Clara
+  email: clr@capivara.cafe
+  horarios: 14:00 ~ 16:00
+  pendrives:
+    - descricao: Sandisk vermelho e preto
+      tamanho: 64GB
+      isos: Todas
