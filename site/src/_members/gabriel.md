@@ -7,6 +7,7 @@ links:
     GitHub: github.com/misterio77
 nusp: 10856803
 role: "active"
+always_gay: true
 gay_colors:
     - "#D60270"
     - "#D60270"
