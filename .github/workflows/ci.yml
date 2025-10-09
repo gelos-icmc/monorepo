@@ -28,7 +28,7 @@ jobs:
           set -euo pipefail
           matrix="$(nix run .#github-eval-checks)"
           echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
-          echo "$matrix" | jq -r '.include | map(.drvPath)[]' | cachix push gelos-icmc --omit-deriver
+          cachix push gelos-icmc --omit-deriver "$(echo "$matrix" | jq -r '.include | map(.drvPath)[]' | xargs)"
 
   nix-build:
     name: ${{ matrix.name }} (${{ matrix.system }})
