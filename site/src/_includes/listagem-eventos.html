@@ -1,7 +1,7 @@
 <article class="listing" id="{{ item.slug }}">
   <header>
     <{{ include.element | default: "h2" }}>
-      <a href="{% if item.wiki %}{{ item.wiki | relative_url }}{% elsif item.blog %}{{ item.blog | relative_url }}{% endif %}">{{ item.title }}</a>
+      <a href="{% if item.blog %}{{ item.blog | relative_url }}{% endif %}">{{ item.title }}</a>
     </{{ include.element | default: "h2"  }}>
     <p>
 
@@ -11,10 +11,6 @@
 
       {% if item.location %}
         Local: {{ item.location }}<br>
-      {% endif %}
-
-      {% if item.wiki %}
-        <a href="{{ item.wiki | relative_url }}">Página na Wiki</a><br>
       {% endif %}
 
       {% if item.blog %}

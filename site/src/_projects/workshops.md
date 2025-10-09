@@ -9,7 +9,7 @@ O GELOS realiza alguns minicursos e workshops ao longo do ano, tendo como objeti
 
 Exemplos de minicursos realizados ou planejados incluem Git, Nix, Shell Scripting, Self Hosting e muito mais.
 
-Após a realização de um workshop, sempre que fizer sentido manteremos uma página na [Wiki do GELOS](/wiki) sobre o assunto, incluindo o que foi usado na aula, informações extras e a mantendo atualizada com novas informações que surjam no futuro.
+Após a realização de um workshop, sempre que fizer sentido manteremos uma página sobre o assunto, incluindo o que foi usado na aula, informações extras e a mantendo atualizada com novas informações que surjam no futuro.
 
 ### Lista de Workshops e Minicursos
 
