@@ -28,7 +28,7 @@ jobs:
   nix-build:
     name: ${{ matrix.name }} (${{ matrix.system }})
     needs: nix-matrix
-    if: ${{ matrix.isCached }} != 'true'
+    if: matrix.isCached != 'true'
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false # Give me all the errors.
