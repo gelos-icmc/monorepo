@@ -52,7 +52,13 @@ jobs:
         with:
           name: gelos-icmc
           authToken: '${{ secrets.CACHIX_KEY }}'
-      - run: nix build -L '.#${{ matrix.attr }}'
+      - name: Build
+        run: |
+          if curl "https://gelos-icmc.cachix.org/$(nix eval --raw '.#${{ matrix.attr }}.outPath' | cut -d / -f4 | cut -d - -f1).narinfo"; then
+            echo "Package is already cached, skipping"
+          else
+            nix build -L '.#${{ matrix.attr }}'
+          fi
 
   required: # group all required workflows into one to avoid reconfiguring this in Actions settings
     needs:
