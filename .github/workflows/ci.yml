@@ -11,17 +11,18 @@ on:
   pull_request:
   merge_group:
 jobs:
+  # Pula a CI se ela já rodou em algo com o exato mesmo conteúdo
   skip-check:
     runs-on: ubuntu-latest
     outputs:
-      should_skip: ${{ steps.skip-check.outputs.should_skip }}
+      skip: ${{ steps.skip-check.outputs.skip-check }}
     steps:
-      - uses: fkirc/skip-duplicate-actions@f75f66ce1886f00957d99748a42c724f4330bdcf # v5.3.1
+      - uses: cariad-tech/merge-queue-ci-skipper@1032489e59437862c90a08a2c92809c903883772
         id: skip-check
 
   nix-matrix:
     needs: skip-check
-    if: needs.skip-check.outputs.should_skip != 'true'
+    if: needs.skip-check.outputs.skip != 'true'
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
