@@ -3,6 +3,7 @@ on:
   push:
     branches: [ "**" ]
   pull_request:
+  merge_group:
 jobs:
   nix-matrix:
     runs-on: ubuntu-latest
