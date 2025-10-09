@@ -31,8 +31,6 @@
 
   # Flakes
   nix = {
-    # Adicionar flake inputs no registry
-    registry = builtins.mapAttrs (_name: value: {flake = value;}) inputs;
     extraOptions = "experimental-features = nix-command flakes";
     gc = {
       automatic = lib.mkDefault true;
