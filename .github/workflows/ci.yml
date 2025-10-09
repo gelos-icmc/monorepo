@@ -22,7 +22,7 @@ jobs:
         name: Generate Nix Matrix
         run: |
           set -euo pipefail
-          matrix="$(./.github/eval-jobs.py)"
+          matrix="$(nix run .#github-eval-checks)"
           echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
 
   nix-build:
