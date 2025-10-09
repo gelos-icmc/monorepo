@@ -28,7 +28,6 @@ jobs:
           set -euo pipefail
           matrix="$(nix run .#github-eval-checks)"
           echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
-          cachix push gelos-icmc --omit-deriver $(echo "$matrix" | jq -r '.include | map(.drvPath)[]' | xargs)
 
   nix-build:
     name: ${{ matrix.name }} (${{ matrix.system }})
@@ -52,7 +51,7 @@ jobs:
           authToken: '${{ secrets.CACHIX_KEY }}'
       - name: Build
         if: matrix.isCached != 'true'
-        run: nix build -L '${{ matrix.drvPath }}^out'
+        run: nix build -L '.#${{ matrix.attr }}'
 
   required: # group all required workflows into one to avoid reconfiguring this in Actions settings
     needs:
