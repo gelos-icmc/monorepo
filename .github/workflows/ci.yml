@@ -54,7 +54,7 @@ jobs:
           authToken: '${{ secrets.CACHIX_KEY }}'
       - name: Build
         run: |
-          if curl "https://gelos-icmc.cachix.org/$(nix eval --raw '.#${{ matrix.attr }}.outPath' | cut -d / -f4 | cut -d - -f1).narinfo"; then
+          if curl --fail "https://gelos-icmc.cachix.org/$(nix eval --raw '.#${{ matrix.attr }}.outPath' | cut -d / -f4 | cut -d - -f1).narinfo"; then
             echo "Package is already cached, skipping"
           else
             nix build -L '.#${{ matrix.attr }}'
