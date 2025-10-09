@@ -13,10 +13,6 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
     systems.url = "github:nix-systems/default";
-    nix-github-actions = {
-      url = "github:nix-community/nix-github-actions";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
 
     hardware.url = "github:nixos/nixos-hardware";
     nix-flatpak.url = "github:gmodena/nix-flatpak";
@@ -49,7 +45,6 @@
     nixpkgs,
     systems,
     deploy-rs,
-    nix-github-actions,
     ...
   } @ inputs: let
     inherit (self) outputs;
@@ -142,7 +137,5 @@
           (mapAttrs (_: x: x.config.system.build.toplevel)
             (filterAttrs (_: x: x.pkgs.system == pkgs.system) self.nixosConfigurations)))
     );
-
-    githubActions = nix-github-actions.lib.mkGithubMatrix {inherit (self) checks;};
   };
 }
