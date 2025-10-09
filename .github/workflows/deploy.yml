@@ -1,3 +1,9 @@
+# Action Deploy
+# Roda `apps.deploy` para cada host em paralelo
+# 
+# Você pode executar isso localmente usando `nix run .#deploy`
+# (Requer uma chave SSH autorizada nos hosts)
+
 name: "Deploy"
 on:
   push:

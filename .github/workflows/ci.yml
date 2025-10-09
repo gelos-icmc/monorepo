@@ -1,3 +1,8 @@
+# Action CI
+# Roda todos os `checks` do flake em paralelo
+# 
+# Você pode rodar eles localmente usando `nix flake check .`
+
 name: "CI"
 on:
   push:
