@@ -11,7 +11,18 @@ on:
   pull_request:
   merge_group:
 jobs:
+  # Pula a CI do merge queue se for idêntica a uma CI de PR já executada
+  skip-check:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.skip-check.outputs.skip-check }}
+    steps:
+      - uses: cariad-tech/merge-queue-ci-skipper@1032489e59437862c90a08a2c92809c903883772
+        id: skip-check
+
   nix-matrix:
+    needs: skip-check
+    if: needs.skip-check.outputs.skip != 'true'
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
@@ -28,6 +39,7 @@ jobs:
           set -euo pipefail
           matrix="$(nix run .#github-eval-checks)"
           echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
+          echo "$matrix" | jq
 
   nix-build:
     name: ${{ matrix.name }} (${{ matrix.system }})
@@ -39,18 +51,18 @@ jobs:
     steps:
       # If has to be specified in steps instead of job (https://github.com/actions/runner/issues/1985)
       - uses: actions/checkout@v3
-        if: matrix.isCached != 'true'
+        if: matrix.isCached != true
       - uses: wimpysworld/nothing-but-nix@bfeb418c0047173b701321078aca83b342e77ec2
-        if: matrix.isCached != 'true'
+        if: matrix.isCached != true
       - uses: cachix/install-nix-action@v31
-        if: matrix.isCached != 'true'
+        if: matrix.isCached != true
       - uses: cachix/cachix-action@v14
-        if: matrix.isCached != 'true'
+        if: matrix.isCached != true
         with:
           name: gelos-icmc
           authToken: '${{ secrets.CACHIX_KEY }}'
       - name: Build
-        if: matrix.isCached != 'true'
+        if: matrix.isCached != true
         run: nix build -L '.#${{ matrix.attr }}'
 
   required: # group all required workflows into one to avoid reconfiguring this in Actions settings
