@@ -1,8 +1,10 @@
 ---
 title: Open Source Shows
-author: guip
+authors: 
+  - Luana
+  - guip
 lang: pt-BR
-state: permanent
+state: wip
 ---
 
 O Open Source Show é um projeto que visa abrir um espaço para que todes -- incluindo não membres do grupo -- possam realizar
@@ -12,6 +14,8 @@ Podem ser feitos apresentações demonstrando alguma ferramenta FLOSS que você 
 apresentação mais teórica falando sobre os princípios da Cultura Livre, o *Copy Left*, etc...
 
 Basta ter criatividade!
+
+Novos Open Source Shows serão organizados em breve, incluindo um sobre o Fediverso. Fiquem ligados!
 
 ### Alguns dos Open Source Shows Passados
 
