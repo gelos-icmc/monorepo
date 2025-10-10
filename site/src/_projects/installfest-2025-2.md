@@ -83,13 +83,13 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [ ] Colar
 - [x] Fazer permalink /if7 para pag no blog
 - [x] Arrumar permalink /if7 para pag no blog
-- [ ] Divulgar nas listas
+- [x] Divulgar nas listas
     - IFSC
       - [x] Solicitar
       - [x] Done
     - ICMC
       - [x] Solicitar
-      - [ ] Done
+      - [x] Done
     - IQSC
       - [x] Solicitar
       - [ ] Done
@@ -106,8 +106,9 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [ ] IAU
     - [ ] IQSC
     - [x] Outros grupos
-- [ ] Divulgar nas redes sociais
+- [x] Divulgar nas redes sociais
     - [x] Fediverso
+    - [x] Instagram 🤢
     - [ ] Outras
 - [x] Divulgações Extras
     - [x] [EndOf10](https://endof10.org/events/)
