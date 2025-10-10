@@ -56,8 +56,13 @@ jobs:
         if: matrix.isCached != true
         with:
           nix-permission-edict: true
+          hatchet-protocol: carve
       - uses: nixbuild/nix-quick-install-action@v30
         if: matrix.isCached != true
+      - uses: nix-community/cache-nix-action@v6
+        if: matrix.isCached != true
+        with:
+          primary-key: nix-build-${{ matrix.name }}-${{ matrix.system }}
       - uses: cachix/cachix-action@v14
         if: matrix.isCached != true
         with:

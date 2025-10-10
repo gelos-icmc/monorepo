@@ -32,4 +32,4 @@ Alguns interesses: software livre (duh), ciência aberta, cultura livre,
 governança, reprodutibilidade, práticas de desenvolvimento, DevOps, arquitetura
 de software, empacotamento, programação funcional, infraestrutura declarativa.
 
-Pai de 5 pets e um doggo, nerdola de sci-fi, aspirante a emo.
+Pai de 4 pets e 1 doggo, nerdola de sci-fi, aspirante a emo!
