@@ -17,7 +17,10 @@ jobs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - uses: actions/checkout@v3
-      - uses: cachix/install-nix-action@v31
+      - uses: nixbuild/nix-quick-install-action@v30
+      - uses: nix-community/cache-nix-action@v6
+        with:
+          primary-key: nix-matrix-deploy
       - id: set-matrix
         name: Generate Nix Matrix
         run: |
@@ -39,7 +42,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: wimpysworld/nothing-but-nix@bfeb418c0047173b701321078aca83b342e77ec2
-      - uses: cachix/install-nix-action@v31
+        with:
+          nix-permission-edict: true
+      - uses: nixbuild/nix-quick-install-action@v30
       - uses: cachix/cachix-action@v14
         with:
           name: gelos-icmc

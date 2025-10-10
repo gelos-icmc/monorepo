@@ -28,15 +28,15 @@ jobs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - uses: actions/checkout@v3
-      - uses: cachix/install-nix-action@v31
-      - uses: cachix/cachix-action@v14
+      - uses: nixbuild/nix-quick-install-action@v30
+      - uses: nix-community/cache-nix-action@v6
         with:
-          name: gelos-icmc
-          authToken: '${{ secrets.CACHIX_KEY }}'
+          primary-key: nix-matrix-ci
       - id: set-matrix
         name: Generate Nix Matrix
         run: |
           set -euo pipefail
+          sleep 1
           matrix="$(nix run .#github-eval-checks)"
           echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
           echo "$matrix" | jq
@@ -54,7 +54,9 @@ jobs:
         if: matrix.isCached != true
       - uses: wimpysworld/nothing-but-nix@bfeb418c0047173b701321078aca83b342e77ec2
         if: matrix.isCached != true
-      - uses: cachix/install-nix-action@v31
+        with:
+          nix-permission-edict: true
+      - uses: nixbuild/nix-quick-install-action@v30
         if: matrix.isCached != true
       - uses: cachix/cachix-action@v14
         if: matrix.isCached != true
