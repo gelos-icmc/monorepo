@@ -46,6 +46,10 @@ collections:
     permalink: /membros/:title/
     name: Membros
 
+# Permite criação de table of contents na Wiki
+kramdown:
+  parse_block_html: true # Quebra listagem da pag de blog, meetings e minicursos.
+
 defaults:
   -
     scope:

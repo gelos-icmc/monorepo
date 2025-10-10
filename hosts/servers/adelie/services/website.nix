@@ -47,7 +47,7 @@ in {
         "=/pobremas".return = "301 https://gelos.club/projetos/plantao.html#problemas-recorrentes";
         "=/plantoes".return = "301 https://gelos.club/projetos/plantao.html";
         "=/plantao".return = "301 https://gelos.club/projetos/plantao.html";
-        "=/fedi".return = "301 https://gelos.club/2024/08/20/fedi.html";
+        "=/fedi".return = "301 https://gelos.club/wiki/fedi.html";
         # Eventos
         "=/debian-day".return = "301 https://gelos.club/2023/08/02/debian-day.html";
         "=/installfest-4".return = "301 https://gelos.club/2023/08/21/installfest-2023-2.html";

@@ -15,7 +15,7 @@ apresentação mais teórica falando sobre os princípios da Cultura Livre, o *C
 
 Basta ter criatividade!
 
-Novos Open Source Shows serão organizados em breve, incluindo um sobre o Fediverso. Fiquem ligados!
+Novos Open Source Shows serão organizados em breve, incluindo um sobre o [Fediverso](/wiki/fedi.html). Fiquem ligados!
 
 ### Alguns dos Open Source Shows Passados
 
