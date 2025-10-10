@@ -18,6 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: nixbuild/nix-quick-install-action@v30
+      - uses: nix-community/cache-nix-action@v6
+        with:
+          primary-key: nix-matrix-deploy
       - id: set-matrix
         name: Generate Nix Matrix
         run: |

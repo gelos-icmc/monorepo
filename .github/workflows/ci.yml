@@ -29,14 +29,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: nixbuild/nix-quick-install-action@v30
-      - uses: cachix/cachix-action@v14
+      - uses: nix-community/cache-nix-action@v6
         with:
-          name: gelos-icmc
-          authToken: '${{ secrets.CACHIX_KEY }}'
+          primary-key: nix-matrix-ci
       - id: set-matrix
         name: Generate Nix Matrix
         run: |
           set -euo pipefail
+          sleep 1
           matrix="$(nix run .#github-eval-checks)"
           echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
           echo "$matrix" | jq
