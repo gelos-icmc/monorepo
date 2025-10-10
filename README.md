@@ -115,3 +115,4 @@ Exemplo de histórico (ligeiramente fictício):
 │ ◆  feat(site/reports/salinha): init
 ├─╯
 ```
+

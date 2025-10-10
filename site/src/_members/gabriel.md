@@ -2,7 +2,7 @@
 title: Gabriel Fontes
 email: g.fontes@usp.br
 links:
-    Site: m7.rs
+    Site: gsfontes.com
     Mastodon: fosstodon.org/@misterio
     GitHub: github.com/misterio77
 nusp: 10856803
@@ -22,7 +22,7 @@ Co-fundador e um dos atuais coordenadores do GELOS.
 
 Bacharel em [Sistemas de
 Informação](https://www.icmc.usp.br/graduacao/sistemas-de-informacao-bacharelado)
-pelo [ICMC/USP](https://icmc.usp.br), atualmente estudante de Mestrado em
+pelo [ICMC/USP](https://icmc.usp.br), atualmente Mestrando em
 [Ciências de Computação e Matemática
 Computacional](https://www.icmc.usp.br/pos-graduacao/ppgccmc) (também pelo
 ICMC), parte do [Laboratório de Engenharia de Software
