@@ -106,8 +106,9 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [ ] IAU
     - [ ] IQSC
     - [x] Outros grupos
-- [ ] Divulgar nas redes sociais
+- [x] Divulgar nas redes sociais
     - [x] Fediverso
+    - [x] Instagram 🤢
     - [ ] Outras
 - [x] Divulgações Extras
     - [x] [EndOf10](https://endof10.org/events/)
