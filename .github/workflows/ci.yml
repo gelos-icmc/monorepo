@@ -1,5 +1,5 @@
 # Action CI
-# Roda todos os `checks` do flake em paralelo
+# Roda todos os `checks` do flake
 # 
 # Você pode rodar eles localmente usando `nix flake check .`
 
@@ -20,55 +20,37 @@ jobs:
       - uses: cariad-tech/merge-queue-ci-skipper@1032489e59437862c90a08a2c92809c903883772
         id: skip-check
 
-  nix-matrix:
+  flake-check:
     needs: skip-check
     if: needs.skip-check.outputs.skip != 'true'
-    runs-on: ubuntu-latest
-    outputs:
-      matrix: ${{ steps.set-matrix.outputs.matrix }}
-    steps:
-      - uses: actions/checkout@v3
-      - uses: cachix/install-nix-action@v31
-      - uses: cachix/cachix-action@v14
-        with:
-          name: gelos-icmc
-          authToken: '${{ secrets.CACHIX_KEY }}'
-      - id: set-matrix
-        name: Generate Nix Matrix
-        run: |
-          set -euo pipefail
-          matrix="$(nix run .#github-eval-checks)"
-          echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
-          echo "$matrix" | jq
-
-  nix-build:
-    name: ${{ matrix.name }} (${{ matrix.system }})
-    needs: nix-matrix
-    runs-on: ${{ matrix.os }}
     strategy:
-      fail-fast: false # Give me all the errors.
-      matrix: ${{fromJSON(needs.nix-matrix.outputs.matrix)}}
+      fail-fast: false
+      matrix:
+        platform:
+          - system: x86_64-linux
+            runner: ubuntu-24.04
+          - system: aarch64-linux
+            runner: ubuntu-24.04-arm
+    name: flake-check (${{ matrix.platform.system }})
+    runs-on: ${{ matrix.platform.runner }}
     steps:
-      # If has to be specified in steps instead of job (https://github.com/actions/runner/issues/1985)
       - uses: actions/checkout@v3
-        if: matrix.isCached != true
       - uses: wimpysworld/nothing-but-nix@bfeb418c0047173b701321078aca83b342e77ec2
-        if: matrix.isCached != true
-      - uses: cachix/install-nix-action@v31
-        if: matrix.isCached != true
+        with:
+          nix-permission-edict: true
+      - uses: nixbuild/nix-quick-install-action@v30
+      - uses: nix-community/cache-nix-action@v6
+        with:
+          primary-key: ${{ matrix.platform.system }}
       - uses: cachix/cachix-action@v14
-        if: matrix.isCached != true
         with:
           name: gelos-icmc
           authToken: '${{ secrets.CACHIX_KEY }}'
-      - name: Build
-        if: matrix.isCached != true
-        run: nix build -L '.#${{ matrix.attr }}'
+      - run: nix flake check
 
   required: # group all required workflows into one to avoid reconfiguring this in Actions settings
     needs:
-      - nix-matrix
-      - nix-build
+      - flake-check
     if: ${{ always() && !contains(needs.*.result, 'cancelled') }}
     runs-on: ubuntu-latest
     steps:
