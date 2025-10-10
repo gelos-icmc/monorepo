@@ -28,6 +28,7 @@ jobs:
           set -euo pipefail
           matrix="$(nix run .#github-eval-checks)"
           echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
+          echo "$matrix" | jq
 
   nix-build:
     name: ${{ matrix.name }} (${{ matrix.system }})
