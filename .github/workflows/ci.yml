@@ -11,7 +11,18 @@ on:
   pull_request:
   merge_group:
 jobs:
+  # Pula a CI do merge queue se for idêntica a uma CI de PR já executada
+  skip-check:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.skip-check.outputs.skip-check }}
+    steps:
+      - uses: cariad-tech/merge-queue-ci-skipper@1032489e59437862c90a08a2c92809c903883772
+        id: skip-check
+
   nix-matrix:
+    needs: skip-check
+    if: needs.skip-check.outputs.skip != 'true'
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
