@@ -114,6 +114,7 @@
     pkgs.git
     pkgs.kdePackages.kate
     pkgs.neovim
+    pkgs.ripgrep
   ];
 
   # Flatpaks
