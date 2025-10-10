@@ -85,15 +85,15 @@ figure {
 
   font-size: 1.4em;
   @media (min-width: 950px) {
-    font-size: 1.5em;
+    font-size: 1.1em;
   }
   @media (min-width: 1400px) {
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
 
   .title {
     margin-top: 1.5em;
-    max-width: 15em;
+    max-width: 20em;
     svg {
       font-size: 1.8em;
     }
@@ -101,8 +101,23 @@ figure {
   }
 
   nav {
-    max-width: 15em;
+    max-width: 20em;
+    margin-bottom: 0.1em;
+  }
+
+  nav.external {
     margin-bottom: 1em;
+  }
+
+  // Caixa de novidades
+  .news-box {
+    background-color: var(--color-news-bg);
+    font-size: 0.7em;
+    padding: 0.5em;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 28em;
+    margin-bottom: 1em; 
   }
 
   footer {
