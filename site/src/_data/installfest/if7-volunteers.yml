@@ -7,7 +7,7 @@
       isos: openSUSE Tumbleweed
     - descricao: SanDisk USB3.0 preto c/ chaveiro GELOS
       tamanho: 64GB
-      isos: Todas (+ extras)
+      isos: Todas (menos Fedora Gnome)
 
 - nome: Gabs
   email: g.fontes@usp.br
