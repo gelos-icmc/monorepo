@@ -88,8 +88,8 @@
   filename: chimera-linux-x86_64-LIVE-20250420-plasma.iso
   sha256: 0359222c467319a3b93bc4044778aebe42ff40c91fbda57aa803bc5c0246107c
 
-- name: Ubuntu 25.04
+- name: Ubuntu 25.10
   size: 5.8GB
-  link: https://releases.ubuntu.com/plucky/ubuntu-25.04-desktop-amd64.iso
-  filename: ubuntu-25.04-desktop-amd64.iso
-  sha256: b87366b62eddfbecb60e681ba83299c61884a0d97569abe797695c8861f5dea4
+  link: https://releases.ubuntu.com/25.10/ubuntu-25.10-desktop-amd64.iso
+  filename: ubuntu-25.10-desktop-amd64.iso
+  sha256: 32e30d72ae4798c633323a2684d94a11582bb03a6ab38d2b0d5ae5eabc5e577b
