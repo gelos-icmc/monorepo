@@ -77,10 +77,10 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 - [x] Reservar espaço
 - [x] Post de divulgação
     - [x] Conferir data pra postar (jekyll n posta post com data futura)
-- [ ] Flyer
+- [x] Flyer
     - [x] Preparar
-    - [ ] Imprimir
-    - [ ] Colar
+    - [x] Imprimir
+    - [x] Colar
 - [ ] Pegar posters CCEx
 - [x] Fazer permalink /if7 para pag no blog
 - [x] Arrumar permalink /if7 para pag no blog
