@@ -81,6 +81,7 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [x] Preparar
     - [ ] Imprimir
     - [ ] Colar
+- [ ] Pegar posters CCEx
 - [x] Fazer permalink /if7 para pag no blog
 - [x] Arrumar permalink /if7 para pag no blog
 - [x] Divulgar nas listas
@@ -132,6 +133,7 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 ### Pós evento
 
 - [ ] Levantar números
+- [ ] Devolver posters CCEx
 
 ## Data e Local
 
