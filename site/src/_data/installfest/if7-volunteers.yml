@@ -32,3 +32,12 @@
     - descricao: Sandisk vermelho e preto
       tamanha: 32GB
       isos: Fedora, OpenSUSE, Nix, Mint, Endeavor, PopOS, Arch, Ubuntu
+
+- nome: Furry
+  email: mbrla@usp.br
+  horarios: 14:00 ~ 19:00
+  pendrives:
+    - descricao: SanDisk vermelho e preto (Pisca roxo)
+      tamanho: 32GB
+      isos: Todas x86_64 (Menos Ubuntu e Chimera)
+
