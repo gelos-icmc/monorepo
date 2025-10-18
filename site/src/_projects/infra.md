@@ -1,7 +1,6 @@
 ---
 title: Infraestrutura
 author: Gabriel
-lang: pt-BR
 state: permanent
 ---
 

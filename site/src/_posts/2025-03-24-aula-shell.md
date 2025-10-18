@@ -3,7 +3,6 @@ title: Aula de Shell Scripting e Terminal
 authors:
     - Furry
     - Luana
-lang: pt-BR
 ---
 
 O GELOS convida todos para a nossa próxima aula sobre Shell Scripting e Terminal. Se você deseja aprimorar suas habilidades no uso do terminal e aprender a automatizar tarefas com scripts, esta é a oportunidade perfeita!

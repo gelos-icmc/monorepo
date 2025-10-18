@@ -1,7 +1,6 @@
 ---
 title: Workshops e Minicursos
 author: Vinicius
-lang: pt-BR
 state: permanent
 ---
 

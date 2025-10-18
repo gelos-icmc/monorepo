@@ -14,7 +14,6 @@ former:
     - Charles
     - Deandreson
     - Julio
-lang: pt-BR
 state: permanent
 ---
 

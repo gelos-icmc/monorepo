@@ -102,3 +102,4 @@ defaults:
       path: ""
     values:
       layout: default
+      lang: pt-BR

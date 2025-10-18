@@ -1,7 +1,6 @@
 ---
 title: Disciplina de Seminários
 author: TBD
-lang: pt-BR
 state: wip
 ---
 

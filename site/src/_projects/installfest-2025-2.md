@@ -2,7 +2,6 @@
 title: Installfest 2025/2
 authors:
     - Luana
-lang: pt-BR
 state: in_progress
 ---
 

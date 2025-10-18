@@ -3,7 +3,6 @@ title: Installfest 2024/1
 authors:
     - Gabriel
     - Charles
-lang: pt-BR
 state: finished
 ---
 

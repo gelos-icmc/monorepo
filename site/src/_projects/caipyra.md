@@ -1,6 +1,5 @@
 ---
 title: Caipyra 2026
-lang: pt-BR
 state: wip
 author: Gabriel
 ---

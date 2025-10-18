@@ -3,7 +3,6 @@ title: Installfest 2025/1
 authors:
     - Luana
     - Gabriel
-lang: pt-BR
 state: finished
 ---
 
