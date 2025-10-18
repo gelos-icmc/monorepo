@@ -1,6 +1,6 @@
 ---
 title: Open Source Shows
-authors: 
+authors:
   - Luana
   - guip
 state: wip

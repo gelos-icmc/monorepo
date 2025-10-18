@@ -18,4 +18,4 @@ do Gugu e 2 soletrando~~ (fiuuuu...)
 
 Atualmente finalizando o curso de Ciência da Computação no ICMC-USP ~~na força
 do ódio~~, trabalho na Petlove como Engenheiro de Dados e tenho interesse pelas
-áreas de Sistemas Distribuídos, Software Livre, Cloud Computing e DevOps. 
+áreas de Sistemas Distribuídos, Software Livre, Cloud Computing e DevOps.

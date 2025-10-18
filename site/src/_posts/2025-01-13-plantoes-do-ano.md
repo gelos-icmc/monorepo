@@ -17,7 +17,7 @@ Podemos extrair desse semestre diversas reflexões, mas, pessoalmente, acredito 
 
 Acredito que nós, membros do GELOS, temos um papel social importante: melhorar a relação das pessoas com a tecnologia por meio da filosofia Livre e Open Source.
 
-Liberdade e privacidade são direitos humanos de todos, não somente de quem tem conhecimento técnico em computação.  
+Liberdade e privacidade são direitos humanos de todos, não somente de quem tem conhecimento técnico em computação. \
 É nosso dever usar nosso conhecimento para libertar as pessoas das garras dos sistemas proprietários, para apoiar movimentos importantes como [Open Source](https://pt.wikipedia.org/wiki/Software_livre_e_de_c%C3%B3digo_aberto), [Right to Repair](https://pt.ifixit.com/Right-to-Repair), [Fediverso](https://gelos.club/fedi) e [Hardware Livre](https://pt.wikipedia.org/wiki/Hardware_livre), e para garantir um futuro livre, aberto e descentralizado para toda a computação!
 
 Se não usamos nosso conhecimento para libertar também aqueles que não são entusiastas de computação, aqueles que mais precisam de nossa ajuda, toda nossa luta será em vão.
@@ -26,5 +26,5 @@ Temos que expandir o conhecimento das pessoas, mostrar que a fama de que "Linux 
 
 Em 2025 planejamos continuar cumprindo esse papel. Além dos plantões, esperem nossas installfests, novos Open Source Shows, minicursos e muito mais.
 
-**Quer ajudar?** Participe você também dessa importante iniciativa!  
+**Quer ajudar?** Participe você também dessa importante iniciativa! \
 Entre em nosso grupo no [Telegram](https://telegram.gelos.club) ou [Matrix](https://matrix.to/#/#gelos:matrix.org) para se juntar ao GELOS, ou nos siga no [Mastodon](https://floss.social/@gelos) para se manter atualizade com as novidades do grupo.

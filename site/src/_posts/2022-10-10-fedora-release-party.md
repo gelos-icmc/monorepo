@@ -1,15 +1,15 @@
 ---
-title: Fedora Release Party 
+title: Fedora Release Party
 author: Julio
 ---
 
-No próximo dia 22/10 (sábado) a partir das 10h da manhã faremos o Festival de Lançamento do Fedora 37. 
+No próximo dia 22/10 (sábado) a partir das 10h da manhã faremos o Festival de Lançamento do Fedora 37.
 
 ![Cartaz](/assets/static/fedora37-release-party/fedora-release-party.png)
 
 Salve geladitos ☃️
 
-O evento será realizado no Auditório Fávaro do ICMC-USP, teremos alguns palestrantes que apresentarão de forma remota e outros de forma presencial. Todas as atividades do evento serão realizadas de forma gratuita e aberta a todas as pessoas interessadas. 
+O evento será realizado no Auditório Fávaro do ICMC-USP, teremos alguns palestrantes que apresentarão de forma remota e outros de forma presencial. Todas as atividades do evento serão realizadas de forma gratuita e aberta a todas as pessoas interessadas.
 
 No período da manhã teremos apresentações remotas de algumas pessoas que são engajadas no projeto, compartilhando suas experiências e o processo se tornar um contribuidor da comunidade de um projeto de código aberto. Durante a tarde teremos um Installfest presencial seguido de algumas dicas e configurações de pós-instalação e mais algumas outras palestras.
 

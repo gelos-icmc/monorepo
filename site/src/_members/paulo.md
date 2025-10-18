@@ -14,8 +14,8 @@ nusp: 5626309
 Oi, eu sou o Paulo! 🐕
 
 Sou Radioamador, doutor em física computacional pelo IFSC, especialista em segurança e professor na UFSCar.
-Participo do GELOS há algum tempo, conversando sobre Linux, software livre, 
-segurança e eventos como CTFs e afins. 
+Participo do GELOS há algum tempo, conversando sobre Linux, software livre,
+segurança e eventos como CTFs e afins.
 
 Também ajudei a fundar o [PATOS](https://patos.dev), o GELOS da UFSCar. Mantenho,
 em conjunto com o PATOS e com o GELOS, o [*mirror* da UFSCar](https://github.com/ufscar/mirror),
