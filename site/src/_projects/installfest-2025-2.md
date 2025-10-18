@@ -2,7 +2,7 @@
 title: Installfest 2025/2
 authors:
     - Luana
-state: in_progress
+state: finished
 ---
 
 Evento de instalação de Linux, será realizado no dia 16/10 das 14h às 19h, no Espaço de Convivência Panepucci no IFSC.
@@ -118,9 +118,9 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [x] Atualizar tabela com links e checksums atuais
     - [x] Mirror das isos do openSUSE
     - [x] Criar arquivo com checksums
-- [ ] Levantar pessoas
-    - [ ] Preencher tabela de voluntários
-    - [ ] Preencher tabela de pendrives
+- [x] Levantar pessoas
+    - [x] Preencher tabela de voluntários
+    - [x] Preencher tabela de pendrives
 - [x] [Formulário de instalação (cryptpad/nextcloud/similar)](https://cryptpad.fr/form/#/2/form/view/LF+2HH4f+VxOdbzd0cjH3YuUIF+VDAjc9E0ewlZPSUI/)
 - [ ] Coffee break
     - [ ] Vaquinha
@@ -131,8 +131,9 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 
 ### Pós evento
 
-- [ ] Levantar números
-- [ ] Devolver posters CCEx
+- [x] Levantar números: 5 instalações (2 Fedora, 3 Linux Mint)
+    - Voluntários: 2 Furry, 2 Luana, 1 Gabriel
+- [ ] Postar fotos
 
 ## Data e Local
 
