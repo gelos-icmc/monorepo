@@ -95,8 +95,8 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 | 30/05/2025          |   15:30 ~ 20:00          | 3 (aula nix (3), fediverso, site (1))        | Luana e Kauê       |
 | 23/05/2025          |   10:20 ~ 12:20          | 0                                                      | Luana               |
 | 15/05/2025          |   15:40 ~ 18:50          | 2 (db win+fedora, macbook fedora eduroam troubleshoot) | Luana e Gus         |
-| 09/05/2025          |   10:40 ~ 18:00          | 3 (db win+opensuse, ajuda NixOS, db win+opensuse)      | Luana               | 
-| 04/04/2025          |   14:50 ~ 19:00          | 2 (arrumar jogo steam, ajuda programação)          | Luana, Gabs e Lívia | 
+| 09/05/2025          |   10:40 ~ 18:00          | 3 (db win+opensuse, ajuda NixOS, db win+opensuse)      | Luana               |
+| 04/04/2025          |   14:50 ~ 19:00          | 2 (arrumar jogo steam, ajuda programação)          | Luana, Gabs e Lívia |
 | 28/03/2025          |   14:30 ~ 19:10          | 3 (troca gutta p/ fedora, troca win11 p/ opensuse, dúvidas servidores)|Luana e Gabs|
 | 21/03/2025          |   14:50 ~ 19:05          | 2 (dual boot openSUSE+w10, troubleshoot btrfs corruption)| Luana e Kauê |
 | 17/03/2025          |   16:00 ~ 18:20          | 1 (fedora (db win11), drivers Nvidia e snapper)| Luana e Yuri     |
@@ -106,7 +106,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 | 28/10/2024          |   15:10 ~ 17:40          | 0                                            | Luana              |
 | 14/10/2024          |   15:00 ~ 17:40          | 0 (atividades internas)                      | Luana              |
 | 30/09/2024          |   14:00 ~ 20:10          | 1 (atualizar R p/ inst GGally, Mint 21.1->22)| Furry, Luana e Niko|
-| 25/09/2024          |   16:30 ~ 18:30          | 2 (troca hd+endeavour, troca teclado)        |        Luana       |     
+| 25/09/2024          |   16:30 ~ 18:30          | 2 (troca hd+endeavour, troca teclado)        |        Luana       |
 | 20/09/2024          |   15:00 ~ 18:00          | 1 (NixOS)                                    |        Luana       |
 | 16/09/2024          |   15:00 ~ 17:40          | 1 (pytorch)                                  | Furry, Luana e Yuri|
 | 26/08/2024          |   15:10 ~ 18:40          | 1 (db-win10+kubuntu)                         | Furry, Luana e Yuri|

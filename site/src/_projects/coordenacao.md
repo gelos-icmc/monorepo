@@ -1,6 +1,6 @@
 ---
 title: Coordenação
-authors: 
+authors:
     - Gabriel
     - Furry
     - Livia
@@ -28,7 +28,7 @@ No momento, os líderes da frente de coordenação são eleitos a cada plenária
 Atualmente, os líderes da coordenação são:
 
 {% for author in page.authors %}
-  - {% include person.html name=author %}  
+  - {% include person.html name=author %}
 {%- endfor -%}  <br/> <!-- Por algum motivo sem esse br ele bota o texto abaixo na mesma linha, o que é estranho -->
 
 Os deveres e poderes definidos para a coordenação são:
@@ -44,7 +44,7 @@ A discussão sobre outros modelos de coordenação está sempre aberta em reuni�
 As pessoas a seguir já foram parte da coordenação no passado:
 
 {% for name in page.former %}
-  - {% include person.html name=name %}  
+  - {% include person.html name=name %}
 {%- endfor %}
 
 ## Documentação Interna
@@ -68,15 +68,15 @@ Venho por meio desta solicitar, em nome do GELOS (Grupo de Extensão em Livre e 
 Os professores responsáveis pelo grupo são Francisco Monaco, Elisa Yumi e Eduardo Simões.
 
 Eu, XXXXX (num USP: XXXXX), do XXXX, serei a aluna responsável pelo evento.
- 
-O texto da divulgação: 
- 
+
+O texto da divulgação:
+
 “
 XXXXX
 ”
- 
+
 A imagem/Flyer da divulgação está em anexo: XXXXX
- 
+
 Desde já, agradeço a atenção!
 
 Atenciosamente,
@@ -98,7 +98,7 @@ O motivo da reserva é a realização da XXXXX do GELOS.
 Os professores responsáveis pelo grupo são Francisco Monaco, Elisa Yumi e Eduardo Simões.
 
 Eu, XXXXX (num USP: XXXXX), do XXXX, serei a aluna responsável pelo evento.
- 
+
 Desde já, agradeço a atenção!
 
 Atenciosamente,
@@ -124,7 +124,7 @@ O motivo da reserva é a realização da XXXXX do GELOS.
 Os professores responsáveis pelo grupo são Francisco Monaco, Elisa Yumi e Eduardo Simões.
 
 Eu, XXXXX (num USP: XXXXX), do XXXX, serei a aluna responsável pelo evento.
- 
+
 Desde já, agradeço a atenção!
 
 Atenciosamente,
