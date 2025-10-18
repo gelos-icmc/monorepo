@@ -2,7 +2,7 @@
 title: Installfest 2025/2
 authors:
     - Luana
-state: in_progress
+state: finished
 ---
 
 Evento de instalação de Linux, será realizado no dia 16/10 das 14h às 19h, no Espaço de Convivência Panepucci no IFSC.
@@ -43,9 +43,9 @@ não-técnicos, a sugestão pode ser Fedora ou Linux Mint. Para usuários
 avançados ou com casos de uso especiais, fica a critério do voluntário qual sugerir. É importante lembrar
 que iniciantes são prioridade no evento.
 
-Lembre-se de instalar os drivers necessários, além de configurar um sistema 
-de snapshots (Snapper, TimeShift, etc) caso não venha por padrão. Recursos para 
-essas instalações no Fedora estão disponíveis na 
+Lembre-se de instalar os drivers necessários, além de configurar um sistema
+de snapshots (Snapper, TimeShift, etc) caso não venha por padrão. Recursos para
+essas instalações no Fedora estão disponíveis na
 [página de problemas do GELOS](https://gelos.club/pobremas).
 
 Estamos disponibilizando todas ISOs para x86_64, bem como as
@@ -54,8 +54,8 @@ caso queiram.
 
 {% include planilha-isos.html data=site.data.installfest.if7-isos %}
 
-Lembre-se de ejetar o pendrive de forma 
-segura (rode o comando `sync .` ou ejete pela sua DE) e de conferir as checksums! 
+Lembre-se de ejetar o pendrive de forma
+segura (rode o comando `sync .` ou ejete pela sua DE) e de conferir as checksums!
 Além de eles estarem na tabela acima, você pode
 baixar [este arquivo](/assets/installfest/if7-checksums.sha256) para checar as ISOs de
 forma super conveniente.
@@ -118,9 +118,9 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [x] Atualizar tabela com links e checksums atuais
     - [x] Mirror das isos do openSUSE
     - [x] Criar arquivo com checksums
-- [ ] Levantar pessoas
-    - [ ] Preencher tabela de voluntários
-    - [ ] Preencher tabela de pendrives
+- [x] Levantar pessoas
+    - [x] Preencher tabela de voluntários
+    - [x] Preencher tabela de pendrives
 - [x] [Formulário de instalação (cryptpad/nextcloud/similar)](https://cryptpad.fr/form/#/2/form/view/LF+2HH4f+VxOdbzd0cjH3YuUIF+VDAjc9E0ewlZPSUI/)
 - [ ] Coffee break
     - [ ] Vaquinha
@@ -131,8 +131,9 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 
 ### Pós evento
 
-- [ ] Levantar números
-- [ ] Devolver posters CCEx
+- [x] Levantar números: 5 instalações (2 Fedora, 3 Linux Mint)
+    - Voluntários: 2 Furry, 2 Luana, 1 Gabriel
+- [ ] Postar fotos
 
 ## Data e Local
 

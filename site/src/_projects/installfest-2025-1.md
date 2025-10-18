@@ -45,9 +45,9 @@ não-técnicos, a sugestão pode ser Fedora ou Linux Mint. Para usuários
 avançados, fica a critério do voluntário qual sugerir. É importante lembrar
 que iniciantes são prioridade no evento.
 
-Lembre-se de instalar os drivers necessários, além de configurar um sistema 
-de snapshots (Snapper, TimeShift, etc) caso não venha por padrão. Recursos para 
-essas instalações no Fedora estão disponíveis na 
+Lembre-se de instalar os drivers necessários, além de configurar um sistema
+de snapshots (Snapper, TimeShift, etc) caso não venha por padrão. Recursos para
+essas instalações no Fedora estão disponíveis na
 [página de problemas do GELOS](https://gelos.club/pobremas).
 
 Estamos disponibilizando todas ISOs para x86_64, bem como as
@@ -56,8 +56,8 @@ caso queiram.
 
 {% include planilha-isos.html data=site.data.if6.if6-isos %}
 
-Lembre-se de ejetar o pendrive de forma 
-segura (rode o comando `sync` ou ejete pela sua DE) e de conferir os checksums! 
+Lembre-se de ejetar o pendrive de forma
+segura (rode o comando `sync` ou ejete pela sua DE) e de conferir os checksums!
 Além de eles estarem na tabela acima, você pode
 baixar [este arquivo](/assets/installfest/if6-checksums.sha256) para checar as ISOs de
 forma super conveniente.
