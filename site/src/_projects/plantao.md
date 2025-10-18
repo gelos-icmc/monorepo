@@ -110,3 +110,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 | 20/09/2024          |   15:00 ~ 18:00          | 1 (NixOS)                                    |        Luana       |
 | 16/09/2024          |   15:00 ~ 17:40          | 1 (pytorch)                                  | Furry, Luana e Yuri|
 | 26/08/2024          |   15:10 ~ 18:40          | 1 (db-win10+kubuntu)                         | Furry, Luana e Yuri|
+| 13/07/2022          |                          | 1                                            | Deandreson
+| 29/06/2022          |                          | 1                                            | Deandreson
+| 15/06/2022          |                          | 3                                            | Deandreson
+| 08/06/2022          |                          | 2                                            | Deandreson
