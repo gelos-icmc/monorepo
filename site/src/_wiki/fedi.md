@@ -8,10 +8,33 @@ lang: pt-BR
 Conheça e aprenda a usar o Mastodon e outras redes do Fediverso.
 
 <blockquote>
-**Índice:**
+  <p><strong>Índice:</strong></p>
 
-1. TOC
-{:toc}
+<ol id="markdown-toc">
+  <li><a href="#o-que-é-o-fediverso" id="markdown-toc-o-que-é-o-fediverso">O que é o Fediverso?</a></li>
+  <li><a href="#por-que-descentralização-é-importante" id="markdown-toc-por-que-descentralização-é-importante">Por que descentralização é importante?</a></li>
+  <li><a href="#mastodon" id="markdown-toc-mastodon">Mastodon</a></li>
+  <li><a href="#gostei-que-instância-devo-escolher" id="markdown-toc-gostei-que-instância-devo-escolher">Gostei! Que instância devo escolher?</a></li>
+  <li><a href="#e-depois-como-encontro-gente-para-seguir" id="markdown-toc-e-depois-como-encontro-gente-para-seguir">E depois? Como encontro gente para seguir?</a></li>
+  <li><a href="#como-faço-para-seguir-o-gelos" id="markdown-toc-como-faço-para-seguir-o-gelos">Como faço para seguir o GELOS?</a></li>
+  <li><a href="#é-isso-dúvidas" id="markdown-toc-é-isso-dúvidas">É isso! Dúvidas?</a></li>
+  <li><a href="#quero-me-aprofundar-mais" id="markdown-toc-quero-me-aprofundar-mais">Quero me aprofundar mais</a>    <ol>
+      <li><a href="#quais-são-os-outros-tipos-de-redes-sociais-no-fediverso" id="markdown-toc-quais-são-os-outros-tipos-de-redes-sociais-no-fediverso">Quais são os outros tipos de redes sociais no Fediverso?</a>        <ol>
+          <li><a href="#sharkey" id="markdown-toc-sharkey">Sharkey</a></li>
+          <li><a href="#mbin" id="markdown-toc-mbin">Mbin</a></li>
+          <li><a href="#pixelfed" id="markdown-toc-pixelfed">Pixelfed</a></li>
+          <li><a href="#loops" id="markdown-toc-loops">Loops</a></li>
+          <li><a href="#peertube" id="markdown-toc-peertube">PeerTube</a></li>
+        </ol>
+      </li>
+      <li><a href="#o-que-é-desfederação" id="markdown-toc-o-que-é-desfederação">O que é desfederação?</a></li>
+      <li><a href="#mas-e-o-self-hosting" id="markdown-toc-mas-e-o-self-hosting">Mas e o self-hosting?</a></li>
+      <li><a href="#quero-aprender-como-o-activitypub-funciona-e-como-ter-minha-própria-instância" id="markdown-toc-quero-aprender-como-o-activitypub-funciona-e-como-ter-minha-própria-instância">Quero aprender como o ActivityPub funciona e como ter minha própria instância</a></li>
+    </ol>
+  </li>
+  <li><a href="#feedback" id="markdown-toc-feedback">Feedback</a></li>
+</ol>
+
 </blockquote>
 
 ## O que é o Fediverso?
