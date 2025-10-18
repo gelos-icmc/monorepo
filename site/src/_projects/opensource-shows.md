@@ -3,7 +3,6 @@ title: Open Source Shows
 authors: 
   - Luana
   - guip
-lang: pt-BR
 state: wip
 ---
 

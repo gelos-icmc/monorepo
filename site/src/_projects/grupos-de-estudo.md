@@ -1,7 +1,6 @@
 ---
 title: Grupos de Estudo
 author: Gabriel
-lang: pt-BR
 state: permanent
 ---
 

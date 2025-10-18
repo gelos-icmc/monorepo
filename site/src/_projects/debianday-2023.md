@@ -2,7 +2,6 @@
 title: Debian Day 2023 - 30 Anos de Debian
 state: finished
 author: Charles
-lang: pt-BR
 ---
 
 No dia 19 de Agosto de 2023, a partir das 14h, o GELOS sediará o Debian Day 2023, que marcará 30 anos do projeto Debian!

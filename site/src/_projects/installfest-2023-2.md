@@ -3,7 +3,6 @@ title: Installfest 2023/2
 authors:
     - Gabriel
     - Charles
-lang: pt-BR
 state: finished
 ---
 

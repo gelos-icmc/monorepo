@@ -1,7 +1,6 @@
 ---
 title: Installfest 2022/1
 author: Gabriel
-lang: pt-BR
 state: finished
 ---
 

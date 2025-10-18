@@ -1,6 +1,5 @@
 ---
 title: Plantões de Dúvidas
-lang: pt-BR
 state: permanent
 author: Luana
 ---

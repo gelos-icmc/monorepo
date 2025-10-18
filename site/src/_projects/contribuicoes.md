@@ -1,7 +1,6 @@
 ---
 title: Contribuições FLOSS
 author: Gabriel
-lang: pt-BR
 state: wip
 ---
 

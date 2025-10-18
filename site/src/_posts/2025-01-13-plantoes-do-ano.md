@@ -3,7 +3,6 @@ title: Reflexões após um semestre de plantões
 authors:
     - Luana
 fediversecreator: luana@wetdry.world
-lang: pt-BR
 ---
 
 Olá, geladinhes! O último semestre foi bastante produtivo para a frente de plantões, e este post é um relatório dos resultados e aprendizados dessa aventura.

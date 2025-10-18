@@ -1,7 +1,6 @@
 ---
 title: Mirror UFSCar
 author: Paulo
-lang: pt-BR
 state: permanent
 ---
 
