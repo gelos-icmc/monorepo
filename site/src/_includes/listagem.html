@@ -3,25 +3,46 @@
     <{{ include.element | default: "h2" }}>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </{{ include.element | default: "h2"  }}>
-    <p>
-      {% if post.state %}
-        {{ site.data.project_states[post.state] | default: "Desconhecido" }}
-      {% endif %}
+    <nav>
+      <ul>
+        {% if post.state %}
+          <li>{{ site.data.project_states[post.state] | default: "Desconhecido" }}</li>
+        {% endif %}
 
-      {% if post.date and post.show_date %}
-        {{ post.date | date: "%d/%m/%y" }}
-      {% endif %}
+        {% if post.date != site.time %}
+          {% assign time = post.date | date: "%H:%M" %}
+          <li>
+            {{ post.date | date: "%d/%m/%y" }}
+            {% if time != "00:00" %}{{ time }}{% endif %}
+          </li>
+        {% endif %}
 
-      {% if post.author %}
-        | {% include person.html name=post.author %}
-      {% elsif post.authors %}
-        |
-        {% for author in post.authors %}
-          {% include person.html name=author -%}
-          {%- unless forloop.last %}, {% endunless %}
-        {%- endfor -%}
-      {% endif %}
-    </p>
+        {% if post.location %}
+          <li>{{ post.location }}</li>
+        {% endif %}
+
+        {% if post.wiki %}
+          <li><a href="{{ post.wiki | relative_url }}">Página na Wiki</a></li>
+        {% endif %}
+
+        {% if post.blog %}
+          <li><a href="{{ post.blog | relative_url }}">Post de divulgação</a></li>
+        {% endif %}
+
+        {% if post.author or post.authors %}
+          {% assign authors = post.authors | split: ',' | push: post.author %}
+          <li>
+            <ul>
+            {% for author in authors %}
+              {% if author %}
+                <li>{% include person.html name=author %}</li>
+              {% endif %}
+            {% endfor %}
+            </ul>
+          </li>
+        {% endif %}
+      </ul>
+    </nav>
   </header>
   {% if post.description %}
     <div class="excerpt">{{ post.description }}</div>
