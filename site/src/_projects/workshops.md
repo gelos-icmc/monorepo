@@ -1,6 +1,5 @@
 ---
 title: Workshops e Minicursos
-author: Vinicius
 state: permanent
 ---
 
