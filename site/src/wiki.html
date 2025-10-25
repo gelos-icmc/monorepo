@@ -8,11 +8,8 @@ collection_src: wiki
 <p>
   {{ page.description }}
 </p>
-<p>
 
-<section>
-  {% assign posts = site.wiki | sort:"title" | sort:"draft"  %}
-  {% for post in posts %}
+{% assign posts = site.wiki | sort:"title" | sort:"draft"  %}
+{% for post in posts %}
   {% include listagem.html %}
-  {% endfor %}
-</section>
+{% endfor %}
