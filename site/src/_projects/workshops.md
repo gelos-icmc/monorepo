@@ -3,7 +3,7 @@ title: Workshops e Minicursos
 state: permanent
 ---
 
-O GELOS realiza alguns minicursos e workshops ao longo do ano, tendo como objetivo ministrar aulas sobre assuntos relacionados.
+O GELOS ministra para a comunidade alguns minicursos e workshops ao longo do ano, tendo como objetivo ministrar aulas sobre assuntos relacionados.
 
 Exemplos de minicursos realizados ou planejados incluem Git, Nix, Shell Scripting, Self Hosting e muito mais.
 
