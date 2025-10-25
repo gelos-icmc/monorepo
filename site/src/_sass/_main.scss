@@ -49,10 +49,16 @@ nav ul {
   li {
     display: inline;
     vertical-align: middle;
+    ul {
+      display: inline;
+      li:not(:last-child):after {
+        content: ", ";
+      }
+    }
   }
-  li + li::before {
-    color: var(--color-bg-alt);
-    content: "/ ";
+  li:not(:last-child):after {
+    color: var(--color-text-muted);
+    content: " / ";
   }
 
   // Página atual (tira aparência de link)
@@ -208,7 +214,7 @@ article.listing {
     :first-child {
       margin-bottom: 0.1em;
     }
-    p {
+    p, nav>ul {
       margin-block-start: 0.1em;
       margin-block-end: 0.1em;
       font-size: 0.8em;
