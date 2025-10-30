@@ -1,9 +1,6 @@
 ---
 title: Open Source Shows
-authors:
-  - Luana
-  - guip
-state: wip
+state: paused
 ---
 
 O Open Source Show é um projeto que visa abrir um espaço para que todes -- incluindo não membres do grupo -- possam realizar
