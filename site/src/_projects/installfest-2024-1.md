@@ -4,12 +4,11 @@ authors:
     - Gabriel
     - Charles
 state: finished
+blog: /2024/03/01/installfest-2024-1.html
 ---
 
 Evento de instalação de Linux, realizado no dia 14/03 das 14h às 19h, no vão da
 biblioteca do ICMC.
-
-[**Post de divulgação**](/2024/03/01/installfest-2024-1.html)
 
 ## Como participar
 

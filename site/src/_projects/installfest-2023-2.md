@@ -4,12 +4,11 @@ authors:
     - Gabriel
     - Charles
 state: finished
+blog: /2023/08/21/installfest-2023-2.html
 ---
 
 Evento de instalação de Linux, realizado no dia 31/08 das 14h às 19h, no vão da
 biblioteca do ICMC.
-
-[**Post de divulgação**](/2023/08/21/installfest-2023-2.html)
 
 **Tarefas pendentes**:
 - [ ] Adicionar números (instalações, pessoas presentes, etc)
