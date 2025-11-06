@@ -35,9 +35,6 @@ layout: default
         <p><a href="{{ page.blog | relative_url }}"><strong>Post de divulgação</strong></a></p>
       {% endif %}
     </blockquote>
-    {% if page.pdf %}
-    <p><a href="{{ page.url | replace: ".html", ".pdf" | relative_url }}">Também disponível em PDF</a></p>
-    {% endif %}
   </header>
 
   {{ content }}

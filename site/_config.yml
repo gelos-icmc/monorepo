@@ -56,7 +56,6 @@ defaults:
     scope:
       type: meetings
     values:
-      pdf: true
       layout: article
       parent: /reunioes/
   -
