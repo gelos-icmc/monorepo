@@ -21,6 +21,15 @@ collection_src: projects
 {% for post in in_progress_projects %}{% include listagem.html element="h3" %}{% endfor %}
 </section>
 
+<section id="pausados">
+<header>
+  <h2><a href="#pausados">#</a>Pausados</h2>
+  <p>Projetos temporariamente pausados (geralmente órfãos)</p>
+</header>
+{% assign suspended_projects = site.projects | where:"state","paused" %}
+{% for post in suspended_projects %}{% include listagem.html element="h3" %}{% endfor %}
+</section>
+
 <section id="em-concepcao">
 <header>
   <h2><a href="#em-concepcao">#</a> Em concepção</h2>
@@ -37,13 +46,4 @@ collection_src: projects
 </header>
 {% assign finished_projects = site.projects | where:"state","finished" %}
 {% for post in finished_projects %}{% include listagem.html element="h3" %}{% endfor %}
-</section>
-
-<section id="suspended">
-<header>
-  <h2><a href="#suspensos">#</a> Suspensos</h2>
-  <p>Projetos interrompidos (em geral temporariamente)</p>
-</header>
-{% assign suspended_projects = site.projects | where:"state","suspended" %}
-{% for post in suspended_projects %}{% include listagem.html element="h3" %}{% endfor %}
 </section>

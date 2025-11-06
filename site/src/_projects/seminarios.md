@@ -1,7 +1,6 @@
 ---
 title: Disciplina de Seminários
-author: TBD
-state: wip
+state: paused
 ---
 
 O ICMC conta com algumas disciplinas de seminários. O GELOS pode convidar
