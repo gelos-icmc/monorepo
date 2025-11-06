@@ -4,12 +4,13 @@ authors:
     - Luana
     - Gabriel
 state: finished
+blog: /2025/03/25/installfest-2025-1.html
 ---
 
 Evento de instalação de Linux, será realizado no dia 10/04 das 14h às 19h, no vão da
 biblioteca do ICMC.
 
-Esta é a página de organização do projeto. Para informações para o público geral, veja o [**post de divulgação**](/2025/03/25/installfest-2025-1.html)
+Esta é a página de organização do projeto. Para informações para o público geral, veja o [**post de divulgação**]({{ page.blog }})
 
 ## Como participar
 

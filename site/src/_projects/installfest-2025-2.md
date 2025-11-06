@@ -3,11 +3,12 @@ title: Installfest 2025/2
 authors:
     - Luana
 state: finished
+blog: /2025/09/25/installfest-2025-2.html
 ---
 
 Evento de instalação de Linux, será realizado no dia 16/10 das 14h às 19h, no Espaço de Convivência Panepucci no IFSC.
 
-Esta é a página de organização do projeto. Para informações para o público geral, veja o [**post de divulgação**](/2025/09/25/installfest-2025-2.html)
+Esta é a página de organização do projeto. Para informações para o público geral, veja o [**post de divulgação**]({{ page.blog }})
 
 ## Como participar
 

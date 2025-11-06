@@ -28,6 +28,12 @@ layout: default
           {{ site.data.project_states[page.state] | default: "Desconhecido" }}
         </p>
       {% endif %}
+      {% if page.wiki %}
+        <p><a href="{{ page.wiki | relative_url }}"><strong>Página na Wiki</strong></a></p>
+      {% endif %}
+      {% if page.blog %}
+        <p><a href="{{ page.blog | relative_url }}"><strong>Post de divulgação</strong></a></p>
+      {% endif %}
     </blockquote>
     {% if page.pdf %}
     <p><a href="{{ page.url | replace: ".html", ".pdf" | relative_url }}">Também disponível em PDF</a></p>

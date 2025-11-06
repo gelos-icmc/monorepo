@@ -50,7 +50,6 @@ defaults:
     scope:
       type: posts
     values:
-      show_date: true
       layout: article
       parent: /blog/
   -
@@ -58,14 +57,12 @@ defaults:
       type: meetings
     values:
       pdf: true
-      show_date: true
       layout: article
       parent: /reunioes/
   -
     scope:
       type: reports
     values:
-      show_date: true
       layout: article
       parent: /relatorios/
   -
