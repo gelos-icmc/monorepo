@@ -3,7 +3,6 @@
   stdenv, ruby, bundlerEnv,
 
   baseurl ? (lib.removeSuffix "\n" (lib.readFile ./.baseurl)),
-  atas ? null,
   ...
 }:
 
@@ -28,7 +27,6 @@ stdenv.mkDerivation {
   installPhase = ''
     mkdir -p $out
     cp -Tr _site $out/public
-    ${lib.optionalString (atas != null) "cp ${atas}/*.pdf $out/public/reunioes/"}
   '';
 
   meta.platforms = lib.platforms.linux;

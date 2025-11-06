@@ -3,9 +3,6 @@
 old="$(nix build --print-out-paths --no-link github:gelos-icmc/site)/public"
 new="$(nix build --print-out-paths --no-link)/public"
 
-# Ignorar PDFs
-diff="$(diff "$old" "$new" -qr | grep -v '\.pdf')"
-
 modified="$(echo "$diff" | grep "Files .* differ")"
 if [ -n "$modified" ]; then
     echo "Caminhos modificados:";
