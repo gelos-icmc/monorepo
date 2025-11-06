@@ -5,6 +5,7 @@ links:
     Site: lobisomem.gay
 role: "active"
 nusp: 11218897
+always_gay: true
 ---
 
 Awoooooo! 🐺🏳️‍🌈
