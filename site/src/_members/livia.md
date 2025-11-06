@@ -7,6 +7,7 @@ links:
   Steam: steamcommunity.com/id/ymegam
 role: active
 nusp: 12543822
+always_gay: true
 ---
 
 Oiiiiiii! 🙋‍♀️🏳️‍🌈
