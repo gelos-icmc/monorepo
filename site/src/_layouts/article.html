@@ -28,6 +28,12 @@ layout: default
           {{ site.data.project_states[page.state] | default: "Desconhecido" }}
         </p>
       {% endif %}
+      {% if page.project %}
+        {% assign project = site.projects | find: "slug",page.project %}
+        <p><strong>Parte do projeto</strong>:
+          <a href={{ project.url }}>{{ project.title }}</a>
+        </p>
+      {% endif %}
       {% if page.wiki %}
         <p><a href="{{ page.wiki | relative_url }}"><strong>Página na Wiki</strong></a></p>
       {% endif %}
@@ -40,9 +46,8 @@ layout: default
   {{ content }}
 
   <footer>
-    {% if page.attendees or page.project %}
+    {% if page.attendees %}
       <blockquote>
-        {% if page.attendees %}
         <ul><strong>Participantes</strong>:
           {% for attendee in page.attendees %}
             <li>
@@ -50,14 +55,6 @@ layout: default
             </li>
           {% endfor %}
         </ul>
-        {% endif %}
-
-        {% if page.project %}
-          {% assign project = site.projects | find: "slug",page.project %}
-          <p><strong>Parte do projeto</strong>:
-            <a href={{ project.url }}>{{ project.title }}</a>
-          </p>
-        {% endif %}
       </blockquote>
     {% endif %}
   </footer>
