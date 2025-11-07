@@ -9,12 +9,16 @@
           <li>{{ site.data.project_states[post.state] | default: "Desconhecido" }}</li>
         {% endif %}
 
-        {% if post.date != site.time %}
+        {% if post.date %}
+          {% assign date = post.date | date: "%d/%m/%Y" %}
           {% assign time = post.date | date: "%H:%M" %}
-          <li>
-            {{ post.date | date: "%d/%m/%y" }}
-            {% if time != "00:00" %}{{ time }}{% endif %}
-          </li>
+          <!-- Hide "zero" or "null" dates -->
+          {% if date != "01/01/1970" && post.date != site.time %}
+            <li>
+              {{ date }}
+              {% if time != "00:00" %}{{ time }}{% endif %}
+            </li>
+          {% endif %}
         {% endif %}
 
         {% if post.location %}
