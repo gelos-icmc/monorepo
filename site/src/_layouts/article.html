@@ -40,14 +40,8 @@ layout: default
       {% if page.blog %}
         <p><a href="{{ page.blog | relative_url }}"><strong>Post de divulgação</strong></a></p>
       {% endif %}
-    </blockquote>
-  </header>
 
-  {{ content }}
-
-  <footer>
-    {% if page.attendees %}
-      <blockquote>
+      {% if page.attendees %}
         <ul><strong>Participantes</strong>:
           {% for attendee in page.attendees %}
             <li>
@@ -55,7 +49,9 @@ layout: default
             </li>
           {% endfor %}
         </ul>
-      </blockquote>
-    {% endif %}
-  </footer>
+      {% endif %}
+    </blockquote>
+  </header>
+
+  {{ content }}
 </article>
