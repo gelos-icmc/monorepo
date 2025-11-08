@@ -7,6 +7,7 @@ links:
   GitHub: github.com/thotypous
   Twitch: twitch.tv/thotypous
 role: member
+ignore_quorum: true
 nusp: 5626309
 ---
 
