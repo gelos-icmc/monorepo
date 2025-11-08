@@ -1,7 +1,7 @@
 <article class="listing" id="{{ post.slug }}">
   <header>
     <{{ include.element | default: "h2" }}>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>{{ include.suffix }}</small>
     </{{ include.element | default: "h2"  }}>
     <nav>
       <ul>

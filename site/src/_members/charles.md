@@ -1,6 +1,7 @@
 ---
 title: Carlos Henrique Melara
 draft: true
-role: "inactive"
+role: member
+inactive: true
 nusp: 9805380
 ---

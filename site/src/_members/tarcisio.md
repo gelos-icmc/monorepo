@@ -1,6 +1,6 @@
 ---
 title: Tarcísio Ladeia de Oliveira
 draft: true
-role: "active"
+role: member
 nusp: 9312800
 ---

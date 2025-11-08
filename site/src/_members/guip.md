@@ -3,7 +3,7 @@ title: Guilherme Paixão
 links:
     Site: guip.dev
 email: me@guip.dev
-role: "active"
+role: member
 nusp: 11796079
 ---
 

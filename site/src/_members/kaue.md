@@ -6,8 +6,7 @@ links:
     site: bakaq.net
     github: github.com/bakaq
     mastodon: mastodon.social/@bakaq
-draft: false
-role: "active"
+role: member
 nusp: 11212226
 ---
 

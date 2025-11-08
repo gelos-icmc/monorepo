@@ -1,6 +1,6 @@
 ---
 title: Natan
 draft: true
-role: "active"
+role: member
 nusp: 11218984
 ---

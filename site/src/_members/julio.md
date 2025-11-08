@@ -1,6 +1,7 @@
 ---
 title: Júlio Casemiro
 draft: true
-role: "inactive"
+role: member
+inactive: true
 nusp: 11816139
 ---

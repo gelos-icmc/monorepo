@@ -3,6 +3,6 @@ title: Silmar Pereira Junior
 links:
     Site: silmarp.dev
 draft: true
-role: "active"
+role: member
 nusp: 12623950
 ---
