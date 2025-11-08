@@ -219,6 +219,10 @@ article.listing {
       margin-block-end: 0.1em;
       font-size: 0.8em;
     }
+    small {
+      font-size: 60%;
+      color: var(--color-text-muted);
+    }
   }
   .excerpt {
     margin-bottom: 0.5em;
