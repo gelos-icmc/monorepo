@@ -2,7 +2,7 @@
 title: Coordenação
 authors:
     - Gabriel
-    - Furry
+    - Luana
     - Livia
 former:
     - Natan
@@ -14,6 +14,7 @@ former:
     - Charles
     - Deandreson
     - Julio
+    - Furry
 state: permanent
 ---
 
