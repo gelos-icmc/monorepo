@@ -31,6 +31,22 @@ Se incluir nessa lista é um dos passos para ser membro pleno no GELOS. Basta
   {% endfor %}
 </section>
 
+{% assign onboarding_members = site.members | where: "state", "onboarding" | sort: "title" %}
+{% if onboarding_members %}
+  <section>
+    <header>
+      <h2>Membros Aspirantes</h2>
+      <p>Membros no processo de onboard.</p>
+    </header>
+
+    {% for post in members %}
+      {% if post.role == "onboarding" %}
+        {% include listagem.html %}
+      {% endif %}
+    {% endfor %}
+  </section>
+{% endif %}
+
 {% assign alumni = site.members | where: "role", "alumni" | sort: "title" %}
 <section>
   <header>
