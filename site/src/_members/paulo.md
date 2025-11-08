@@ -6,8 +6,7 @@ links:
   Mastodon: nso.group/@thotypous
   GitHub: github.com/thotypous
   Twitch: twitch.tv/thotypous
-role: active
-draft: false
+role: member
 nusp: 5626309
 ---
 

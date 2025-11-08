@@ -5,7 +5,7 @@ links:
   Site: lelis.dev
   GitHub: github.com/LiviaLelis
   Steam: steamcommunity.com/id/ymegam
-role: active
+role: member
 nusp: 12543822
 always_gay: true
 ---

@@ -3,7 +3,7 @@ title: Rafael "Fuleco" Oliveira
 email: ra.pha@live.com
 links:
   Github: github.com/FulecoRafa
-role: "active"
+role: member
 nusp: 11219071
 ---
 

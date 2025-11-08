@@ -4,7 +4,7 @@ description: 🦦🦦🦦
 site: joaoser.gay
 email: gustavobloisrr@usp.br
 telegram: AtomHeartOtter
-role: "active"
+role: member
 nusp: 13688162
 ---
 

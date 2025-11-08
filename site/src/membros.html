@@ -14,34 +14,31 @@ Se incluir nessa lista é um dos passos para ser membro pleno no GELOS. Basta
  no <a href="https://github.com/gelos-icmc/monorepo">repositório</a>!
 </p>
 
+{% assign members = site.members | where: "role", "member" | sort: "title" | sort: "draft" | sort: "inactive" %}
 <section>
   <header>
     <h2>Membros Plenos</h2>
     <p>Membros com direito à voto.</p>
   </header>
-  {% assign members = site.members | sort:"title" | sort:"draft" %}
   {% for post in members %}
-    {% unless  post.role == "alumni" %}
-      {% if post.role == "inactive" %}
-        {% assign suffix = "(inativo)" %}
-      {% else %}
-        {% assign suffix = "" %}
-      {% endif %}
-      {% include listagem.html suffix=suffix %}
-    {% endunless %}
+    {% if post.inactive %}
+      {% assign suffix = "(inativo)" %}
+    {% else %}
+      {% assign suffix = "" %}
+    {% endif %}
+
+    {% include listagem.html suffix=suffix %}
   {% endfor %}
 </section>
 
+{% assign alumni = site.members | where: "role", "alumni" | sort: "title" %}
 <section>
   <header>
     <h2>Alumni</h2>
     <p>Membros que deixaram o GELOS ou estão há muito tempo inativos.</p>
   </header>
 
-  {% assign members = site.members | sort:"title" | sort:"draft"  %}
-  {% for post in members %}
-    {% if post.role == "alumni" %}
-      {% include listagem.html %}
-    {% endif %}
+  {% for post in alumni %}
+    {% include listagem.html %}
   {% endfor %}
 </section>

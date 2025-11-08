@@ -4,8 +4,7 @@ email: joaog.bastos@usp.br
 links:
     site: goll.cc
     github: github.com/goll72
-draft: false
-role: "active"
+role: member
 ---
 
 Estou cursando BCC no ICMC, gosto de ouvir música (alguns gêneros incomuns),
