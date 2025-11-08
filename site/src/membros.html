@@ -20,11 +20,9 @@ Se incluir nessa lista é um dos passos para ser membro pleno no GELOS. Basta
   </header>
   {% assign members = site.members | sort:"title" | sort:"draft"  %}
   {% for post in members %}
-  {% unless post.role == "alumni" %}
-  {% unless post.role == "inactive" %}
-  {% include listagem.html %}
-  {% endunless %}
-  {% endunless %}
+    {% unless post.role == "alumni" or post.role == "inactive" %}
+      {% include listagem.html %}
+    {% endunless %}
   {% endfor %}
 </section>
 
@@ -36,9 +34,9 @@ Se incluir nessa lista é um dos passos para ser membro pleno no GELOS. Basta
 
   {% assign members = site.members | sort:"title" | sort:"draft"  %}
   {% for post in members %}
-  {% if post.role == "inactive" %}
-  {% include listagem.html %}
-  {% endif %}
+    {% if post.role == "inactive" %}
+      {% include listagem.html %}
+    {% endif %}
   {% endfor %}
 </section>
 
@@ -51,8 +49,8 @@ Se incluir nessa lista é um dos passos para ser membro pleno no GELOS. Basta
 
   {% assign members = site.members | sort:"title" | sort:"draft"  %}
   {% for post in members %}
-  {% if post.role == "alumni" %}
-  {% include listagem.html %}
-  {% endif %}
+    {% if post.role == "alumni" %}
+      {% include listagem.html %}
+    {% endif %}
   {% endfor %}
 </section>
