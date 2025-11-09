@@ -8,7 +8,7 @@ links:
     GitHub: github.com/LuNeder
 fediversecreator: luana@wetdry.world
 nusp: 13836963
-role: "active"
+role: member
 always_gay: true
 gay_colors:
     - "#fff"

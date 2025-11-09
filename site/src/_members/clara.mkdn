@@ -5,7 +5,7 @@ email: clrcera05@gmail.com
 links:
   GitHub: github.com/clr-cera
 nusp: 14559479
-role: "active"
+role: member
 extra_css: |
   :root {
       --color-blossom: #2696bd;
