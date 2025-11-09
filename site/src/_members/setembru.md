@@ -5,4 +5,5 @@ links:
     Site: setembru.dev.br
 draft: true
 role: "alumni"
+inactive: true
 ---

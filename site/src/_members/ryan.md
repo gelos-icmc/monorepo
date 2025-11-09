@@ -4,4 +4,5 @@ links:
     Site: ryan.dev.br
 draft: true
 role: "alumni"
+inactive: true
 ---
