@@ -21,13 +21,7 @@ Se incluir nessa lista é um dos passos para ser membro pleno no GELOS. Basta
     <p>Membros com direito à voto.</p>
   </header>
   {% for post in members %}
-    {% if post.inactive %}
-      {% assign suffix = "(inativo)" %}
-    {% else %}
-      {% assign suffix = "" %}
-    {% endif %}
-
-    {% include listagem.html suffix=suffix %}
+    {% include listagem.html %}
   {% endfor %}
 </section>
 

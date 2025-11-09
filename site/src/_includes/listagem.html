@@ -1,7 +1,10 @@
 <article class="listing" id="{{ post.slug }}">
   <header>
     <{{ include.element | default: "h2" }}>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>{{ include.suffix }}</small>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% if post.inactive %}
+        <small>(inativo)</small>
+      {% endif %}
     </{{ include.element | default: "h2"  }}>
     <nav>
       <ul>
