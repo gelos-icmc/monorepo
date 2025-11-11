@@ -17,6 +17,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                 | Voluntárie(s)    |
 |---------------------|-------------------------|------------------|
+| 12/11/2025          | 15:00 ~ 17:00           | Luana            |
 | Mais datas em breve!|                         |                  |
 
 
