@@ -17,7 +17,6 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                 | Voluntárie(s)    |
 |---------------------|-------------------------|------------------|
-| 12/11/2025          | 15:00 ~ 17:00           | Luana            |
 | Mais datas em breve!|                         |                  |
 
 
@@ -88,6 +87,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 12/11/2025          |   13:00 ~ 18:00          | 2 (nixos-anywhere, ajuda contribuição open source)| Luana e Gabs|
 | 20/10/2025          |   15:00 ~ 17:00          | 0                     | Luana |
 | 23/09/2025          |   14:50 ~ 15:20          | 1 (openSUSE tw inst)  | Luana e Furry |
 | 10/09/2025          |   14:20 ~ 18:20          | 1 (nixos binary cache) | Luana e Gabs |
