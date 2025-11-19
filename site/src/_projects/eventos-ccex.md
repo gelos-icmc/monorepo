@@ -16,6 +16,8 @@ O GELOS, em seu status de grupo de extensão no ICMC, preza pela participação 
 | Data       | Nome                      | Local               | Presentes      |
 |------------|---------------------------|---------------------|----------------|
 | 2025-09-23 | Reunião com CCEx          |ICMC/USP             | Clara, Luana, Furry|
+| 2025-06-04 | Visita Monitorada         |ICMC/USP             | Não fomos :(   |
+| 2025-04-24 | Visita Monitorada         |ICMC/USP             | Abin           |
 | 2025-02-26 | Feira de oportunidades    |ICMC/USP             | Luana, Furry, Niko, Vinicius |
 | 2024-05-29 | Visita Monitorada         |ICMC/USP             | Gabriel, Silmar|
 | 2024-02-28 | Feira de oportunidades    |ICMC/USP             | Silmar, Guip   |
