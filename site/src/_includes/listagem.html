@@ -1,7 +1,11 @@
 <article class="listing" id="{{ post.slug }}">
   <header>
     <{{ include.element | default: "h2" }}>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% if post.url %}
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% else %}
+        {{ post.title }}
+      {% endif %}
       {% if post.inactive %}
         <small>(inativo)</small>
       {% endif %}
