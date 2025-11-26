@@ -17,7 +17,6 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                 | Voluntárie(s)    |
 |---------------------|-------------------------|------------------|
-| 26/11/2025          | 14:30 ~ 17:30           | Luana e Gabs     |
 | 28/11/2025          | 14:40 ~ 15:40           | Luana            |
 | Mais datas em breve!|                         |                  |
 
@@ -89,23 +88,24 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
-| 12/11/2025          |   13:00 ~ 18:00          | 2 (nixos-anywhere, ajuda contribuição open source)| Luana e Gabs|
-| 20/10/2025          |   15:00 ~ 17:00          | 0                     | Luana |
-| 23/09/2025          |   14:50 ~ 15:20          | 1 (openSUSE tw inst)  | Luana e Furry |
-| 10/09/2025          |   14:20 ~ 18:20          | 1 (nixos binary cache) | Luana e Gabs |
-| 27/08/2025          |   15:00 ~ 17:20          | 2 (inst debian, db tumbleweed+w10)| Luana, Grilo |
-| 18/08/2025          |   15:00 ~ 19:30          | 1 (instalar Mint)   | Luana, Gabs e Abin |
+| 26/11/2025          |   14:40 ~ 17:10          | 1 (troubleshooting travamento, aumento swap) | Luana              |
+| 12/11/2025          |   13:00 ~ 18:00          | 2 (nixos-anywhere, ajuda contribuição open source)| Luana e Gabs  |
+| 20/10/2025          |   15:00 ~ 17:00          | 0                                            | Luana              |
+| 23/09/2025          |   14:50 ~ 15:20          | 1 (openSUSE tw inst)                         | Luana e Furry      |
+| 10/09/2025          |   14:20 ~ 18:20          | 1 (nixos binary cache)                       | Luana e Gabs       |
+| 27/08/2025          |   15:00 ~ 17:20          | 2 (inst debian, db tumbleweed+w10)           | Luana, Grilo       |
+| 18/08/2025          |   15:00 ~ 19:30          | 1 (instalar Mint)                            | Luana, Gabs e Abin |
 | 30/05/2025          |   15:30 ~ 20:00          | 3 (aula nix (3), fediverso, site (1))        | Luana e Kauê       |
-| 23/05/2025          |   10:20 ~ 12:20          | 0                                                      | Luana               |
-| 15/05/2025          |   15:40 ~ 18:50          | 2 (db win+fedora, macbook fedora eduroam troubleshoot) | Luana e Gus         |
-| 09/05/2025          |   10:40 ~ 18:00          | 3 (db win+opensuse, ajuda NixOS, db win+opensuse)      | Luana               |
+| 23/05/2025          |   10:20 ~ 12:20          | 0                                                      | Luana    |
+| 15/05/2025          |   15:40 ~ 18:50          | 2 (db win+fedora, macbook fedora eduroam troubleshoot) |Luana e Gus|
+| 09/05/2025          |   10:40 ~ 18:00          | 3 (db win+opensuse, ajuda NixOS, db win+opensuse)      | Luana    |
 | 04/04/2025          |   14:50 ~ 19:00          | 2 (arrumar jogo steam, ajuda programação)          | Luana, Gabs e Lívia |
 | 28/03/2025          |   14:30 ~ 19:10          | 3 (troca gutta p/ fedora, troca win11 p/ opensuse, dúvidas servidores)|Luana e Gabs|
 | 21/03/2025          |   14:50 ~ 19:05          | 2 (dual boot openSUSE+w10, troubleshoot btrfs corruption)| Luana e Kauê |
 | 17/03/2025          |   16:00 ~ 18:20          | 1 (fedora (db win11), drivers Nvidia e snapper)| Luana e Yuri     |
 | 11/03/2025          |   14:20 ~ 16:00          | 1 (NixOS Wayland screenshare Discord (atualizar NixOS))| Luana    |
 | 11/12/2024          |   15:00 ~ 18:15          | 1 (ajuda com nix flakes)                     |Luana, Vinicius e Niko|
-| 20/11/2024          |   15:00 ~ 19:00          | 2 (dual boot openSUSE+w10, troca hd)         |Luana e Zé          |
+| 20/11/2024          |   15:00 ~ 19:00          | 2 (dual boot openSUSE+w10, troca hd)         | Luana e Zé         |
 | 28/10/2024          |   15:10 ~ 17:40          | 0                                            | Luana              |
 | 14/10/2024          |   15:00 ~ 17:40          | 0 (atividades internas)                      | Luana              |
 | 30/09/2024          |   14:00 ~ 20:10          | 1 (atualizar R p/ inst GGally, Mint 21.1->22)| Furry, Luana e Niko|
@@ -113,7 +113,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 | 20/09/2024          |   15:00 ~ 18:00          | 1 (NixOS)                                    |        Luana       |
 | 16/09/2024          |   15:00 ~ 17:40          | 1 (pytorch)                                  | Furry, Luana e Yuri|
 | 26/08/2024          |   15:10 ~ 18:40          | 1 (db-win10+kubuntu)                         | Furry, Luana e Yuri|
-| 13/07/2022          |                          | 1                                            | Deandreson
-| 29/06/2022          |                          | 1                                            | Deandreson
-| 15/06/2022          |                          | 3                                            | Deandreson
-| 08/06/2022          |                          | 2                                            | Deandreson
+| 13/07/2022          |                          | 1                                            | Deandreson         |
+| 29/06/2022          |                          | 1                                            | Deandreson         |
+| 15/06/2022          |                          | 3                                            | Deandreson         |
+| 08/06/2022          |                          | 2                                            | Deandreson         |
