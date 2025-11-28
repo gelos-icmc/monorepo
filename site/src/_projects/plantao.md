@@ -17,7 +17,6 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                 | Voluntárie(s)    |
 |---------------------|-------------------------|------------------|
-| 28/11/2025          | 14:40 ~ 15:40           | Luana            |
 | Mais datas em breve!|                         |                  |
 
 
@@ -88,6 +87,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 28/11/2025          |   14:30 ~ 16:45          | 1 (inst. NixOS, secure boot, kde connect)    | Luana              |
 | 26/11/2025          |   14:40 ~ 17:10          | 1 (troubleshooting travamento, aumento swap) | Luana              |
 | 12/11/2025          |   13:00 ~ 18:00          | 2 (nixos-anywhere, ajuda contribuição open source)| Luana e Gabs  |
 | 20/10/2025          |   15:00 ~ 17:00          | 0                                            | Luana              |
