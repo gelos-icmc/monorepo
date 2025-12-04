@@ -87,6 +87,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 04/12/2025          |   14:00 ~ 18:00          | 1 (nixos-anywhere)                           | Luana, Gabs, Charles       |
 | 28/11/2025          |   14:30 ~ 16:45          | 1 (inst. NixOS, secure boot, kde connect)    | Luana              |
 | 26/11/2025          |   14:40 ~ 17:10          | 1 (troubleshooting travamento, aumento swap) | Luana              |
 | 12/11/2025          |   13:00 ~ 18:00          | 2 (nixos-anywhere, ajuda contribuição open source)| Luana e Gabs  |
