@@ -1,7 +1,7 @@
 ---
 title: Júlio Casemiro
 draft: true
-role: member
 inactive: true
+role: alumni
 nusp: 11816139
 ---
