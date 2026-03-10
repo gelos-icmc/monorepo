@@ -17,8 +17,6 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                 | Voluntárie(s)    |
 |---------------------|-------------------------|------------------|
-| 06/03/2026          | 16:15 ~ 17:15           | Luana            |
-| 09/03/2026          | 15:00 ~ 16:30           | Luana            |
 | Mais datas em breve!|                         |                  |
 
 
@@ -89,6 +87,8 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 09/03/2026          |   15:00 ~ 16:30          | 2 (instalações Mint (1 db))                    | Luana              |
+| 06/03/2026          |   16:00 ~ 18:30          | 2 (instalações Mint (1 db))                    | Luana              |
 | 04/12/2025          |   14:00 ~ 18:00          | 1 (nixos-anywhere)                           | Luana, Gabs, Charles       |
 | 28/11/2025          |   14:30 ~ 16:45          | 1 (inst. NixOS, secure boot, kde connect)    | Luana              |
 | 26/11/2025          |   14:40 ~ 17:10          | 1 (troubleshooting travamento, aumento swap) | Luana              |
