@@ -1,0 +1,13 @@
+- nome: Luana
+  email: neder@usp.br
+  horarios: 14:00 ~ 16:30 e 18:30 ~ 20:00
+  pendrives:
+    - descricao: Lexar prateada USB C e A c/ chaveiro GELOS
+      tamanho: 256GB
+      isos: Todas
+    - descricao: SanDisk vermelho e preto c/ chaveiro openSUSE
+      tamanho: 8GB
+      isos: TBD
+    - descricao: Kingston preto DT101 G2 c/ chaveiro GELOS
+      tamanho: 16GB
+      isos: TBD   

@@ -3,15 +3,15 @@ title: Installfest 2026/1
 authors:
     - Luana
     - Gabriel
-state: wip
-# blog: TODO
+state: in_progress
+blog: /2026/03/25/installfest-2026-1.html
 ---
 
-Evento de instalação de Linux, será realizado no dia 16/04 das 14h às 19h, no vão da biblioteca do ICMC.
+Evento de instalação de Linux, será realizado no dia 15/04 das 14h às 20h, no vão da biblioteca do ICMC.
 
 Página em construção
 
-<!-- Esta é a página de organização do projeto. Para informações para o público geral, veja o [**post de divulgação**]({{ page.blog }}) -->
+Esta é a página de organização do projeto. Para informações para o público geral, veja o [**post de divulgação**]({{ page.blog }})
 
 ## Como participar
 
@@ -41,15 +41,20 @@ Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
 
 ## Distros
 
-A distro principal a ser recomendada e instalada é o Fedora.
-Disponibilizaremos, no mínimo, a versão com KDE, Xfce e GNOME. Para usuários
-não-técnicos, a sugestão pode ser Fedora ou Linux Mint. Para usuários
-avançados ou com casos de uso especiais, fica a critério do voluntário qual sugerir. É importante lembrar
-que iniciantes são prioridade no evento.
+A distro principal a ser recomendada e instalada é o Linux Mint.
+Disponibilizaremos, no mínimo, a versão com Cinnamon e Xfce. 
+Dê preferência à instalação do Mint com btrfs (particionamento manual), e ative o TimeShift
+(snapshots) para proteger contra quebras de sistema.  
+
+Para usuários técnicos, "fuçadores" ou com casos de uso especiais fica a critério do voluntário
+qual sugerir. É importante lembrar que iniciantes são prioridade no evento, mas é interessante levar
+também opções de distro com KDE e Gnome.
 
 Lembre-se de instalar os drivers necessários, além de configurar um sistema
-de snapshots (Snapper, TimeShift, etc) caso não venha por padrão. Recursos para
-essas instalações no Fedora estão disponíveis na
+de snapshots (Snapper, TimeShift, etc) caso não venha por padrão. No Mint essas instalações
+devem preferencialmente ser realizadas rapidamente por meio das interfaces gráficas inclusas
+no sistema.
+Recursos para o Fedora e openSUSE estão disponíveis na
 [página de problemas do GELOS](https://gelos.club/pobremas).
 
 Estamos disponibilizando todas ISOs para x86_64, bem como as
@@ -77,8 +82,8 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 
 ### Pré evento
 
-- [ ] Reservar espaço
-- [ ] Post de divulgação
+- [x] Reservar espaço
+- [x] Post de divulgação
     - [ ] Conferir data pra postar (jekyll n posta post com data futura)
 - [ ] Flyer
     - [ ] Preparar
@@ -140,8 +145,8 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 
 ## Data e Local
 
-- 📅 Data: 16/04/2026
-- 🕒 Horário: 14h-19h
+- 📅 Data: 15/04/2026
+- 🕒 Horário: 14h-20h
 - 📍 Local: Vão da Biblioteca (ICMC-USP)
 
 Mapa:
@@ -151,5 +156,5 @@ Mapa:
 <!--
 ## Flyer
 
-![Flyer da installfest, uma imagem com fundo azul em degradê de claro esverdeado para escuro e o Tux, mascote do Linux, grande em branco semitransparente. O fundo é acompanhados de vários logos do GELOS imitando neve caindo. Na frente, em letras grandes está o título "Linux Installfest" seguido pelas informações sobre localização e data do evento. Na direita estão os logos de diversas distros, um QR Code para essa página e o logo do GELOS, CCOS e ICMC.](/assets/static/installfest/GELOS-Installfest-2025-2.png)
+![Flyer da installfest, uma imagem com fundo azul em degradê de claro esverdeado para escuro e o Tux, mascote do Linux, grande em branco semitransparente. O fundo é acompanhados de vários logos do GELOS imitando neve caindo. Na frente, em letras grandes está o título "Linux Installfest" seguido pelas informações sobre localização e data do evento. Na direita estão os logos de diversas distros, um QR Code para essa página e o logo do GELOS, CCOS e ICMC.](/assets/static/installfest/GELOS-Installfest-2026-2.png)
 -->
