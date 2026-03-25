@@ -84,14 +84,14 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 
 - [x] Reservar espaço
 - [x] Post de divulgação
-    - [ ] Conferir data pra postar (jekyll n posta post com data futura)
+    - [x] Conferir data pra postar (jekyll n posta post com data futura)
 - [ ] Flyer
-    - [ ] Preparar
+    - [x] Preparar
     - [ ] Imprimir
     - [ ] Colar
 - [ ] Pegar posters CCEx
-- [ ] Fazer permalink /if8 para pag no blog
-- [ ] Arrumar permalink /if8 para pag no blog
+- [x] Fazer permalink /if8 para pag no blog
+- [x] Arrumar permalink /if8 para pag no blog
 - [ ] Divulgar nas listas
     - IFSC
       - [ ] Solicitar
@@ -117,7 +117,7 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [ ] Outros grupos
 - [ ] Divulgar nas redes sociais
     - [ ] Fediverso
-    - [ ] Instagram
+    - [ ] Instagram 🤢
     - [ ] Outras
 - [ ] Divulgações Extras
     - [ ] [EndOf10](https://endof10.org/events/)
@@ -153,8 +153,7 @@ Mapa:
 
 <iframe height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-47.89704591035843%2C-22.00876558246043%2C-47.89270609617233%2C-22.006569767724148&amp;layer=mapnik&amp;marker=-22.007668922727124%2C-47.89487600326538" style="border: 1px solid black; width: 100%"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=-22.007669&amp;mlon=-47.894876#map=19/-22.007668/-47.894876&amp;layers=N">Ver mapa ampliado</a></small>
 
-<!--
+
 ## Flyer
 
-![Flyer da installfest, uma imagem com fundo azul em degradê de claro esverdeado para escuro e o Tux, mascote do Linux, grande em branco semitransparente. O fundo é acompanhados de vários logos do GELOS imitando neve caindo. Na frente, em letras grandes está o título "Linux Installfest" seguido pelas informações sobre localização e data do evento. Na direita estão os logos de diversas distros, um QR Code para essa página e o logo do GELOS, CCOS e ICMC.](/assets/static/installfest/GELOS-Installfest-2026-2.png)
--->
+![Flyer da installfest, uma imagem com fundo azul em degradê de claro esverdeado para escuro e o Tux, mascote do Linux, grande em branco semitransparente. O fundo é acompanhados de vários logos do GELOS imitando neve caindo. Na frente, em letras grandes está o título "Linux Installfest" seguido pelas informações sobre localização e data do evento. Na direita estão os logos de diversas distros, um QR Code para essa página e o logo do GELOS, CCOS e ICMC.](/assets/static/installfest/GELOS-Installfest-2026-1.png)
