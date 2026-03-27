@@ -1,0 +1,5 @@
+---
+---
+{%- for iso in site.data.installfest.if8-isos -%}
+{{ iso["sha256"] }}  {{ iso["filename"] }}
+{% endfor -%}
