@@ -95,7 +95,7 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 - [ ] Divulgar nas listas
     - IFSC
       - [x] Solicitar
-      - [ ] Done
+      - [x] Done
     - ICMC
       - [x] Solicitar
       - [ ] Done
@@ -109,9 +109,9 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
       - [x] Solicitar
       - [ ] Done
 - [ ] Divulgar nos grupos (1a vez, mas bom ir relembrando várias vezes!)
-    - [ ] IFSC
-    - [ ] ICMC
-    - [ ] EESC
+    - [x] IFSC
+    - [x] ICMC
+    - [x] EESC
     - [ ] IAU
     - [ ] IQSC
     - [ ] Outros grupos
