@@ -10,4 +10,12 @@
       isos: TBD
     - descricao: Kingston preto DT101 G2 c/ chaveiro GELOS
       tamanho: 16GB
-      isos: TBD   
+      isos: TBD
+
+- nome: Gabs
+  email: g.fontes@usp.br
+  horarios: 14:00 - 20:00
+  pendrives:
+    - descricao: SanDisk prateado (USB-C e USB-A) c/ chaveiro GELOS
+      tamanho: 256GB
+      isos: Todas
