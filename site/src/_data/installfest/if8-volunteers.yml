@@ -19,3 +19,10 @@
     - descricao: SanDisk prateado (USB-C e USB-A) c/ chaveiro GELOS
       tamanho: 256GB
       isos: Todas
+- nome: Clara
+  email: claraernestodecarvalho@usp.br
+  horarios: 14:00 - 18:00
+  pendrives:
+    - descricao: Sandisk preto (USB-A)
+      tamanho: 64GB
+      isos: Todas
