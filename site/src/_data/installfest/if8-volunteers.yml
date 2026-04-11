@@ -7,10 +7,10 @@
       isos: Todas
     - descricao: SanDisk vermelho e preto c/ chaveiro openSUSE
       tamanho: 8GB
-      isos: TBD
+      isos: Linux Mint Cinnamon (ventoyless)
     - descricao: Kingston preto DT101 G2 c/ chaveiro GELOS
       tamanho: 16GB
-      isos: TBD
+      isos: Mint Cinnamon e Xfce, Fedora KDE, Endeavour e Alpine 
 
 - nome: Gabs
   email: g.fontes@usp.br
