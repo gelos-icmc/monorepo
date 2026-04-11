@@ -1,0 +1,83 @@
+- name: Linux Mint 22.3 Cinnamon
+  size: 2.9GB
+  link: https://mint.c3sl.ufpr.br/stable/22.3/linuxmint-22.3-cinnamon-64bit.iso
+  filename: linuxmint-22.3-cinnamon-64bit.iso
+  sha256: a081ab202cfda17f6924128dbd2de8b63518ac0531bcfe3f1a1b88097c459bd4
+
+- name: Linux Mint 22.3 XFCE
+  size: 2.8GB
+  link: https://mint.c3sl.ufpr.br/stable/22.3/linuxmint-22.3-xfce-64bit.iso
+  filename: linuxmint-22.3-xfce-64bit.iso
+  sha256: 45a835b5dddaf40e84d776549e0b19b3fbd49673b6cc6434ebddbfcd217df776
+
+- name: EndeavourOS Titan 2026.03.06
+  size: 3.4GB
+  link: https://mirror.rznet.fr/endeavouros/iso/EndeavourOS_Titan-2026.03.06.iso
+  filename: EndeavourOS_Titan-2026.03.06.iso
+  sha256: 7958513bf3aa20eb01566a66f93700255dd291c6472afb2af394cde36e52d160
+
+- name: Fedora KDE 43 (x86_64)
+  size: 3.0GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/43/KDE/x86_64/iso/Fedora-KDE-Desktop-Live-43-1.6.x86_64.iso
+  filename: Fedora-KDE-Desktop-Live-43-1.6.x86_64.iso
+  sha256: 181fe3e265fb5850c929f5afb7bdca91bb433b570ef39ece4a7076187435fdab
+
+- name: Fedora KDE 43 (aarch64)
+  size: 2.9GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/43/KDE/aarch64/iso/Fedora-KDE-Desktop-Live-43-1.6.aarch64.iso
+  filename: Fedora-KDE-Desktop-Live-43-1.6.aarch64.iso
+  sha256: 884c651b543a0a2922074859da5e7720595b6a113c3ee1a51fd996a1a0492218
+
+- name: Fedora GNOME 43
+  size: 2.2GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/43/Workstation/x86_64/iso/Fedora-Workstation-Live-43-1.6.x86_64.iso
+  filename: Fedora-Workstation-Live-43-1.6.x86_64.iso
+  sha256: 2a4a16c009244eb5ab2198700eb04103793b62407e8596f30a3e0cc8ac294d77
+
+- name: Debian 13.4
+  size: 3.7GB
+  link: https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-13.4.0-amd64-DVD-1.iso
+  filename: debian-13.4.0-amd64-DVD-1.iso
+  sha256: e41eeaffa4fdd64fbf07fc8b0d18a1b5f15ba9743a72c222008f8fd0b6463355
+
+- name: NixOS 25.11 (x86_64)
+  size: 3.5GB
+  link: https://releases.nixos.org/nixos/25.11/nixos-25.11.9067.54170c54449e/nixos-graphical-25.11.9067.54170c54449e-x86_64-linux.iso
+  filename: nixos-graphical-25.11.9067.54170c54449e-x86_64-linux.iso
+  sha256: f2fdf4efe1bf5d0dbf319fee2317be4d0bf2ffd460824d8fcf949363e429dfa9
+
+- name: NixOS 25.11 (aarch64)
+  size: 3.5GB
+  link: https://releases.nixos.org/nixos/25.11/nixos-25.11.9067.54170c54449e/nixos-graphical-25.11.9067.54170c54449e-aarch64-linux.iso
+  filename: nixos-graphical-25.11.9067.54170c54449e-aarch64-linux.iso
+  sha256: 51c4c55baa324729a06fd8b1a6f176ee17b227f8818c77f580102efd350827f6
+
+- name: openSUSE Tumbleweed 20260409
+  size: 4.4GB
+  link: https://mirror.uepg.br/opensuse/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20260409-Media.iso
+  filename: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20260409-Media.iso
+  sha256: 605084404f4ad7ed12ee6a0da165862fdebf8036f063d9547550c3c840165f2c
+
+- name: Alpine Linux 3.23.3
+  size: 1.3GB
+  link: https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/x86_64/alpine-extended-3.23.3-x86_64.iso
+  filename: alpine-extended-3.23.3-x86_64.iso
+  sha256: e36e08961573d9388c7f225e1f47e1b31052a2e061510b6e91d3edc730c06ee8
+
+- name: Chimera Linux 20251220
+  size: 2.4GB
+  link: https://repo.chimera-linux.org/live/20251220/chimera-linux-x86_64-LIVE-20251220-plasma.iso
+  filename: chimera-linux-x86_64-LIVE-20251220-plasma.iso
+  sha256: a963ec89f349c56578cca5a9811f0bd5c383bc0c6f2de36871462607d32050c1
+
+- name: Arch Linux 2026.04.01
+  size: 1.4GB
+  link: https://mirror.ufscar.br/archlinux/iso/2026.04.01/archlinux-2026.04.01-x86_64.iso
+  filename: archlinux-2026.04.01-x86_64.iso
+  sha256: f14bf46afbe782d28835aed99bfa2fe447903872cb9f4b21153196d6ed1d48ae
+
+- name: Ubuntu 25.10
+  size: 5.3GB
+  link: https://releases.ubuntu.com/25.10/ubuntu-25.10-desktop-amd64.iso
+  filename: ubuntu-25.10-desktop-amd64.iso
+  sha256: 32e30d72ae4798c633323a2684d94a11582bb03a6ab38d2b0d5ae5eabc5e577b
