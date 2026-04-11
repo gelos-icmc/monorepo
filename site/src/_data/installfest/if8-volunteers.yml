@@ -26,3 +26,10 @@
     - descricao: Sandisk preto (USB-A)
       tamanho: 64GB
       isos: Todas
+- nome: Matheus
+  email: msilvati.dev@gmail.com
+  horarios: 14:00 ~ 19:00
+  pendrives:
+    - descricao: Sandisk preto (USB-A 3.2) c/ indentificação na parte traseira
+      tamanho: 64GB
+      isos: Linx Mint (Cinnamon Edition), Fedora KDE, Fedora Kinoite, Aurora (NVIDIA Drivers) e Aurora (Intel/AMD Drivers)
