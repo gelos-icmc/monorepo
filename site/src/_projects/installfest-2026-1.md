@@ -55,7 +55,7 @@ de snapshots (Snapper, TimeShift, etc) caso não venha por padrão. No Mint essa
 devem preferencialmente ser realizadas rapidamente por meio das interfaces gráficas inclusas
 no sistema.
 Recursos para o Fedora e openSUSE estão disponíveis na
-[página de problemas do GELOS](https://gelos.club/pobremas).
+[página de problemas do GELOS](https://gelos.club/pobremas), mas confira se eles estão atualizados.
 
 Estamos disponibilizando todas ISOs para x86_64, bem como as
 principais para aarch64 (UEFI Arm). Voluntários podem levar ISOs extras,
@@ -123,10 +123,10 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [ ] [EndOf10](https://endof10.org/events/)
     - [ ] Atualizar [mapeamento.softwarelivre.tec.br installfest](https://mapeamento.softwarelivre.tec.br/locais/gelos-linux-installfest/)
     - [ ] [movimento.softwarelivre.tec.br](https://movimento.softwarelivre.tec.br/eventos/)
-- [ ] ISOs
-    - [ ] Atualizar tabela com links e checksums atuais
+- [x] ISOs
+    - [x] Atualizar tabela com links e checksums atuais
     - [ ] Mirror das isos do openSUSE
-    - [ ] Criar arquivo com checksums
+    - [x] Criar arquivo com checksums
 - [ ] Levantar pessoas
     - [ ] Preencher tabela de voluntários
     - [ ] Preencher tabela de pendrives
