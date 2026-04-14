@@ -33,3 +33,10 @@
     - descricao: Sandisk preto (USB-A 3.2) c/ indentificação na parte traseira
       tamanho: 64GB
       isos: Linx Mint (Cinnamon Edition), Fedora KDE, Fedora Kinoite, Aurora (NVIDIA Drivers) e Aurora (Intel/AMD Drivers)
+  - nome: Breno
+  email: TBI
+  horarios: 16:00 ~ 18:00
+  pendrives:
+    - descricao: Sandisk preto (USB-A e USB-C)
+      tamanho: 256GB
+      isos: Todas 
