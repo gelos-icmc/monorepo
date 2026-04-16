@@ -142,7 +142,7 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 
 - [x] Levantar números (11 instalações: 5 Mint, 3 Fedora, 2 ubuntu, 1 outra)
 - [ ] Postar fotos
-- [ ] Devolver posters
+- [x] Devolver posters
 
 ## Data e Local
 
