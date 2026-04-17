@@ -39,4 +39,11 @@
   pendrives:
     - descricao: Sandisk preto (USB-A e USB-C)
       tamanho: 256GB
-      isos: Todas 
+      isos: Todas
+- nome: Fernando
+  email: fe.cz@usp.br
+  horarios: 16:00 ~ 20:00
+  pendrives:
+    - descricao: Ecooda Prateado (USB-A)
+      tamanho: 64GB
+      isos: Linux Mint Debian Edition (Cinnamon), Fedora KDE, CachyOS, Debian, EndeavourOS, Garuda Xfce, Kali Linux, MX Linux, Tails
