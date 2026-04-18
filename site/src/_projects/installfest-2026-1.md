@@ -3,7 +3,7 @@ title: Installfest 2026/1
 authors:
     - Luana
     - Gabriel
-state: in_progress
+state: finished
 blog: /2026/03/25/installfest-2026-1.html
 ---
 
@@ -89,7 +89,7 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [x] Preparar
     - [x] Imprimir
     - [x] Colar
-- [ ] Pegar posters CCEx
+- [x] Pegar posters CCEx
 - [x] Fazer permalink /if8 para pag no blog
 - [x] Arrumar permalink /if8 para pag no blog
 - [x] Divulgar nas listas
@@ -108,16 +108,16 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - IAU
       - [x] Solicitar
       - [ ] Done
-- [ ] Divulgar nos grupos (1a vez, mas bom ir relembrando várias vezes!)
+- [x] Divulgar nos grupos (1a vez, mas bom ir relembrando várias vezes!)
     - [x] IFSC
     - [x] ICMC
     - [x] EESC
     - [ ] IAU
     - [ ] IQSC
     - [ ] Outros grupos
-- [ ] Divulgar nas redes sociais
+- [x] Divulgar nas redes sociais
     - [x] Fediverso
-    - [ ] Instagram 🤢
+    - [x] Instagram 🤢
     - [ ] Outras
 - [ ] Divulgações Extras
     - [ ] [EndOf10](https://endof10.org/events/)
@@ -127,9 +127,9 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [x] Atualizar tabela com links e checksums atuais
     - [ ] Mirror das isos do openSUSE
     - [x] Criar arquivo com checksums
-- [ ] Levantar pessoas
-    - [ ] Preencher tabela de voluntários
-    - [ ] Preencher tabela de pendrives
+- [x] Levantar pessoas
+    - [x] Preencher tabela de voluntários
+    - [x] Preencher tabela de pendrives
 - [x] Formulário de instalação (cryptpad/nextcloud/similar)
 - [ ] Coffee break
     - [ ] Vaquinha
@@ -140,8 +140,9 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 
 ### Pós evento
 
-- [ ] Levantar números
+- [x] Levantar números (11 instalações: 5 Mint, 3 Fedora, 2 ubuntu, 1 outra)
 - [ ] Postar fotos
+- [x] Devolver posters
 
 ## Data e Local
 

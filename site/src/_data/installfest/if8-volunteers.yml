@@ -1,6 +1,6 @@
 - nome: Luana
   email: neder@usp.br
-  horarios: 14:00 ~ 16:30 e 18:30 ~ 20:00
+  horarios: 14:00 ~ 20:50
   pendrives:
     - descricao: Lexar prateada USB C e A c/ chaveiro GELOS
       tamanho: 256GB
@@ -11,38 +11,30 @@
     - descricao: Kingston preto DT101 G2 c/ chaveiro GELOS
       tamanho: 16GB
       isos: Mint Cinnamon e Xfce, Fedora KDE, Endeavour e Alpine 
-
 - nome: Gabs
   email: g.fontes@usp.br
-  horarios: 14:00 - 20:00
+  horarios: 15:00 - 20:50
   pendrives:
     - descricao: SanDisk prateado (USB-C e USB-A) c/ chaveiro GELOS
       tamanho: 256GB
       isos: Todas
-- nome: Clara
-  email: claraernestodecarvalho@usp.br
-  horarios: 14:00 - 18:00
-  pendrives:
-    - descricao: Sandisk preto (USB-A)
-      tamanho: 64GB
-      isos: Todas
 - nome: Matheus
   email: msilvati.dev@gmail.com
-  horarios: 14:00 ~ 19:00
+  horarios: 14:00 ~ 20:00
   pendrives:
     - descricao: Sandisk preto (USB-A 3.2) c/ indentificação na parte traseira
       tamanho: 64GB
       isos: Linx Mint (Cinnamon Edition), Fedora KDE, Fedora Kinoite, Aurora (NVIDIA Drivers) e Aurora (Intel/AMD Drivers)
 - nome: Breno
   email: TBI
-  horarios: 16:00 ~ 18:00
+  horarios: 16:00 ~ 20:00
   pendrives:
     - descricao: Sandisk preto (USB-A e USB-C)
       tamanho: 256GB
       isos: Todas
 - nome: Fernando
   email: fe.cz@usp.br
-  horarios: 16:00 ~ 20:00
+  horarios: 16:00 ~ 20:50
   pendrives:
     - descricao: Ecooda Prateado (USB-A)
       tamanho: 64GB
