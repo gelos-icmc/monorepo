@@ -1,5 +1,6 @@
 ---
 title: Matheus "Furry" Borella
+legal_name: Matheus Branco Borella
 email: mbrla@usp.br
 links:
     Site: lobisomem.gay

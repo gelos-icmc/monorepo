@@ -1,10 +1,11 @@
 ---
-title: João
+title: João Bastos
 email: joaog.bastos@usp.br
 links:
     site: goll.cc
     github: github.com/goll72
 role: member
+nusp: 15462633
 filiation: usp-icmc
 ---
 
