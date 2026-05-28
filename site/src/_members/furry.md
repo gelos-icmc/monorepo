@@ -5,6 +5,7 @@ links:
     Site: lobisomem.gay
 role: member
 nusp: 11218897
+filiation: usp-icmc
 always_gay: true
 ---
 

@@ -9,6 +9,7 @@ links:
 role: member
 ignore_quorum: true
 nusp: 5626309
+filiation: ufscar-dc
 ---
 
 Oi, eu sou o Paulo! 🐕

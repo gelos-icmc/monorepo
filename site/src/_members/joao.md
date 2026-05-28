@@ -5,6 +5,7 @@ links:
     site: goll.cc
     github: github.com/goll72
 role: member
+filiation: usp-icmc
 ---
 
 Estou cursando BCC no ICMC, gosto de ouvir música (alguns gêneros incomuns),

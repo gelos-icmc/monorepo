@@ -4,6 +4,7 @@ email: caiobrundeoliveira@usp.br
 nusp: 17882570
 links:
     GitHub: github.com/Kay0225123
+filiation: usp-icmc
 role: onboarding
 ---
 

@@ -5,6 +5,7 @@ site: joaoser.gay
 email: gustavobloisrr@usp.br
 telegram: AtomHeartOtter
 role: member
+filiation: usp-icmc
 nusp: 13688162
 ---
 

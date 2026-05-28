@@ -3,6 +3,7 @@ title: Arthur Grillo Queiroz Cabral
 nickanme: Grillo
 email: arthur.grillo01@gmail.com
 role: member
+filiation: usp-icmc # TODO: change after 2026
 ---
 
 Oi tudo bem?

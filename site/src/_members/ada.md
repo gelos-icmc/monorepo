@@ -6,6 +6,7 @@ links:
     Fediverso: https://scicomm.xyz/@isoentropica
     GitHub: github.com/qqqbea
 nusp: 18020510
+filiation: usp-icmc
 role: onboarding
 ---
 

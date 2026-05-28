@@ -5,4 +5,5 @@ role: member
 draft: true
 ignore_quorum: true
 nusp: 839090
+filiation: usp-icmc
 ---
