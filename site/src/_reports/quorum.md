@@ -1,5 +1,5 @@
 ---
-title: Membros nescessários para quórum
+title: Membros necessários para quórum
 author: Gabriel
 ---
 
