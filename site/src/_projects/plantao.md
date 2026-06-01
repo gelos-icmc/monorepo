@@ -8,7 +8,7 @@ Plantões para tirar dúvidas com Linux e outras ferramentas livres.
 
 Usa Linux e esbarrou em algum problema? Usa algum software open source e tem alguma dúvida? Estamos aqui para ajudar!
 
-Nos plantões, haverá ao menos ume voluntárie na sala do GELOS (3-109) para tirar dúvidas ou ajudar a resolver problemas com Linux ou outros softwares livres ou open source.
+Nos plantões, haverá ao menos ume voluntárie na sala do GELOS (1-112) para tirar dúvidas ou ajudar a resolver problemas com Linux ou outros softwares livres ou open source.
 Caso tenha um problema ou precise de alguma ajuda, é só aparecer!
 
 Confira abaixo as próximas datas
@@ -17,6 +17,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                 | Voluntárie(s)    |
 |---------------------|-------------------------|------------------|
+| 09/06/2026          | 15:00 ~ 17:00           | Luana            |
 | Mais datas em breve!|                         |                  |
 
 
