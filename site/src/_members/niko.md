@@ -7,6 +7,7 @@ links:
 role: member
 nusp: 15577631
 always_gay: true
+filiation: usp-icmc
 ---
 
 Hisss! 🦎🏳️‍🌈

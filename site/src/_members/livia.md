@@ -7,6 +7,7 @@ links:
   Steam: steamcommunity.com/id/ymegam
 role: member
 nusp: 12543822
+filiation: usp-icmc
 always_gay: true
 ---
 

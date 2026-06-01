@@ -8,6 +8,7 @@ links:
     GitHub: github.com/LuNeder
 fediversecreator: luana@wetdry.world
 nusp: 13836963
+filiation: usp-ifsc
 role: member
 always_gay: true
 gay_colors:

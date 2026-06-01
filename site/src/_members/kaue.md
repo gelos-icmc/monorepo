@@ -7,7 +7,9 @@ links:
     github: github.com/bakaq
     mastodon: mastodon.social/@bakaq
 role: member
+filiation: null # Currently not in USP
 nusp: 11212226
+cpf: 189.162.507-80
 ---
 
 Sou um físico formado no IFSC USP, em breve entrarei no mestrado.

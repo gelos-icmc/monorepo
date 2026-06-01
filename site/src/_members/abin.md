@@ -5,7 +5,9 @@ site: joaoser.gay
 email: gustavobloisrr@usp.br
 telegram: AtomHeartOtter
 role: member
+filiation: usp-icmc
 nusp: 13688162
+inactive: true
 ---
 
 Oi, eu sou o João Sergay.

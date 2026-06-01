@@ -5,4 +5,7 @@ links:
 draft: true
 role: member
 nusp: 12623950
+# Formado
+# filiation: usp-icmc
+email: me@silmarp.dev
 ---

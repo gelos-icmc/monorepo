@@ -1,11 +1,13 @@
 ---
 title: Gabriel Fontes
+legal_name: Gabriel Silva Fontes
 email: g.fontes@usp.br
 links:
     Site: m7.rs
     Mastodon: fosstodon.org/@misterio
     GitHub: github.com/misterio77
 nusp: 10856803
+filiation: usp-icmc
 role: member
 always_gay: true
 gay_colors:

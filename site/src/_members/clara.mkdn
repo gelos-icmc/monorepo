@@ -5,6 +5,7 @@ email: clrcera05@gmail.com
 links:
   GitHub: github.com/clr-cera
 nusp: 14559479
+filiation: usp-icmc
 role: member
 extra_css: |
   :root {

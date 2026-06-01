@@ -1,5 +1,6 @@
 ---
 title: Paulo "thotypous" Matias
+legal_name: Paulo Matias
 email: matias@ufscar.br
 links:
   Site: matias.co.in
@@ -9,6 +10,8 @@ links:
 role: member
 ignore_quorum: true
 nusp: 5626309
+filiation: ufscar-dc
+cpf: 368.071.408-43
 ---
 
 Oi, eu sou o Paulo! 🐕

@@ -3,6 +3,9 @@ title: Arthur Grillo Queiroz Cabral
 nickanme: Grillo
 email: arthur.grillo01@gmail.com
 role: member
+nusp: 12690500
+filiation: usp-icmc # TODO: change after 2026
+cpf: 140.519.047-76
 ---
 
 Oi tudo bem?

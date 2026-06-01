@@ -1,10 +1,12 @@
 ---
 title: Matheus "Furry" Borella
+legal_name: Matheus Branco Borella
 email: mbrla@usp.br
 links:
     Site: lobisomem.gay
 role: member
 nusp: 11218897
+filiation: usp-icmc
 always_gay: true
 ---
 

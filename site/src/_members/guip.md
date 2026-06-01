@@ -5,6 +5,7 @@ links:
 email: me@guip.dev
 role: member
 nusp: 11796079
+filiation: usp-icmc
 ---
 
 Nada a perder, a não ser nossos grilhões! ☭🚩
