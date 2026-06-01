@@ -17,6 +17,7 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                 | Voluntárie(s)    |
 |---------------------|-------------------------|------------------|
+| 09/06/2026          | 15:00 ~ 17:00           | Luana            |
 | Mais datas em breve!|                         |                  |
 
 
