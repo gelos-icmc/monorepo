@@ -2,6 +2,30 @@ name: "GELOS"
 description: "Grupo de Extensão em Livre & Open Source - ICMC USP"
 url: "https://gelos.club"
 gay: true
+new_member_template: |
+  ---
+  title: Fulaninhe
+  email: nome@example.com
+  links:
+      Site: example.com
+      Fediverso: example.com/@nome
+      GitHub: github.com/nome
+      QualquerCoisa: example.com/nome
+  role: onboarding
+
+  # Campos necessários apenas para acesso à salinha. Você pode optar por não informá-los.
+  filiation: usp-icmc
+  # Pode ser nome social
+  full_name: Fulano da Silva
+  # Caso seja da USP
+  nusp: 00000000
+  # Caso não seja da USP
+  cpf: xxx.xxx.xxx-xx
+  ---
+
+  Conte sobre você!
+
+
 
 sass:
   style: compact
