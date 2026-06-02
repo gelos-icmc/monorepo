@@ -8,7 +8,7 @@ links:
     mastodon: mastodon.social/@bakaq
 role: member
 filiation: null # Currently not in USP
-legal_name: Kauê Hunnicutt Bazilli
+full_name: Kauê Hunnicutt Bazilli
 nusp: 11212226
 cpf: 189.162.507-80
 ---

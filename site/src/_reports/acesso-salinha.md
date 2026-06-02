@@ -22,8 +22,8 @@ Também disponível [em CSV]({% link _reports/acesso-salinha.csv %})
     <tr>
       <td>
         <a href="{{ member.url }}">
-        {% if member.legal_name %}
-          {{ member.legal_name }}
+        {% if member.full_name %}
+          {{ member.full_name }}
         {% else %}
           {{ member.title }}
         {% endif %}

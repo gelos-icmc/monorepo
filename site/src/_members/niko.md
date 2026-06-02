@@ -6,7 +6,7 @@ links:
     bluesky: bsky.app/profile/lagartao.gay
 role: member
 nusp: 15577631
-legal_name: Lucas Baptista
+full_name: Lucas Baptista
 email: lucasr.baptista@usp.br
 always_gay: true
 filiation: usp-icmc
