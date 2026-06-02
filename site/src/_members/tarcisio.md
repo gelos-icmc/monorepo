@@ -4,4 +4,5 @@ draft: true
 role: member
 nusp: 9312800
 filiation: usp-eesc
+email: tarcisio.oliveira@usp.br
 ---
