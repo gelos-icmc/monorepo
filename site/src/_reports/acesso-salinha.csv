@@ -6,5 +6,5 @@ hidden: true
 {%- assign members = site.members | where: "role", "member" | where: "inactive", false | sort: "filiation" -%}
 nome,email,filiação,nusp_ou_cpf
 {% for member in members -%}
-{% if member.legal_name %}{{ member.legal_name }}{% else %}{{ member.title }}{% endif -%},{{ member.email }},{{ member.filiation| default: "N/A" }},{% if member.filiation contains "usp" %}{{ member.nusp }}{% else %}{{ member.cpf }}{% endif %}
+{% if member.full_name %}{{ member.full_name }}{% else %}{{ member.title }}{% endif -%},{{ member.email }},{{ member.filiation| default: "N/A" }},{% if member.filiation contains "usp" %}{{ member.nusp }}{% else %}{{ member.cpf }}{% endif %}
 {% endfor -%}

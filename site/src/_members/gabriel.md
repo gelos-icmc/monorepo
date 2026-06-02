@@ -1,6 +1,6 @@
 ---
 title: Gabriel Fontes
-legal_name: Gabriel Silva Fontes
+full_name: Gabriel Silva Fontes
 email: g.fontes@usp.br
 links:
     Site: m7.rs

@@ -1,6 +1,6 @@
 ---
 title: Paulo "thotypous" Matias
-legal_name: Paulo Matias
+full_name: Paulo Matias
 email: matias@ufscar.br
 links:
   Site: matias.co.in
