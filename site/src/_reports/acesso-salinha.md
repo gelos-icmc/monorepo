@@ -5,9 +5,9 @@ author: Gabriel
 
 Relatório com lista dos membros e seus dados necessários para cadastrar no sistema do ICMC.
 
-Ao enviar, caso necessário, explicar que os com filiação que não seja "usp-icmc" precisam de autorização na catraca do bloco 1 também.
+Enviar o [CSV]({% link _reports/acesso-salinha.csv %}) para o [apoioadm@icmc.usp.br](mailto:apoioadm@icmc.usp.br), com CC para os docentes responsáveis pelo GELOS, periodicamente ou sempre que houver alteração.
 
-Também disponível [em CSV]({% link _reports/acesso-salinha.csv %})
+Ao enviar, caso necessário, explicar que os com filiação que não seja "usp-icmc" precisam de autorização na catraca do bloco 1 também.
 
 {% assign members = site.members | where: "role", "member" | where: "inactive", false | sort: "filiation" %}
 
