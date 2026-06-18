@@ -17,7 +17,6 @@ Confira abaixo as próximas datas
 
 | Data                | Horário                 | Voluntárie(s)    |
 |---------------------|-------------------------|------------------|
-| 09/06/2026          | 15:00 ~ 17:00           | Luana            |
 | Mais datas em breve!|                         |                  |
 
 
@@ -88,6 +87,8 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 
 | Data                | Horário                  | Atendidos                                    | Voluntárie(s)      |
 |---------------------|--------------------------|----------------------------------------------|--------------------|
+| 18/06/2026          |   15:00 ~ 17:00          | 0  | Luana |
+| 09/06/2026          |   15:00 ~ 17:00          | 0  | Luana |
 | 09/03/2026          |   15:00 ~ 16:30          | 2 (instalações Mint (1 db))                    | Luana              |
 | 06/03/2026          |   16:00 ~ 18:30          | 2 (instalações Mint (1 db))                    | Luana              |
 | 04/12/2025          |   14:00 ~ 18:00          | 1 (nixos-anywhere)                           | Luana, Gabs, Charles       |
