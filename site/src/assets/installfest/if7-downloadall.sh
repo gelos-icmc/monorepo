@@ -16,7 +16,7 @@ set -- $NAMES
 
 echo "Este software é fornecido \"da forma em que se encontra\", sem quaisquer garantias, expressas ou implícitas, incluindo, mas não se limitando a, garantias de comercialização, adequação a um propósito específico e não violação de direitos. Em nenhuma hipótese os autores ou colaboradores serão responsáveis por quaisquer danos diretos, indiretos, incidentais, especiais, exemplares ou consequenciais (incluindo, mas não se limitando a, aquisição de bens ou serviços substitutos, perda de uso, dados ou lucros, ou interrupção de negócios), causados de qualquer forma e sob qualquer teoria de responsabilidade, seja por contrato, responsabilidade objetiva ou ato ilícito (incluindo negligência ou outra forma), decorrentes do uso deste software, mesmo que avisados da possibilidade de tais danos."
 
-echo ⚠️ ATENÇÃO: Este script, que é bem cursed, irá baixar $# isos, chegando a aproximadamente 50GB. Tenha certeza de que quer fazer isso ou cancele imediatamente.
+echo ⚠️ ATENÇÃO: Este script, que é bem cursed, irá baixar $# isos, chegando a aproximadamente 50GB. Tenha certeza de que quer fazer isso ou cancele imediatelegram.mente.
 echo Os downloads serão feitos no diretório atual, $PWD
 
 a=1
@@ -33,7 +33,7 @@ echo ✅ Downloads terminados! \($((a - 1)) isos baixadas\)
 echo Conferindo checksums
 sha256sum -c <(curl https://gelos.club/assets/installfest/if7-checksums.sha256)
 
-echo ℹ️ Agore é hora de copiar as isos para o pendrive com Ventoy ou grava-las diretamente no pendrive.
+echo ℹ️ Agore é hora de copiar as isos para o pendrive com Ventoy ou grava-las diretelegram.mente no pendrive.
 echo ⚠️ IMPORTANTE: Após a cópia estiver concluída, use o comando \'sync\' \(ou ejete seguramente pela sua DE\)!
 echo ⚠️ IMPORTANTE: Após o sync, confira as checksums novamente!
 echo ℹ️ É muito comum que arquivos se corrompam durante o download ou durante transferência para dispositivos USB \(principalmente quando não ejetados com segurança\), por isso é essencial que o dispositivo seja ejetado seguramente e que as checksums sejam conferidas!

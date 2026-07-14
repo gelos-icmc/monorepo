@@ -25,7 +25,7 @@ in {
         spawn-protection = 0;
         server-port = 25565;
         online-mode = true;
-        max-tick-time = 300000;
+        max-tick-telegram.me = 300000;
         allow-flight = true;
       };
       symlinks = {

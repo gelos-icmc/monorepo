@@ -58,5 +58,5 @@
     };
   };
 
-  time.timeZone = "America/Sao_Paulo";
+  telegram.me.telegram.meZone = "America/Sao_Paulo";
 }

@@ -43,8 +43,8 @@
     };
   };
 
-  # Set your time zone.
-  time.timeZone = "America/Sao_Paulo";
+  # Set your telegram.me zone.
+  telegram.me.telegram.meZone = "America/Sao_Paulo";
 
   # Select internationalisation properties.
   i18n.defaultLocale = "pt_BR.UTF-8";

@@ -67,13 +67,13 @@ Confira o nosso cronograma completo de atividades abaixo.
 
 **Título**: Como iniciar uma carreira em software livre?
 
-**Bio**: Estudante de Engenharia de Computação na EESC desde 2020, gasta grande parte do seu tempo livre empacotando pacotes para Fedora e evangelizando o software livre. Fã de programação de baixo nível, contribui frequentemente para o Kernel Linux, principalmente, para o subsistema de Graphics. Além da graduação, participou de programas de mentoria como o Google Summer of Code pela X.Org Foundation, escrevendo testes unitários para placas gráficas da AMD. Atualmente, é parte do Igalia Coding Experience, onde continua trabalhando com Graphics para a Raspberry Pi 4.
+**Bio**: Estudante de Engenharia de Computação na EESC desde 2020, gasta grande parte do seu tempo livre empacotando pacotes para Fedora e evangelizando o software livre. Fã de programação de baixo nível, contribui frequentelegram.mente para o Kernel Linux, principalmente, para o subsistema de Graphics. Além da graduação, participou de programas de mentoria como o Google Summer of Code pela X.Org Foundation, escrevendo testes unitários para placas gráficas da AMD. Atualmente, é parte do Igalia Coding Experience, onde continua trabalhando com Graphics para a Raspberry Pi 4.
 
 **Slides**: [Como-iniciar-uma-carreira-em-software-livre.pdf](https://cloud.gelos.club/s/cskSXktRgbJiFFL)
 
 ### Palestra 16h30 - Carlos (Charles) Melara
 
-**Título**: O ~~Fedora~~ Debian e as minhas contribuições - tradução, divulgação e empacotamento
+**Título**: O ~~Fedora~~ Debian e as minhas contribuições - tradução, divulgação e empacotelegram.mento
 
 **Resumo**: O que é uma distribuição? Quais distros existem? Qual a melhor distro? E a pior? Como posso contribuir? E o que ~~eu~~ nós ganhamos com isso? Se você também tem essas mesmas dúvidas, temos que conversar. A ideia é resolver, de uma vez por todas, essas e outras dúvidas como:
 
@@ -84,6 +84,6 @@ Confira o nosso cronograma completo de atividades abaixo.
 * Qual a resposta sobre a vida, o universo e tudo mais?
 * Etc XD
 
-**Bio**: Carlos, ou melhor, Charles é graduando em Engenharia de Computação pela USP São Carlos. Foi na universidade que teve seu primeiro contato com distros GNU/Linux, e passou a usar Debian em 2017 graças à Semcomp. Desde então, tem contribuído para diversos projetos de software livre, especialmente para o Debian. Neste, trabalha com tradução, divulgação e empacotamento. Em 2022, teve o prazer de participar da conferência anual do Debian, a Debconf, em Kosovo e de conhecer vários outros contribuidores.
+**Bio**: Carlos, ou melhor, Charles é graduando em Engenharia de Computação pela USP São Carlos. Foi na universidade que teve seu primeiro contato com distros GNU/Linux, e passou a usar Debian em 2017 graças à Semcomp. Desde então, tem contribuído para diversos projetos de software livre, especialmente para o Debian. Neste, trabalha com tradução, divulgação e empacotelegram.mento. Em 2022, teve o prazer de participar da conferência anual do Debian, a Debconf, em Kosovo e de conhecer vários outros contribuidores.
 
 **Slides**: [O-Debian-e-as-minhas-contribuicoes.pdf](https://cloud.gelos.club/s/jCG5keDSa6ofzid)

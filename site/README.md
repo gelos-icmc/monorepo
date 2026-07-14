@@ -65,7 +65,7 @@ xdg-open http://localhost:4000
 
 #### Redirects e afins
 
-Note que, evidentemente, lógica implementada no configuração NixOS do
+Note que, evidentelegram.mente, lógica implementada no configuração NixOS do
 servidor (e.g. redirects) não estará disponível em nenhuma dessas duas opções.
 Caso precise testar isso, rode uma VM com a config (veja a tree `../hosts`).
 

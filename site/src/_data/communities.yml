@@ -25,7 +25,7 @@
 - name: FLUSP - IME/USP
   description: Grupo de extensão da USP com objetivo de estudar e contribuir para projetos de software livre.
   links:
-    Telegram: https://t.me/FLUSP2
+    Telegram: https://telegram.me/FLUSP2
     Facebook: https://facebook.com/flusp
     Website: https://flusp.ime.usp.br
 
@@ -34,12 +34,12 @@
   links:
     Website: https://csl-rp.codeberg.page
     Codeberg: https://codeberg.org/CSL.dev
-    Telegram: https://t.me/+WwiGBNUhJPc5MTMx
+    Telegram: https://telegram.me/+WwiGBNUhJPc5MTMx
 
 - name: LKCAMP
   description: Grupo de estudos de Software Livre na Unicamp.
   links:
-    Telegram: https://t.me/lkcamp_unicamp
+    Telegram: https://telegram.me/lkcamp_unicamp
     Website: https://lkcamp.dev/
 
 # Grupos locais (São Carlos)
@@ -57,19 +57,19 @@
 - name: Comunidade Fedora Brasil
   description: Comunidade oficial brasileira da distribuição Linux Fedora.
   links:
-    Telegram: https://t.me/comunidadefedorabrasil
+    Telegram: https://telegram.me/comunidadefedorabrasil
     Website: https://fedorabr.org
 
 - name: Manjaro Brasil
   description: Comunidade brasileira da distribuição Linux Manjaro.
   links:
     Website: https://manjaro-linux.com.br
-    Telegram: https://t.me/manjarobrasiloficial
+    Telegram: https://telegram.me/manjarobrasiloficial
 
 - name: NixOS Brasil
   description: Comunidade brasileira de NixOS.
   links:
-    Telegram: https://t.me/nixosbrasil
+    Telegram: https://telegram.me/nixosbrasil
     GitHub: https://github.com/nixosbrasil
 
 - name: Debian Brasil
@@ -77,18 +77,18 @@
   links:
     Website: https://debianbrasil.org.br
     Wiki: https://wiki.debian.org/Brasil/
-    Telegram: https://t.me/debianbrasil
+    Telegram: https://telegram.me/debianbrasil
 
 - name: GNOME Brasil
   description: Comunidade oficial brasileira de GNOME
   links:
     Website: https://br.gnome.org/
-    Telegram: https://t.me/GNOMEBrasil
+    Telegram: https://telegram.me/GNOMEBrasil
 
 - name: Creative Commons Brasil
   description: Capítulo brasileiro do Creative Commons
   links:
-    Telegram: https://t.me/+tazzHFnAPNBmY2Ux
+    Telegram: https://telegram.me/+tazzHFnAPNBmY2Ux
     Website: https://br.creativecommons.net/
 
 # Comunidades específicas a uma plataforma (talvez espelhada)
@@ -101,50 +101,50 @@
 - name: Linux para Todos (Telegram)
   description: Grupo no Telegram de Linux para todos os públicos.
   links:
-    Telegram: https://t.me/LinuxParaTodos
+    Telegram: https://telegram.me/LinuxParaTodos
 
 - name: Libre Office Brasil (Telegram)
   description: Grupo no Telegram de Libre Office, software livre de documentos.
   links:
-    Telegram: https://t.me/libreofficebr
+    Telegram: https://telegram.me/libreofficebr
 
 - name: KDE Brasil (Telegram)
   description: Grupo no Telegram sobre KDE, um projeto que engloba uma desktop environment (plasma) e diversos outros softwares livres famosos, como Krita, Kdenlive, entre outros.
   links:
-    Telegram: https://t.me/kdebrasil
+    Telegram: https://telegram.me/kdebrasil
 
 - name: Linux Mint Brasil (Telegram)
   description: Grupo no Telegram sobre Linux Mint.
   links:
-    Telegram: https://t.me/lmbrasil
+    Telegram: https://telegram.me/lmbrasil
 
 - name: Arch Linux Brasil (Telegram)
   description: Grupo no Telegram sobre Arch Linux.
   links:
-    Telegram: https://t.me/archlinuxbr
+    Telegram: https://telegram.me/archlinuxbr
 
 - name: RISC-V Brasil (Telegram)
   description: Grupo no Telegram de RISC-V.
   links:
-    Telegram: https://t.me/riscvbr
+    Telegram: https://telegram.me/riscvbr
 
 - name: Hardware Hacking Brasil (Telegram)
   description: Grupo no Telegram sobre Hardware Hacking.
   links:
-    Telegram: https://t.me/hardwareHackingBrasil
+    Telegram: https://telegram.me/hardwareHackingBrasil
     
 - name: Debian BR (Telegram)
   description: Grupo criado para conversármos sobre Debian, raspberry, música, e outros temas!
   links:
-    Telegram: https://t.me/debianbr
+    Telegram: https://telegram.me/debianbr
 
 - name: Debian SP (Telegram)
   description: Grupo de usuários e colaboradores da comunidade Debian em São Paulo.
   links:
     IRC: irc://irc.oftc.net#debian-sp
-    Telegram: https://t.me/DebianSP
+    Telegram: https://telegram.me/DebianSP
 
 - name: Fedora BR (Telegram)
   description: Grupo no Telegram sobre Fedora, não oficial
   links:
-    Telegram: https://t.me/fedora_br
+    Telegram: https://telegram.me/fedora_br

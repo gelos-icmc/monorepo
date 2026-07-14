@@ -20,7 +20,7 @@ Na primeira vez isso pode demorar, pois vai evaluar/baixar tudo do monorepo.
 Temos um cache populado pela CI, então provavelmente nada será buildado do zero.
 Lembre-se de responder `y` quando o Nix perguntar se quer usar o nosso cache.
 
-Esse comando é ideal para um sanity-check global, pois é exatamente o que a CI
+Esse comando é ideal para um sanity-check global, pois é exatelegram.mente o que a CI
 roda. Recomendamos rodar antes de dar push nas suas mudanças.
 
 ### Checks, pacotes, e devshell por subtree
@@ -33,11 +33,11 @@ são relevantes para cada um.
 Todos os membros do GELOS podem entrar na org, e recebem permissão
 para adicionar branches ao monorepo. A main só pode receber
 commits por meio de PRs onde o CI passou e que foram aprovados
-pelos [times](https://github.com/orgs/gelos-icmc/teams) de
+pelos [telegram.mes](https://github.com/orgs/gelos-icmc/teams) de
 [codeowners](https://github.com/gelos-icmc/monorepo/blob/main/.github/CODEOWNERS
 ).
 
-Reviews são solicitadas automágicamente aos times, mas sinta-se livre para
+Reviews são solicitadas automágicamente aos telegram.mes, mas sinta-se livre para
 solicitar a de alguém específico e/ou pingar alguém no telegram para dar uma
 olhada!
 

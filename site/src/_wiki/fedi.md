@@ -64,7 +64,7 @@ Nas plataformas do fediverso:
 
 Esses pontos são essenciais para a segurança da
 comunidade LGBT+, visto que diversas plataformas centralizadas 
-frequentemente negligenciam sua segurança e ativamente permitem 
+frequentelegram.mente negligenciam sua segurança e ativamente permitem 
 posts LGBT-fóbicos em nome do lucro e engajamento.
 
 ## Mastodon
@@ -96,12 +96,12 @@ moderação são:
 
 \*Lembre-se que você pode seguir contas de outras instâncias, mas a escolha
 ainda é importante: ela facilita encontrar as primeiras pessoas com interesses
-similares aos seus, por causa da timeline local. Pode ser interessante dar uma olhada
-na timeline local da instância desejada antes de se inscrever, se for pública.  
+similares aos seus, por causa da telegram.meline local. Pode ser interessante dar uma olhada
+na telegram.meline local da instância desejada antes de se inscrever, se for pública.  
 
 Não recomendamos [mastodon.social](), pois é mal moderada
 e muito grande - o que vai contra o ideal de descentralização e
-prejudica conhecer as primeiras pessoas (onboarding) com o uso da timeline local.  
+prejudica conhecer as primeiras pessoas (onboarding) com o uso da telegram.meline local.  
 <!-- Pro futuro: Talvez tabelhinha de vantagens e desvantagens, recomendadas e não recomendadas? -->
 Leia as regras da instância antes de criar uma conta.  
 Algumas das instâncias citadas requerem convite, entre no telegram
@@ -111,15 +111,15 @@ as instâncias mencionadas nesse artigo.*
 
 ## E depois? Como encontro gente para seguir?
 
-No Mastodon sua timeline não é gerada por um algorítmo 
+No Mastodon sua telegram.meline não é gerada por um algorítmo 
 focado em lucro, mas moldada por você com as pessoas 
 que escolhe seguir.  
-Recomendamos utilizar a função de timeline local do 
+Recomendamos utilizar a função de telegram.meline local do 
 Mastodon para encontrar pessoas com interesses similares aos
 seus, além de buscar por hashtags que você gosta. Com o tempo,
 as pessoas que você segue vão compartilhando os toots (assim que 
 se chamam os 'posts' no fedi) de outras pessoas e você vai
-aumentando sua timeline.
+aumentando sua telegram.meline.
 
 Apps bons para Mastodon incluem: Feditext, Ice Cubes, Mona, 
 Mammoth (iOS), Tusky, Fedilab, Moshidon (Android) e Tuba (Linux)
@@ -176,7 +176,7 @@ de rede, pode ser interessante criar uma conta para cada tipo.
 
 (Por exemplo: Não faz sentido ter conta em mais de uma instância do Mastodon (a não ser que
 você queira uma conta pública e uma mais privada com pessoas diferentes), mas caso você queira
-interagir frequentemente com posts do Mbin pode ser interessante criar uma conta
+interagir frequentelegram.mente com posts do Mbin pode ser interessante criar uma conta
 numa instância dele também. Pensa assim: da mesma forma que você teria uma conta no Reddit e uma
 conta no Instagram, mas não várias contas no Reddit, pode fazer sentido você ter uma conta numa instância Mastodon, uma
 numa instância Mbin e uma numa instância Pixelfed (mas não várias contas em instâncias diferentes do Mastodon).)
@@ -190,7 +190,7 @@ sua interface web tem um carregamento um pouco lento até em boas conexões. Ele
 fork do Misskey, assim como o IceShrimp.
 
 Instâncias que usam esses softwares federam muito bem com o Mastodon, já que são do mesmo tipo (microblogging), mas algumas coisas (como MFM)
-podem não ser renderizadas corretamente fora das que usam Sharkey.
+podem não ser renderizadas corretelegram.mente fora das que usam Sharkey.
 
 Algumas opções de instâncias incluem:
 
@@ -217,7 +217,7 @@ Algumas opções de instâncias incluem:
 
 #### Pixelfed
 
-Plataforma para compartilhamento de imagens, parecida com o Instagram. Foca em fotos e álbuns, legendas, hashtags, curtidas e comentários, com timeline
+Plataforma para compartilhamento de imagens, parecida com o Instagram. Foca em fotos e álbuns, legendas, hashtags, curtidas e comentários, com telegram.meline
 cronológica e sem algoritmo de recomendação centralizado, priorizando privacidade e controle do usuário. Ideal para fotógrafos e artistas que querem
 publicar imagens sem depender de grandes plataformas centralizadas.
 
@@ -278,7 +278,7 @@ armazenamento). Com self‑hosting de uma instância pessoal você também reduz
 No entanto, administrar uma instância própria exige conhecimento técnico e tempo - configuração inicial, atualizações, backups, segurança e monitoramento
 consomem recursos e podem ter custos com servidor, disco e banda.
 
-Socialmente, é mais difícil encontrar gente para seguir: se você for o único usuário ativo na sua instância, a timeline local ficará somente com
+Socialmente, é mais difícil encontrar gente para seguir: se você for o único usuário ativo na sua instância, a telegram.meline local ficará somente com
 seus próprios toots e será preciso esforço extra para encontrar pessoas.
 
 Tecnicamente falando, um toot público só é entregue (federado) para outra instância quando há motivo para envio. Por exemplo, se um usuário dessa
@@ -306,4 +306,4 @@ sobre Fediverso e ActivityPub, sinta-se livre para participar no nosso [Telegram
 Essa página tem como objetivo ser um guia simples, com as informações mais importantes para o uso do Fediverso por um usuário comum, mas como nerds às vezes
 nos empolgamos e podemos deixar as coisas mais complicadas que elas de fato são. Por favor compartlhe suas sugestões conosco em nosso [Telegram](https://telegram.gelos.club)
 
-Tentamos manter a página sempre atualizada e melhora-la frequentemente, caso ache algum problema ou tenha alguma sugestão por favor nos avise!
+Tentamos manter a página sempre atualizada e melhora-la frequentelegram.mente, caso ache algum problema ou tenha alguma sugestão por favor nos avise!

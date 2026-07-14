@@ -17,6 +17,6 @@ Você pode conversar comigo sobre qualquer música, já ouvi quase de tudo na vi
 No tempo livre curto jogar um tênis de mesa, Hugo Calderano é uma das minhas maiores inspirações pra vida. Me interesso bastante por política e sou em prol da construção política do país através
 de uma revolução popular socialista.
 
-Constantemente buscando evoluir e aprender, trabalhar e ser melhor a cada dia.
+Constantelegram.mente buscando evoluir e aprender, trabalhar e ser melhor a cada dia.
 
 7\ Aphex Twin

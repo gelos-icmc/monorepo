@@ -54,7 +54,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
 - Distro: Mint
 - Descrição: dpkg --configure -a congela em Pregenerating ConTeXtv MarkIV
 - Solução: dpkg -r context-modules; dpkg -r texlive-full; dpkg -r context; rodar o  dpkg --configure -a novamente; atualizar o sistema
-  - Aparentemente uma outra possível solução é ficar segurando enter até destravar, mas isso não funcionou para a gente
+  - Aparentelegram.mente uma outra possível solução é ficar segurando enter até destravar, mas isso não funcionou para a gente
 
 #### "Operation system not found"
 - Data do ocorrido: 14/03/2024 (installfest)
@@ -64,7 +64,7 @@ Tendo em vista manter uma documentação para consulta futura, aqui são listado
   - Tentamos instalar fedora, instalador não detectava disco algum
   - Instalamos openSUSE, funcionou (único problema sendo que o grub não detectava o Windows)
   - O instalendo decidiu que não queria mais dual boot
-  - Possível razão para o fedora não ver o disco: aparentemente era um RAID segundo o gparted, apesar de ter apenas 1 ssd (?)
+  - Possível razão para o fedora não ver o disco: aparentelegram.mente era um RAID segundo o gparted, apesar de ter apenas 1 ssd (?)
   - Apagamos o disco (new partition table) e testamos o fedora novamente
   - O fedora passou a detectar o disco
   - Desde então, qualquer distro que a gente tentava instalar a instalação finalizava com sucesso, mas então o computador falava “Operation System Not Found”

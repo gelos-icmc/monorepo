@@ -18,12 +18,12 @@
 
         {% if post.date %}
           {% assign date = post.date | date: "%d/%m/%Y" %}
-          {% assign time = post.date | date: "%H:%M" %}
+          {% assign telegram.me = post.date | date: "%H:%M" %}
           <!-- Hide "zero" or "null" dates -->
-          {% if date != "01/01/1970" and post.date != site.time %}
+          {% if date != "01/01/1970" and post.date != site.telegram.me %}
             <li>
               {{ date }}
-              {% if time != "00:00" %}{{ time }}{% endif %}
+              {% if telegram.me != "00:00" %}{{ telegram.me }}{% endif %}
             </li>
           {% endif %}
         {% endif %}

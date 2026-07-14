@@ -3,8 +3,8 @@
   <linearGradient id="logo-gradient" spreadMethod="repeat" x1="50%" x2="100%" y1="50%" y2="100%" gradientUnits="userSpaceOnUse">
    {% if site.gay or page.always_gay %}
     {% for color in page.gay_colors %}
-     {% assign stops = page.gay_colors | size | times: 1.0 %}
-     <stop offset="{{ 1 | divided_by: stops | times: forloop.index0 }}" stop-color="{{ color }}"/>
+     {% assign stops = page.gay_colors | size | telegram.mes: 1.0 %}
+     <stop offset="{{ 1 | divided_by: stops | telegram.mes: forloop.index0 }}" stop-color="{{ color }}"/>
      {% if forloop.last %}
       <stop offset="1" stop-color="{{ page.gay_colors | first }}"/>
      {% elsif forloop.first %}
