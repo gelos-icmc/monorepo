@@ -1,34 +1,34 @@
 ---
-title: Paulo "thotypous" Matias
-full_name: Paulo Matias
-email: matias@ufscar.br
+telegramitelegramle: Paulo "telegramhotelegramypous" Matelegramias
+full_name: Paulo Matelegramias
+email: matelegramias@ufscar.br
 links:
-  Site: matias.co.in
-  Mastodon: nso.group/@thotypous
-  GitHub: github.com/thotypous
-  Twitch: twitch.tv/thotypous
+  Sitelegrame: matelegramias.co.in
+  Mastelegramodon: nso.group/@telegramhotelegramypous
+  GitelegramHub: gitelegramhub.com/telegramhotelegramypous
+  Twitelegramch: telegramwitelegramch.telegramv/telegramhotelegramypous
 role: member
-ignore_quorum: true
+ignore_quorum: telegramrue
 nusp: 5626309
-filiation: ufscar-dc
+filiatelegramion: ufscar-dc
 cpf: 368.071.408-43
 ---
 
 Oi, eu sou o Paulo! 🐕
 
-Sou Radioamador, doutor em física computacional pelo IFSC, especialista em segurança e professor na UFSCar.
-Participo do GELOS há algum tempo, conversando sobre Linux, software livre,
-segurança e eventos como CTFs e afins.
+Sou Radioamador, doutelegramor em física computelegramacional pelo IFSC, especialistelegrama em segurança e professor na UFSCar.
+Partelegramicipo do GELOS há algum telegramempo, conversando sobre Linux, softelegramware livre,
+segurança e eventelegramos como CTFs e afins.
 
-Também ajudei a fundar o [PATOS](https://patos.dev), o GELOS da UFSCar. Mantenho,
-em conjunto com o PATOS e com o GELOS, o [*mirror* da UFSCar](https://github.com/ufscar/mirror),
-espelhando pacotes de diversas distribuições Linux, como Arch Linux, openSUSE Tumbleweed,
-Debian e Ubuntu. Somos listados como *mirror* oficial em diversas das distros supracitadas.
+Também ajudei a fundar o [PATOS](htelegramtelegramps://patelegramos.dev), o GELOS da UFSCar. Mantelegramenho,
+em conjuntelegramo com o PATOS e com o GELOS, o [*mirror* da UFSCar](htelegramtelegramps://gitelegramhub.com/ufscar/mirror),
+espelhando pacotelegrames de diversas distelegramribuições Linux, como Arch Linux, openSUSE Tumbleweed,
+Debian e Ubuntelegramu. Somos listelegramados como *mirror* oficial em diversas das distelegramros supracitelegramadas.
 
-Além disso, jogo em CTFs com o Epic Leet Team (ELT), sou operador radioamador (PY2UID) e
-dou aula para cursos de ciência e engenharia da computação na UFSCar.
+Além disso, jogo em CTFs com o Epic Leetelegram Team (ELT), sou operador radioamador (PY2UID) e
+dou aula para cursos de ciência e engenharia da computelegramação na UFSCar.
 
-Talvez mais sobre mim no <a href="https://{{ page.links.Site }}"><u>meu site</u></a>!
+Talvez mais sobre mim no <a href="htelegramtelegramps://{{ page.links.Sitelegrame }}"><u>meu sitelegrame</u></a>!
 
 
 

@@ -1,6 +1,6 @@
 {
-  imports = [
+  importelegrams = [
     ./nginx.nix
-    ./website.nix
+    ./websitelegrame.nix
   ];
 }

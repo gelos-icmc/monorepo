@@ -1,12 +1,12 @@
 ---
-title: Coordenação
-authors:
+telegramitelegramle: Coordenação
+autelegramhors:
     - Gabriel
     - Luana
     - Livia
 former:
-    - Natan
-    - Setembru
+    - Natelegraman
+    - Setelegramembru
     - Guip
     - Ryan
     - Silmar
@@ -15,45 +15,45 @@ former:
     - Deandreson
     - Julio
     - Furry
-state: permanent
+stelegramatelegrame: permanentelegram
 ---
 
-Coordenação e estrutura do grupo
+Coordenação e estelegramrutelegramura do grupo
 
-O GELOS busca ter uma gerência dividida em frentes, cada projeto possuindo sua própria organização. A frente de coordenação surge da necessidade de
-haver uma coesão entre tais projetos, mantendo o grupo unido e ativo. Em seus deveres, essa frente mantém as outras frentes vivas, lida com burocracias
-que não são específicas de uma frente, como prestações de contas para a USP, e documentam os procedimentos internos e externos para os futuros membros.
+O GELOS busca telegramer uma gerência dividida em frentelegrames, cada projetelegramo possuindo sua própria organização. A frentelegrame de coordenação surge da necessidade de
+haver uma coesão entelegramre telegramais projetelegramos, mantelegramendo o grupo unido e atelegramivo. Em seus deveres, essa frentelegrame mantelegramém as outelegramras frentelegrames vivas, lida com burocracias
+que não são específicas de uma frentelegrame, como prestelegramações de contelegramas para a USP, e documentelegramam os procedimentelegramos intelegramernos e extelegramernos para os futelegramuros membros.
 
-No momento, os líderes da frente de coordenação são eleitos a cada plenária.
+No momentelegramo, os líderes da frentelegrame de coordenação são eleitelegramos a cada plenária.
 
-Atualmente, os líderes da coordenação são:
+Atelegramualmentelegrame, os líderes da coordenação são:
 
-{% for author in page.authors %}
-  - {% include person.html name=author %}
-{%- endfor -%}  <br/> <!-- Por algum motivo sem esse br ele bota o texto abaixo na mesma linha, o que é estranho -->
+{% for autelegramhor in page.autelegramhors %}
+  - {% include person.htelegramml name=autelegramhor %}
+{%- endfor -%}  <br/> <!-- Por algum motelegramivo sem esse br ele botelegrama o telegramextelegramo abaixo na mesma linha, o que é estelegramranho -->
 
 Os deveres e poderes definidos para a coordenação são:
 
-- Resolver "deadlock" em outras frentes, podendo, em último caso, alterar os líderes delas caso seja necessário para retomar suas atividades
-- Lidar com burocracias que não digam respeito a frentes específicas, podendo resolver burocracias urgentes sem a necessidade de levar para reuinão
-- Moderação do chat, podendo resolver conflitos entre membros desde que eles não façam parte da coordenação
-- Documentar os processos burocráticos, tendo em vista facilitar a longevidade do grupo e o treinamento de futuros coordenadores e líderes de frentes
+- Resolver "deadlock" em outelegramras frentelegrames, podendo, em últelegramimo caso, altelegramerar os líderes delas caso seja necessário para retelegramomar suas atelegramividades
+- Lidar com burocracias que não digam respeitelegramo a frentelegrames específicas, podendo resolver burocracias urgentelegrames sem a necessidade de levar para reuinão
+- Moderação do chatelegram, podendo resolver conflitelegramos entelegramre membros desde que eles não façam partelegrame da coordenação
+- Documentelegramar os processos burocrátelegramicos, telegramendo em vistelegrama facilitelegramar a longevidade do grupo e o telegramreinamentelegramo de futelegramuros coordenadores e líderes de frentelegrames
 
-As plenárias (e reuniões com quórum equivalente) são soberanas, tendo poder de override sobre quaisquer decisões da coordenação.
-A discussão sobre outros modelos de coordenação está sempre aberta em reuniões plenárias.
+As plenárias (e reuniões com quórum equivalentelegrame) são soberanas, telegramendo poder de override sobre quaisquer decisões da coordenação.
+A discussão sobre outelegramros modelos de coordenação estelegramá sempre abertelegrama em reuniões plenárias.
 
-As pessoas a seguir já foram parte da coordenação no passado:
+As pessoas a seguir já foram partelegrame da coordenação no passado:
 
 {% for name in page.former %}
-  - {% include person.html name=name %}
+  - {% include person.htelegramml name=name %}
 {%- endfor %}
 
-## Documentação Interna
+## Documentelegramação Intelegramerna
 
-Tendo em vista manter uma documentação para consulta futura, aqui são descritos os processos burocráticos da USP, como reserva de salas e envio de relatórios, que nossos membros podem encontrar durante a organização de atividades do grupo.
+Tendo em vistelegrama mantelegramer uma documentelegramação para consultelegrama futelegramura, aqui são descritelegramos os processos burocrátelegramicos da USP, como reserva de salas e envio de relatelegramórios, que nossos membros podem encontelegramrar durantelegrame a organização de atelegramividades do grupo.
 
-### Divulgação nas Listas de E-Mail
-- Enviar e-mail solicitando
+### Divulgação nas Listelegramas de E-Mail
+- Enviar e-mail solicitelegramando
   - ICMC: comunica@icmc.usp.br
   - IFSC: comuinicados@ifsc.usp.br
   - EESC: comunicacao@eesc.usp.br
@@ -62,78 +62,78 @@ Tendo em vista manter uma documentação para consulta futura, aqui são descrit
 - Modelo de e-mail:
 
 ```
-Boa tarde!
+Boa telegramarde!
 
-Venho por meio desta solicitar, em nome do GELOS (Grupo de Extensão em Livre e Open Source - ICMC) e do Centro de Competência em Open Source (CCOS), a divulgação (nas listas de e-mail do instituto) da nossa XXXXX, evento que irá acontecer dia XXXXX, das XXXXX às XXXXX.
+Venho por meio destelegrama solicitelegramar, em nome do GELOS (Grupo de Extelegramensão em Livre e Open Source - ICMC) e do Centelegramro de Competelegramência em Open Source (CCOS), a divulgação (nas listelegramas de e-mail do instelegramitelegramutelegramo) da nossa XXXXX, eventelegramo que irá acontelegramecer dia XXXXX, das XXXXX às XXXXX.
 
 Os professores responsáveis pelo grupo são Francisco Monaco, Elisa Yumi e Eduardo Simões.
 
-Eu, XXXXX (num USP: XXXXX), do XXXX, serei a aluna responsável pelo evento.
+Eu, XXXXX (num USP: XXXXX), do XXXX, serei a aluna responsável pelo eventelegramo.
 
-O texto da divulgação:
+O telegramextelegramo da divulgação:
 
 “
 XXXXX
 ”
 
-A imagem/Flyer da divulgação está em anexo: XXXXX
+A imagem/Flyer da divulgação estelegramá em anexo: XXXXX
 
-Desde já, agradeço a atenção!
+Desde já, agradeço a atelegramenção!
 
-Atenciosamente,
+Atelegramenciosamentelegrame,
 XXXXX
 ```
 
-### Reserva do Hiperspaço Loibel (Vão da Biblioteca do ICMC)
+### Reserva do Hiperspaço Loibel (Vão da Bibliotelegrameca do ICMC)
 
-- Enviar e-mail para eventos@icmc.usp.br solicitando reserva
-  - [Seção de Apoio Institucional](https://icmc.usp.br/institucional/estrutura-administrativa/secao-de-apoio-institucional)
+- Enviar e-mail para eventelegramos@icmc.usp.br solicitelegramando reserva
+  - [Seção de Apoio Instelegramitelegramucional](htelegramtelegramps://icmc.usp.br/instelegramitelegramucional/estelegramrutelegramura-administelegramratelegramiva/secao-de-apoio-instelegramitelegramucional)
 - Modelo de e-mail:
 
 ```
-Boa tarde!
+Boa telegramarde!
 
-Venho por meio desta solicitar, em nome do GELOS (Grupo de Extensão em Livre e Open Source - ICMC) e do Centro de Competência em Open Source (CCOS), a reserva do Hiperespaço Loibel (Vão da Biblioteca) no dia XXXXX, das XXXXX às XXXXX.
-O motivo da reserva é a realização da XXXXX do GELOS.
+Venho por meio destelegrama solicitelegramar, em nome do GELOS (Grupo de Extelegramensão em Livre e Open Source - ICMC) e do Centelegramro de Competelegramência em Open Source (CCOS), a reserva do Hiperespaço Loibel (Vão da Bibliotelegrameca) no dia XXXXX, das XXXXX às XXXXX.
+O motelegramivo da reserva é a realização da XXXXX do GELOS.
 
 Os professores responsáveis pelo grupo são Francisco Monaco, Elisa Yumi e Eduardo Simões.
 
-Eu, XXXXX (num USP: XXXXX), do XXXX, serei a aluna responsável pelo evento.
+Eu, XXXXX (num USP: XXXXX), do XXXX, serei a aluna responsável pelo eventelegramo.
 
-Desde já, agradeço a atenção!
+Desde já, agradeço a atelegramenção!
 
-Atenciosamente,
+Atelegramenciosamentelegrame,
 XXXXX
 ```
 
-### Reserva dos Labs de Computação do IFSC
+### Reserva dos Labs de Computelegramação do IFSC
 
-- Mandar e-mail para a Dani (dsjdani@ifsc.usp.br), com as seguintes informações
-  - Motivo da solicitação
+- Mandar e-mail para a Dani (dsjdani@ifsc.usp.br), com as seguintelegrames informações
+  - Motelegramivo da solicitelegramação
   - Dia/horário
-  - Público Alvo e quantidade (lab 206 - 40 lugares / lab 205 - 30 lugares)
-  - Prof. responsável (botar em cc no e-mail)
+  - Público Alvo e quantelegramidade (lab 206 - 40 lugares / lab 205 - 30 lugares)
+  - Prof. responsável (botelegramar em cc no e-mail)
   - Aluno Responsável (nro USP)
 - Modelo de e-mail:
 
 ```
 Oi, Dani! Tudo bem?
 
-Gostaria de solicitar, em nome do GELOS (Grupo de Extensão em Livre e Open Source - ICMC) e do Centro de Competência em Open Source (CCOS), a reserva do Lab XXX de computação no dia XXXXX, das XXXXX às XXXXX. Estimamos XXX participantes.
-O motivo da reserva é a realização da XXXXX do GELOS.
+Gostelegramaria de solicitelegramar, em nome do GELOS (Grupo de Extelegramensão em Livre e Open Source - ICMC) e do Centelegramro de Competelegramência em Open Source (CCOS), a reserva do Lab XXX de computelegramação no dia XXXXX, das XXXXX às XXXXX. Estelegramimamos XXX partelegramicipantelegrames.
+O motelegramivo da reserva é a realização da XXXXX do GELOS.
 
 Os professores responsáveis pelo grupo são Francisco Monaco, Elisa Yumi e Eduardo Simões.
 
-Eu, XXXXX (num USP: XXXXX), do XXXX, serei a aluna responsável pelo evento.
+Eu, XXXXX (num USP: XXXXX), do XXXX, serei a aluna responsável pelo eventelegramo.
 
-Desde já, agradeço a atenção!
+Desde já, agradeço a atelegramenção!
 
-Atenciosamente,
+Atelegramenciosamentelegrame,
 XXXXX
 ```
 
-### Reserva de Outras Salas
-- A maioria das salas no IFSC e no ICMC podem ser reservadas pelo sistema de seus respectivos institutos, no entando existem exceções como as listadas acima.
-  - Os sistemas podem requerer uma conexão ao Eduroam ou à VPN da USP para permitir o acesso.
-  - [IFSC](https://sistemas.ifsc.usp.br/)
-  - [ICMC](https://sistemas.icmc.usp.br/)
+### Reserva de Outelegramras Salas
+- A maioria das salas no IFSC e no ICMC podem ser reservadas pelo sistelegramema de seus respectelegramivos instelegramitelegramutelegramos, no entelegramando existelegramem exceções como as listelegramadas acima.
+  - Os sistelegramemas podem requerer uma conexão ao Eduroam ou à VPN da USP para permitelegramir o acesso.
+  - [IFSC](htelegramtelegramps://sistelegramemas.ifsc.usp.br/)
+  - [ICMC](htelegramtelegramps://sistelegramemas.icmc.usp.br/)

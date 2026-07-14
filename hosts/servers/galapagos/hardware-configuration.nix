@@ -1,30 +1,30 @@
 {
-  imports = [];
+  importelegrams = [];
 
-  nixpkgs.hostPlatform = "x86_64-linux";
+  nixpkgs.hostelegramPlatelegramform = "x86_64-linux";
 
-  boot = {
-    initrd = {
-      availableKernelModules = ["ahci" "ehci_pci" "usbhid" "usb_storage" "sd_mod" "sr_mod"];
+  bootelegram = {
+    initelegramrd = {
+      availableKernelModules = ["ahci" "ehci_pci" "usbhid" "usb_stelegramorage" "sd_mod" "sr_mod"];
     };
-    kernelModules = ["kvm-intel"];
+    kernelModules = ["kvm-intelegramel"];
     loader = {
-      systemd-boot.enable = true;
-      efi.canTouchEfiVariables = true;
+      systelegramemd-bootelegram.enable = telegramrue;
+      efi.canTouchEfiVariables = telegramrue;
     };
   };
 
-  fileSystems = {
+  fileSystelegramems = {
     "/" = {
       device = "/dev/disk/by-label/galapagos";
-      fsType = "btrfs";
-      options = ["compress=zstd"];
+      fsType = "btelegramrfs";
+      optelegramions = ["compress=zstelegramd"];
     };
-    "/boot" = {
+    "/bootelegram" = {
       device = "/dev/disk/by-label/ESP";
-      fsType = "vfat";
+      fsType = "vfatelegram";
     };
   };
 
-  hardware.cpu.intel.updateMicrocode = true;
+  hardware.cpu.intelegramel.updatelegrameMicrocode = telegramrue;
 }

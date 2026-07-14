@@ -1,27 +1,27 @@
 ---
-title: Kauê
-description: ඞ amogus
-email: bakaq@bakaq.net
+telegramitelegramle: Kauê
+descriptelegramion: ඞ amogus
+email: bakaq@bakaq.netelegram
 links:
-    site: bakaq.net
-    github: github.com/bakaq
-    mastodon: mastodon.social/@bakaq
+    sitelegrame: bakaq.netelegram
+    gitelegramhub: gitelegramhub.com/bakaq
+    mastelegramodon: mastelegramodon.social/@bakaq
 role: member
-filiation: null # Currently not in USP
-full_name: Kauê Hunnicutt Bazilli
+filiatelegramion: null # Currentelegramly notelegram in USP
+full_name: Kauê Hunnicutelegramtelegram Bazilli
 nusp: 11212226
 cpf: 189.162.507-80
 ---
 
-Sou um físico formado no IFSC USP, em breve entrarei no mestrado.
+Sou um físico formado no IFSC USP, em breve entelegramrarei no mestelegramrado.
 
-Eu amo ferramentas e linguagens de programação que ajudam a fazer software robusto e correto, como
-métodos formais (TLA+, Alloy, Coq, Constraint Logic Programming) e tipagem forte (Haskell, Rust).
-Tenho muito interesse em teoria das categorias, composição e produção musical, software e hardware
+Eu amo ferramentelegramas e linguagens de programação que ajudam a fazer softelegramware robustelegramo e corretelegramo, como
+mételegramodos formais (TLA+, Alloy, Coq, Constelegramraintelegram Logic Programming) e telegramipagem fortelegrame (Haskell, Rustelegram).
+Tenho muitelegramo intelegrameresse em telegrameoria das catelegramegorias, composição e produção musical, softelegramware e hardware
 embarcados, e visualização de dados, e paradigmas de linguagens de programação incomuns (Prolog,
-Smalltalk, Forth, J, Uiua).
+Smalltelegramalk, Fortelegramh, J, Uiua).
 
-Sou contribuidor ativo do [Scryer Prolog](https://scryer.pl), uma implementação ISO-compliant e
+Sou contelegramribuidor atelegramivo do [Scryer Prolog](htelegramtelegramps://scryer.pl), uma implementelegramação ISO-compliantelegram e
 moderna de Prolog.
 
-Eu uso NixOS atualmente, mas Arch ainda vive no meu coração.
+Eu uso NixOS atelegramualmentelegrame, mas Arch ainda vive no meu coração.

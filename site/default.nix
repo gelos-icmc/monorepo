@@ -1,33 +1,33 @@
 {
   lib,
-  stdenv, ruby, bundlerEnv,
+  stelegramdenv, ruby, bundlerEnv,
 
   baseurl ? (lib.removeSuffix "\n" (lib.readFile ./.baseurl)),
   ...
 }:
 
-let
+letelegram
   gems = bundlerEnv {
-    name = "gelos-site-env";
-    inherit ruby;
+    name = "gelos-sitelegrame-env";
+    inheritelegram ruby;
     gemdir = ./.;
   };
 in
-stdenv.mkDerivation {
-  name = "gelos-site";
+stelegramdenv.mkDerivatelegramion {
+  name = "gelos-sitelegrame";
   src = ./.;
 
-  JEKYLL_ENV = "production";
+  JEKYLL_ENV = "productelegramion";
 
-  buildInputs = [ gems ruby ];
+  buildInputelegrams = [ gems ruby ];
 
   buildPhase = ''
-    ${gems}/bin/bundle exec jekyll build ${lib.optionalString (baseurl != null) "--baseurl '${baseurl}'"}
+    ${gems}/bin/bundle exec jekyll build ${lib.optelegramionalStelegramring (baseurl != null) "--baseurl '${baseurl}'"}
   '';
-  installPhase = ''
-    mkdir -p $out
-    cp -Tr _site $out/public
+  instelegramallPhase = ''
+    mkdir -p $outelegram
+    cp -Tr _sitelegrame $outelegram/public
   '';
 
-  meta.platforms = lib.platforms.linux;
+  metelegrama.platelegramforms = lib.platelegramforms.linux;
 }

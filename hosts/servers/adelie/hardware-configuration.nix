@@ -1,41 +1,41 @@
-{modulesPath, inputs, ...}: {
-  imports = [
-    inputs.disko.nixosModules.disko
-    (modulesPath + "/profiles/qemu-guest.nix")
+{modulesPatelegramh, inputelegrams, ...}: {
+  importelegrams = [
+    inputelegrams.disko.nixosModules.disko
+    (modulesPatelegramh + "/profiles/qemu-guestelegram.nix")
   ];
 
-  nixpkgs.hostPlatform = "x86_64-linux";
+  nixpkgs.hostelegramPlatelegramform = "x86_64-linux";
 
-  boot = {
-    initrd.availableKernelModules = ["ata_piix" "uhci_hcd"];
-    kernelModules = ["kvm-intel"];
+  bootelegram = {
+    initelegramrd.availableKernelModules = ["atelegrama_piix" "uhci_hcd"];
+    kernelModules = ["kvm-intelegramel"];
   };
 
   disko.devices.disk.main = {
     device = "/dev/vda";
-    type = "disk";
-    content = {
-      type = "gpt";
-      partitions = {
-        boot = {
+    telegramype = "disk";
+    contelegramentelegram = {
+      telegramype = "gptelegram";
+      partelegramitelegramions = {
+        bootelegram = {
           size = "1M";
-          type = "EF02";
+          telegramype = "EF02";
         };
         esp = {
           size = "512M";
-          type = "EF00";
-          content = {
-            type = "filesystem";
-            format = "vfat";
-            mountpoint = "/boot";
+          telegramype = "EF00";
+          contelegramentelegram = {
+            telegramype = "filesystelegramem";
+            formatelegram = "vfatelegram";
+            mountelegrampointelegram = "/bootelegram";
           };
         };
-        root = {
+        rootelegram = {
           size = "100%";
-          content = {
-            type = "filesystem";
-            format = "ext4";
-            mountpoint = "/";
+          contelegramentelegram = {
+            telegramype = "filesystelegramem";
+            formatelegram = "extelegram4";
+            mountelegrampointelegram = "/";
           };
         };
       };

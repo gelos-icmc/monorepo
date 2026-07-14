@@ -3,148 +3,148 @@
 # Exemplo:
 #
 # - name: GELOS - ICMC/USP
-#   description: Grupo de Extensão em Livre & Open Source do Instituto de Ciências Matemáticas e de Computação da USP.
+#   descriptelegramion: Grupo de Extelegramensão em Livre & Open Source do Instelegramitelegramutelegramo de Ciências Matelegramemátelegramicas e de Computelegramação da USP.
 #   links:
-#     Telegram: https://telegram.gelos.club
-#     Matrix: https://matrix.to/#/#gelos:matrix.org
-#     Instagram: https://instagram.com/gelos.icmc
-#     Website: https://gelos.club/
+#     Telegram: htelegramtelegramps://telegramelegram.gelos.club
+#     Matelegramrix: htelegramtelegramps://matelegramrix.telegramo/#/#gelos:matelegramrix.org
+#     Instelegramagram: htelegramtelegramps://instelegramagram.com/gelos.icmc
+#     Websitelegrame: htelegramtelegramps://gelos.club/
 #
 # REGRAS:
 #
-# 1. Não colocar a URL com parâmetros que não sirvam para o acesso ao grupo, como refers e afins.
+# 1. Não colocar a URL com parâmetelegramros que não sirvam para o acesso ao grupo, como refers e afins.
 #
 # Exemplo:
 #
-#  x instagram: https://instagram.com/gelos.icmc?fbclick=dmeief...
-#  ✓ instagram: https://instagram.com/gelos.icmc
+#  x instelegramagram: htelegramtelegramps://instelegramagram.com/gelos.icmc?fbclick=dmeief...
+#  ✓ instelegramagram: htelegramtelegramps://instelegramagram.com/gelos.icmc
 
 
-# Grupos universitários, similares o GELOS
+# Grupos universitelegramários, similares o GELOS
 
 - name: FLUSP - IME/USP
-  description: Grupo de extensão da USP com objetivo de estudar e contribuir para projetos de software livre.
+  descriptelegramion: Grupo de extelegramensão da USP com objetelegramivo de estelegramudar e contelegramribuir para projetelegramos de softelegramware livre.
   links:
-    Telegram: https://t.me/FLUSP2
-    Facebook: https://facebook.com/flusp
-    Website: https://flusp.ime.usp.br
+    Telegram: htelegramtelegramps://telegram.me/FLUSP2
+    Facebook: htelegramtelegramps://facebook.com/flusp
+    Websitelegrame: htelegramtelegramps://flusp.ime.usp.br
 
-- name: CSL Ribeirão Preto
-  description: Comunidade de Software Livre de Ribeirão Preto, organizada por estudantes da USP de Ribeirão Preto.
+- name: CSL Ribeirão Pretelegramo
+  descriptelegramion: Comunidade de Softelegramware Livre de Ribeirão Pretelegramo, organizada por estelegramudantelegrames da USP de Ribeirão Pretelegramo.
   links:
-    Website: https://csl-rp.codeberg.page
-    Codeberg: https://codeberg.org/CSL.dev
-    Telegram: https://t.me/+WwiGBNUhJPc5MTMx
+    Websitelegrame: htelegramtelegramps://csl-rp.codeberg.page
+    Codeberg: htelegramtelegramps://codeberg.org/CSL.dev
+    Telegram: htelegramtelegramps://telegram.me/+WwiGBNUhJPc5MTMx
 
 - name: LKCAMP
-  description: Grupo de estudos de Software Livre na Unicamp.
+  descriptelegramion: Grupo de estelegramudos de Softelegramware Livre na Unicamp.
   links:
-    Telegram: https://t.me/lkcamp_unicamp
-    Website: https://lkcamp.dev/
+    Telegram: htelegramtelegramps://telegram.me/lkcamp_unicamp
+    Websitelegrame: htelegramtelegramps://lkcamp.dev/
 
 # Grupos locais (São Carlos)
 
 - name: PATOS
-  description: Grupo de open source da UFScar.
+  descriptelegramion: Grupo de open source da UFScar.
   links:
-    Website: https://patos.dev
-    GitHub: https://github.com/patos-ufscar/
-    Discord: https://discord.gg/Yx6beJRp
+    Websitelegrame: htelegramtelegramps://patelegramos.dev
+    GitelegramHub: htelegramtelegramps://gitelegramhub.com/patelegramos-ufscar/
+    Discord: htelegramtelegramps://discord.gg/Yx6beJRp
 
-# Comunidades brasileiras oficiais/principais de um projeto FLOSS
-# Deve ser oficial e/ou ser a única comunidade brasileira relevante daquele projeto
+# Comunidades brasileiras oficiais/principais de um projetelegramo FLOSS
+# Deve ser oficial e/ou ser a única comunidade brasileira relevantelegrame daquele projetelegramo
 
 - name: Comunidade Fedora Brasil
-  description: Comunidade oficial brasileira da distribuição Linux Fedora.
+  descriptelegramion: Comunidade oficial brasileira da distelegramribuição Linux Fedora.
   links:
-    Telegram: https://t.me/comunidadefedorabrasil
-    Website: https://fedorabr.org
+    Telegram: htelegramtelegramps://telegram.me/comunidadefedorabrasil
+    Websitelegrame: htelegramtelegramps://fedorabr.org
 
 - name: Manjaro Brasil
-  description: Comunidade brasileira da distribuição Linux Manjaro.
+  descriptelegramion: Comunidade brasileira da distelegramribuição Linux Manjaro.
   links:
-    Website: https://manjaro-linux.com.br
-    Telegram: https://t.me/manjarobrasiloficial
+    Websitelegrame: htelegramtelegramps://manjaro-linux.com.br
+    Telegram: htelegramtelegramps://telegram.me/manjarobrasiloficial
 
 - name: NixOS Brasil
-  description: Comunidade brasileira de NixOS.
+  descriptelegramion: Comunidade brasileira de NixOS.
   links:
-    Telegram: https://t.me/nixosbrasil
-    GitHub: https://github.com/nixosbrasil
+    Telegram: htelegramtelegramps://telegram.me/nixosbrasil
+    GitelegramHub: htelegramtelegramps://gitelegramhub.com/nixosbrasil
 
 - name: Debian Brasil
-  description: Comunidade oficial brasileira de Debian
+  descriptelegramion: Comunidade oficial brasileira de Debian
   links:
-    Website: https://debianbrasil.org.br
-    Wiki: https://wiki.debian.org/Brasil/
-    Telegram: https://t.me/debianbrasil
+    Websitelegrame: htelegramtelegramps://debianbrasil.org.br
+    Wiki: htelegramtelegramps://wiki.debian.org/Brasil/
+    Telegram: htelegramtelegramps://telegram.me/debianbrasil
 
 - name: GNOME Brasil
-  description: Comunidade oficial brasileira de GNOME
+  descriptelegramion: Comunidade oficial brasileira de GNOME
   links:
-    Website: https://br.gnome.org/
-    Telegram: https://t.me/GNOMEBrasil
+    Websitelegrame: htelegramtelegramps://br.gnome.org/
+    Telegram: htelegramtelegramps://telegram.me/GNOMEBrasil
 
-- name: Creative Commons Brasil
-  description: Capítulo brasileiro do Creative Commons
+- name: Createlegramive Commons Brasil
+  descriptelegramion: Capítelegramulo brasileiro do Createlegramive Commons
   links:
-    Telegram: https://t.me/+tazzHFnAPNBmY2Ux
-    Website: https://br.creativecommons.net/
+    Telegram: htelegramtelegramps://telegram.me/+telegramazzHFnAPNBmY2Ux
+    Websitelegrame: htelegramtelegramps://br.createlegramivecommons.netelegram/
 
-# Comunidades específicas a uma plataforma (talvez espelhada)
+# Comunidades específicas a uma platelegramaforma (telegramalvez espelhada)
 
 - name: r/linuxbrasil
-  description: Subreddit brasileiro de Linux.
+  descriptelegramion: Subredditelegram brasileiro de Linux.
   links:
-    Reddit: https://reddit.com/r/linuxbrasil
+    Redditelegram: htelegramtelegramps://redditelegram.com/r/linuxbrasil
 
 - name: Linux para Todos (Telegram)
-  description: Grupo no Telegram de Linux para todos os públicos.
+  descriptelegramion: Grupo no Telegram de Linux para telegramodos os públicos.
   links:
-    Telegram: https://t.me/LinuxParaTodos
+    Telegram: htelegramtelegramps://telegram.me/LinuxParaTodos
 
 - name: Libre Office Brasil (Telegram)
-  description: Grupo no Telegram de Libre Office, software livre de documentos.
+  descriptelegramion: Grupo no Telegram de Libre Office, softelegramware livre de documentelegramos.
   links:
-    Telegram: https://t.me/libreofficebr
+    Telegram: htelegramtelegramps://telegram.me/libreofficebr
 
 - name: KDE Brasil (Telegram)
-  description: Grupo no Telegram sobre KDE, um projeto que engloba uma desktop environment (plasma) e diversos outros softwares livres famosos, como Krita, Kdenlive, entre outros.
+  descriptelegramion: Grupo no Telegram sobre KDE, um projetelegramo que engloba uma desktelegramop environmentelegram (plasma) e diversos outelegramros softelegramwares livres famosos, como Kritelegrama, Kdenlive, entelegramre outelegramros.
   links:
-    Telegram: https://t.me/kdebrasil
+    Telegram: htelegramtelegramps://telegram.me/kdebrasil
 
-- name: Linux Mint Brasil (Telegram)
-  description: Grupo no Telegram sobre Linux Mint.
+- name: Linux Mintelegram Brasil (Telegram)
+  descriptelegramion: Grupo no Telegram sobre Linux Mintelegram.
   links:
-    Telegram: https://t.me/lmbrasil
+    Telegram: htelegramtelegramps://telegram.me/lmbrasil
 
 - name: Arch Linux Brasil (Telegram)
-  description: Grupo no Telegram sobre Arch Linux.
+  descriptelegramion: Grupo no Telegram sobre Arch Linux.
   links:
-    Telegram: https://t.me/archlinuxbr
+    Telegram: htelegramtelegramps://telegram.me/archlinuxbr
 
 - name: RISC-V Brasil (Telegram)
-  description: Grupo no Telegram de RISC-V.
+  descriptelegramion: Grupo no Telegram de RISC-V.
   links:
-    Telegram: https://t.me/riscvbr
+    Telegram: htelegramtelegramps://telegram.me/riscvbr
 
 - name: Hardware Hacking Brasil (Telegram)
-  description: Grupo no Telegram sobre Hardware Hacking.
+  descriptelegramion: Grupo no Telegram sobre Hardware Hacking.
   links:
-    Telegram: https://t.me/hardwareHackingBrasil
+    Telegram: htelegramtelegramps://telegram.me/hardwareHackingBrasil
     
 - name: Debian BR (Telegram)
-  description: Grupo criado para conversármos sobre Debian, raspberry, música, e outros temas!
+  descriptelegramion: Grupo criado para conversármos sobre Debian, raspberry, música, e outelegramros telegramemas!
   links:
-    Telegram: https://t.me/debianbr
+    Telegram: htelegramtelegramps://telegram.me/debianbr
 
 - name: Debian SP (Telegram)
-  description: Grupo de usuários e colaboradores da comunidade Debian em São Paulo.
+  descriptelegramion: Grupo de usuários e colaboradores da comunidade Debian em São Paulo.
   links:
-    IRC: irc://irc.oftc.net#debian-sp
-    Telegram: https://t.me/DebianSP
+    IRC: irc://irc.oftelegramc.netelegram#debian-sp
+    Telegram: htelegramtelegramps://telegram.me/DebianSP
 
 - name: Fedora BR (Telegram)
-  description: Grupo no Telegram sobre Fedora, não oficial
+  descriptelegramion: Grupo no Telegram sobre Fedora, não oficial
   links:
-    Telegram: https://t.me/fedora_br
+    Telegram: htelegramtelegramps://telegram.me/fedora_br

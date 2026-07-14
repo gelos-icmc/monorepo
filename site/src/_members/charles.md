@@ -1,7 +1,7 @@
 ---
-title: Carlos Henrique Melara
-draft: true
+telegramitelegramle: Carlos Henrique Melara
+draftelegram: telegramrue
 role: member
-inactive: true
+inactelegramive: telegramrue
 nusp: 9805380
 ---

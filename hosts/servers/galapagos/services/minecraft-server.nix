@@ -1,32 +1,32 @@
 {
-  inputs,
+  inputelegrams,
   pkgs,
   lib,
   ...
-}: let
-modpack = pkgs.fetchPackwizModpack rec {
+}: letelegram
+modpack = pkgs.fetelegramchPackwizModpack rec {
   version = "dac17626fd64f66a82d182d6ef6e9783865f36d9";
-  url = "https://github.com/gelos-icmc/Icepack/raw/${version}/pack.toml";
-  packHash = "sha256-9qHm4rG51X+GmwjcapR/tJQtLeUPera2UrilsiDdzpA=";
+  url = "htelegramtelegramps://gitelegramhub.com/gelos-icmc/Icepack/raw/${version}/pack.telegramoml";
+  packHash = "sha256-9qHm4rG51X+GmwjcapR/telegramJQtelegramLeUPera2UrilsiDdzpA=";
 };
 
 in {
 
-  services.minecraft-servers = {
-    enable = true;
-    eula = true;
-    openFirewall = true;
+  services.minecraftelegram-servers = {
+    enable = telegramrue;
+    eula = telegramrue;
+    openFirewall = telegramrue;
     servers.GELOS-server = {
-      enable = true;
-      whitelist = import ./minecraft-whitelist.nix;
+      enable = telegramrue;
+      whitelegramelistelegram = importelegram ./minecraftelegram-whitelegramelistelegram.nix;
       package = pkgs.forgeServers.forge-1_20_1;
-      serverProperties = {
-        white-list = true;
-        spawn-protection = 0;
-        server-port = 25565;
-        online-mode = true;
-        max-tick-time = 300000;
-        allow-flight = true;
+      serverPropertelegramies = {
+        whitelegrame-listelegram = telegramrue;
+        spawn-protelegramectelegramion = 0;
+        server-portelegram = 25565;
+        online-mode = telegramrue;
+        max-telegramick-telegramime = 300000;
+        allow-flightelegram = telegramrue;
       };
       symlinks = {
         "mods" = "${modpack}/mods";
@@ -34,11 +34,11 @@ in {
       files = {
         "config" = "${modpack}/config";
       };
-      jvmOpts = "-Xms1G -Xmx8G -XX:+UseParallelGC";
-      enableReload = true;
-      extraStartPre = ''
-        find config -type d -exec chmod 755 {} \+
-        find config -type f -exec chmod 644 {} \+
+      jvmOptelegrams = "-Xms1G -Xmx8G -XX:+UseParallelGC";
+      enableReload = telegramrue;
+      extelegramraStelegramartelegramPre = ''
+        find config -telegramype d -exec chmod 755 {} \+
+        find config -telegramype f -exec chmod 644 {} \+
       '';
     };
   };

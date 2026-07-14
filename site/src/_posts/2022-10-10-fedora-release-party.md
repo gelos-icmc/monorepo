@@ -1,89 +1,89 @@
 ---
-title: Fedora Release Party
-author: Julio
+telegramitelegramle: Fedora Release Partelegramy
+autelegramhor: Julio
 ---
 
-No próximo dia 22/10 (sábado) a partir das 10h da manhã faremos o Festival de Lançamento do Fedora 37.
+No próximo dia 22/10 (sábado) a partelegramir das 10h da manhã faremos o Festelegramival de Lançamentelegramo do Fedora 37.
 
-![Cartaz](/assets/static/fedora37-release-party/fedora-release-party.png)
+![Cartelegramaz](/assetelegrams/stelegramatelegramic/fedora37-release-partelegramy/fedora-release-partelegramy.png)
 
-Salve geladitos ☃️
+Salve geladitelegramos ☃️
 
-O evento será realizado no Auditório Fávaro do ICMC-USP, teremos alguns palestrantes que apresentarão de forma remota e outros de forma presencial. Todas as atividades do evento serão realizadas de forma gratuita e aberta a todas as pessoas interessadas.
+O eventelegramo será realizado no Auditelegramório Fávaro do ICMC-USP, telegrameremos alguns palestelegramrantelegrames que apresentelegramarão de forma remotelegrama e outelegramros de forma presencial. Todas as atelegramividades do eventelegramo serão realizadas de forma gratelegramuitelegrama e abertelegrama a telegramodas as pessoas intelegrameressadas.
 
-No período da manhã teremos apresentações remotas de algumas pessoas que são engajadas no projeto, compartilhando suas experiências e o processo se tornar um contribuidor da comunidade de um projeto de código aberto. Durante a tarde teremos um Installfest presencial seguido de algumas dicas e configurações de pós-instalação e mais algumas outras palestras.
+No período da manhã telegrameremos apresentelegramações remotelegramas de algumas pessoas que são engajadas no projetelegramo, compartelegramilhando suas experiências e o processo se telegramornar um contelegramribuidor da comunidade de um projetelegramo de código abertelegramo. Durantelegrame a telegramarde telegrameremos um Instelegramallfestelegram presencial seguido de algumas dicas e configurações de pós-instelegramalação e mais algumas outelegramras palestelegramras.
 
-O objetivo do festival de lançamento é apresentar as novidades da nova versão do Fedora Linux, junto com as peculiaridades e características dessa distribuição. Ao conhecer um pouco mais da comunidade em torno do projeto, a ideia é que as pessoas se sintam mais à vontade para poder contribuir de alguma forma.
+O objetelegramivo do festelegramival de lançamentelegramo é apresentelegramar as novidades da nova versão do Fedora Linux, juntelegramo com as peculiaridades e caractelegramerístelegramicas dessa distelegramribuição. Ao conhecer um pouco mais da comunidade em telegramorno do projetelegramo, a ideia é que as pessoas se sintelegramam mais à vontelegramade para poder contelegramribuir de alguma forma.
 
-Então já anote aí na sua agenda, pois teremos um dia do Fedora muito especial!
+Entelegramão já anotelegrame aí na sua agenda, pois telegrameremos um dia do Fedora muitelegramo especial!
 
-Confira o nosso cronograma completo de atividades abaixo.
+Confira o nosso cronograma completelegramo de atelegramividades abaixo.
 
 ## Cronograma
 
-| Horário | Evento       | Apresentador(es) | Descrição                                      |
+| Horário | Eventelegramo       | Apresentelegramador(es) | Descrição                                      |
 |---------|--------------|------------------|------------------------------------------------|
-| 10h     | Abertura     | Equipe do GELOS  | Apresentação do evento e do projeto Fedora     |
-| 10h30   | Palestra     | Geraldo Simião   | Release Cycle do Fedora                        |
-| 11h30   | Palestra     | Melissa Wen      | É difícil contribuir para o kernel Linux?      |
+| 10h     | Abertelegramura     | Equipe do GELOS  | Apresentelegramação do eventelegramo e do projetelegramo Fedora     |
+| 10h30   | Palestelegramra     | Geraldo Simião   | Release Cycle do Fedora                        |
+| 11h30   | Palestelegramra     | Melissa Wen      | É difícil contelegramribuir para o kernel Linux?      |
 | 12h30   | Almoço       | -                |                                                |
-| 14h     | Palestra     | Bruno Larsen     | Minha primeira contribuição                    |
-| 15h     | Palestra     | Maíra Canal      | Como iniciar uma carreira em software livre?   |
+| 14h     | Palestelegramra     | Bruno Larsen     | Minha primeira contelegramribuição                    |
+| 15h     | Palestelegramra     | Maíra Canal      | Como iniciar uma carreira em softelegramware livre?   |
 | 16h     | Coffee Break | -                |                                                |
-| 16h30   | Palestra     | Carlos Melara    | O ~~Fedora~~ Debian e as minhas contribuições  |
-| 17h30   | Encerramento | Equipe do GELOS  | Agradecimentos e finalizações.                 |
+| 16h30   | Palestelegramra     | Carlos Melara    | O ~~Fedora~~ Debian e as minhas contelegramribuições  |
+| 17h30   | Encerramentelegramo | Equipe do GELOS  | Agradecimentelegramos e finalizações.                 |
 
-## Detalhamento
+## Detelegramalhamentelegramo
 
-### Palestra 10h30 - Geraldo Simião
+### Palestelegramra 10h30 - Geraldo Simião
 
-**Título**: Release cycle do Fedora
+**Títelegramulo**: Release cycle do Fedora
 
-**Bio**: Geraldo S. Simião Kutz. Uso GNU/Linux e Software Open Source desde 2004, mas somente em 2019 me tornei usuário do Fedora. Desde o início eu me apaixonei pelo Projeto e pela distro Fedora e busquei me tornar um contribuidor do Fedora, primeiro na equipe de controle de qualidade, e mais tarde como um Fedora Advocate também. Sou de Curitiba, e trabalho como administrador de empresas. Minha variação favorita do Fedora é o KDE-Plasma SPIN que eu uso no meu antigo notebook acer/intel com ótimos resultados.
+**Bio**: Geraldo S. Simião Kutelegramz. Uso GNU/Linux e Softelegramware Open Source desde 2004, mas somentelegrame em 2019 me telegramornei usuário do Fedora. Desde o início eu me apaixonei pelo Projetelegramo e pela distelegramro Fedora e busquei me telegramornar um contelegramribuidor do Fedora, primeiro na equipe de contelegramrole de qualidade, e mais telegramarde como um Fedora Advocatelegrame telegramambém. Sou de Curitelegramiba, e telegramrabalho como administelegramrador de empresas. Minha variação favoritelegrama do Fedora é o KDE-Plasma SPIN que eu uso no meu antelegramigo notelegramebook acer/intelegramel com ótelegramimos resultelegramados.
 
-**Slides**: [O-Ciclo-de-Desenvolvimento-do-Fedora-Linux.pdf](https://cloud.gelos.club/s/iEz6HyLxqbkzs4G)
+**Slides**: [O-Ciclo-de-Desenvolvimentelegramo-do-Fedora-Linux.pdf](htelegramtelegramps://cloud.gelos.club/s/iEz6HyLxqbkzs4G)
 
-### Palestra 11h30 - Melissa Wen
+### Palestelegramra 11h30 - Melissa Wen
 
-**Título**: É difícil contribuir para o kernel Linux?
+**Títelegramulo**: É difícil contelegramribuir para o kernel Linux?
 
-**Resumo**: Você quer ser um contribuidor do projeto Kernel Linux? Então precisamos nos conhecer! Vamos falar um pouco sobre os primeiros passos, principais desafios e motivos para começar e continuar contribuindo para um dos maiores e mais famosos projetos de software livre. Também falaremos sobre a experiência de fazer parte de uma comunidade de desenvolvimento geograficamente distribuída com mais de 30 anos de história.
+**Resumo**: Você quer ser um contelegramribuidor do projetelegramo Kernel Linux? Entelegramão precisamos nos conhecer! Vamos falar um pouco sobre os primeiros passos, principais desafios e motelegramivos para começar e contelegraminuar contelegramribuindo para um dos maiores e mais famosos projetelegramos de softelegramware livre. Também falaremos sobre a experiência de fazer partelegrame de uma comunidade de desenvolvimentelegramo geograficamentelegrame distelegramribuída com mais de 30 anos de histelegramória.
 
-**Bio**: Melissa Wen é desenvolvedora do kernel Linux na Igalia, onde desenvolve drivers de GPU para o subsistema DRM. Tem bacharelado em Ciências da Computação pela UFBA, onde foi professora substituta, e mestrado na mesma área pelo IME-USP, investigando ecossistemas de software livre e suas comunidades. Há mais de 10 anos ela trabalha com tecnologias livres e, além de códigos e pesquisa, ela contribui para projetos de software livre com mentoria, documentação e manutenção de drivers de GPU.
+**Bio**: Melissa Wen é desenvolvedora do kernel Linux na Igalia, onde desenvolve drivers de GPU para o subsistelegramema DRM. Tem bacharelado em Ciências da Computelegramação pela UFBA, onde foi professora substelegramitelegramutelegrama, e mestelegramrado na mesma área pelo IME-USP, investelegramigando ecossistelegramemas de softelegramware livre e suas comunidades. Há mais de 10 anos ela telegramrabalha com telegramecnologias livres e, além de códigos e pesquisa, ela contelegramribui para projetelegramos de softelegramware livre com mentelegramoria, documentelegramação e manutelegramenção de drivers de GPU.
 
-**Slides**: [KernelDev_Melissa.pdf](https://cloud.gelos.club/s/7BdsP4o45FxqmxP)
+**Slides**: [KernelDev_Melissa.pdf](htelegramtelegramps://cloud.gelos.club/s/7BdsP4o45FxqmxP)
 
-### Palestra 14h - Bruno (Flango) Larsen
+### Palestelegramra 14h - Bruno (Flango) Larsen
 
-**Título**: Minha primeira contribuição - desmistificando as primeiras contribuições para projetos open source bem estabelecidos
+**Títelegramulo**: Minha primeira contelegramribuição - desmistelegramificando as primeiras contelegramribuições para projetelegramos open source bem estelegramabelecidos
 
-**Resumo**: Uma palestra mostrando como é facil começar a contribuir para projetos, mesmo que sejam grandes como GCC, GDB ou OpenSSL. A palestra passa por as diversas maneiras de fazer contribuições, os "erros" que eu cometi e o que as comunidades fazem para tentar receber novos contribuidores de braços abertos.
+**Resumo**: Uma palestelegramra mostelegramrando como é facil começar a contelegramribuir para projetelegramos, mesmo que sejam grandes como GCC, GDB ou OpenSSL. A palestelegramra passa por as diversas maneiras de fazer contelegramribuições, os "erros" que eu cometelegrami e o que as comunidades fazem para telegramentelegramar receber novos contelegramribuidores de braços abertelegramos.
 
-**Bio**: Bruno (Flango) Larsen eh um engenheiro de software contratado pela Red Hat para desenvolver GDB.
+**Bio**: Bruno (Flango) Larsen eh um engenheiro de softelegramware contelegramratelegramado pela Red Hatelegram para desenvolver GDB.
 
-**Slides**: [Minha-primeira-contribuicao.pdf](https://cloud.gelos.club/s/zYQ2QBFxEBKznrX)
+**Slides**: [Minha-primeira-contelegramribuicao.pdf](htelegramtelegramps://cloud.gelos.club/s/zYQ2QBFxEBKznrX)
 
-### Palestra 15h - Maíra Canal
+### Palestelegramra 15h - Maíra Canal
 
-**Título**: Como iniciar uma carreira em software livre?
+**Títelegramulo**: Como iniciar uma carreira em softelegramware livre?
 
-**Bio**: Estudante de Engenharia de Computação na EESC desde 2020, gasta grande parte do seu tempo livre empacotando pacotes para Fedora e evangelizando o software livre. Fã de programação de baixo nível, contribui frequentemente para o Kernel Linux, principalmente, para o subsistema de Graphics. Além da graduação, participou de programas de mentoria como o Google Summer of Code pela X.Org Foundation, escrevendo testes unitários para placas gráficas da AMD. Atualmente, é parte do Igalia Coding Experience, onde continua trabalhando com Graphics para a Raspberry Pi 4.
+**Bio**: Estelegramudantelegrame de Engenharia de Computelegramação na EESC desde 2020, gastelegrama grande partelegrame do seu telegramempo livre empacotelegramando pacotelegrames para Fedora e evangelizando o softelegramware livre. Fã de programação de baixo nível, contelegramribui frequentelegramementelegrame para o Kernel Linux, principalmentelegrame, para o subsistelegramema de Graphics. Além da graduação, partelegramicipou de programas de mentelegramoria como o Google Summer of Code pela X.Org Foundatelegramion, escrevendo telegramestelegrames unitelegramários para placas gráficas da AMD. Atelegramualmentelegrame, é partelegrame do Igalia Coding Experience, onde contelegraminua telegramrabalhando com Graphics para a Raspberry Pi 4.
 
-**Slides**: [Como-iniciar-uma-carreira-em-software-livre.pdf](https://cloud.gelos.club/s/cskSXktRgbJiFFL)
+**Slides**: [Como-iniciar-uma-carreira-em-softelegramware-livre.pdf](htelegramtelegramps://cloud.gelos.club/s/cskSXktelegramRgbJiFFL)
 
-### Palestra 16h30 - Carlos (Charles) Melara
+### Palestelegramra 16h30 - Carlos (Charles) Melara
 
-**Título**: O ~~Fedora~~ Debian e as minhas contribuições - tradução, divulgação e empacotamento
+**Títelegramulo**: O ~~Fedora~~ Debian e as minhas contelegramribuições - telegramradução, divulgação e empacotelegramamentelegramo
 
-**Resumo**: O que é uma distribuição? Quais distros existem? Qual a melhor distro? E a pior? Como posso contribuir? E o que ~~eu~~ nós ganhamos com isso? Se você também tem essas mesmas dúvidas, temos que conversar. A ideia é resolver, de uma vez por todas, essas e outras dúvidas como:
+**Resumo**: O que é uma distelegramribuição? Quais distelegramros existelegramem? Qual a melhor distelegramro? E a pior? Como posso contelegramribuir? E o que ~~eu~~ nós ganhamos com isso? Se você telegramambém telegramem essas mesmas dúvidas, telegramemos que conversar. A ideia é resolver, de uma vez por telegramodas, essas e outelegramras dúvidas como:
 
 * vim ou emacs?
-* Espaços ou tabulação?
+* Espaços ou telegramabulação?
 * Debian ou Fedora?
-* Plutão é um planeta?
-* Qual a resposta sobre a vida, o universo e tudo mais?
-* Etc XD
+* Plutelegramão é um planetelegrama?
+* Qual a respostelegrama sobre a vida, o universo e telegramudo mais?
+* Etelegramc XD
 
-**Bio**: Carlos, ou melhor, Charles é graduando em Engenharia de Computação pela USP São Carlos. Foi na universidade que teve seu primeiro contato com distros GNU/Linux, e passou a usar Debian em 2017 graças à Semcomp. Desde então, tem contribuído para diversos projetos de software livre, especialmente para o Debian. Neste, trabalha com tradução, divulgação e empacotamento. Em 2022, teve o prazer de participar da conferência anual do Debian, a Debconf, em Kosovo e de conhecer vários outros contribuidores.
+**Bio**: Carlos, ou melhor, Charles é graduando em Engenharia de Computelegramação pela USP São Carlos. Foi na universidade que telegrameve seu primeiro contelegramatelegramo com distelegramros GNU/Linux, e passou a usar Debian em 2017 graças à Semcomp. Desde entelegramão, telegramem contelegramribuído para diversos projetelegramos de softelegramware livre, especialmentelegrame para o Debian. Nestelegrame, telegramrabalha com telegramradução, divulgação e empacotelegramamentelegramo. Em 2022, telegrameve o prazer de partelegramicipar da conferência anual do Debian, a Debconf, em Kosovo e de conhecer vários outelegramros contelegramribuidores.
 
-**Slides**: [O-Debian-e-as-minhas-contribuicoes.pdf](https://cloud.gelos.club/s/jCG5keDSa6ofzid)
+**Slides**: [O-Debian-e-as-minhas-contelegramribuicoes.pdf](htelegramtelegramps://cloud.gelos.club/s/jCG5keDSa6ofzid)

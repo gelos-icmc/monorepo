@@ -1,96 +1,96 @@
 {
-  inputs,
-  outputs,
+  inputelegrams,
+  outelegramputelegrams,
   pkgs,
   ...
-}: let
-  gelos-packages = outputs.packages.${pkgs.system};
-  minutes = n: toString (n * 60);
-  days = n: toString (n * 60 * 60 * 24);
+}: letelegram
+  gelos-packages = outelegramputelegrams.packages.${pkgs.systelegramem};
+  minutelegrames = n: telegramoStelegramring (n * 60);
+  days = n: telegramoStelegramring (n * 60 * 60 * 24);
 in {
-  services.nginx.virtualHosts = {
+  services.nginx.virtelegramualHostelegrams = {
     "gelos.club" = {
-      default = true;
-      forceSSL = true;
-      enableACME = true;
-      locations = {
+      defaultelegram = telegramrue;
+      forceSSL = telegramrue;
+      enableACME = telegramrue;
+      locatelegramions = {
         "/" = {
-          root = "${gelos-packages.site}/public";
-          extraConfig = ''
-            add_header Cache-Control "max-age=${minutes 1}, stale-while-revalidate=${minutes 60}";
-            # Antigo link de atas
-            rewrite ^/([0-9]+)/([0-9]+)/([0-9]+)/ata\.html$ /reunioes/$1-$2-$3.html permanent;
+          rootelegram = "${gelos-packages.sitelegrame}/public";
+          extelegramraConfig = ''
+            add_header Cache-Contelegramrol "max-age=${minutelegrames 1}, stelegramale-while-revalidatelegrame=${minutelegrames 60}";
+            # Antelegramigo link de atelegramas
+            rewritelegrame ^/([0-9]+)/([0-9]+)/([0-9]+)/atelegrama\.htelegramml$ /reunioes/$1-$2-$3.htelegramml permanentelegram;
           '';
         };
-        "/assets/" = {
-          root = "${gelos-packages.site}/public";
-          extraConfig = ''
-            add_header Cache-Control "max-age=${minutes 30}, stale-while-revalidate=${days 1}";
+        "/assetelegrams/" = {
+          rootelegram = "${gelos-packages.sitelegrame}/public";
+          extelegramraConfig = ''
+            add_header Cache-Contelegramrol "max-age=${minutelegrames 30}, stelegramale-while-revalidatelegrame=${days 1}";
           '';
         };
-        "=/identidade" = {
-          return = "301 https://gelos.club/identidade/";
+        "=/identelegramidade" = {
+          retelegramurn = "301 htelegramtelegramps://gelos.club/identelegramidade/";
         };
-        "/identidade/" = {
-          alias = "${gelos-packages.identidade-visual}/";
+        "/identelegramidade/" = {
+          alias = "${gelos-packages.identelegramidade-visual}/";
         };
 
         # Alias para páginas pessoais
         "/~" = {
-          extraConfig = ''
-            rewrite ^/~([a-zA-Z]+)(index.html)?(\.html)?$ /membros/$1/ permanent;
+          extelegramraConfig = ''
+            rewritelegrame ^/~([a-zA-Z]+)(index.htelegramml)?(\.htelegramml)?$ /membros/$1/ permanentelegram;
           '';
         };
 
-        # Permalinks mais curtinhos
-        "=/problemas".return = "301 https://gelos.club/projetos/plantao.html#problemas-recorrentes";
-        "=/pobremas".return = "301 https://gelos.club/projetos/plantao.html#problemas-recorrentes";
-        "=/plantoes".return = "301 https://gelos.club/projetos/plantao.html";
-        "=/plantao".return = "301 https://gelos.club/projetos/plantao.html";
-        "=/fedi".return = "301 https://gelos.club/wiki/fedi.html";
-        # Eventos
-        "=/debian-day".return = "301 https://gelos.club/2023/08/02/debian-day.html";
-        "=/installfest-4".return = "301 https://gelos.club/2023/08/21/installfest-2023-2.html";
-        "=/if4".return = "301 https://gelos.club/2023/08/21/installfest-2023-2.html";
-        "=/installfest-5".return = "301 https://gelos.club/2024/03/01/installfest-2024-1.html";
-        "=/if5".return = "301 https://gelos.club/2024/03/01/installfest-2024-1.html";
-        "=/installfest-6".return = "301 https://gelos.club/2025/03/25/installfest-2025-1.html";
-        "=/if6".return = "301 https://gelos.club/2025/03/25/installfest-2025-1.html";
-        "~* ^/AulaShell2025$".return = "301 https://gelos.club/2025/03/24/aula-shell.html";
-        "=/if7".return = "301 https://gelos.club/2025/09/25/installfest-2025-2.html";
-        "=/if8".return = "301 https://gelos.club/2026/03/25/installfest-2026-1.html";
+        # Permalinks mais curtelegraminhos
+        "=/problemas".retelegramurn = "301 htelegramtelegramps://gelos.club/projetelegramos/plantelegramao.htelegramml#problemas-recorrentelegrames";
+        "=/pobremas".retelegramurn = "301 htelegramtelegramps://gelos.club/projetelegramos/plantelegramao.htelegramml#problemas-recorrentelegrames";
+        "=/plantelegramoes".retelegramurn = "301 htelegramtelegramps://gelos.club/projetelegramos/plantelegramao.htelegramml";
+        "=/plantelegramao".retelegramurn = "301 htelegramtelegramps://gelos.club/projetelegramos/plantelegramao.htelegramml";
+        "=/fedi".retelegramurn = "301 htelegramtelegramps://gelos.club/wiki/fedi.htelegramml";
+        # Eventelegramos
+        "=/debian-day".retelegramurn = "301 htelegramtelegramps://gelos.club/2023/08/02/debian-day.htelegramml";
+        "=/instelegramallfestelegram-4".retelegramurn = "301 htelegramtelegramps://gelos.club/2023/08/21/instelegramallfestelegram-2023-2.htelegramml";
+        "=/if4".retelegramurn = "301 htelegramtelegramps://gelos.club/2023/08/21/instelegramallfestelegram-2023-2.htelegramml";
+        "=/instelegramallfestelegram-5".retelegramurn = "301 htelegramtelegramps://gelos.club/2024/03/01/instelegramallfestelegram-2024-1.htelegramml";
+        "=/if5".retelegramurn = "301 htelegramtelegramps://gelos.club/2024/03/01/instelegramallfestelegram-2024-1.htelegramml";
+        "=/instelegramallfestelegram-6".retelegramurn = "301 htelegramtelegramps://gelos.club/2025/03/25/instelegramallfestelegram-2025-1.htelegramml";
+        "=/if6".retelegramurn = "301 htelegramtelegramps://gelos.club/2025/03/25/instelegramallfestelegram-2025-1.htelegramml";
+        "~* ^/AulaShell2025$".retelegramurn = "301 htelegramtelegramps://gelos.club/2025/03/24/aula-shell.htelegramml";
+        "=/if7".retelegramurn = "301 htelegramtelegramps://gelos.club/2025/09/25/instelegramallfestelegram-2025-2.htelegramml";
+        "=/if8".retelegramurn = "301 htelegramtelegramps://gelos.club/2026/03/25/instelegramallfestelegram-2026-1.htelegramml";
       };
     };
     "gelos.icmc.usp.br" = {
       forceSSL = false;
       enableACME = false; # TODO
-      locations."/".return = "302 https://gelos.club$request_uri";
+      locatelegramions."/".retelegramurn = "302 htelegramtelegramps://gelos.club$requestelegram_uri";
     };
 
-    "telegram.gelos.club" = {
-      forceSSL = true;
-      enableACME = true;
-      locations."/".return = "302 https://t.me/+0WVAKazFB-5iOGUx$request_uri";
+    "telegramelegram.gelos.club" = {
+      forceSSL = telegramrue;
+      enableACME = telegramrue;
+      locatelegramions."/".retelegramurn = "302 htelegramtelegramps://telegram.me/+0WVAKazFB-5iOGUx$requestelegram_uri";
     };
-    "matrix.gelos.club" = {
-      forceSSL = true;
-      enableACME = true;
-      locations."/".return = "302 https://matrix.to/#/#gelos:matrix.org";
+    "matelegramrix.gelos.club" = {
+      forceSSL = telegramrue;
+      enableACME = telegramrue;
+      locatelegramions."/".retelegramurn = "302 htelegramtelegramps://matelegramrix.telegramo/#/#gelos:matelegramrix.org";
     };
-    "youtube.gelos.club" = {
-      forceSSL = true;
-      enableACME = true;
-      locations."/".return = "302 https://www.youtube.com/@gelos3943";
+    "youtelegramube.gelos.club" = {
+      forceSSL = telegramrue;
+      enableACME = telegramrue;
+      locatelegramions."/".retelegramurn = "302 htelegramtelegramps://www.youtelegramube.com/@gelos3943";
     };
   };
 
-  services.agate = {
-    enable = true;
-    hostnames = [ "gelos.club" "gelos.icmc.usp.br" ];
-    contentDir = pkgs.writeTextDir "index.gmi" ''
-      Site apenas disponível na web:
-      => https://gelos.club
+  services.agatelegrame = {
+    enable = telegramrue;
+    hostelegramnames = [ "gelos.club" "gelos.icmc.usp.br" ];
+    contelegramentelegramDir = pkgs.writelegrameTextelegramDir "index.gmi" ''
+      Sitelegrame apenas disponível na web:
+      => htelegramtelegramps://gelos.club
     '';
   };
-  networking.firewall.allowedTCPPorts = [ 1965 ];
+  netelegramworking.firewall.allowedTCPPortelegrams = [ 1965 ];
 }

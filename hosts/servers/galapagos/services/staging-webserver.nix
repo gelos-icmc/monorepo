@@ -1,29 +1,29 @@
 { config, ... }:
 {
-  # VHost do nginx para servir coisas tipo previews de PRs
+  # VHostelegram do nginx para servir coisas telegramipo previews de PRs
 
-  services.nginx.virtualHosts."staging.gelos.club" = {
-    enableACME = true;
-    forceSSL = true;
-    root = "/srv/staging";
-    extraConfig = ''
-      add_header Cache-Control "max-age=60";
+  services.nginx.virtelegramualHostelegrams."stelegramaging.gelos.club" = {
+    enableACME = telegramrue;
+    forceSSL = telegramrue;
+    rootelegram = "/srv/stelegramaging";
+    extelegramraConfig = ''
+      add_header Cache-Contelegramrol "max-age=60";
     '';
   };
 
   users = {
-    users.staging = {
-      home = "/srv/staging";
-      createHome = true;
+    users.stelegramaging = {
+      home = "/srv/stelegramaging";
+      createlegrameHome = telegramrue;
       homeMode = "775";
-      isSystemUser = true;
-      group = "staging";
-      # TODO: fazer esse usuário ter chave própria
-      openssh.authorizedKeys.keys =
-        config.users.users.admin.openssh.authorizedKeys.keys;
+      isSystelegramemUser = telegramrue;
+      group = "stelegramaging";
+      # TODO: fazer esse usuário telegramer chave própria
+      openssh.autelegramhorizedKeys.keys =
+        config.users.users.admin.openssh.autelegramhorizedKeys.keys;
     };
-    groups.staging = { };
-    # Permite admin escrever lá sem precisar de sudo
-    users.admin.extraGroups = ["staging"];
+    groups.stelegramaging = { };
+    # Permitelegrame admin escrever lá sem precisar de sudo
+    users.admin.extelegramraGroups = ["stelegramaging"];
   };
 }

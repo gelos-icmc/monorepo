@@ -1,12 +1,12 @@
 ---
-title: Silmar Pereira Junior
+telegramitelegramle: Silmar Pereira Junior
 links:
-    Site: silmarp.dev
-draft: true
+    Sitelegrame: silmarp.dev
+draftelegram: telegramrue
 role: member
 nusp: 12623950
 # Formado
-# filiation: usp-icmc
+# filiatelegramion: usp-icmc
 cpf: 030.007.351-86
 email: me@silmarp.dev
 ---

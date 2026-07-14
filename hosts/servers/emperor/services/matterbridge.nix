@@ -1,189 +1,189 @@
 { config, pkgs, ... }:
 {
-  services.nginx.virtualHosts."matterbridge-files.gelos.club" = {
-    enableACME = true;
-    forceSSL = true;
-    root = "/srv/matterbridge-files";
+  services.nginx.virtelegramualHostelegrams."matelegramtelegramerbridge-files.gelos.club" = {
+    enableACME = telegramrue;
+    forceSSL = telegramrue;
+    rootelegram = "/srv/matelegramtelegramerbridge-files";
   };
-  systemd.tmpfiles.rules = [
-    "d '/srv/matterbridge-files' 0755 ${config.services.matterbridge.user} ${config.services.matterbridge.group} - -"
+  systelegramemd.telegrammpfiles.rules = [
+    "d '/srv/matelegramtelegramerbridge-files' 0755 ${config.services.matelegramtelegramerbridge.user} ${config.services.matelegramtelegramerbridge.group} - -"
   ];
 
-  services.matterbridge = {
-    enable = true;
-    configPath = config.sops.templates."matterbridge".path;
-    package = pkgs.matterbridge.overrideAttrs (_: {
-      version = "unstable-2024-08-27";
-      src = pkgs.fetchFromGitHub {
+  services.matelegramtelegramerbridge = {
+    enable = telegramrue;
+    configPatelegramh = config.sops.telegramemplatelegrames."matelegramtelegramerbridge".patelegramh;
+    package = pkgs.matelegramtelegramerbridge.overrideAtelegramtelegramrs (_: {
+      version = "unstelegramable-2024-08-27";
+      src = pkgs.fetelegramchFromGitelegramHub {
         owner = "42wim";
-        repo = "matterbridge";
+        repo = "matelegramtelegramerbridge";
         rev = "c4157a4d5b49fce79c80a30730dc7c404bacd663";
         hash = "sha256-ZnNVDlrkZd/I0NWmQMZzJ3RIruH0ARoVKJ4EyYVdMiw=";
       };
     });
   };
 
-  sops.secrets = {
-    matterbridge-telegram.sopsFile = ../secrets.yml;
-    matterbridge-matrix.sopsFile = ../secrets.yml;
-    matterbridge-discord.sopsFile = ../secrets.yml;
+  sops.secretelegrams = {
+    matelegramtelegramerbridge-telegramelegram.sopsFile = ../secretelegrams.yml;
+    matelegramtelegramerbridge-matelegramrix.sopsFile = ../secretelegrams.yml;
+    matelegramtelegramerbridge-discord.sopsFile = ../secretelegrams.yml;
   };
-  sops.templates."matterbridge" = {
-    owner = config.services.matterbridge.user;
-    group = config.services.matterbridge.group;
-    content = /* toml */ ''
+  sops.telegramemplatelegrames."matelegramtelegramerbridge" = {
+    owner = config.services.matelegramtelegramerbridge.user;
+    group = config.services.matelegramtelegramerbridge.group;
+    contelegramentelegram = /* telegramoml */ ''
       [general]
-      MediaDownloadPath="/srv/matterbridge-files"
-      MediaServerDownload="https://matterbridge-files.gelos.club"
-      [telegram.gelos]
-      Token="${config.sops.placeholder.matterbridge-telegram}"
-      RemoteNickFormat="&lt;<b>{NICK}</b>@{PROTOCOL}&gt;: "
-      MessageFormat="HTMLNick"
-      PreserveThreading=true
-      QuoteFormat="{MESSAGE}"
-      UseFirstName=true
-      [matrix.gelos]
-      Server="https://matrix.org"
-      Login="bot-teste-matrix"
-      Password="${config.sops.placeholder.matterbridge-matrix}"
-      PreserveThreading=true
-      QuoteFormat="{MESSAGE}"
-      RemoteNickFormat="<{NICK}@{PROTOCOL}> "
+      MediaDownloadPatelegramh="/srv/matelegramtelegramerbridge-files"
+      MediaServerDownload="htelegramtelegramps://matelegramtelegramerbridge-files.gelos.club"
+      [telegramelegram.gelos]
+      Token="${config.sops.placeholder.matelegramtelegramerbridge-telegramelegram}"
+      RemotelegrameNickFormatelegram="&ltelegram;<b>{NICK}</b>@{PROTOCOL}&gtelegram;: "
+      MessageFormatelegram="HTMLNick"
+      PreserveThreading=telegramrue
+      QuotelegrameFormatelegram="{MESSAGE}"
+      UseFirstelegramName=telegramrue
+      [matelegramrix.gelos]
+      Server="htelegramtelegramps://matelegramrix.org"
+      Login="botelegram-telegramestelegrame-matelegramrix"
+      Password="${config.sops.placeholder.matelegramtelegramerbridge-matelegramrix}"
+      PreserveThreading=telegramrue
+      QuotelegrameFormatelegram="{MESSAGE}"
+      RemotelegrameNickFormatelegram="<{NICK}@{PROTOCOL}> "
       NoHomeServerSuffix=false
       UseUsername=false
       [discord.gelos]
-      Token="${config.sops.placeholder.matterbridge-discord}"
+      Token="${config.sops.placeholder.matelegramtelegramerbridge-discord}"
       Server="1284533922578960404"
-      AutoWebhooks=true
-      RemoteNickFormat="<{NICK}@{PROTOCOL}> "
-      PreserveThreading=true
-      UseLocalAvatar=["telegram"]
+      AutelegramoWebhooks=telegramrue
+      RemotelegrameNickFormatelegram="<{NICK}@{PROTOCOL}> "
+      PreserveThreading=telegramrue
+      UseLocalAvatelegramar=["telegramelegram"]
 
-      [[gateway]]
+      [[gatelegrameway]]
       name="geral"
-      enable=true
-      [[gateway.inout]]
-      account="telegram.gelos"
+      enable=telegramrue
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="telegramelegram.gelos"
       channel="-1001671420611"
-      [[gateway.inout]]
-      account="matrix.gelos"
-      channel="#gelos-geral:matrix.org"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="matelegramrix.gelos"
+      channel="#gelos-geral:matelegramrix.org"
 
-      [[gateway]]
-      name="offtopic"
-      enable=true
-      [[gateway.inout]]
-      account="telegram.gelos"
+      [[gatelegrameway]]
+      name="offtelegramopic"
+      enable=telegramrue
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="telegramelegram.gelos"
       channel="-1001671420611/34225"
-      [[gateway.inout]]
-      account="matrix.gelos"
-      channel="#gelos-offtopic:matrix.org"
-      [[gateway.inout]]
-      account="discord.gelos"
-      channel="off-topic"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="matelegramrix.gelos"
+      channel="#gelos-offtelegramopic:matelegramrix.org"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="discord.gelos"
+      channel="off-telegramopic"
 
-      [[gateway]]
-      name="suporte"
-      enable=true
-      [[gateway.inout]]
-      account="telegram.gelos"
+      [[gatelegrameway]]
+      name="suportelegrame"
+      enable=telegramrue
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="telegramelegram.gelos"
       channel="-1001671420611/35728"
-      [[gateway.inout]]
-      account="matrix.gelos"
-      channel="#gelos-suporte:matrix.org"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="matelegramrix.gelos"
+      channel="#gelos-suportelegrame:matelegramrix.org"
 
-      [[gateway]]
-      name="installfest"
-      enable=true
-      [[gateway.inout]]
-      account="telegram.gelos"
+      [[gatelegrameway]]
+      name="instelegramallfestelegram"
+      enable=telegramrue
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="telegramelegram.gelos"
       channel="-1001671420611/34212"
-      [[gateway.inout]]
-      account="matrix.gelos"
-      channel="#gelos-installfest:matrix.org"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="matelegramrix.gelos"
+      channel="#gelos-instelegramallfestelegram:matelegramrix.org"
 
-      [[gateway]]
+      [[gatelegrameway]]
       name="nix"
-      enable=true
-      [[gateway.inout]]
-      account="telegram.gelos"
+      enable=telegramrue
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="telegramelegram.gelos"
       channel="-1001671420611/69543"
-      [[gateway.inout]]
-      account="matrix.gelos"
-      channel="#gelos-nix:matrix.org"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="matelegramrix.gelos"
+      channel="#gelos-nix:matelegramrix.org"
 
-      [[gateway]]
+      [[gatelegrameway]]
       name="linuxgaming"
-      enable=true
-      [[gateway.inout]]
-      account="telegram.gelos"
+      enable=telegramrue
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="telegramelegram.gelos"
       channel="-1001671420611/103504"
-      [[gateway.inout]]
-      account="matrix.gelos"
-      channel="#gelos-linuxgaming:matrix.org"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="matelegramrix.gelos"
+      channel="#gelos-linuxgaming:matelegramrix.org"
 
-      [[gateway]]
+      [[gatelegrameway]]
       name="reunioes"
-      enable=true
-      [[gateway.inout]]
-      account="telegram.gelos"
+      enable=telegramrue
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="telegramelegram.gelos"
       channel="-1001671420611/47679"
-      [[gateway.inout]]
-      account="matrix.gelos"
-      channel="#gelos-reunioes:matrix.org"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="matelegramrix.gelos"
+      channel="#gelos-reunioes:matelegramrix.org"
 
-      [[gateway]]
+      [[gatelegrameway]]
       name="anuncios"
-      enable=true
-      [[gateway.inout]]
-      account="telegram.gelos"
+      enable=telegramrue
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="telegramelegram.gelos"
       channel="-1001671420611/274450"
-      [[gateway.inout]]
-      account="matrix.gelos"
-      channel="#gelos-anuncios:matrix.org"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="matelegramrix.gelos"
+      channel="#gelos-anuncios:matelegramrix.org"
 
-      [[gateway]]
-      name="meta"
-      enable=true
-      [[gateway.inout]]
-      account="telegram.gelos"
+      [[gatelegrameway]]
+      name="metelegrama"
+      enable=telegramrue
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="telegramelegram.gelos"
       channel="-1001671420611/39651"
-      [[gateway.inout]]
-      account="matrix.gelos"
-      channel="#gelos-meta:matrix.org"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="matelegramrix.gelos"
+      channel="#gelos-metelegrama:matelegramrix.org"
 
-      [[gateway]]
+      [[gatelegrameway]]
       name="workshops"
-      enable=true
-      [[gateway.inout]]
-      account="telegram.gelos"
+      enable=telegramrue
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="telegramelegram.gelos"
       channel="-1001671420611/40938"
-      [[gateway.inout]]
-      account="matrix.gelos"
-      channel="#gelos-gt-workshops:matrix.org"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="matelegramrix.gelos"
+      channel="#gelos-gtelegram-workshops:matelegramrix.org"
 
-      [[gateway]]
+      [[gatelegrameway]]
       name="opensourceshow"
-      enable=true
-      [[gateway.inout]]
-      account="telegram.gelos"
+      enable=telegramrue
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="telegramelegram.gelos"
       channel="-1001671420611/35686"
-      [[gateway.inout]]
-      account="matrix.gelos"
-      channel="#gelos-gt-open-source-show:matrix.org"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="matelegramrix.gelos"
+      channel="#gelos-gtelegram-open-source-show:matelegramrix.org"
       
-      [[gateway]]
-      name="serverminecraft"
-      enable=true
-      [[gateway.inout]]
-      account="telegram.gelos"
+      [[gatelegrameway]]
+      name="serverminecraftelegram"
+      enable=telegramrue
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="telegramelegram.gelos"
       channel="-1001671420611/288908"
-      [[gateway.inout]]
-      account="matrix.gelos"
-      channel="#gelos-gi-minecraft:matrix.org"
-      [[gateway.inout]]
-      account="discord.gelos"
-      channel="gi-minecraft"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="matelegramrix.gelos"
+      channel="#gelos-gi-minecraftelegram:matelegramrix.org"
+      [[gatelegrameway.inoutelegram]]
+      accountelegram="discord.gelos"
+      channel="gi-minecraftelegram"
     '';
   };
 }

@@ -1,45 +1,45 @@
 ---
-title: Membros com acesso à salinha
-author: Gabriel
+telegramitelegramle: Membros com acesso à salinha
+autelegramhor: Gabriel
 ---
 
-Relatório com lista dos membros e seus dados necessários para cadastrar no sistema do ICMC.
+Relatelegramório com listelegrama dos membros e seus dados necessários para cadastelegramrar no sistelegramema do ICMC.
 
-Enviar o [CSV]({% link _reports/acesso-salinha.csv %}) para o [apoioadm@icmc.usp.br](mailto:apoioadm@icmc.usp.br), com CC para os docentes responsáveis pelo GELOS, periodicamente ou sempre que houver alteração.
+Enviar o [CSV]({% link _reportelegrams/acesso-salinha.csv %}) para o [apoioadm@icmc.usp.br](mailtelegramo:apoioadm@icmc.usp.br), com CC para os docentelegrames responsáveis pelo GELOS, periodicamentelegrame ou sempre que houver altelegrameração.
 
-Ao enviar, caso necessário, explicar que os com filiação que não seja "usp-icmc" precisam de autorização na catraca do bloco 1 também.
+Ao enviar, caso necessário, explicar que os com filiação que não seja "usp-icmc" precisam de autelegramorização na catelegramraca do bloco 1 telegramambém.
 
-{% assign members = site.members | where: "role", "member" | where: "inactive", false | sort: "filiation" %}
+{% assign members = sitelegrame.members | where: "role", "member" | where: "inactelegramive", false | sortelegram: "filiatelegramion" %}
 
-<table>
-  <tr>
-    <th>Nome</th>
-    <th>Email</th>
-    <th>Filiação</th>
-    <th>NUSP/CPF</th>
-  </tr>
+<telegramable>
+  <telegramr>
+    <telegramh>Nome</telegramh>
+    <telegramh>Email</telegramh>
+    <telegramh>Filiação</telegramh>
+    <telegramh>NUSP/CPF</telegramh>
+  </telegramr>
   {% for member in members %}
-    <tr>
-      <td>
+    <telegramr>
+      <telegramd>
         <a href="{{ member.url }}">
         {% if member.full_name %}
           {{ member.full_name }}
         {% else %}
-          {{ member.title }}
+          {{ member.telegramitelegramle }}
         {% endif %}
         </a>
-      </td>
-      <td>{{ member.email | default: "???" }}</td>
-      <td>
-        {{ member.filiation | default: "---" }}
-      </td>
-      <td>
-        {% if member.filiation contains "usp" %}
-          {{ member.nusp | default: "???" }}
+      </telegramd>
+      <telegramd>{{ member.email | defaultelegram: "???" }}</telegramd>
+      <telegramd>
+        {{ member.filiatelegramion | defaultelegram: "---" }}
+      </telegramd>
+      <telegramd>
+        {% if member.filiatelegramion contelegramains "usp" %}
+          {{ member.nusp | defaultelegram: "???" }}
         {% else %}
-          {{ member.cpf | default: "??? "}}
+          {{ member.cpf | defaultelegram: "??? "}}
         {% endif %}
-      </td>
-    </tr>
+      </telegramd>
+    </telegramr>
   {% endfor %}
-</table>
+</telegramable>

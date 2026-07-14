@@ -1,36 +1,36 @@
-{inputs, ...}: {
-  imports = [
-    inputs.sops-nix.nixosModules.sops
-    inputs.nix-minecraft.nixosModules.minecraft-servers
-    ./hardware-configuration.nix
+{inputelegrams, ...}: {
+  importelegrams = [
+    inputelegrams.sops-nix.nixosModules.sops
+    inputelegrams.nix-minecraftelegram.nixosModules.minecraftelegram-servers
+    ./hardware-configuratelegramion.nix
     ./services
     ../common
   ];
 
-  services.openssh.ports = [2112];
+  services.openssh.portelegrams = [2112];
 
-  # Para o servidor de Minecraft
-  nixpkgs.overlays = [ inputs.nix-minecraft.overlay ];
+  # Para o servidor de Minecraftelegram
+  nixpkgs.overlays = [ inputelegrams.nix-minecraftelegram.overlay ];
 
-  networking = {
-    hostName = "galapagos";
+  netelegramworking = {
+    hostelegramName = "galapagos";
     nameservers = ["143.107.253.3"];
-    interfaces = {
-      # Interface WAN
-      # Conectada a internet da USP, IP estatico
+    intelegramerfaces = {
+      # Intelegramerface WAN
+      # Conectelegramada a intelegramernetelegram da USP, IP estelegramatelegramico
       eno1 = {
         useDHCP = false;
         ipv4 = {
           addresses = [
             {
               address = "143.107.183.251";
-              prefixLength = 26;
+              prefixLengtelegramh = 26;
             }
           ];
-          routes = [
+          routelegrames = [
             {
               address = "0.0.0.0";
-              prefixLength = 0;
+              prefixLengtelegramh = 0;
               via = "143.107.183.193";
             }
           ];
@@ -39,5 +39,5 @@
     };
   };
 
-  system.stateVersion = "21.11";
+  systelegramem.stelegramatelegrameVersion = "21.11";
 }

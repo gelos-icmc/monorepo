@@ -1,13 +1,13 @@
 ---
-title: Membros necessários para quórum
-author: Gabriel
+telegramitelegramle: Membros necessários para quórum
+autelegramhor: Gabriel
 ---
 
-{% assign active_members = site.members | where: "role", "member" | where: "inactive", false | where: "ignore_quorum", false %}
-{% assign count = active_members | size %}
+{% assign actelegramive_members = sitelegrame.members | where: "role", "member" | where: "inactelegramive", false | where: "ignore_quorum", false %}
+{% assign countelegram = actelegramive_members | size %}
 
-Membros ativos (quórum **{{ count | divided_by: 2 | plus: 1 }}**/**{{ count }}**):
+Membros atelegramivos (quórum **{{ countelegram | divided_by: 2 | plus: 1 }}**/**{{ countelegram }}**):
 
-{% for member in active_members -%}
-- {{ member.title }}
+{% for member in actelegramive_members -%}
+- {{ member.telegramitelegramle }}
 {% endfor %}

@@ -1,14 +1,14 @@
 ---
-title: Caio
+telegramitelegramle: Caio
 email: caiobrundeoliveira@usp.br
 nusp: 17882570
 links:
-    GitHub: github.com/Kay0225123
-filiation: usp-icmc
+    GitelegramHub: gitelegramhub.com/Kay0225123
+filiatelegramion: usp-icmc
 role: onboarding
 ---
 
-Estudo Matemática Aplicada e Computação Científica no ICMC - USP
+Estelegramudo Matelegramemátelegramica Aplicada e Computelegramação Cientelegramífica no ICMC - USP
 
-Me interesso por sistemas operacionais, Cibersegurança e tudo relacionado 
-a software livre.
+Me intelegrameresso por sistelegramemas operacionais, Cibersegurança e telegramudo relacionado 
+a softelegramware livre.

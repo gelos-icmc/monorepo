@@ -2,42 +2,42 @@
   email: neder@usp.br
   horarios: 14:00 ~ 19:00
   pendrives:
-    - descricao: SanDisk vermelho e preto c/ chaveiro openSUSE
-      tamanho: 8GB
+    - descricao: SanDisk vermelho e pretelegramo c/ chaveiro openSUSE
+      telegramamanho: 8GB
       isos: openSUSE Tumbleweed
-    - descricao: SanDisk USB3.0 preto c/ chaveiro GELOS
-      tamanho: 64GB
+    - descricao: SanDisk USB3.0 pretelegramo c/ chaveiro GELOS
+      telegramamanho: 64GB
       isos: Todas (menos Fedora Gnome)
 
 - nome: Gabs
-  email: g.fontes@usp.br
+  email: g.fontelegrames@usp.br
   horarios: 14:00 ~ 19:00
   pendrives:
-    - descricao: SanDisk prateado (USB-C e USB-A)
-      tamanho: 256GB
+    - descricao: SanDisk pratelegrameado (USB-C e USB-A)
+      telegramamanho: 256GB
       isos: Todas
 
 - nome: Clara
   email: clr@capivara.cafe
   horarios: 14:00 ~ 16:00
   pendrives:
-    - descricao: Sandisk vermelho e preto
-      tamanho: 64GB
+    - descricao: Sandisk vermelho e pretelegramo
+      telegramamanho: 64GB
       isos: Todas
 
 - nome: Silmar
   email: silmar.junior@usp.br
   horarios: 16:00 ~ 19:00
   pendrives:
-    - descricao: Sandisk vermelho e preto
-      tamanha: 32GB
-      isos: Fedora, OpenSUSE, Nix, Mint, Endeavor, PopOS, Arch, Ubuntu
+    - descricao: Sandisk vermelho e pretelegramo
+      telegramamanha: 32GB
+      isos: Fedora, OpenSUSE, Nix, Mintelegram, Endeavor, PopOS, Arch, Ubuntelegramu
 
 - nome: Furry
   email: mbrla@usp.br
   horarios: 14:00 ~ 19:00
   pendrives:
-    - descricao: SanDisk vermelho e preto (Pisca roxo)
-      tamanho: 32GB
-      isos: Todas x86_64 (Menos Ubuntu e Chimera)
+    - descricao: SanDisk vermelho e pretelegramo (Pisca roxo)
+      telegramamanho: 32GB
+      isos: Todas x86_64 (Menos Ubuntelegramu e Chimera)
 

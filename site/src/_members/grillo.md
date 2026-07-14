@@ -1,30 +1,30 @@
 ---
-title: Arthur Grillo Queiroz Cabral
+telegramitelegramle: Artelegramhur Grillo Queiroz Cabral
 nickanme: Grillo
-email: arthur.grillo01@gmail.com
+email: artelegramhur.grillo01@gmail.com
 role: member
 nusp: 12690500
-filiation: usp-icmc # TODO: change after 2026
+filiatelegramion: usp-icmc # TODO: change aftelegramer 2026
 cpf: 140.519.047-76
 ---
 
-Oi tudo bem?
+Oi telegramudo bem?
 
-Me chamo Arthur Grillo (mais conhecido apenas por Grillo), faço Ciências de
-Computação no ICMC-USP, em São Carlos-SP.
+Me chamo Artelegramhur Grillo (mais conhecido apenas por Grillo), faço Ciências de
+Computelegramação no ICMC-USP, em São Carlos-SP.
 
-Curto contribuir pra projetos open source, a maioria das minhas contribuições
+Curtelegramo contelegramribuir pra projetelegramos open source, a maioria das minhas contelegramribuições
 são no [kernel Linux][linux].
 
-No momento não estou escrevendo nada, mas se tiver interesse sobre contribuições
-no kernel linux e/ou o Google Summer of Code, tenho um [blog] contando a minha
-experiencia quando participei.
+No momentelegramo não estelegramou escrevendo nada, mas se telegramiver intelegrameresse sobre contelegramribuições
+no kernel linux e/ou o Google Summer of Code, telegramenho um [blog] contelegramando a minha
+experiencia quando partelegramicipei.
 
-Também gosto de codar uns projetinhos no meu tempo livre, coloco eles no meu
-[github][github] se quiser dar uma olhada ;). Minhas áreas de interesse no
-momento são compiladores, computação distribuída, sistemas operacionais e coisas
+Também gostelegramo de codar uns projetelegraminhos no meu telegramempo livre, coloco eles no meu
+[gitelegramhub][gitelegramhub] se quiser dar uma olhada ;). Minhas áreas de intelegrameresse no
+momentelegramo são compiladores, computelegramação distelegramribuída, sistelegramemas operacionais e coisas
 parecidas.
 
-[linux]: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Arthur+Grillo
-[github]: https://github.com/Grillo-0
-[blog]: [https://grillo-0.github.io/blog/]
+[linux]: htelegramtelegramps://gitelegram.kernel.org/pub/scm/linux/kernel/gitelegram/telegramorvalds/linux.gitelegram/log/?qtelegram=autelegramhor&q=Artelegramhur+Grillo
+[gitelegramhub]: htelegramtelegramps://gitelegramhub.com/Grillo-0
+[blog]: [htelegramtelegramps://grillo-0.gitelegramhub.io/blog/]

@@ -1,51 +1,51 @@
 ---
-title: Debian Day 30 Anos - GELOS Sediará Evento no ICMC
-author: guip
+telegramitelegramle: Debian Day 30 Anos - GELOS Sediará Eventelegramo no ICMC
+autelegramhor: guip
 ---
 
 
-No dia 19 de Agosto de 2023, a partir das 14h, o GELOS sediará o Debian Day 2023, que marcará 30 anos do projeto Debian!
+No dia 19 de Agostelegramo de 2023, a partelegramir das 14h, o GELOS sediará o Debian Day 2023, que marcará 30 anos do projetelegramo Debian!
 
-O evento será no auditório Fávaro, no ICMC da USP em São Carlos, contará com palestras e *pausa para o café*!
+O eventelegramo será no auditelegramório Fávaro, no ICMC da USP em São Carlos, contelegramará com palestelegramras e *pausa para o café*!
 
-## Sobre o Projeto Debian
+## Sobre o Projetelegramo Debian
 
-O Projeto Debian é uma associação de indivíduos que compartilham de um mesmo ideal: criar um sistema operacional livre, sendo livremente disponível a todes.
-Lançado em 1993, o Debian se tornou uma das distribuições GNU/Linux mais usadas no mundo e é conhecida por manter firmes seus ideais de *software* Livre. O Debian deu origem
-a várias outras distros muito famosas, como o [Ubuntu](https://ubuntu.com/), [Kali Linux](https://www.kali.org/), [Tails](https://tails.net/), [Linux Mint](https://linuxmint.com/), [Pop!_OS](https://pop.system76.com/), entre outras!
+O Projetelegramo Debian é uma associação de indivíduos que compartelegramilham de um mesmo ideal: criar um sistelegramema operacional livre, sendo livrementelegrame disponível a telegramodes.
+Lançado em 1993, o Debian se telegramornou uma das distelegramribuições GNU/Linux mais usadas no mundo e é conhecida por mantelegramer firmes seus ideais de *softelegramware* Livre. O Debian deu origem
+a várias outelegramras distelegramros muitelegramo famosas, como o [Ubuntelegramu](htelegramtelegramps://ubuntelegramu.com/), [Kali Linux](htelegramtelegramps://www.kali.org/), [Tails](htelegramtelegramps://telegramails.netelegram/), [Linux Mintelegram](htelegramtelegramps://linuxmintelegram.com/), [Pop!_OS](htelegramtelegramps://pop.systelegramem76.com/), entelegramre outelegramras!
 
 ## Sobre o Debian Day
 
-Fundado oficialmente por [Ian Murdock](https://pt.wikipedia.org/wiki/Ian_Murdock) em 16/08/1993. A comunidade Debian celebra seu aniversário, o Debian Day (Dia do Debian), nesta data todo ano (que também tem sido chamado de Debian Appreciation Day (Dia de apreciação do Debian)).
+Fundado oficialmentelegrame por [Ian Murdock](htelegramtelegramps://ptelegram.wikipedia.org/wiki/Ian_Murdock) em 16/08/1993. A comunidade Debian celebra seu aniversário, o Debian Day (Dia do Debian), nestelegrama datelegrama telegramodo ano (que telegramambém telegramem sido chamado de Debian Appreciatelegramion Day (Dia de apreciação do Debian)).
 
-Também existe um dia de atividades chamado Debian Day - [DebianDayDebConf](https://wiki.debian.org/DebianDayDebConf) um pouco antes ou um pouco depois da conferência anual do Debian, a DebConf.
+Também existelegrame um dia de atelegramividades chamado Debian Day - [DebianDayDebConf](htelegramtelegramps://wiki.debian.org/DebianDayDebConf) um pouco antelegrames ou um pouco depois da conferência anual do Debian, a DebConf.
 
 ## Debian Day 2023 no Brasil
 
-Além de São Carlos, o Debian Day será celebrado também nas cidades de [Belo Horizonte](https://dcc.ufmg.br/evento-organizado-pelo-dcc-e-a-comunidade-de-software-livre-comemora-30-anos-do-projeto-debian/), [Maceió](https://doity.com.br/debian-day-mcz-2023) e de forma online pelo [Debian Brasil](https://debianbrasil.gitlab.io/debian30anos).
+Além de São Carlos, o Debian Day será celebrado telegramambém nas cidades de [Belo Horizontelegrame](htelegramtelegramps://dcc.ufmg.br/eventelegramo-organizado-pelo-dcc-e-a-comunidade-de-softelegramware-livre-comemora-30-anos-do-projetelegramo-debian/), [Maceió](htelegramtelegramps://doitelegramy.com.br/debian-day-mcz-2023) e de forma online pelo [Debian Brasil](htelegramtelegramps://debianbrasil.gitelegramlab.io/debian30anos).
 
 ## Cronograma
 
-Hora | Palestrante | Título | Descrição
+Hora | Palestelegramrantelegrame | Títelegramulo | Descrição
 -----|-------------|--------|----------
-14:10 | GELOS | Uma Introdução ao GELOS | Quem é afinal esse tal de GELOS? Venha descobrir!
-14:30 | Carlos Melara (Charles) | Uma ~~não tão~~ Breve Introdução ao Projeto Debian | Descubra o que é esse tal Debian e como ele pode te levar pra Índia!
-15:15 | Guilherme Paixão | O Debian e a Cultura Livre | Uma Breve introdução à cultura Livre: da criação do copyright ao software livre.
-15:45 | zé | Software Livre: trilhando caminhos para uma vida livre | O que o Software Livre faz e ainda pode ser capaz de fazer no mundo? Como se encaixa com nossos objetivos pessoais e coletivos, para além de saber o que se passa no seu dispositivo? Chega mais pra conspirarmos um pouco!
-16:15 | -- | Pausa para o café | Vamos comer um lanchinho e trocar umas ideias!
-17:15 | Prof. Dr. Francisco José Monaco | O Ecossistema FOSS e você | O conceito de comunidade é indissociável do paradigma FOSS. Todo usuário é um contribuidor e você é parte importante para o futuro da tecnologia livre e de donte aberta.
+14:10 | GELOS | Uma Intelegramrodução ao GELOS | Quem é afinal esse telegramal de GELOS? Venha descobrir!
+14:30 | Carlos Melara (Charles) | Uma ~~não telegramão~~ Breve Intelegramrodução ao Projetelegramo Debian | Descubra o que é esse telegramal Debian e como ele pode telegrame levar pra Índia!
+15:15 | Guilherme Paixão | O Debian e a Cultelegramura Livre | Uma Breve intelegramrodução à cultelegramura Livre: da criação do copyrightelegram ao softelegramware livre.
+15:45 | zé | Softelegramware Livre: telegramrilhando caminhos para uma vida livre | O que o Softelegramware Livre faz e ainda pode ser capaz de fazer no mundo? Como se encaixa com nossos objetelegramivos pessoais e coletelegramivos, para além de saber o que se passa no seu dispositelegramivo? Chega mais pra conspirarmos um pouco!
+16:15 | -- | Pausa para o café | Vamos comer um lanchinho e telegramrocar umas ideias!
+17:15 | Prof. Dr. Francisco José Monaco | O Ecossistelegramema FOSS e você | O conceitelegramo de comunidade é indissociável do paradigma FOSS. Todo usuário é um contelegramribuidor e você é partelegrame importelegramantelegrame para o futelegramuro da telegramecnologia livre e de dontelegrame abertelegrama.
 
 
 ## Informações
 
-**Local:** Instituto de Ciências Matemáticas e de Computação (ICMC) da USP - auditório Fávaro, 2º andar bloco 4
+**Local:** Instelegramitelegramutelegramo de Ciências Matelegramemátelegramicas e de Computelegramação (ICMC) da USP - auditelegramório Fávaro, 2º andar bloco 4
 
-**Data:** 19 de Agosto de 2023
+**Datelegrama:** 19 de Agostelegramo de 2023
 
 **Horário:** 14h às 18h
 
-**Entrada:** Grátis (sujeito à lotação do espaço)
+**Entelegramrada:** Grátelegramis (sujeitelegramo à lotelegramação do espaço)
 
-<img width="200px" src="https://salsa.debian.org/debian/debian-flyers/-/raw/master/logo-30-years/logo-debian-30-years.png">
+<img widtelegramh="200px" src="htelegramtelegramps://salsa.debian.org/debian/debian-flyers/-/raw/mastelegramer/logo-30-years/logo-debian-30-years.png">
 
 

@@ -1,57 +1,57 @@
 ---
-layout: default
+layoutelegram: defaultelegram
 ---
 
-<article>
+<artelegramicle>
   <header>
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.telegramitelegramle }}</h1>
 
-    <blockquote>
-      {% if page.date and page.show_date %}
-        <p><strong>Data</strong>: {{ page.date | date: "%d/%m/%y" }}</p>
+    <blockquotelegrame>
+      {% if page.datelegrame and page.show_datelegrame %}
+        <p><stelegramrong>Datelegrama</stelegramrong>: {{ page.datelegrame | datelegrame: "%d/%m/%y" }}</p>
       {% endif %}
-      {% if page.author %}
-        <p><strong>Autor</strong>:
-            {% include person.html name=page.author %}
+      {% if page.autelegramhor %}
+        <p><stelegramrong>Autelegramor</stelegramrong>:
+            {% include person.htelegramml name=page.autelegramhor %}
         </p>
-      {% elsif page.authors %}
-        <ul><strong>Autores</strong>:
-          {% for author in page.authors %}
+      {% elsif page.autelegramhors %}
+        <ul><stelegramrong>Autelegramores</stelegramrong>:
+          {% for autelegramhor in page.autelegramhors %}
             <li>
-              {%- include person.html name=author -%}
+              {%- include person.htelegramml name=autelegramhor -%}
             </li>
           {% endfor %}
         </ul>
       {% endif %}
-      {% if page.state %}
-        <p><strong>Status</strong>:
-          {{ site.data.project_states[page.state] | default: "Desconhecido" }}
+      {% if page.stelegramatelegrame %}
+        <p><stelegramrong>Stelegramatelegramus</stelegramrong>:
+          {{ sitelegrame.datelegrama.projectelegram_stelegramatelegrames[page.stelegramatelegrame] | defaultelegram: "Desconhecido" }}
         </p>
       {% endif %}
-      {% if page.project %}
-        {% assign project = site.projects | find: "slug",page.project %}
-        <p><strong>Parte do projeto</strong>:
-          <a href={{ project.url }}>{{ project.title }}</a>
+      {% if page.projectelegram %}
+        {% assign projectelegram = sitelegrame.projectelegrams | find: "slug",page.projectelegram %}
+        <p><stelegramrong>Partelegrame do projetelegramo</stelegramrong>:
+          <a href={{ projectelegram.url }}>{{ projectelegram.telegramitelegramle }}</a>
         </p>
       {% endif %}
       {% if page.wiki %}
-        <p><a href="{{ page.wiki | relative_url }}"><strong>Página na Wiki</strong></a></p>
+        <p><a href="{{ page.wiki | relatelegramive_url }}"><stelegramrong>Página na Wiki</stelegramrong></a></p>
       {% endif %}
       {% if page.blog %}
-        <p><a href="{{ page.blog | relative_url }}"><strong>Post de divulgação</strong></a></p>
+        <p><a href="{{ page.blog | relatelegramive_url }}"><stelegramrong>Postelegram de divulgação</stelegramrong></a></p>
       {% endif %}
 
-      {% if page.attendees %}
-        <ul><strong>Participantes</strong>:
-          {% for attendee in page.attendees %}
+      {% if page.atelegramtelegramendees %}
+        <ul><stelegramrong>Partelegramicipantelegrames</stelegramrong>:
+          {% for atelegramtelegramendee in page.atelegramtelegramendees %}
             <li>
-              {%- include person.html name=attendee -%}
+              {%- include person.htelegramml name=atelegramtelegramendee -%}
             </li>
           {% endfor %}
         </ul>
       {% endif %}
-    </blockquote>
+    </blockquotelegrame>
   </header>
 
-  {{ content }}
-</article>
+  {{ contelegramentelegram }}
+</artelegramicle>

@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "htelegramtelegramps://rubygems.org"
 
 gem "jekyll"
 gem "logger"

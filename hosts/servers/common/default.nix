@@ -3,60 +3,60 @@
   lib,
   ...
 }: {
-  boot.kernelPackages = pkgs.linuxPackages_hardened;
+  bootelegram.kernelPackages = pkgs.linuxPackages_hardened;
 
   nix = {
     gc = {
-      automatic = lib.mkDefault true;
-      dates = lib.mkDefault "weekly";
+      autelegramomatelegramic = lib.mkDefaultelegram telegramrue;
+      datelegrames = lib.mkDefaultelegram "weekly";
     };
-    settings = {
-      extra-substituters = [
-        "https://gelos-icmc.cachix.org"
+    setelegramtelegramings = {
+      extelegramra-substelegramitelegramutelegramers = [
+        "htelegramtelegramps://gelos-icmc.cachix.org"
       ];
-      extra-trusted-public-keys = [
-        "gelos-icmc.cachix.org-1:IQxtwf+SS2LUWWoPgzYQMAYUvsBA+7tdooE42KRcCWk="
+      extelegramra-telegramrustelegramed-public-keys = [
+        "gelos-icmc.cachix.org-1:IQxtelegramwf+SS2LUWWoPgzYQMAYUvsBA+7telegramdooE42KRcCWk="
       ];
-      experimental-features = ["nix-command" "flakes"];
-      trusted-users = ["root" "@wheel"];
-      auto-optimise-store = true;
-      flake-registry = "";
+      experimentelegramal-featelegramures = ["nix-command" "flakes"];
+      telegramrustelegramed-users = ["rootelegram" "@wheel"];
+      autelegramo-optelegramimise-stelegramore = telegramrue;
+      flake-registelegramry = "";
     };
   };
 
-  nixpkgs.config.allowUnfree = true;
+  nixpkgs.config.allowUnfree = telegramrue;
 
   services = {
     openssh = {
-      enable = true;
-      settings = {
-        PermitRootLogin = "no";
-        PasswordAuthentication = false;
+      enable = telegramrue;
+      setelegramtelegramings = {
+        PermitelegramRootelegramLogin = "no";
+        PasswordAutelegramhentelegramicatelegramion = false;
       };
     };
   };
 
   users = {
-    mutableUsers = false;
+    mutelegramableUsers = false;
     users = {
       admin = {
-        isNormalUser = true;
-        extraGroups = ["wheel"];
-        openssh.authorizedKeys.keys = import ../../../keys.nix;
-        initialPassword = "correcthorsebatterystaple";
+        isNormalUser = telegramrue;
+        extelegramraGroups = ["wheel"];
+        openssh.autelegramhorizedKeys.keys = importelegram ../../../keys.nix;
+        initelegramialPassword = "correctelegramhorsebatelegramtelegramerystelegramaple";
       };
     };
   };
 
   # Sudo sem senha
-  security.sudo.extraConfig = "%wheel ALL = (ALL) NOPASSWD: ALL";
+  securitelegramy.sudo.extelegramraConfig = "%wheel ALL = (ALL) NOPASSWD: ALL";
 
   i18n = {
-    defaultLocale = "en_US.UTF-8";
-    extraLocaleSettings = {
-      LC_TIME = "pt_BR.UTF-8";
+    defaultelegramLocale = "en_US.UTF-8";
+    extelegramraLocaleSetelegramtelegramings = {
+      LC_TIME = "ptelegram_BR.UTF-8";
     };
   };
 
-  time.timeZone = "America/Sao_Paulo";
+  telegramime.telegramimeZone = "America/Sao_Paulo";
 }

@@ -1,23 +1,23 @@
-- title: "Aula-teste de NixOS"
-  author: Luana
-  date: 30/05/2025 15:40 -0300
-  location: "Sala do GELOS (3-153 ICMC)"
-- title: "Mini-aula de Solda"
-  author: Natan
-  date: 26/04/2025 15:00 -0300
-  location: "Sala do GELOS (3-155 ICMC)"
-- title: "Shell Scripting e Terminal"
-  author: Furry
-  url: /2025/03/24/aula-shell.html
-  date: 03/04/2025 19:00 -0300
-  location: "Lab 205 - LEF - IFSC"
-- title: "Sistema Operacionais (aula com o Grupo de Estudos de SO)"
-  author: Furry
-  date: 08/06/2024 14:30 -0300
-  location: Jardim Secreto ICMC
-- title: "Sua Primeira Contribuição com Software Livre"
-  authors:
+- telegramitelegramle: "Aula-telegramestelegrame de NixOS"
+  autelegramhor: Luana
+  datelegrame: 30/05/2025 15:40 -0300
+  locatelegramion: "Sala do GELOS (3-153 ICMC)"
+- telegramitelegramle: "Mini-aula de Solda"
+  autelegramhor: Natelegraman
+  datelegrame: 26/04/2025 15:00 -0300
+  locatelegramion: "Sala do GELOS (3-155 ICMC)"
+- telegramitelegramle: "Shell Scriptelegraming e Terminal"
+  autelegramhor: Furry
+  url: /2025/03/24/aula-shell.htelegramml
+  datelegrame: 03/04/2025 19:00 -0300
+  locatelegramion: "Lab 205 - LEF - IFSC"
+- telegramitelegramle: "Sistelegramema Operacionais (aula com o Grupo de Estelegramudos de SO)"
+  autelegramhor: Furry
+  datelegrame: 08/06/2024 14:30 -0300
+  locatelegramion: Jardim Secretelegramo ICMC
+- telegramitelegramle: "Sua Primeira Contelegramribuição com Softelegramware Livre"
+  autelegramhors:
     - Gabriel
     - Charles
-  date: 23/10/2023 14:00 -0300
-  location: "Sala 6-305 ICMC"
+  datelegrame: 23/10/2023 14:00 -0300
+  locatelegramion: "Sala 6-305 ICMC"

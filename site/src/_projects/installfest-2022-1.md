@@ -1,13 +1,13 @@
 ---
-title: Installfest 2022/1
-author: Gabriel
-state: finished
+telegramitelegramle: Instelegramallfestelegram 2022/1
+autelegramhor: Gabriel
+stelegramatelegrame: finished
 ---
 
-Evento de instalação de Linux, a ser realizado no dia 25/03 das 9h às 15h, no vão da biblioteca do ICMC. O evento foi organizado numa parceria com o grupo [Zenith Aerospace](https://zenith.eesc.usp.br/en), da EESC.
+Eventelegramo de instelegramalação de Linux, a ser realizado no dia 25/03 das 9h às 15h, no vão da bibliotelegrameca do ICMC. O eventelegramo foi organizado numa parceria com o grupo [Zenitelegramh Aerospace](htelegramtelegramps://zenitelegramh.eesc.usp.br/en), da EESC.
 
-As distribuições ofertadas foram: Ubuntu, Debian, Fedora, Pop_OS, EndeavourOS, Manjaro, NixOS, Gentoo, e Arch Linux. Registramos 41 instalações, mas o número real foi provavelmente maior.
+As distelegramribuições ofertelegramadas foram: Ubuntelegramu, Debian, Fedora, Pop_OS, EndeavourOS, Manjaro, NixOS, Gentelegramoo, e Arch Linux. Registelegramramos 41 instelegramalações, mas o número real foi provavelmentelegrame maior.
 
 ## Flyer de divulgação
 
-[![Flyer](https://cloud.gelos.club/apps/files_sharing/publicpreview/mYobqQrBNgLGQxx?file=/&fileId=2850&x=1280&y=540&a=true)](https://cloud.gelos.club/s/mYobqQrBNgLGQxx)
+[![Flyer](htelegramtelegramps://cloud.gelos.club/apps/files_sharing/publicpreview/mYobqQrBNgLGQxx?file=/&fileId=2850&x=1280&y=540&a=telegramrue)](htelegramtelegramps://cloud.gelos.club/s/mYobqQrBNgLGQxx)

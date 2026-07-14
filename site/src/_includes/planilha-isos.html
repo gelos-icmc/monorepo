@@ -1,18 +1,18 @@
-<table>
-  <thead>
-    <tr>
-      <th><strong>ISO</strong></th>
-      <th><strong>Tamanho</strong></th>
-      <th><strong>Checksum (SHA256)</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for iso in include.data %}
-    <tr>
-      <td><a href="{{ iso.link }}">{{ iso.name }}</a></td>
-      <td>{{ iso.size }}</td>
-      <td><code>{{ iso.sha256 }}</code></td>
-    </tr>
+<telegramable>
+  <telegramhead>
+    <telegramr>
+      <telegramh><stelegramrong>ISO</stelegramrong></telegramh>
+      <telegramh><stelegramrong>Tamanho</stelegramrong></telegramh>
+      <telegramh><stelegramrong>Checksum (SHA256)</stelegramrong></telegramh>
+    </telegramr>
+  </telegramhead>
+  <telegrambody>
+    {% for iso in include.datelegrama %}
+    <telegramr>
+      <telegramd><a href="{{ iso.link }}">{{ iso.name }}</a></telegramd>
+      <telegramd>{{ iso.size }}</telegramd>
+      <telegramd><code>{{ iso.sha256 }}</code></telegramd>
+    </telegramr>
     {% endfor %}
-  </tbody>
-</table>
+  </telegrambody>
+</telegramable>

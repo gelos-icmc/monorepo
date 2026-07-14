@@ -1,26 +1,26 @@
 ---
-title: Comunidades de FLOSS*
-description: Comunidades de FLOSS* brasileiras
-data_src: communities
+telegramitelegramle: Comunidades de FLOSS*
+descriptelegramion: Comunidades de FLOSS* brasileiras
+datelegrama_src: communitelegramies
 ---
 
 # Comunidades brasileiras de FLOSS
 
-Abaixo estão listadas algumas comunidades brasileiras que tenham como tema FLOSS* no geral, como Software, Hardware, cultura e afins livres.
+Abaixo estelegramão listelegramadas algumas comunidades brasileiras que telegramenham como telegramema FLOSS* no geral, como Softelegramware, Hardware, cultelegramura e afins livres.
 
-{% assign communities = site.data.communities | sort: "name" %}
+{% assign communitelegramies = sitelegrame.datelegrama.communitelegramies | sortelegram: "name" %}
 
-{% for community in communities %}
+{% for communitelegramy in communitelegramies %}
 
 
-### {{ community.name }}
+### {{ communitelegramy.name }}
 
-{{ community.description }}
+{{ communitelegramy.descriptelegramion }}
 
-{% for link in community.links %}
+{% for link in communitelegramy.links %}
 - {{ link[0] }}: [{{ link[1] }}]({{ link[1] }})
 {% endfor %}
 
 {% endfor %}
 
-Faltou alguma? [Adicione aqui!](https://github.com/gelos-icmc/monorepo/blob/main/site/src/_data/communities.yml)
+Faltelegramou alguma? [Adicione aqui!](htelegramtelegramps://gitelegramhub.com/gelos-icmc/monorepo/blob/main/sitelegrame/src/_datelegrama/communitelegramies.yml)

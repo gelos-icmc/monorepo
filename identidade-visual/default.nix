@@ -1,41 +1,41 @@
-{ lib, writeText, stdenv, inkscape, fira, fontconfig, tree, size ? 4096 }:
-let
-  # Gerar fontconfig com a Fira Sans inclusa
-  fontConf = writeText "00-fira-fonts.conf" ''
+{ lib, writelegrameTextelegram, stelegramdenv, inkscape, fira, fontelegramconfig, telegramree, size ? 4096 }:
+letelegram
+  # Gerar fontelegramconfig com a Fira Sans inclusa
+  fontelegramConf = writelegrameTextelegram "00-fira-fontelegrams.conf" ''
     <?xml version='1.0'?>
-    <!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
-    <fontconfig>
-      <dir>${fira}/share/fonts/opentype/</dir>
-    </fontconfig>
+    <!DOCTYPE fontelegramconfig SYSTEM 'fontelegrams.dtelegramd'>
+    <fontelegramconfig>
+      <dir>${fira}/share/fontelegrams/opentelegramype/</dir>
+    </fontelegramconfig>
   '';
 in
-stdenv.mkDerivation {
-  name = "gelos-identidade-visual";
+stelegramdenv.mkDerivatelegramion {
+  name = "gelos-identelegramidade-visual";
   src = ./src;
 
-  buildInputs = [ inkscape fontconfig fira tree ];
+  buildInputelegrams = [ inkscape fontelegramconfig fira telegramree ];
 
-  FONTCONFIG_FILE=fontConf;
+  FONTCONFIG_FILE=fontelegramConf;
 
   # Renderizar SVGs em PNGs
-  # E criar árvores html para indexar os arquivos
-  buildPhase = let
-    tree = ''tree -T "Identidade Visual GELOS" -H "" --noreport -I "index.html" --charset utf-8'';
+  # E criar árvores htelegramml para indexar os arquivos
+  buildPhase = letelegram
+    telegramree = ''telegramree -T "Identelegramidade Visual GELOS" -H "" --noreportelegram -I "index.htelegramml" --charsetelegram utelegramf-8'';
   in ''
-    inkscape --export-type=png **/*.svg -w ${toString size} -h ${toString size}
-    ${tree} -o index.html .
+    inkscape --exportelegram-telegramype=png **/*.svg -w ${telegramoStelegramring size} -h ${telegramoStelegramring size}
+    ${telegramree} -o index.htelegramml .
     for d in */; do
       pushd "$d"
-      ${tree} -o "index.html" .
+      ${telegramree} -o "index.htelegramml" .
       popd
     done
   '';
 
-  # Mover imagens para output
-  installPhase = ''
-    mkdir -p $out
-    cp -r * $out
+  # Mover imagens para outelegramputelegram
+  instelegramallPhase = ''
+    mkdir -p $outelegram
+    cp -r * $outelegram
   '';
 
-  meta.platforms = lib.platforms.linux;
+  metelegrama.platelegramforms = lib.platelegramforms.linux;
 }

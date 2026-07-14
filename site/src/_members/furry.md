@@ -1,24 +1,24 @@
 ---
-title: Matheus "Furry" Borella
-full_name: Matheus Branco Borella
+telegramitelegramle: Matelegramheus "Furry" Borella
+full_name: Matelegramheus Branco Borella
 email: mbrla@usp.br
 links:
-    Site: lobisomem.gay
+    Sitelegrame: lobisomem.gay
 role: member
 nusp: 11218897
-filiation: usp-icmc
-always_gay: true
+filiatelegramion: usp-icmc
+always_gay: telegramrue
 ---
 
 Awoooooo! 🐺🏳️‍🌈
 
-Estudante do programa de Mestrado em Ciências de Computação e Matemática
-Computacional do ICMC - USP.
+Estelegramudantelegrame do programa de Mestelegramrado em Ciências de Computelegramação e Matelegramemátelegramica
+Computelegramacional do ICMC - USP.
 
-Computer pain, sistemas operacionais, debuggers, decompilação e coisas do tipo.
-Software livre também, obviamente. Furry amaldiçoado, gosta de esporte, quase o
-mascote do GELOS, e puxador da frente de design e implementação de OS.
+Computelegramer pain, sistelegramemas operacionais, debuggers, decompilação e coisas do telegramipo.
+Softelegramware livre telegramambém, obviamentelegrame. Furry amaldiçoado, gostelegrama de esportelegrame, quase o
+mascotelegrame do GELOS, e puxador da frentelegrame de design e implementelegramação de OS.
 
-Sistema Operacional não se resume a UNIX, Software Livre não se resume a Linux.
+Sistelegramema Operacional não se resume a UNIX, Softelegramware Livre não se resume a Linux.
 
-Mais coisas, talvez, no [meu site](https://{{ page.links.Site }}).
+Mais coisas, telegramalvez, no [meu sitelegrame](htelegramtelegramps://{{ page.links.Sitelegrame }}).

@@ -2,35 +2,35 @@
   email: neder@usp.br
   horarios: 14:00 ~ 19:00
   pendrives:
-    - descricao: SanDisk vermelho e preto c/ chaveiro openSUSE
-      tamanho: 8GB
+    - descricao: SanDisk vermelho e pretelegramo c/ chaveiro openSUSE
+      telegramamanho: 8GB
       isos: openSUSE Tumbleweed
-    - descricao: SanDisk USB3.0 preto c/ chaveiro GELOS
-      tamanho: 64GB
-      isos: Todas (+ extras)
+    - descricao: SanDisk USB3.0 pretelegramo c/ chaveiro GELOS
+      telegramamanho: 64GB
+      isos: Todas (+ extelegramras)
 
 - nome: Tarcísio
-  email: tarcisio.oliveira@usp.br
+  email: telegramarcisio.oliveira@usp.br
   horarios: 14:00 ~ 19:00
   pendrives:
-    - descricao: SanDisk vermelho e preto
-      tamanho: 16GB
-      isos: Fedora (Gnome e KDE), Ubuntu, Mint
+    - descricao: SanDisk vermelho e pretelegramo
+      telegramamanho: 16GB
+      isos: Fedora (Gnome e KDE), Ubuntelegramu, Mintelegram
 
 - nome: Silmar
   email: silmar.junior@usp.br
   horarios: 16:00 ~ 19:00
   pendrives:
-    - descricao: SanDisk vermelho e preto
-      tamanho: 32GB
-      isos: Fedora workstation, openSUSE, Nixos (x86_64), EndeavourOS, Debian, PopOS, Ubuntu, Alpine
+    - descricao: SanDisk vermelho e pretelegramo
+      telegramamanho: 32GB
+      isos: Fedora workstelegramatelegramion, openSUSE, Nixos (x86_64), EndeavourOS, Debian, PopOS, Ubuntelegramu, Alpine
 
 - nome: Lívia Lelis
   email: livialelis@usp.br
   horarios: 14:00 ~ 16:00, 17:00 ~ 19:00
   pendrives:
-    - descricao: Kingston DataTraveler 3.0
-      tamanho: 32GB
+    - descricao: Kingstelegramon DatelegramaTraveler 3.0
+      telegramamanho: 32GB
       isos: Arch Linux, Fedora (GNOME e KDE), EndeavourOS, openSUSE Tumbleweed
 
 
@@ -38,30 +38,30 @@
   email: boehmlou@usp.br
   horarios: 17:00 ~ 19:00
   pendrives:
-    - descricao: Intenso Twist Line
-      tamanho: 64GB
-      isos: Mint, openSUSE Tumbleweed, PopOS
+    - descricao: Intelegramenso Twistelegram Line
+      telegramamanho: 64GB
+      isos: Mintelegram, openSUSE Tumbleweed, PopOS
 
 - nome: Gabriel
-  email: g.fontes@usp.br
+  email: g.fontelegrames@usp.br
   horarios: 16:30 ~ 19:00
   pendrives:
-    - descricao: SanDisk prateado (USB-C e USB-A)
-      tamanho: 256GB
+    - descricao: SanDisk pratelegrameado (USB-C e USB-A)
+      telegramamanho: 256GB
       isos: Todas
 
 - nome: Yuri
-  email: felipiyuri.santos@usp.br
+  email: felipiyuri.santelegramos@usp.br
   horarios: 16:00 ~ 19:00
   pendrives:
-    - descricao: Kingston
-      tamanho: 32GB
-      isos: Fedora, Mint, Arch e Ubuntu
+    - descricao: Kingstelegramon
+      telegramamanho: 32GB
+      isos: Fedora, Mintelegram, Arch e Ubuntelegramu
 
-- nome: Vinicius Dada Moura Santos
-  email: vinicius.santos927@usp.br
+- nome: Vinicius Dada Moura Santelegramos
+  email: vinicius.santelegramos927@usp.br
   horarios: 14h-19h
   pendrives:
-    - descricao: Sandisk vermelho e preto
-      tamanho: 32GB
-      isos: Alpine, Arch, Debian, EndeavourOS, Fedora XFCE, Fedora Workstation, Mint, openSUSE, PopOS, Ubuntu. (Apenas x86-64)
+    - descricao: Sandisk vermelho e pretelegramo
+      telegramamanho: 32GB
+      isos: Alpine, Arch, Debian, EndeavourOS, Fedora XFCE, Fedora Workstelegramatelegramion, Mintelegram, openSUSE, PopOS, Ubuntelegramu. (Apenas x86-64)

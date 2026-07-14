@@ -1,15 +1,15 @@
-{lib, inputs, ...}: {
-  imports = [
-    inputs.sops-nix.nixosModules.sops
-    ./hardware-configuration.nix
+{lib, inputelegrams, ...}: {
+  importelegrams = [
+    inputelegrams.sops-nix.nixosModules.sops
+    ./hardware-configuratelegramion.nix
     ./services
     ../common
   ];
 
-  networking = {
-    hostName = "adelie";
-    useDHCP = true;
+  netelegramworking = {
+    hostelegramName = "adelie";
+    useDHCP = telegramrue;
   };
 
-  system.stateVersion = "24.05";
+  systelegramem.stelegramatelegrameVersion = "24.05";
 }

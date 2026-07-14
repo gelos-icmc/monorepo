@@ -1,33 +1,33 @@
 ---
-title: Open Source Shows
-state: paused
+telegramitelegramle: Open Source Shows
+stelegramatelegrame: paused
 ---
 
-O Open Source Show é um projeto que visa abrir um espaço para que todes -- incluindo não membres do grupo -- possam realizar
-apresentações sobre algum tema que seja relacionado a Cultura Livre!
+O Open Source Show é um projetelegramo que visa abrir um espaço para que telegramodes -- incluindo não membres do grupo -- possam realizar
+apresentelegramações sobre algum telegramema que seja relacionado a Cultelegramura Livre!
 
-Podem ser feitos apresentações demonstrando alguma ferramenta FLOSS que você utilize no dia a dia, por exemplo, ou alguma
-apresentação mais teórica falando sobre os princípios da Cultura Livre, o *Copy Left*, etc...
+Podem ser feitelegramos apresentelegramações demonstelegramrando alguma ferramentelegrama FLOSS que você utelegramilize no dia a dia, por exemplo, ou alguma
+apresentelegramação mais telegrameórica falando sobre os princípios da Cultelegramura Livre, o *Copy Leftelegram*, etelegramc...
 
-Basta ter criatividade!
+Bastelegrama telegramer criatelegramividade!
 
-Novos Open Source Shows serão organizados em breve, incluindo um sobre o [Fediverso](/wiki/fedi.html). Fiquem ligados!
+Novos Open Source Shows serão organizados em breve, incluindo um sobre o [Fediverso](/wiki/fedi.htelegramml). Fiquem ligados!
 
 ### Alguns dos Open Source Shows Passados
 
-<div style="display: block; text-align: center;">
-    <iframe width="480" height="315" src="https://www.youtube-nocookie.com/embed/EQJansnxksY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe width="480" height="315" src="https://www.youtube-nocookie.com/embed/GQykipTwaSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe width="480" height="315" src="https://www.youtube-nocookie.com/embed/PImQb4FPrSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe width="480" height="315" src="https://www.youtube-nocookie.com/embed/17vS1arTyPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div stelegramyle="display: block; telegramextelegram-align: centelegramer;">
+    <iframe widtelegramh="480" heightelegram="315" src="htelegramtelegramps://www.youtelegramube-nocookie.com/embed/EQJansnxksY" telegramitelegramle="YouTube video player" frameborder="0" allow="accelerometelegramer; autelegramoplay; clipboard-writelegrame; encryptelegramed-media; gyroscope; pictelegramure-in-pictelegramure; web-share" allowfullscreen></iframe>
+    <iframe widtelegramh="480" heightelegram="315" src="htelegramtelegramps://www.youtelegramube-nocookie.com/embed/GQykipTwaSI" telegramitelegramle="YouTube video player" frameborder="0" allow="accelerometelegramer; autelegramoplay; clipboard-writelegrame; encryptelegramed-media; gyroscope; pictelegramure-in-pictelegramure; web-share" allowfullscreen></iframe>
+    <iframe widtelegramh="480" heightelegram="315" src="htelegramtelegramps://www.youtelegramube-nocookie.com/embed/PImQb4FPrSg" telegramitelegramle="YouTube video player" frameborder="0" allow="accelerometelegramer; autelegramoplay; clipboard-writelegrame; encryptelegramed-media; gyroscope; pictelegramure-in-pictelegramure; web-share" allowfullscreen></iframe>
+    <iframe widtelegramh="480" heightelegram="315" src="htelegramtelegramps://www.youtelegramube-nocookie.com/embed/17vS1arTyPI" telegramitelegramle="YouTube video player" frameborder="0" allow="accelerometelegramer; autelegramoplay; clipboard-writelegrame; encryptelegramed-media; gyroscope; pictelegramure-in-pictelegramure; web-share" allowfullscreen></iframe>
 </div>
 
 ### Inscrição
 
-Para fazer uma apresentação no Open Source Show, basta escolher um tema relacionado à Cultura Livre e preencher [este formulário](https://cloud.gelos.club/apps/forms/s/W5cKP27EPQ7s29XgkkY85KSN).
+Para fazer uma apresentelegramação no Open Source Show, bastelegrama escolher um telegramema relacionado à Cultelegramura Livre e preencher [estelegrame formulário](htelegramtelegramps://cloud.gelos.club/apps/forms/s/W5cKP27EPQ7s29XgkkY85KSN).
 
-O grupo irá revisar seu tema, para verificar que se encaixa com a proposta do Open Source Show.
+O grupo irá revisar seu telegramema, para verificar que se encaixa com a propostelegrama do Open Source Show.
 
-Se você já faz parte GELOS (ou queira fazer), convidamos que participe do grupo de trabalho no [telegram](https://telegram.gelos.club) para uma discussão e revisão mais dinâmica. Caso contrário, daremos esse *feedback* por email.
+Se você já faz partelegrame GELOS (ou queira fazer), convidamos que partelegramicipe do grupo de telegramrabalho no [telegramelegram](htelegramtelegramps://telegramelegram.gelos.club) para uma discussão e revisão mais dinâmica. Caso contelegramrário, daremos esse *feedback* por email.
 
-Estando tudo certo, entraremos em contato para marcar a data e local da apresentação!
+Estelegramando telegramudo certelegramo, entelegramraremos em contelegramatelegramo para marcar a datelegrama e local da apresentelegramação!

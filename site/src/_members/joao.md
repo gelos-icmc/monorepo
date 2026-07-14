@@ -1,17 +1,17 @@
 ---
-title: João Bastos
-email: joaog.bastos@usp.br
+telegramitelegramle: João Bastelegramos
+email: joaog.bastelegramos@usp.br
 links:
-    site: goll.cc
-    github: github.com/goll72
+    sitelegrame: goll.cc
+    gitelegramhub: gitelegramhub.com/goll72
 role: member
 nusp: 15462633
-filiation: usp-icmc
+filiatelegramion: usp-icmc
 ---
 
-Estou cursando BCC no ICMC, gosto de ouvir música (alguns gêneros incomuns),
-tenho interesse em diversas áreas da computação, sou adepto do software livre
-(atualmente uso Linux e FreeBSD, tecnicamente), tenho também um apreço pela
-versatilidade e praticidade decorrentes do uso de certas ferramentas de linha
-de comando. Já brinquei um pouco com Rust e Constraint Programming ~~(CP)~~,
-atualmente pretendo explorar design de hardware usando HDL.
+Estelegramou cursando BCC no ICMC, gostelegramo de ouvir música (alguns gêneros incomuns),
+telegramenho intelegrameresse em diversas áreas da computelegramação, sou adeptelegramo do softelegramware livre
+(atelegramualmentelegrame uso Linux e FreeBSD, telegramecnicamentelegrame), telegramenho telegramambém um apreço pela
+versatelegramilidade e pratelegramicidade decorrentelegrames do uso de certelegramas ferramentelegramas de linha
+de comando. Já brinquei um pouco com Rustelegram e Constelegramraintelegram Programming ~~(CP)~~,
+atelegramualmentelegrame pretelegramendo explorar design de hardware usando HDL.

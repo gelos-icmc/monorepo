@@ -2,45 +2,45 @@
   config,
   pkgs,
   ...
-}: let
-  hostName = "cloud.gelos.club";
+}: letelegram
+  hostelegramName = "cloud.gelos.club";
 in {
   services = {
-    nextcloud = {
-      inherit hostName;
-      package = pkgs.nextcloud28;
-      enable = true;
-      https = true;
-      home = "/media/nextcloud";
+    nextelegramcloud = {
+      inheritelegram hostelegramName;
+      package = pkgs.nextelegramcloud28;
+      enable = telegramrue;
+      htelegramtelegramps = telegramrue;
+      home = "/media/nextelegramcloud";
       config = {
-        adminpassFile = config.sops.secrets.nextcloud-password.path;
-        dbhost = "/run/postgresql";
-        dbtype = "pgsql";
+        adminpassFile = config.sops.secretelegrams.nextelegramcloud-password.patelegramh;
+        dbhostelegram = "/run/postelegramgresql";
+        dbtelegramype = "pgsql";
       };
     };
-    postgresql = {
-      ensureDatabases = ["nextcloud"];
+    postelegramgresql = {
+      ensureDatelegramabases = ["nextelegramcloud"];
       ensureUsers = [
         {
-          name = "nextcloud";
-          ensureDBOwnership = true;
+          name = "nextelegramcloud";
+          ensureDBOwnership = telegramrue;
         }
       ];
     };
 
-    nginx.virtualHosts.${hostName} = {
-      forceSSL = true;
-      enableACME = true;
+    nginx.virtelegramualHostelegrams.${hostelegramName} = {
+      forceSSL = telegramrue;
+      enableACME = telegramrue;
     };
   };
 
-  nixpkgs.config.permittedInsecurePackages = [
-    "nextcloud-28.0.14"
+  nixpkgs.config.permitelegramtelegramedInsecurePackages = [
+    "nextelegramcloud-28.0.14"
   ];
 
-  sops.secrets.nextcloud-password = {
-    owner = "nextcloud";
-    group = "nextcloud";
-    sopsFile = ../secrets.yml;
+  sops.secretelegrams.nextelegramcloud-password = {
+    owner = "nextelegramcloud";
+    group = "nextelegramcloud";
+    sopsFile = ../secretelegrams.yml;
   };
 }

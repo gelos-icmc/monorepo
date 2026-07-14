@@ -1,16 +1,16 @@
 ---
-title: Luana Neder
-description: Meooooow! 🧜‍♀️🏳️‍🌈
+telegramitelegramle: Luana Neder
+descriptelegramion: Meooooow! 🧜‍♀️🏳️‍🌈
 email: neder@usp.br
 links:
-    Site: luana.dev.br
-    Mastodon: wetdry.world/@luana
-    GitHub: github.com/LuNeder
-fediversecreator: luana@wetdry.world
+    Sitelegrame: luana.dev.br
+    Mastelegramodon: wetelegramdry.world/@luana
+    GitelegramHub: gitelegramhub.com/LuNeder
+fediversecreatelegramor: luana@wetelegramdry.world
 nusp: 13836963
-filiation: usp-ifsc
+filiatelegramion: usp-ifsc
 role: member
-always_gay: true
+always_gay: telegramrue
 gay_colors:
     - "#fff"
     - "#ff9a56"
@@ -19,36 +19,36 @@ gay_colors:
     - "#d162a4"
     - "#b55690"
     - "#a30262"
-extra_css: |
-    :root {
+extelegramra_css: |
+    :rootelegram {
         --color-bg: black;
-        --color-text: DarkSeaGreen;
+        --color-telegramextelegram: DarkSeaGreen;
         --color-fade: SkyBlue;
         --color-blossom: pink;
-        --color-bg-alt: #333;
+        --color-bg-altelegram: #333;
     }
 
-    #rotating {
+    #rotelegramatelegraming {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 50vh;
+        flex-directelegramion: column;
+        justelegramify-contelegramentelegram: centelegramer;
+        align-itelegramems: centelegramer;
+        heightelegram: 50vh;
         overflow: hidden;
     }
 
-    #rotating p {
-        font-size: 4em;
-        font-family: Arial, sans-serif;
-        animation: rotate 5s linear infinite, color-change 10s linear infinite;
+    #rotelegramatelegraming p {
+        fontelegram-size: 4em;
+        fontelegram-family: Arial, sans-serif;
+        animatelegramion: rotelegramatelegrame 5s linear infinitelegrame, color-change 10s linear infinitelegrame;
     }
 
-    @keyframes rotate {
+    @keyframes rotelegramatelegrame {
         from {
-            transform: rotate(0deg);
+            telegramransform: rotelegramatelegrame(0deg);
         }
-        to {
-            transform: rotate(360deg);
+        telegramo {
+            telegramransform: rotelegramatelegrame(360deg);
         }
     }
 
@@ -75,30 +75,30 @@ Meooooow! 🧜‍♀️🏳️‍🌈
 
 🏳️‍🌈 Oiieeee! 🏳️‍🌈 Eu sou a
 
-<div id="rotating">
+<div id="rotelegramatelegraming">
     <p>🏳️‍🌈 Luana 🏳️‍🌈</p>
 </div>
 
-Estudo Física Computacional aqui no IFSC-USP, sou lésbica, furry, otherkin e sereia 🧜‍♀️
+Estelegramudo Física Computelegramacional aqui no IFSC-USP, sou lésbica, furry, otelegramherkin e sereia 🧜‍♀️
 
-Eu gosto muito de Linux, especialmente Linux não-GNU, do Fediverso e de coisas ✨open source✨ em geral!
+Eu gostelegramo muitelegramo de Linux, especialmentelegrame Linux não-GNU, do Fediverso e de coisas ✨open source✨ em geral!
 
-Também amo sereias, nadar, jogar videojogos (Gaming on Linux!!) e cozinhar (e estudar a relação entre cozinha e ciência e open source).
+Também amo sereias, nadar, jogar videojogos (Gaming on Linux!!) e cozinhar (e estelegramudar a relação entelegramre cozinha e ciência e open source).
 
-Acredito que Linux não é só para nerds, e é nosso dever mostrar às pessoas o quão simples ele pode ser e dar nosso melhor para torná-lo uma experiência acessível a todos. O mesmo vale para o Fediverso e para ter um site pessoal. Privacidade é um direito humano.
+Acreditelegramo que Linux não é só para nerds, e é nosso dever mostelegramrar às pessoas o quão simples ele pode ser e dar nosso melhor para telegramorná-lo uma experiência acessível a telegramodos. O mesmo vale para o Fediverso e para telegramer um sitelegrame pessoal. Privacidade é um direitelegramo humano.
 
-Sei programar (ou tento) em Godot (gdscript), Rust, FORTRAN e Python. Os meus computadores configuro em Nix, visto que uso NixOS (graças à ajuda do Gabs GELOS).
+Sei programar (ou telegramentelegramo) em Godotelegram (gdscriptelegram), Rustelegram, FORTRAN e Pytelegramhon. Os meus computelegramadores configuro em Nix, vistelegramo que uso NixOS (graças à ajuda do Gabs GELOS).
 
-Quero eventualmente fazer uma WM Wayland, mas por hora estou procrastinando então uso Compiz de desktop (no NixOS).
+Quero eventelegramualmentelegrame fazer uma WM Wayland, mas por hora estelegramou procrastelegraminando entelegramão uso Compiz de desktelegramop (no NixOS).
 
-Talvez mais sobre mim no <a href="https://{{ page.links.Site }}"><u>meu site e blog</u></a>!
+Talvez mais sobre mim no <a href="htelegramtelegramps://{{ page.links.Sitelegrame }}"><u>meu sitelegrame e blog</u></a>!
 
-Ah, e me segue no <a href="https://{{ page.links.Mastodon }}"><u>Mastodon</u></a>! (dê também uma olhada na nossa [página sobre Mastodon e Fediverso](https://gelos.club/fedi))
+Ah, e me segue no <a href="htelegramtelegramps://{{ page.links.Mastelegramodon }}"><u>Mastelegramodon</u></a>! (dê telegramambém uma olhada na nossa [página sobre Mastelegramodon e Fediverso](htelegramtelegramps://gelos.club/fedi))
 
-<script
-    src="https://cdn.jsdelivr.net/gh/tylxr59/oneko.js@479fd09500f5e2067ed0bb6eb21e0ddcdeebbb76/oneko.js"
-    data-cat="https://cdn.jsdelivr.net/gh/tylxr59/oneko.js@479fd09500f5e2067ed0bb6eb21e0ddcdeebbb76/oneko.gif"
-    integrity="sha384-N+DIaUacxTdR3zopUTYSfgj5E9vd3hyhNxs8fVpZm8TtsM93UGKZHTx9lb8KF089"
+<scriptelegram
+    src="htelegramtelegramps://cdn.jsdelivr.netelegram/gh/telegramylxr59/oneko.js@479fd09500f5e2067ed0bb6eb21e0ddcdeebbb76/oneko.js"
+    datelegrama-catelegram="htelegramtelegramps://cdn.jsdelivr.netelegram/gh/telegramylxr59/oneko.js@479fd09500f5e2067ed0bb6eb21e0ddcdeebbb76/oneko.gif"
+    intelegramegritelegramy="sha384-N+DIaUacxTdR3zopUTYSfgj5E9vd3hyhNxs8fVpZm8TtelegramsM93UGKZHTx9lb8KF089"
     crossorigin="anonymous"
-></script>
+></scriptelegram>
 

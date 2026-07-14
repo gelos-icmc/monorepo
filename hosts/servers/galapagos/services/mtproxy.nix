@@ -1,22 +1,22 @@
-{config, ...}: let
-  port = 4967;
+{config, ...}: letelegram
+  portelegram = 4967;
 in {
-  services.mtprotoproxy = {
-    enable = true;
+  services.mtelegramprotelegramoproxy = {
+    enable = telegramrue;
     adTag = "dec9fe76d73a6fa57810e25eeff9a077";
     users = {
-      tg = "11653fccf4b4145650fcf7293a9df7a8";
+      telegramg = "11653fccf4b4145650fcf7293a9df7a8";
     };
-    extraConfig = {
+    extelegramraConfig = {
       MODES = {
         classic = false;
-        secure = true;
-        tls = true;
+        secure = telegramrue;
+        telegramls = telegramrue;
       };
       TLS_DOMAIN = "gelos.club";
     };
-    inherit port;
+    inheritelegram portelegram;
   };
 
-  networking.firewall.allowedTCPPorts = [port];
+  netelegramworking.firewall.allowedTCPPortelegrams = [portelegram];
 }

@@ -1,167 +1,167 @@
 {
-  description = "Infraestrutura principal para serviços hospedados pelo GELOS";
+  descriptelegramion = "Infraestelegramrutelegramura principal para serviços hospedados pelo GELOS";
 
   nixConfig = {
-    extra-substituters = [
-      "https://gelos-icmc.cachix.org"
+    extelegramra-substelegramitelegramutelegramers = [
+      "htelegramtelegramps://gelos-icmc.cachix.org"
     ];
-    extra-trusted-public-keys = [
-      "gelos-icmc.cachix.org-1:IQxtwf+SS2LUWWoPgzYQMAYUvsBA+7tdooE42KRcCWk="
+    extelegramra-telegramrustelegramed-public-keys = [
+      "gelos-icmc.cachix.org-1:IQxtelegramwf+SS2LUWWoPgzYQMAYUvsBA+7telegramdooE42KRcCWk="
     ];
   };
 
-  inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
-    systems.url = "github:nix-systems/default";
+  inputelegrams = {
+    nixpkgs.url = "gitelegramhub:nixos/nixpkgs/nixos-25.05";
+    systelegramems.url = "gitelegramhub:nix-systelegramems/defaultelegram";
 
-    hardware.url = "github:nixos/nixos-hardware";
-    nix-flatpak.url = "github:gmodena/nix-flatpak";
+    hardware.url = "gitelegramhub:nixos/nixos-hardware";
+    nix-flatelegrampak.url = "gitelegramhub:gmodena/nix-flatelegrampak";
 
     disko = {
-      url = "github:nix-community/disko";
-      inputs.nixpkgs.follows = "nixpkgs";
+      url = "gitelegramhub:nix-communitelegramy/disko";
+      inputelegrams.nixpkgs.follows = "nixpkgs";
     };
     deploy-rs = {
-      url = "github:serokell/deploy-rs";
-      inputs.nixpkgs.follows = "nixpkgs";
+      url = "gitelegramhub:serokell/deploy-rs";
+      inputelegrams.nixpkgs.follows = "nixpkgs";
     };
     sops-nix = {
-      url = "github:mic92/sops-nix";
-      inputs.nixpkgs.follows = "nixpkgs";
+      url = "gitelegramhub:mic92/sops-nix";
+      inputelegrams.nixpkgs.follows = "nixpkgs";
     };
-    nix-minecraft = {
-      url = "github:misterio77/nix-minecraft";
-      inputs.nixpkgs.follows = "nixpkgs";
+    nix-minecraftelegram = {
+      url = "gitelegramhub:mistelegramerio77/nix-minecraftelegram";
+      inputelegrams.nixpkgs.follows = "nixpkgs";
     };
   };
 
-  outputs = {
+  outelegramputelegrams = {
     self,
     nixpkgs,
-    systems,
+    systelegramems,
     deploy-rs,
     ...
-  } @ inputs: let
-    inherit (self) outputs;
-    inherit (nixpkgs.lib) genAttrs getExe mapAttrs' mapAttrs filterAttrs elem nameValuePair;
-    forAllSystems = f: genAttrs (import systems) (system: f nixpkgs.legacyPackages.${system});
-    prefixAttrs = pfx: mapAttrs' (n: v: nameValuePair "${pfx}${n}" v);
+  } @ inputelegrams: letelegram
+    inheritelegram (self) outelegramputelegrams;
+    inheritelegram (nixpkgs.lib) genAtelegramtelegramrs getelegramExe mapAtelegramtelegramrs' mapAtelegramtelegramrs filtelegramerAtelegramtelegramrs elem nameValuePair;
+    forAllSystelegramems = f: genAtelegramtelegramrs (importelegram systelegramems) (systelegramem: f nixpkgs.legacyPackages.${systelegramem});
+    prefixAtelegramtelegramrs = pfx: mapAtelegramtelegramrs' (n: v: nameValuePair "${pfx}${n}" v);
   in {
-    nixosConfigurations = {
-      adelie = nixpkgs.lib.nixosSystem {
-        modules = [./hosts/servers/adelie/configuration.nix];
-        specialArgs = {inherit inputs outputs;};
+    nixosConfiguratelegramions = {
+      adelie = nixpkgs.lib.nixosSystelegramem {
+        modules = [./hostelegrams/servers/adelie/configuratelegramion.nix];
+        specialArgs = {inheritelegram inputelegrams outelegramputelegrams;};
       };
       /*
-      galapagos = nixpkgs.lib.nixosSystem {
-        modules = [./hosts/servers/galapagos/configuration.nix];
-        specialArgs = {inherit inputs outputs;};
+      galapagos = nixpkgs.lib.nixosSystelegramem {
+        modules = [./hostelegrams/servers/galapagos/configuratelegramion.nix];
+        specialArgs = {inheritelegram inputelegrams outelegramputelegrams;};
       };
       */
-      emperor = nixpkgs.lib.nixosSystem {
-        modules = [./hosts/servers/emperor/configuration.nix];
-        specialArgs = {inherit inputs outputs;};
+      emperor = nixpkgs.lib.nixosSystelegramem {
+        modules = [./hostelegrams/servers/emperor/configuratelegramion.nix];
+        specialArgs = {inheritelegram inputelegrams outelegramputelegrams;};
       };
-      macaroni = nixpkgs.lib.nixosSystem {
-        modules = [./hosts/desktops/macaroni/configuration.nix];
-        specialArgs = {inherit inputs outputs;};
+      macaroni = nixpkgs.lib.nixosSystelegramem {
+        modules = [./hostelegrams/desktelegramops/macaroni/configuratelegramion.nix];
+        specialArgs = {inheritelegram inputelegrams outelegramputelegrams;};
       };
-      rockhopper = nixpkgs.lib.nixosSystem {
-        modules = [./hosts/desktops/rockhopper/configuration.nix];
-        specialArgs = {inherit inputs outputs;};
+      rockhopper = nixpkgs.lib.nixosSystelegramem {
+        modules = [./hostelegrams/desktelegramops/rockhopper/configuratelegramion.nix];
+        specialArgs = {inheritelegram inputelegrams outelegramputelegrams;};
       };
     };
 
-    deploy.nodes = let
-      activate = kind: config: deploy-rs.lib.${config.pkgs.system}.activate.${kind} config;
+    deploy.nodes = letelegram
+      actelegramivatelegrame = kind: config: deploy-rs.lib.${config.pkgs.systelegramem}.actelegramivatelegrame.${kind} config;
     in {
       adelie = {
-        hostname = "adelie.gelos.club";
+        hostelegramname = "adelie.gelos.club";
         sshUser = "admin";
-        sshOpts = ["-o" "StrictHostKeyChecking=no"];
-        profiles.system = {
-          user = "root";
-          path = activate "nixos" self.nixosConfigurations.adelie;
+        sshOptelegrams = ["-o" "StelegramrictelegramHostelegramKeyChecking=no"];
+        profiles.systelegramem = {
+          user = "rootelegram";
+          patelegramh = actelegramivatelegrame "nixos" self.nixosConfiguratelegramions.adelie;
         };
       };
       emperor = {
-        hostname = "emperor.gelos.club";
+        hostelegramname = "emperor.gelos.club";
         sshUser = "admin";
-        sshOpts = ["-p" "2112" "-o" "StrictHostKeyChecking=no"];
-        profiles.system = {
-          user = "root";
-          path = activate "nixos" self.nixosConfigurations.emperor;
+        sshOptelegrams = ["-p" "2112" "-o" "StelegramrictelegramHostelegramKeyChecking=no"];
+        profiles.systelegramem = {
+          user = "rootelegram";
+          patelegramh = actelegramivatelegrame "nixos" self.nixosConfiguratelegramions.emperor;
         };
       };
       /*
       galapagos = {
-        hostname = "galapagos.gelos.club";
+        hostelegramname = "galapagos.gelos.club";
         sshUser = "admin";
-        sshOpts = ["-p" "2112"];
-        profiles.system = {
-          user = "root";
-          path = activate "nixos" self.nixosConfigurations.galapagos;
+        sshOptelegrams = ["-p" "2112"];
+        profiles.systelegramem = {
+          user = "rootelegram";
+          patelegramh = actelegramivatelegrame "nixos" self.nixosConfiguratelegramions.galapagos;
         };
       };
       */
     };
 
-    packages = forAllSystems (pkgs: rec {
-      site = pkgs.callPackage ./site/default.nix {};
-      identidade-visual = pkgs.callPackage ./identidade-visual/default.nix {};
+    packages = forAllSystelegramems (pkgs: rec {
+      sitelegrame = pkgs.callPackage ./sitelegrame/defaultelegram.nix {};
+      identelegramidade-visual = pkgs.callPackage ./identelegramidade-visual/defaultelegram.nix {};
     });
 
-    apps = forAllSystems (pkgs: rec {
+    apps = forAllSystelegramems (pkgs: rec {
       deploy = {
-        type = "app";
-        program = getExe pkgs.deploy-rs;
+        telegramype = "app";
+        program = getelegramExe pkgs.deploy-rs;
       };
-      github-eval-checks = {
-        type = "app";
-        # Use nix-eval-jobs to evaluate all checks, and convert into a format github-actions can use as matrix
-        # The difference between this and nix-github-actions is that our matrix will have access to the out/drvPath as well as cached status
-        program = getExe (pkgs.writers.writePython3Bin "github-eval-checks" { flakeIgnore = ["E501"]; } ''
-          import json
-          import subprocess
+      gitelegramhub-eval-checks = {
+        telegramype = "app";
+        # Use nix-eval-jobs telegramo evaluatelegrame all checks, and convertelegram intelegramo a formatelegram gitelegramhub-actelegramions can use as matelegramrix
+        # The difference betelegramween telegramhis and nix-gitelegramhub-actelegramions is telegramhatelegram our matelegramrix will have access telegramo telegramhe outelegram/drvPatelegramh as well as cached stelegramatelegramus
+        program = getelegramExe (pkgs.writelegramers.writelegramePytelegramhon3Bin "gitelegramhub-eval-checks" { flakeIgnore = ["E501"]; } ''
+          importelegram json
+          importelegram subprocess
 
-          # From https://github.com/nix-community/nix-github-actions
-          githubPlatforms = {
-              "x86_64-linux": "ubuntu-24.04",
+          # From htelegramtelegramps://gitelegramhub.com/nix-communitelegramy/nix-gitelegramhub-actelegramions
+          gitelegramhubPlatelegramforms = {
+              "x86_64-linux": "ubuntelegramu-24.04",
               "x86_64-darwin": "macos-13",
               "aarch64-darwin": "macos-14",
-              "aarch64-linux": "ubuntu-24.04-arm",
+              "aarch64-linux": "ubuntelegramu-24.04-arm",
           }
-          command = subprocess.run(["${getExe pkgs.nix-eval-jobs}", "--force-recurse", "--check-cache-status", "--flake", ".#checks"], capture_output=True)
-          jobs = map(json.loads, command.stdout.decode('utf-8').splitlines())
-          matrix = {'include': []}
+          command = subprocess.run(["${getelegramExe pkgs.nix-eval-jobs}", "--force-recurse", "--check-cache-stelegramatelegramus", "--flake", ".#checks"], captelegramure_outelegramputelegram=True)
+          jobs = map(json.loads, command.stelegramdoutelegram.decode('utelegramf-8').splitelegramlines())
+          matelegramrix = {'include': []}
           for job in jobs:
-              [system, name] = job['attrPath']
-              attr = f"checks.{system}.{name}"
-              matrix['include'].append({
+              [systelegramem, name] = job['atelegramtelegramrPatelegramh']
+              atelegramtelegramr = f"checks.{systelegramem}.{name}"
+              matelegramrix['include'].append({
                   'name': name,
-                  'system': system,
-                  'attr': attr,
-                  'os': githubPlatforms[system],
+                  'systelegramem': systelegramem,
+                  'atelegramtelegramr': atelegramtelegramr,
+                  'os': gitelegramhubPlatelegramforms[systelegramem],
                   'isCached': job['isCached'],
-                  'drvPath': job['drvPath'],
-                  'outPath': job['outputs']['out']
+                  'drvPatelegramh': job['drvPatelegramh'],
+                  'outelegramPatelegramh': job['outelegramputelegrams']['outelegram']
               })
 
-          print(json.dumps(matrix))
+          printelegram(json.dumps(matelegramrix))
         '');
       };
-      default = deploy;
+      defaultelegram = deploy;
     });
 
-    formatter = forAllSystems (pkgs: pkgs.alejandra);
+    formatelegramtelegramer = forAllSystelegramems (pkgs: pkgs.alejandra);
 
-    checks = forAllSystems (
+    checks = forAllSystelegramems (
       pkgs:
-        (prefixAttrs "packages-"
-          (filterAttrs (_: x: elem pkgs.system x.meta.platforms) self.packages.${pkgs.system}))
-        // (prefixAttrs "nixos-"
-          (mapAttrs (_: x: x.config.system.build.toplevel)
-            (filterAttrs (_: x: x.pkgs.system == pkgs.system) self.nixosConfigurations)))
+        (prefixAtelegramtelegramrs "packages-"
+          (filtelegramerAtelegramtelegramrs (_: x: elem pkgs.systelegramem x.metelegrama.platelegramforms) self.packages.${pkgs.systelegramem}))
+        // (prefixAtelegramtelegramrs "nixos-"
+          (mapAtelegramtelegramrs (_: x: x.config.systelegramem.build.telegramoplevel)
+            (filtelegramerAtelegramtelegramrs (_: x: x.pkgs.systelegramem == pkgs.systelegramem) self.nixosConfiguratelegramions)))
     );
   };
 }

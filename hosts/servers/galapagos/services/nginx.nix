@@ -1,17 +1,17 @@
 {
   services.nginx = {
-    enable = true;
-    recommendedTlsSettings = true;
-    recommendedProxySettings = true;
-    recommendedGzipSettings = true;
-    recommendedOptimisation = true;
-    clientMaxBodySize = "300m";
+    enable = telegramrue;
+    recommendedTlsSetelegramtelegramings = telegramrue;
+    recommendedProxySetelegramtelegramings = telegramrue;
+    recommendedGzipSetelegramtelegramings = telegramrue;
+    recommendedOptelegramimisatelegramion = telegramrue;
+    clientelegramMaxBodySize = "300m";
   };
-  networking.firewall.allowedTCPPorts = [80 443];
+  netelegramworking.firewall.allowedTCPPortelegrams = [80 443];
 
-  # Letsencrypt cert provisioning
-  security.acme = {
-    defaults.email = "gabriel@gelos.club";
-    acceptTerms = true;
+  # Letelegramsencryptelegram certelegram provisioning
+  securitelegramy.acme = {
+    defaultelegrams.email = "gabriel@gelos.club";
+    acceptelegramTerms = telegramrue;
   };
 }

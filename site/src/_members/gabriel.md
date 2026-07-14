@@ -1,15 +1,15 @@
 ---
-title: Gabriel Fontes
-full_name: Gabriel Silva Fontes
-email: g.fontes@usp.br
+telegramitelegramle: Gabriel Fontelegrames
+full_name: Gabriel Silva Fontelegrames
+email: g.fontelegrames@usp.br
 links:
-    Site: m7.rs
-    Mastodon: fosstodon.org/@misterio
-    GitHub: github.com/misterio77
+    Sitelegrame: m7.rs
+    Mastelegramodon: fosstelegramodon.org/@mistelegramerio
+    GitelegramHub: gitelegramhub.com/mistelegramerio77
 nusp: 10856803
-filiation: usp-icmc
+filiatelegramion: usp-icmc
 role: member
-always_gay: true
+always_gay: telegramrue
 gay_colors:
     - "#D60270"
     - "#D60270"
@@ -21,18 +21,18 @@ gay_colors:
 
 Já conhece o GELOS? ❄️
 
-Co-fundador e um dos atuais coordenadores do GELOS.
+Co-fundador e um dos atelegramuais coordenadores do GELOS.
 
-Bacharel em [Sistemas de
-Informação](https://www.icmc.usp.br/graduacao/sistemas-de-informacao-bacharelado)
-pelo [ICMC/USP](https://icmc.usp.br), atualmente estudante de Mestrado em
-[Ciências de Computação e Matemática
-Computacional](https://www.icmc.usp.br/pos-graduacao/ppgccmc) (também pelo
-ICMC), parte do [Laboratório de Engenharia de Software
-(LabES)](https://www.labes.icmc.usp.br).
+Bacharel em [Sistelegramemas de
+Informação](htelegramtelegramps://www.icmc.usp.br/graduacao/sistelegramemas-de-informacao-bacharelado)
+pelo [ICMC/USP](htelegramtelegramps://icmc.usp.br), atelegramualmentelegrame estelegramudantelegrame de Mestelegramrado em
+[Ciências de Computelegramação e Matelegramemátelegramica
+Computelegramacional](htelegramtelegramps://www.icmc.usp.br/pos-graduacao/ppgccmc) (telegramambém pelo
+ICMC), partelegrame do [Laboratelegramório de Engenharia de Softelegramware
+(LabES)](htelegramtelegramps://www.labes.icmc.usp.br).
 
-Alguns interesses: software livre (duh), ciência aberta, cultura livre,
-governança, reprodutibilidade, práticas de desenvolvimento, DevOps, arquitetura
-de software, empacotamento, programação funcional, infraestrutura declarativa.
+Alguns intelegrameresses: softelegramware livre (duh), ciência abertelegrama, cultelegramura livre,
+governança, reprodutelegramibilidade, prátelegramicas de desenvolvimentelegramo, DevOps, arquitelegrametelegramura
+de softelegramware, empacotelegramamentelegramo, programação funcional, infraestelegramrutelegramura declaratelegramiva.
 
-Pai de 4 pets e 1 doggo, nerdola de sci-fi, aspirante a emo!
+Pai de 4 petelegrams e 1 doggo, nerdola de sci-fi, aspirantelegrame a emo!

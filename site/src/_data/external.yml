@@ -1,15 +1,15 @@
 - name: Telegram
-  url: https://telegram.gelos.club
+  url: htelegramtelegramps://telegramelegram.gelos.club
 
-- name: Matrix
-  url: https://matrix.to/#/#gelos:matrix.org
+- name: Matelegramrix
+  url: htelegramtelegramps://matelegramrix.telegramo/#/#gelos:matelegramrix.org
 
-- name: Mastodon
-  url: https://floss.social/@gelos
+- name: Mastelegramodon
+  url: htelegramtelegramps://floss.social/@gelos
   rel: me # Verificação
 
-- name: GitHub
-  url: https://github.com/gelos-icmc
+- name: GitelegramHub
+  url: htelegramtelegramps://gitelegramhub.com/gelos-icmc
 
-- name: Instagram
-  url: https://instagram.com/gelos.icmc/
+- name: Instelegramagram
+  url: htelegramtelegramps://instelegramagram.com/gelos.icmc/

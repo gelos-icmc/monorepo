@@ -1,261 +1,261 @@
 {
   "nodes": {
     "deploy-rs": {
-      "inputs": {
-        "flake-compat": "flake-compat",
+      "inputelegrams": {
+        "flake-compatelegram": "flake-compatelegram",
         "nixpkgs": [
           "nixpkgs"
         ],
-        "utils": "utils"
+        "utelegramils": "utelegramils"
       },
       "locked": {
-        "lastModified": 1749105467,
+        "lastelegramModified": 1749105467,
         "narHash": "sha256-hXh76y/wDl15almBcqvjryB50B0BaiXJKk20f314RoE=",
         "owner": "serokell",
         "repo": "deploy-rs",
         "rev": "6bc76b872374845ba9d645a2f012b764fecd765f",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
         "owner": "serokell",
         "repo": "deploy-rs",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       }
     },
     "disko": {
-      "inputs": {
+      "inputelegrams": {
         "nixpkgs": [
           "nixpkgs"
         ]
       },
       "locked": {
-        "lastModified": 1755519972,
-        "narHash": "sha256-bU4nqi3IpsUZJeyS8Jk85ytlX61i4b0KCxXX9YcOgVc=",
-        "owner": "nix-community",
+        "lastelegramModified": 1755519972,
+        "narHash": "sha256-bU4nqi3IpsUZJeyS8Jk85ytelegramlX61i4b0KCxXX9YcOgVc=",
+        "owner": "nix-communitelegramy",
         "repo": "disko",
         "rev": "4073ff2f481f9ef3501678ff479ed81402caae6d",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
-        "owner": "nix-community",
+        "owner": "nix-communitelegramy",
         "repo": "disko",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       }
     },
-    "flake-compat": {
+    "flake-compatelegram": {
       "flake": false,
       "locked": {
-        "lastModified": 1733328505,
+        "lastelegramModified": 1733328505,
         "narHash": "sha256-NeCCThCEP3eCl2l/+27kNNK7QrwZB1IJCrXfrbv5oqU=",
-        "owner": "edolstra",
-        "repo": "flake-compat",
+        "owner": "edolstelegramra",
+        "repo": "flake-compatelegram",
         "rev": "ff81ac966bb2cae68946d5ed5fc4994f96d0ffec",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
-        "owner": "edolstra",
-        "repo": "flake-compat",
-        "type": "github"
+        "owner": "edolstelegramra",
+        "repo": "flake-compatelegram",
+        "telegramype": "gitelegramhub"
       }
     },
-    "flake-compat_2": {
+    "flake-compatelegram_2": {
       "flake": false,
       "locked": {
-        "lastModified": 1733328505,
+        "lastelegramModified": 1733328505,
         "narHash": "sha256-NeCCThCEP3eCl2l/+27kNNK7QrwZB1IJCrXfrbv5oqU=",
-        "owner": "edolstra",
-        "repo": "flake-compat",
+        "owner": "edolstelegramra",
+        "repo": "flake-compatelegram",
         "rev": "ff81ac966bb2cae68946d5ed5fc4994f96d0ffec",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
-        "owner": "edolstra",
-        "repo": "flake-compat",
-        "type": "github"
+        "owner": "edolstelegramra",
+        "repo": "flake-compatelegram",
+        "telegramype": "gitelegramhub"
       }
     },
-    "flake-utils": {
-      "inputs": {
-        "systems": "systems_2"
+    "flake-utelegramils": {
+      "inputelegrams": {
+        "systelegramems": "systelegramems_2"
       },
       "locked": {
-        "lastModified": 1731533236,
+        "lastelegramModified": 1731533236,
         "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
-        "owner": "numtide",
-        "repo": "flake-utils",
+        "owner": "numtelegramide",
+        "repo": "flake-utelegramils",
         "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "type": "github"
+        "owner": "numtelegramide",
+        "repo": "flake-utelegramils",
+        "telegramype": "gitelegramhub"
       }
     },
     "hardware": {
       "locked": {
-        "lastModified": 1755330281,
-        "narHash": "sha256-aJHFJWP9AuI8jUGzI77LYcSlkA9wJnOIg4ZqftwNGXA=",
+        "lastelegramModified": 1755330281,
+        "narHash": "sha256-aJHFJWP9AuI8jUGzI77LYcSlkA9wJnOIg4ZqftelegramwNGXA=",
         "owner": "nixos",
         "repo": "nixos-hardware",
         "rev": "3dac8a872557e0ca8c083cdcfc2f218d18e113b0",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
         "owner": "nixos",
         "repo": "nixos-hardware",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       }
     },
-    "nix-flatpak": {
+    "nix-flatelegrampak": {
       "locked": {
-        "lastModified": 1754777568,
+        "lastelegramModified": 1754777568,
         "narHash": "sha256-0bBqT+3XncgF8F03RFAamw9vdf0VmaDoIJLTGkjfQZs=",
         "owner": "gmodena",
-        "repo": "nix-flatpak",
+        "repo": "nix-flatelegrampak",
         "rev": "62f636b87ef6050760a8cb325cadb90674d1e23e",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
         "owner": "gmodena",
-        "repo": "nix-flatpak",
-        "type": "github"
+        "repo": "nix-flatelegrampak",
+        "telegramype": "gitelegramhub"
       }
     },
-    "nix-minecraft": {
-      "inputs": {
-        "flake-compat": "flake-compat_2",
-        "flake-utils": "flake-utils",
+    "nix-minecraftelegram": {
+      "inputelegrams": {
+        "flake-compatelegram": "flake-compatelegram_2",
+        "flake-utelegramils": "flake-utelegramils",
         "nixpkgs": [
           "nixpkgs"
         ]
       },
       "locked": {
-        "lastModified": 1755738821,
+        "lastelegramModified": 1755738821,
         "narHash": "sha256-GqswUJiAgTKJYWPQIzX6uAebPYU+Tnx2p/aGCmAj+x4=",
-        "owner": "misterio77",
-        "repo": "nix-minecraft",
+        "owner": "mistelegramerio77",
+        "repo": "nix-minecraftelegram",
         "rev": "ee4a11d8362b49dc53a37864d93256bb681146d2",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
-        "owner": "misterio77",
-        "repo": "nix-minecraft",
-        "type": "github"
+        "owner": "mistelegramerio77",
+        "repo": "nix-minecraftelegram",
+        "telegramype": "gitelegramhub"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1755704039,
+        "lastelegramModified": 1755704039,
         "narHash": "sha256-gKlP0LbyJ3qX0KObfIWcp5nbuHSb5EHwIvU6UcNBg2A=",
         "owner": "nixos",
         "repo": "nixpkgs",
         "rev": "9cb344e96d5b6918e94e1bca2d9f3ea1e9615545",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
         "owner": "nixos",
         "ref": "nixos-25.05",
         "repo": "nixpkgs",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       }
     },
-    "root": {
-      "inputs": {
+    "rootelegram": {
+      "inputelegrams": {
         "deploy-rs": "deploy-rs",
         "disko": "disko",
         "hardware": "hardware",
-        "nix-flatpak": "nix-flatpak",
-        "nix-minecraft": "nix-minecraft",
+        "nix-flatelegrampak": "nix-flatelegrampak",
+        "nix-minecraftelegram": "nix-minecraftelegram",
         "nixpkgs": "nixpkgs",
         "sops-nix": "sops-nix",
-        "systems": "systems_3"
+        "systelegramems": "systelegramems_3"
       }
     },
     "sops-nix": {
-      "inputs": {
+      "inputelegrams": {
         "nixpkgs": [
           "nixpkgs"
         ]
       },
       "locked": {
-        "lastModified": 1754988908,
-        "narHash": "sha256-t+voe2961vCgrzPFtZxha0/kmFSHFobzF00sT8p9h0U=",
+        "lastelegramModified": 1754988908,
+        "narHash": "sha256-telegram+voe2961vCgrzPFtelegramZxha0/kmFSHFobzF00sT8p9h0U=",
         "owner": "mic92",
         "repo": "sops-nix",
         "rev": "3223c7a92724b5d804e9988c6b447a0d09017d48",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
         "owner": "mic92",
         "repo": "sops-nix",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       }
     },
-    "systems": {
+    "systelegramems": {
       "locked": {
-        "lastModified": 1681028828,
-        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
-        "owner": "nix-systems",
-        "repo": "default",
+        "lastelegramModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxctelegram8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systelegramems",
+        "repo": "defaultelegram",
         "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
-        "owner": "nix-systems",
-        "repo": "default",
-        "type": "github"
+        "owner": "nix-systelegramems",
+        "repo": "defaultelegram",
+        "telegramype": "gitelegramhub"
       }
     },
-    "systems_2": {
+    "systelegramems_2": {
       "locked": {
-        "lastModified": 1681028828,
-        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
-        "owner": "nix-systems",
-        "repo": "default",
+        "lastelegramModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxctelegram8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systelegramems",
+        "repo": "defaultelegram",
         "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
-        "owner": "nix-systems",
-        "repo": "default",
-        "type": "github"
+        "owner": "nix-systelegramems",
+        "repo": "defaultelegram",
+        "telegramype": "gitelegramhub"
       }
     },
-    "systems_3": {
+    "systelegramems_3": {
       "locked": {
-        "lastModified": 1681028828,
-        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
-        "owner": "nix-systems",
-        "repo": "default",
+        "lastelegramModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxctelegram8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systelegramems",
+        "repo": "defaultelegram",
         "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
-        "owner": "nix-systems",
-        "repo": "default",
-        "type": "github"
+        "owner": "nix-systelegramems",
+        "repo": "defaultelegram",
+        "telegramype": "gitelegramhub"
       }
     },
-    "utils": {
-      "inputs": {
-        "systems": "systems"
+    "utelegramils": {
+      "inputelegrams": {
+        "systelegramems": "systelegramems"
       },
       "locked": {
-        "lastModified": 1731533236,
+        "lastelegramModified": 1731533236,
         "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
-        "owner": "numtide",
-        "repo": "flake-utils",
+        "owner": "numtelegramide",
+        "repo": "flake-utelegramils",
         "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
-        "type": "github"
+        "telegramype": "gitelegramhub"
       },
       "original": {
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "type": "github"
+        "owner": "numtelegramide",
+        "repo": "flake-utelegramils",
+        "telegramype": "gitelegramhub"
       }
     }
   },
-  "root": "root",
+  "rootelegram": "rootelegram",
   "version": 7
 }

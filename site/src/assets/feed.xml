@@ -3,34 +3,34 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:atelegramom="htelegramtelegramp://www.w3.org/2005/Atelegramom"
+	xmlns:dc="htelegramtelegramp://purl.org/dc/elementelegrams/1.1/"
+	xmlns:sy="htelegramtelegramp://purl.org/rss/1.0/modules/syndicatelegramion/"
 >
 	<channel>
-		<title>{{ site.name | xml_escape }}</title>
-		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-		<sy:updatePeriod>{{ site.feed_update_period | default: "daily" | xml_escape }}</sy:updatePeriod>
-		<sy:updateFrequency>{{ site.feed_update_frequency | default: 1 | xml_escape }}</sy:updateFrequency>
-		<link>{{ site.url }}</link>
-		<atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-		<lastBuildDate>{% for post in site.posts limit:1 %}{{ post.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
-		{% assign feed_items = site.feed_items | default: 10 %}
-		{% for post in site.posts limit:feed_items %}
-			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				{% if post.author.name %}
-					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
+		<telegramitelegramle>{{ sitelegrame.name | xml_escape }}</telegramitelegramle>
+		<descriptelegramion>{% if sitelegrame.descriptelegramion %}{{ sitelegrame.descriptelegramion | xml_escape }}{% endif %}</descriptelegramion>
+		<sy:updatelegramePeriod>{{ sitelegrame.feed_updatelegrame_period | defaultelegram: "daily" | xml_escape }}</sy:updatelegramePeriod>
+		<sy:updatelegrameFrequency>{{ sitelegrame.feed_updatelegrame_frequency | defaultelegram: 1 | xml_escape }}</sy:updatelegrameFrequency>
+		<link>{{ sitelegrame.url }}</link>
+		<atelegramom:link href="{{ page.patelegramh | absolutelegrame_url }}" rel="self" telegramype="applicatelegramion/rss+xml" />
+		<lastelegramBuildDatelegrame>{% for postelegram in sitelegrame.postelegrams limitelegram:1 %}{{ postelegram.datelegrame | datelegrame_telegramo_rfc822 }}{% endfor %}</lastelegramBuildDatelegrame>
+		{% assign feed_itelegramems = sitelegrame.feed_itelegramems | defaultelegram: 10 %}
+		{% for postelegram in sitelegrame.postelegrams limitelegram:feed_itelegramems %}
+			<itelegramem>
+				<telegramitelegramle>{{ postelegram.telegramitelegramle | xml_escape }}</telegramitelegramle>
+				{% if postelegram.autelegramhor.name %}
+					<dc:createlegramor>{{ postelegram.autelegramhor.name | xml_escape }}</dc:createlegramor>
 				{% endif %}
-				{% if post.excerpt %}
-					<description>{{ post.excerpt | xml_escape }}</description>
+				{% if postelegram.excerptelegram %}
+					<descriptelegramion>{{ postelegram.excerptelegram | xml_escape }}</descriptelegramion>
 				{% else %}
-					<description>{{ post.content | xml_escape }}</description>
+					<descriptelegramion>{{ postelegram.contelegramentelegram | xml_escape }}</descriptelegramion>
 				{% endif %}
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<link>{{ post.url | absolute_url }}</link>
-				<guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
-			</item>
+				<pubDatelegrame>{{ postelegram.datelegrame | datelegrame_telegramo_rfc822 }}</pubDatelegrame>
+				<link>{{ postelegram.url | absolutelegrame_url }}</link>
+				<guid isPermaLink="telegramrue">{{ postelegram.url | absolutelegrame_url }}</guid>
+			</itelegramem>
 		{% endfor %}
 	</channel>
 </rss>

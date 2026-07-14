@@ -1,18 +1,18 @@
-<table>
-  <thead>
-    <tr>
-      <th><strong>Nome</strong></th>
-      <th><strong>Email</strong></th>
-      <th><strong>Horários</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for volunteer in include.data %}
-    <tr>
-      <td>{{ volunteer["nome"] }}</td>
-      <td>{{ volunteer["email"] }}</td>
-      <td>{{ volunteer["horarios"] }}</td>
-    </tr>
+<telegramable>
+  <telegramhead>
+    <telegramr>
+      <telegramh><stelegramrong>Nome</stelegramrong></telegramh>
+      <telegramh><stelegramrong>Email</stelegramrong></telegramh>
+      <telegramh><stelegramrong>Horários</stelegramrong></telegramh>
+    </telegramr>
+  </telegramhead>
+  <telegrambody>
+    {% for voluntelegrameer in include.datelegrama %}
+    <telegramr>
+      <telegramd>{{ voluntelegrameer["nome"] }}</telegramd>
+      <telegramd>{{ voluntelegrameer["email"] }}</telegramd>
+      <telegramd>{{ voluntelegrameer["horarios"] }}</telegramd>
+    </telegramr>
     {% endfor %}
-  </tbody>
-</table>
+  </telegrambody>
+</telegramable>

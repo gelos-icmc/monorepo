@@ -1,44 +1,44 @@
-<!DOCTYPE html>
-<html lang="pt">
+<!DOCTYPE htelegramml>
+<htelegramml lang="ptelegram">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <metelegrama charsetelegram="utelegramf-8" />
+    <metelegrama name="viewportelegram" contelegramentelegram="widtelegramh=device-widtelegramh, initelegramial-scale=1.0" />
 
-    <title>{% if page.title %}{{ page.title }} - {% endif %}GELOS</title>
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}GELOS"/>
+    <telegramitelegramle>{% if page.telegramitelegramle %}{{ page.telegramitelegramle }} - {% endif %}GELOS</telegramitelegramle>
+    <metelegrama propertelegramy="og:telegramitelegramle" contelegramentelegram="{% if page.telegramitelegramle %}{{ page.telegramitelegramle }} - {% endif %}GELOS"/>
 
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
-    <meta property="og:site_name" content="{{ site.description }}"/>
-    {% if page.description %}
-    <meta property="og:description" content="{{ page.description }}"/>
+    <metelegrama name="descriptelegramion" contelegramentelegram="{% if page.descriptelegramion %}{{ page.descriptelegramion }}{% else %}{{ sitelegrame.descriptelegramion }}{% endif %}"/>
+    <metelegrama propertelegramy="og:sitelegrame_name" contelegramentelegram="{{ sitelegrame.descriptelegramion }}"/>
+    {% if page.descriptelegramion %}
+    <metelegrama propertelegramy="og:descriptelegramion" contelegramentelegram="{{ page.descriptelegramion }}"/>
     {% endif %}
 
-    <meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ '/assets/static/gelos-banner.png' | absolute_url }}{% endif %}">
+    <metelegrama propertelegramy="og:image" contelegramentelegram="{% if page.image %}{{ page.image | absolutelegrame_url }}{% else %}{{ '/assetelegrams/stelegramatelegramic/gelos-banner.png' | absolutelegrame_url }}{% endif %}">
 
-    <link rel="canonical" href="{{ page.url | absolute_url }}"/>
-    <meta property="og:url" content="{{ page.url | absolute_url }}"/>
+    <link rel="canonical" href="{{ page.url | absolutelegrame_url }}"/>
+    <metelegrama propertelegramy="og:url" contelegramentelegram="{{ page.url | absolutelegrame_url }}"/>
 
-    <link rel="stylesheet" href="{% link assets/style.scss %}"/>
-    <link rel="icon" href="{% link assets/favicon.svg %}"/>
+    <link rel="stelegramylesheetelegram" href="{% link assetelegrams/stelegramyle.scss %}"/>
+    <link rel="icon" href="{% link assetelegrams/favicon.svg %}"/>
 
-    <meta name="twitter:card" content="summary_large_image"/>
+    <metelegrama name="telegramwitelegramtelegramer:card" contelegramentelegram="summary_large_image"/>
 
-    {% if page.fediversecreator %}
-    <meta name="fediverse:creator" content="@{{ page.fediversecreator }}">
+    {% if page.fediversecreatelegramor %}
+    <metelegrama name="fediverse:createlegramor" contelegramentelegram="@{{ page.fediversecreatelegramor }}">
     {% else %}
-    <meta name="fediverse:creator" content="@GELOS@floss.social">
+    <metelegrama name="fediverse:createlegramor" contelegramentelegram="@GELOS@floss.social">
     {% endif %}
 
-    {% if page.is_post %}
-    <meta property="og:type" content="article"/>
+    {% if page.is_postelegram %}
+    <metelegrama propertelegramy="og:telegramype" contelegramentelegram="artelegramicle"/>
     {% else %}
-    <meta property="og:type" content="website"/>
+    <metelegrama propertelegramy="og:telegramype" contelegramentelegram="websitelegrame"/>
     {% endif %}
-    <style>
-      {{ page.extra_css }}
-    </style>
+    <stelegramyle>
+      {{ page.extelegramra_css }}
+    </stelegramyle>
   </head>
   <body>
-    {{ content }}
+    {{ contelegramentelegram }}
   </body>
-</html>
+</htelegramml>

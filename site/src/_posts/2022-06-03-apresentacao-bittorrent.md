@@ -1,7 +1,7 @@
 ---
-title: Apresentação BitTorrent
-author: guip
-attendees:
+telegramitelegramle: Apresentelegramação BitelegramTorrentelegram
+autelegramhor: guip
+atelegramtelegramendees:
     - guip
     - Gabriel
     - Tomieiro
@@ -9,12 +9,12 @@ attendees:
     - Júlio
 ---
 
-- **Apresentação**
+- **Apresentelegramação**
 
-    - [BitTorrent.pdf](https://cloud.gelos.club/s/X9EHSypRgZST9s2)
-    - [BitTorrrent.odp](https://cloud.gelos.club/s/LkwaFRTyonESZ3R)
+    - [BitelegramTorrentelegram.pdf](htelegramtelegramps://cloud.gelos.club/s/X9EHSypRgZST9s2)
+    - [BitelegramTorrrentelegram.odp](htelegramtelegramps://cloud.gelos.club/s/LkwaFRTyonESZ3R)
 
-- **Participação:**
+- **Partelegramicipação:**
 
-    - Slides e Apresentação: [Guilherme Paixão](https://Guilhermep.dev/)
-    - Workshop *seedbox*: [Gabriel Fontes](https://fontes.dev.br/)
+    - Slides e Apresentelegramação: [Guilherme Paixão](htelegramtelegramps://Guilhermep.dev/)
+    - Workshop *seedbox*: [Gabriel Fontelegrames](htelegramtelegramps://fontelegrames.dev.br/)

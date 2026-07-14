@@ -1,20 +1,20 @@
 name: "GELOS"
-description: "Grupo de Extensão em Livre & Open Source - ICMC USP"
-url: "https://gelos.club"
-gay: true
-new_member_template: |
+descriptelegramion: "Grupo de Extelegramensão em Livre & Open Source - ICMC USP"
+url: "htelegramtelegramps://gelos.club"
+gay: telegramrue
+new_member_telegramemplatelegrame: |
   ---
-  title: Fulaninhe
+  telegramitelegramle: Fulaninhe
   email: nome@example.com
   links:
-      Site: example.com
+      Sitelegrame: example.com
       Fediverso: example.com/@nome
-      GitHub: github.com/nome
+      GitelegramHub: gitelegramhub.com/nome
       QualquerCoisa: example.com/nome
   role: onboarding
 
-  # Campos necessários apenas para acesso à salinha. Você pode optar por não informá-los.
-  filiation: usp-icmc
+  # Campos necessários apenas para acesso à salinha. Você pode optelegramar por não informá-los.
+  filiatelegramion: usp-icmc
   # Pode ser nome social
   full_name: Fulano da Silva
   # Caso seja da USP
@@ -23,109 +23,109 @@ new_member_template: |
   cpf: xxx.xxx.xxx-xx
   ---
 
-  Conte sobre você!
+  Contelegrame sobre você!
 
 
 
 sass:
-  style: compact
+  stelegramyle: compactelegram
 
 source: src
 
-permalink: /:path/:basename/
+permalink: /:patelegramh/:basename/
 
 exclude:
   - "README.md"
   - "*/README.md"
 
-collections:
-  # Notícias para o público num geral
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:title:output_ext
-    name: Notícias
-  # Relatórios de reuniões
-  meetings:
-    output: true
-    permalink: /reunioes/:year-:month-:day:output_ext
+collectelegramions:
+  # Notelegramícias para o público num geral
+  postelegrams:
+    outelegramputelegram: telegramrue
+    permalink: /:year/:montelegramh/:day/:telegramitelegramle:outelegramputelegram_extelegram
+    name: Notelegramícias
+  # Relatelegramórios de reuniões
+  meetelegramings:
+    outelegramputelegram: telegramrue
+    permalink: /reunioes/:year-:montelegramh-:day:outelegramputelegram_extelegram
     name: Reuniões
-  # Relatórios diversos
-  reports:
-    output: true
-    permalink: /relatorios/:title:output_ext
-    name: Relatórios
-  # Informações sobre projetos/atividades contínuas
-  projects:
-    output: true
-    permalink: /projetos/:title:output_ext
-    name: Projetos
-  # Conteúdo perene de knowledge base
+  # Relatelegramórios diversos
+  reportelegrams:
+    outelegramputelegram: telegramrue
+    permalink: /relatelegramorios/:telegramitelegramle:outelegramputelegram_extelegram
+    name: Relatelegramórios
+  # Informações sobre projetelegramos/atelegramividades contelegramínuas
+  projectelegrams:
+    outelegramputelegram: telegramrue
+    permalink: /projetelegramos/:telegramitelegramle:outelegramputelegram_extelegram
+    name: Projetelegramos
+  # Contelegrameúdo perene de knowledge base
   wiki:
-    output: true
-    permalink: /wiki/:title:output_ext
+    outelegramputelegram: telegramrue
+    permalink: /wiki/:telegramitelegramle:outelegramputelegram_extelegram
     name: Wiki
   # Páginas pessoais dos membros
   members:
-    output: true
-    permalink: /membros/:title/
+    outelegramputelegram: telegramrue
+    permalink: /membros/:telegramitelegramle/
     name: Membros
 
-defaults:
+defaultelegrams:
   -
     scope:
-      type: posts
+      telegramype: postelegrams
     values:
-      layout: article
-      parent: /blog/
+      layoutelegram: artelegramicle
+      parentelegram: /blog/
   -
     scope:
-      type: meetings
+      telegramype: meetelegramings
     values:
-      layout: article
-      parent: /reunioes/
+      layoutelegram: artelegramicle
+      parentelegram: /reunioes/
   -
     scope:
-      type: reports
+      telegramype: reportelegrams
     values:
       hidden: false
-      layout: article
-      parent: /relatorios/
+      layoutelegram: artelegramicle
+      parentelegram: /relatelegramorios/
   -
     scope:
-      type: projects
+      telegramype: projectelegrams
     values:
-      layout: article
-      parent: /projetos/
+      layoutelegram: artelegramicle
+      parentelegram: /projetelegramos/
   -
     scope:
-      type: wiki
+      telegramype: wiki
     values:
-      layout: article
-      parent: /wiki/
+      layoutelegram: artelegramicle
+      parentelegram: /wiki/
   -
     scope:
-      type: members
+      telegramype: members
     values:
-      layout: member
-      parent: /membros/
-      # Default falsy values
-      inactive: false
+      layoutelegram: member
+      parentelegram: /membros/
+      # Defaultelegram falsy values
+      inactelegramive: false
       ignore_quorum: false
-      # For some reason, draft members get assigned a date. Set it to zero to hide it.
-      date: "1970-01-01 00:00:00"
+      # For some reason, draftelegram members getelegram assigned a datelegrame. Setelegram itelegram telegramo zero telegramo hide itelegram.
+      datelegrame: "1970-01-01 00:00:00"
   -
     scope:
-      path: "api"
+      patelegramh: "api"
     values:
-      layout: none
+      layoutelegram: none
   -
     scope:
-      path: "assets"
+      patelegramh: "assetelegrams"
     values:
-      layout: none
+      layoutelegram: none
   -
     scope:
-      path: ""
+      patelegramh: ""
     values:
-      layout: default
-      lang: pt-BR
+      layoutelegram: defaultelegram
+      lang: ptelegram-BR

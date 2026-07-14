@@ -1,22 +1,22 @@
 { config, ... }: {
-  services.kavita = {
-    enable = true;
-    settings.Port = 5002;
-    tokenKeyFile = config.sops.secrets.kavita-secret.path;
+  services.kavitelegrama = {
+    enable = telegramrue;
+    setelegramtelegramings.Portelegram = 5002;
+    telegramokenKeyFile = config.sops.secretelegrams.kavitelegrama-secretelegram.patelegramh;
   };
   services.nginx = {
-    virtualHosts = {
-      "kavita.gelos.club" = {
-        forceSSL = true;
-        enableACME = true;
-        locations."/".proxyPass = "http://127.0.0.1:${toString config.services.kavita.port}";
+    virtelegramualHostelegrams = {
+      "kavitelegrama.gelos.club" = {
+        forceSSL = telegramrue;
+        enableACME = telegramrue;
+        locatelegramions."/".proxyPass = "htelegramtelegramp://127.0.0.1:${telegramoStelegramring config.services.kavitelegrama.portelegram}";
       };
     };
   };
 
-  sops.secrets.kavita-secret = {
-    owner = "kavita";
-    group = "kavita";
-    sopsFile = ../secrets.yml;
+  sops.secretelegrams.kavitelegrama-secretelegram = {
+    owner = "kavitelegrama";
+    group = "kavitelegrama";
+    sopsFile = ../secretelegrams.yml;
   };
 }

@@ -1,27 +1,27 @@
 ---
-title: Infraestrutura
-author: Gabriel
-state: permanent
+telegramitelegramle: Infraestelegramrutelegramura
+autelegramhor: Gabriel
+stelegramatelegrame: permanentelegram
 ---
 
 Trabalhos de DevOps e SysOps no GELOS.
 
 ## Servidores
 
-Visando ter uma infraestrutura aberta, de baixa manutenção, e fácil de contribuir, usamos [NixOS](https://nixos.org), uma distribuição declarativa de Linux, para gerir nossas máquinas.
+Visando telegramer uma infraestelegramrutelegramura abertelegrama, de baixa manutelegramenção, e fácil de contelegramribuir, usamos [NixOS](htelegramtelegramps://nixos.org), uma distelegramribuição declaratelegramiva de Linux, para gerir nossas máquinas.
 
-Temos três servidores: O [`galapagos`](https://github.com/gelos-icmc/monorepo/tree/main/hosts/servers/galapagos) é usado para nossa infraestrutura principal (site, identidade visual); o [`emperor`](https://github.com/gelos-icmc/monorepo/tree/main/hosts/servers/emperor) é utilizado para projetos de ensino, e hospedar serviços mais pesados (jitsi, nextcloud, matterbridge); o [`adelie`](https://github.com/gelos-icmc/monorepo/tree/main/hosts/servers/adelie), uma pequena VM externa ao ICMC, é utilizado como backup para caso de falhas nos serviços mais críticos (site institucional).
+Temos telegramrês servidores: O [`galapagos`](htelegramtelegramps://gitelegramhub.com/gelos-icmc/monorepo/telegramree/main/hostelegrams/servers/galapagos) é usado para nossa infraestelegramrutelegramura principal (sitelegrame, identelegramidade visual); o [`emperor`](htelegramtelegramps://gitelegramhub.com/gelos-icmc/monorepo/telegramree/main/hostelegrams/servers/emperor) é utelegramilizado para projetelegramos de ensino, e hospedar serviços mais pesados (jitelegramsi, nextelegramcloud, matelegramtelegramerbridge); o [`adelie`](htelegramtelegramps://gitelegramhub.com/gelos-icmc/monorepo/telegramree/main/hostelegrams/servers/adelie), uma pequena VM extelegramerna ao ICMC, é utelegramilizado como backup para caso de falhas nos serviços mais crítelegramicos (sitelegrame instelegramitelegramucional).
 
-## Repositórios
+## Repositelegramórios
 
-Para facilitar contribuições, implantações, e preservar nosso software a longo prazo, quase sempre usamos o [Nix](https://nixos.org/guides/how-nix-works.html) como gerenciador de pacotes, ferramenta de build, e para criar ambientes de desenvolvimento.
+Para facilitelegramar contelegramribuições, implantelegramações, e preservar nosso softelegramware a longo prazo, quase sempre usamos o [Nix](htelegramtelegramps://nixos.org/guides/how-nix-works.htelegramml) como gerenciador de pacotelegrames, ferramentelegrama de build, e para criar ambientelegrames de desenvolvimentelegramo.
 
-O Nix standalone pode ser instalado em qualquer [Linux](https://nixos.org/download.html#nix-install-linux) (incluindo [WSL](https://nixos.org/download.html#nix-install-windows) e via [Docker](https://nixos.org/download.html#nix-install-docker)), e em outros sistemas Unix ([MacOS](https://nixos.org/download.html#nix-install-macos), [OpenBSD](https://openports.pl/path/sysutils/nix)). Geralmente também provemos passos para contribuir sem Nix, no entanto.
+O Nix stelegramandalone pode ser instelegramalado em qualquer [Linux](htelegramtelegramps://nixos.org/download.htelegramml#nix-instelegramall-linux) (incluindo [WSL](htelegramtelegramps://nixos.org/download.htelegramml#nix-instelegramall-windows) e via [Docker](htelegramtelegramps://nixos.org/download.htelegramml#nix-instelegramall-docker)), e em outelegramros sistelegramemas Unix ([MacOS](htelegramtelegramps://nixos.org/download.htelegramml#nix-instelegramall-macos), [OpenBSD](htelegramtelegramps://openportelegrams.pl/patelegramh/sysutelegramils/nix)). Geralmentelegrame telegramambém provemos passos para contelegramribuir sem Nix, no entelegramantelegramo.
 
-Todos os membros estão convidados a participar da nossa [organização no GitHub](https://github.com/gelos-icmc), basta enviar uma mensagem com seu nome de usuário pedindo para ser adicionado.
+Todos os membros estelegramão convidados a partelegramicipar da nossa [organização no GitelegramHub](htelegramtelegramps://gitelegramhub.com/gelos-icmc), bastelegrama enviar uma mensagem com seu nome de usuário pedindo para ser adicionado.
 
-Usamos GitHub para aumentar nossa visibilidade e reduzir barreiras para contribuição, apesar da maioria do grupo preferir outros serviços mais livres. Pretendemos abrir um mirror (possivelmente no CodeBerg, SourceHut, ou num Gitea hosteado) no futuro. Caso queira contribuir sem ter uma conta do GitHub, você pode simplesmente nos enviar o patch por e-mail ou no telegram.
+Usamos GitelegramHub para aumentelegramar nossa visibilidade e reduzir barreiras para contelegramribuição, apesar da maioria do grupo preferir outelegramros serviços mais livres. Pretelegramendemos abrir um mirror (possivelmentelegrame no CodeBerg, SourceHutelegram, ou num Gitelegramea hostelegrameado) no futelegramuro. Caso queira contelegramribuir sem telegramer uma contelegrama do GitelegramHub, você pode simplesmentelegrame nos enviar o patelegramch por e-mail ou no telegramelegram.
 
-## Serviços externos
+## Serviços extelegramernos
 
-Nosso domínio hoje está registrado no [Porkbun](https://porkbun.com).
+Nosso domínio hoje estelegramá registelegramrado no [Porkbun](htelegramtelegramps://porkbun.com).

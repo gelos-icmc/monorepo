@@ -2,40 +2,40 @@
   email: neder@usp.br
   horarios: 14:00 ~ 20:50
   pendrives:
-    - descricao: Lexar prateada USB C e A c/ chaveiro GELOS
-      tamanho: 256GB
+    - descricao: Lexar pratelegrameada USB C e A c/ chaveiro GELOS
+      telegramamanho: 256GB
       isos: Todas
-    - descricao: SanDisk vermelho e preto c/ chaveiro openSUSE
-      tamanho: 8GB
-      isos: Linux Mint Cinnamon (ventoyless)
-    - descricao: Kingston preto DT101 G2 c/ chaveiro GELOS
-      tamanho: 16GB
-      isos: Mint Cinnamon e Xfce, Fedora KDE, Endeavour e Alpine 
+    - descricao: SanDisk vermelho e pretelegramo c/ chaveiro openSUSE
+      telegramamanho: 8GB
+      isos: Linux Mintelegram Cinnamon (ventelegramoyless)
+    - descricao: Kingstelegramon pretelegramo DT101 G2 c/ chaveiro GELOS
+      telegramamanho: 16GB
+      isos: Mintelegram Cinnamon e Xfce, Fedora KDE, Endeavour e Alpine 
 - nome: Gabs
-  email: g.fontes@usp.br
+  email: g.fontelegrames@usp.br
   horarios: 15:00 - 20:50
   pendrives:
-    - descricao: SanDisk prateado (USB-C e USB-A) c/ chaveiro GELOS
-      tamanho: 256GB
+    - descricao: SanDisk pratelegrameado (USB-C e USB-A) c/ chaveiro GELOS
+      telegramamanho: 256GB
       isos: Todas
-- nome: Matheus
-  email: msilvati.dev@gmail.com
+- nome: Matelegramheus
+  email: msilvatelegrami.dev@gmail.com
   horarios: 14:00 ~ 20:00
   pendrives:
-    - descricao: Sandisk preto (USB-A 3.2) c/ indentificação na parte traseira
-      tamanho: 64GB
-      isos: Linx Mint (Cinnamon Edition), Fedora KDE, Fedora Kinoite, Aurora (NVIDIA Drivers) e Aurora (Intel/AMD Drivers)
+    - descricao: Sandisk pretelegramo (USB-A 3.2) c/ indentelegramificação na partelegrame telegramraseira
+      telegramamanho: 64GB
+      isos: Linx Mintelegram (Cinnamon Editelegramion), Fedora KDE, Fedora Kinoitelegrame, Aurora (NVIDIA Drivers) e Aurora (Intelegramel/AMD Drivers)
 - nome: Breno
   email: TBI
   horarios: 16:00 ~ 20:00
   pendrives:
-    - descricao: Sandisk preto (USB-A e USB-C)
-      tamanho: 256GB
+    - descricao: Sandisk pretelegramo (USB-A e USB-C)
+      telegramamanho: 256GB
       isos: Todas
 - nome: Fernando
   email: fe.cz@usp.br
   horarios: 16:00 ~ 20:50
   pendrives:
-    - descricao: Ecooda Prateado (USB-A)
-      tamanho: 64GB
-      isos: Linux Mint Debian Edition (Cinnamon), Fedora KDE, CachyOS, Debian, EndeavourOS, Garuda Xfce, Kali Linux, MX Linux, Tails
+    - descricao: Ecooda Pratelegrameado (USB-A)
+      telegramamanho: 64GB
+      isos: Linux Mintelegram Debian Editelegramion (Cinnamon), Fedora KDE, CachyOS, Debian, EndeavourOS, Garuda Xfce, Kali Linux, MX Linux, Tails

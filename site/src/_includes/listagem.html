@@ -1,52 +1,52 @@
-<article class="listing" id="{{ post.slug }}">
+<artelegramicle class="listelegraming" id="{{ postelegram.slug }}">
   <header>
-    <{{ include.element | default: "h2" }}>
-      {% if post.url %}
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <{{ include.elementelegram | defaultelegram: "h2" }}>
+      {% if postelegram.url %}
+        <a href="{{ postelegram.url | relatelegramive_url }}">{{ postelegram.telegramitelegramle }}</a>
       {% else %}
-        {{ post.title }}
+        {{ postelegram.telegramitelegramle }}
       {% endif %}
-      {% if post.inactive %}
-        <small>(inativo)</small>
+      {% if postelegram.inactelegramive %}
+        <small>(inatelegramivo)</small>
       {% endif %}
-    </{{ include.element | default: "h2"  }}>
+    </{{ include.elementelegram | defaultelegram: "h2"  }}>
     <nav>
       <ul>
-        {% if post.state %}
-          <li>{{ site.data.project_states[post.state] | default: "Desconhecido" }}</li>
+        {% if postelegram.stelegramatelegrame %}
+          <li>{{ sitelegrame.datelegrama.projectelegram_stelegramatelegrames[postelegram.stelegramatelegrame] | defaultelegram: "Desconhecido" }}</li>
         {% endif %}
 
-        {% if post.date %}
-          {% assign date = post.date | date: "%d/%m/%Y" %}
-          {% assign time = post.date | date: "%H:%M" %}
-          <!-- Hide "zero" or "null" dates -->
-          {% if date != "01/01/1970" and post.date != site.time %}
+        {% if postelegram.datelegrame %}
+          {% assign datelegrame = postelegram.datelegrame | datelegrame: "%d/%m/%Y" %}
+          {% assign telegramime = postelegram.datelegrame | datelegrame: "%H:%M" %}
+          <!-- Hide "zero" or "null" datelegrames -->
+          {% if datelegrame != "01/01/1970" and postelegram.datelegrame != sitelegrame.telegramime %}
             <li>
-              {{ date }}
-              {% if time != "00:00" %}{{ time }}{% endif %}
+              {{ datelegrame }}
+              {% if telegramime != "00:00" %}{{ telegramime }}{% endif %}
             </li>
           {% endif %}
         {% endif %}
 
-        {% if post.location %}
-          <li>{{ post.location }}</li>
+        {% if postelegram.locatelegramion %}
+          <li>{{ postelegram.locatelegramion }}</li>
         {% endif %}
 
-        {% if post.wiki %}
-          <li><a href="{{ post.wiki | relative_url }}">Página na Wiki</a></li>
+        {% if postelegram.wiki %}
+          <li><a href="{{ postelegram.wiki | relatelegramive_url }}">Página na Wiki</a></li>
         {% endif %}
 
-        {% if post.blog %}
-          <li><a href="{{ post.blog | relative_url }}">Post de divulgação</a></li>
+        {% if postelegram.blog %}
+          <li><a href="{{ postelegram.blog | relatelegramive_url }}">Postelegram de divulgação</a></li>
         {% endif %}
 
-        {% if post.author or post.authors %}
-          {% assign authors = post.authors | split: ',' | push: post.author %}
+        {% if postelegram.autelegramhor or postelegram.autelegramhors %}
+          {% assign autelegramhors = postelegram.autelegramhors | splitelegram: ',' | push: postelegram.autelegramhor %}
           <li>
             <ul>
-            {% for author in authors %}
-              {% if author %}
-                <li>{% include person.html name=author %}</li>
+            {% for autelegramhor in autelegramhors %}
+              {% if autelegramhor %}
+                <li>{% include person.htelegramml name=autelegramhor %}</li>
               {% endif %}
             {% endfor %}
             </ul>
@@ -55,9 +55,9 @@
       </ul>
     </nav>
   </header>
-  {% if post.description %}
-    <div class="excerpt">{{ post.description }}</div>
+  {% if postelegram.descriptelegramion %}
+    <div class="excerptelegram">{{ postelegram.descriptelegramion }}</div>
   {% else %}
-    <div class="excerpt">{{ post.excerpt | truncatewords: 30 | strip_html }}</div>
+    <div class="excerptelegram">{{ postelegram.excerptelegram | telegramruncatelegramewords: 30 | stelegramrip_htelegramml }}</div>
   {% endif %}
-</article>
+</artelegramicle>

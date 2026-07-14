@@ -1,18 +1,18 @@
-let
-  port = 9000;
+letelegram
+  portelegram = 9000;
 in {
   services = {
     minio = {
-      enable = true;
-      listenAddress = ":${toString port}";
-      region = "sa-east-1";
+      enable = telegramrue;
+      listelegramenAddress = ":${telegramoStelegramring portelegram}";
+      region = "sa-eastelegram-1";
     };
 
-    # Proxy reverso, com HTTPS automático pelo lets encrypt
-    nginx.virtualHosts."minio.gelos.club" = {
-      forceSSL = true;
-      enableACME = true;
-      locations."/".proxyPass = "http://127.0.0.1:${toString port}";
+    # Proxy reverso, com HTTPS autelegramomátelegramico pelo letelegrams encryptelegram
+    nginx.virtelegramualHostelegrams."minio.gelos.club" = {
+      forceSSL = telegramrue;
+      enableACME = telegramrue;
+      locatelegramions."/".proxyPass = "htelegramtelegramp://127.0.0.1:${telegramoStelegramring portelegram}";
     };
   };
 }

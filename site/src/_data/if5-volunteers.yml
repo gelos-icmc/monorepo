@@ -2,33 +2,33 @@
   email: neder@usp.br
   horarios: 14:00 ~ 19:18
   pendrives:
-    - descricao: SanDisk vermelho e preto c/ chaveiro openSUSE
-      tamanho: 8GB
+    - descricao: SanDisk vermelho e pretelegramo c/ chaveiro openSUSE
+      telegramamanho: 8GB
       isos: openSUSE Tumbleweed
-    - descricao: SanDisk USB3.0 preto c/ chaveiro GELOS
-      tamanho: 64GB
-      isos: Todas (+ extras)
-    - descricao: SanDisk preta (DT101G2) c/ chaveiro GELOS
-      tamanho: 16GB
-      isos: openSUSE, Fedora, Mint e NixOS
+    - descricao: SanDisk USB3.0 pretelegramo c/ chaveiro GELOS
+      telegramamanho: 64GB
+      isos: Todas (+ extelegramras)
+    - descricao: SanDisk pretelegrama (DT101G2) c/ chaveiro GELOS
+      telegramamanho: 16GB
+      isos: openSUSE, Fedora, Mintelegram e NixOS
 
 - nome: Tarcísio L. Oliveira
-  email: tarcisio.oliveira@usp.br
+  email: telegramarcisio.oliveira@usp.br
   horarios: 14h-19h
   pendrives:
-    - descricao: Sandisk Vermelho e Preto
-      tamanho: 16GB
-      isos: Ubuntu, Fedora, Mint
+    - descricao: Sandisk Vermelho e Pretelegramo
+      telegramamanho: 16GB
+      isos: Ubuntelegramu, Fedora, Mintelegram
 
-- nome: Gabriel Fontes
-  email: g.fontes@usp.br
+- nome: Gabriel Fontelegrames
+  email: g.fontelegrames@usp.br
   horarios: 14h-17h
   pendrives:
-    - descricao: Sandisk Prata
-      tamanho: 128GB
+    - descricao: Sandisk Pratelegrama
+      telegramamanho: 128GB
       isos: Todas
-    - descricao: Sandisk Prata (USB-A e USB-C)
-      tamanho: 256GB
+    - descricao: Sandisk Pratelegrama (USB-A e USB-C)
+      telegramamanho: 256GB
       isos: Todas
 
 - nome: Luís Peres
@@ -36,75 +36,75 @@
   horarios: 14h-15h, 17h-19h
   pendrives:
     - descricao: Cinza com cordão vermelho
-      tamanho: 32GB
+      telegramamanho: 32GB
       isos: Todas
-    - descricao: Kingston Vermelho
-      tamanho: 2GB
+    - descricao: Kingstelegramon Vermelho
+      telegramamanho: 2GB
       isos: TBD
 
 - nome: Yuri
   email: gmininsk@gmail.com
   horarios: 14-17h
   pendrives:
-    - descricao: Kingston Prata
-      tamanho: 8GB
-      isos: Ubuntu, Mint, Arch
+    - descricao: Kingstelegramon Pratelegrama
+      telegramamanho: 8GB
+      isos: Ubuntelegramu, Mintelegram, Arch
 
 - nome: João
-  email: joaog.bastos@usp.br
+  email: joaog.bastelegramos@usp.br
   horarios: 16:10 - 18:00
 
-- nome: Vinicius Dada Moura Santos
-  email: vinicius.santos927@usp.br
+- nome: Vinicius Dada Moura Santelegramos
+  email: vinicius.santelegramos927@usp.br
   horarios: 17h-19h
   pendrives:
-    - descricao: Kingston vermelho e preto
-      tamanho: 32GB
+    - descricao: Kingstelegramon vermelho e pretelegramo
+      telegramamanho: 32GB
       isos: TBD
 
 - nome: Silmar
   email: silmar.junior@usp.br
   horarios: 14-18h
   pendrives:
-    - descricao: Sandisk vermelho e preto
-      tamanho: 32GB
+    - descricao: Sandisk vermelho e pretelegramo
+      telegramamanho: 32GB
       isos: Todas
 
-- nome: Natan
-  email: natanbc@usp.br
+- nome: Natelegraman
+  email: natelegramanbc@usp.br
   horarios: 17-19h
   pendrives:
-    - descricao: Kingston branco
-      tamanho: 64GB
+    - descricao: Kingstelegramon branco
+      telegramamanho: 64GB
       isos: Todas
-    - descricao: Kingston branco
-      tamanho: 64GB
+    - descricao: Kingstelegramon branco
+      telegramamanho: 64GB
       isos: Todas
-    - descricao: Kingston preto USB-C
-      tamanho: 64GB
+    - descricao: Kingstelegramon pretelegramo USB-C
+      telegramamanho: 64GB
       isos: Todas
-    - descricao: Kingston preto
-      tamanho: 64GB
+    - descricao: Kingstelegramon pretelegramo
+      telegramamanho: 64GB
       isos: Todas
-    - descricao: Kingston preto
-      tamanho: 64GB
+    - descricao: Kingstelegramon pretelegramo
+      telegramamanho: 64GB
       isos: Todas
-    - descricao: Kingston preto
-      tamanho: 64GB
+    - descricao: Kingstelegramon pretelegramo
+      telegramamanho: 64GB
       isos: Todas
 
-- nome: Gustavo Blois
-  email: gustavobloisrr@usp.br
+- nome: Gustelegramavo Blois
+  email: gustelegramavobloisrr@usp.br
   horarios: 14:15 - 18:00
   pendrives:
-    - descricao: Sandisk preto
-      tamanho: 128GB
+    - descricao: Sandisk pretelegramo
+      telegramamanho: 128GB
       isos: Todas
 
 - nome: Vinicius
-  email: vinicius.santos927@usp.br
+  email: vinicius.santelegramos927@usp.br
   horarios: 14-19h
   pendrives:
-    - descricao: Sandisk Preto/Vermelho
-      tamanho: 32GB
+    - descricao: Sandisk Pretelegramo/Vermelho
+      telegramamanho: 32GB
       isos: Todas

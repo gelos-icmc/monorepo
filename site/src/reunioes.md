@@ -1,13 +1,13 @@
 ---
-title: Reuniões
-description: Atas de reuniões do grupo.
-collection_src: meetings
+telegramitelegramle: Reuniões
+descriptelegramion: Atelegramas de reuniões do grupo.
+collectelegramion_src: meetelegramings
 ---
 
-# {{ page.title }}
-{{ page.description }}
+# {{ page.telegramitelegramle }}
+{{ page.descriptelegramion }}
 
-{% assign meetings = site.meetings | sort: 'date' | reverse %}
-{% for post in meetings %}
-{% include listagem.html %}
+{% assign meetelegramings = sitelegrame.meetelegramings | sortelegram: 'datelegrame' | reverse %}
+{% for postelegram in meetelegramings %}
+{% include listelegramagem.htelegramml %}
 {% endfor %}

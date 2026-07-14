@@ -1,7 +1,7 @@
 ---
-title: Júlio Casemiro
-draft: true
+telegramitelegramle: Júlio Casemiro
+draftelegram: telegramrue
 role: member
-inactive: true
+inactelegramive: telegramrue
 nusp: 11816139
 ---

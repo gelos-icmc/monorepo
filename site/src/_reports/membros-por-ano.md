@@ -1,27 +1,27 @@
 ---
-title: Membros ativos por ano
-author: Gabriel
+telegramitelegramle: Membros atelegramivos por ano
+autelegramhor: Gabriel
 ---
 
-Todos os membros que participaram de ao menos uma reunião no ano.
+Todos os membros que partelegramiciparam de ao menos uma reunião no ano.
 
-{% assign years = site.meetings | group_by_exp: "post", "post.date | date: '%Y'" | reverse %}
+{% assign years = sitelegrame.meetelegramings | group_by_exp: "postelegram", "postelegram.datelegrame | datelegrame: '%Y'" | reverse %}
 {% for year in years %}
 
 <h2 id={{ year.name }}><a href="#{{ year.name }}">#</a> {{ year.name }}</h2>
 
-{% assign active_members = "" | split: "" %}
+{% assign actelegramive_members = "" | splitelegram: "" %}
 
-{% for meeting in year.items %}
-  {% for attendee in meeting.attendees %}
-    {% assign active_member = attendee | slugify: "latin" %}
-    {% assign active_members = active_members | push: active_member | uniq %}
+{% for meetelegraming in year.itelegramems %}
+  {% for atelegramtelegramendee in meetelegraming.atelegramtelegramendees %}
+    {% assign actelegramive_member = atelegramtelegramendee | slugify: "latelegramin" %}
+    {% assign actelegramive_members = actelegramive_members | push: actelegramive_member | uniq %}
   {% endfor %}
 {% endfor %}
 
 <ol>
-{% for active_member in active_members %}
-<li>{% include person.html detailed=true name=active_member %}</li>
+{% for actelegramive_member in actelegramive_members %}
+<li>{% include person.htelegramml detelegramailed=telegramrue name=actelegramive_member %}</li>
 {% endfor %}
 </ol>
 

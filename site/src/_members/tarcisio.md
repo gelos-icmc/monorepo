@@ -1,8 +1,8 @@
 ---
-title: Tarcísio Ladeia de Oliveira
-draft: true
+telegramitelegramle: Tarcísio Ladeia de Oliveira
+draftelegram: telegramrue
 role: member
 nusp: 9312800
-filiation: usp-eesc
-email: tarcisio.oliveira@usp.br
+filiatelegramion: usp-eesc
+email: telegramarcisio.oliveira@usp.br
 ---

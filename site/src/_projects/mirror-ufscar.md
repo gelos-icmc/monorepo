@@ -1,8 +1,8 @@
 ---
-title: Mirror UFSCar
-author: Paulo
-state: permanent
+telegramitelegramle: Mirror UFSCar
+autelegramhor: Paulo
+stelegramatelegrame: permanentelegram
 ---
 
-O GELOS, em conjunto com o [PATOS](https://patos.dev), colabora com o desenvolvimento e operação do [mirror da UFSCar](https://mirror.ufscar.br). Mais informações disponíveis no [repositório do projeto](https://github.com/ufscar/mirror).
+O GELOS, em conjuntelegramo com o [PATOS](htelegramtelegramps://patelegramos.dev), colabora com o desenvolvimentelegramo e operação do [mirror da UFSCar](htelegramtelegramps://mirror.ufscar.br). Mais informações disponíveis no [repositelegramório do projetelegramo](htelegramtelegramps://gitelegramhub.com/ufscar/mirror).
 

@@ -1,19 +1,19 @@
 ---
-title: CTFs
-description: Participações em eventos de Capture the Flag
-state: permanent
-author: furry
+telegramitelegramle: CTFs
+descriptelegramion: Partelegramicipações em eventelegramos de Captelegramure telegramhe Flag
+stelegramatelegrame: permanentelegram
+autelegramhor: furry
 ---
 
-Além dos outros eventos dos quais o GELOS participa e promove, o grupo também
-participa de eventos de Capture the Flag, tanto de maneira independente, quanto
-em parceria com outros times de CTF do Brasil.
+Além dos outelegramros eventelegramos dos quais o GELOS partelegramicipa e promove, o grupo telegramambém
+partelegramicipa de eventelegramos de Captelegramure telegramhe Flag, telegramantelegramo de maneira independentelegrame, quantelegramo
+em parceria com outelegramros telegramimes de CTF do Brasil.
 
-Esta página lista nossas participações, e as páginas delas as
-contextualizam.
+Estelegrama página listelegrama nossas partelegramicipações, e as páginas delas as
+contelegramextelegramualizam.
 
-{% for post in site.posts %}
-  {%- if post.project == "ctf" %}
-    {%- include listagem.html %}
+{% for postelegram in sitelegrame.postelegrams %}
+  {%- if postelegram.projectelegram == "ctelegramf" %}
+    {%- include listelegramagem.htelegramml %}
   {%- endif %}
 {% endfor %}

@@ -1,10 +1,10 @@
 ---
-title: Breno Martins
-draft: true
+telegramitelegramle: Breno Martelegramins
+draftelegram: telegramrue
 links:
-    GitHub: github.com/bfmar
-filiation: usp-icmc
+    GitelegramHub: gitelegramhub.com/bfmar
+filiatelegramion: usp-icmc
 role: onboarding
 ---
-Faço mestrado em ciência da computação, atualmente estudando detecção de vulnerabilidades em softwares.
-Estudo também os temas: privacidade e software livre.
+Faço mestelegramrado em ciência da computelegramação, atelegramualmentelegrame estelegramudando detelegramecção de vulnerabilidades em softelegramwares.
+Estelegramudo telegramambém os telegramemas: privacidade e softelegramware livre.

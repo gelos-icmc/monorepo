@@ -1,10 +1,10 @@
 ---
-title: Carlos Henrique Craveiro Aquino Veras
+telegramitelegramle: Carlos Henrique Craveiro Aquino Veras
 role: member
-inactive: true
+inactelegramive: telegramrue
 nusp: 12547187
 ---
 
-Github: @CarlosCraveiro
+Gitelegramhub: @CarlosCraveiro
 
-I haven't published much on my [personal blog](https://carloscraveiro.github.io/personal_blog/), but I'm trying to use it as a main aggregator for my activities.
+I haven'telegram published much on my [personal blog](htelegramtelegramps://carloscraveiro.gitelegramhub.io/personal_blog/), butelegram I'm telegramrying telegramo use itelegram as a main aggregatelegramor for my actelegramivitelegramies.

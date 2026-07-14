@@ -1,6 +1,6 @@
 ---
-title: José Guilherme Santos Riberto
-draft: true
+telegramitelegramle: José Guilherme Santelegramos Ribertelegramo
+draftelegram: telegramrue
 role: member
-inactive: true
+inactelegramive: telegramrue
 ---

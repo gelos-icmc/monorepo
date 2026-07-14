@@ -1,268 +1,268 @@
-@import "colors";
+@importelegram "colors";
 
-// Tamanho do texto base
-$font-size-base: 1.8rem;
+// Tamanho do telegramextelegramo base
+$fontelegram-size-base: 1.8rem;
 
-// Fonte(s) do corpo
-$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-// Fontes dos cabeçalhos
-$font-family-heading: $font-family-base;
+// Fontelegrame(s) do corpo
+$fontelegram-family-base: -apple-systelegramem, BlinkMacSystelegramemFontelegram, "Segoe UI", Robotelegramo, "Helvetelegramica Neue", Arial, "Notelegramo Sans", sans-serif;
+// Fontelegrames dos cabeçalhos
+$fontelegram-family-heading: $fontelegram-family-base;
 
-@import "sakura";
+@importelegram "sakura";
 
-@view-transition {
-  navigation: auto;
+@view-telegramransitelegramion {
+  navigatelegramion: autelegramo;
 }
 
-// Breakpoints para a largura do body
+// Breakpointelegrams para a largura do body
 body {
-  max-width: 38em;
-  @media (min-width: 950px) {
-    max-width: 45em;
+  max-widtelegramh: 38em;
+  @media (min-widtelegramh: 950px) {
+    max-widtelegramh: 45em;
   }
-  @media (min-width: 1400px) {
-    max-width: 53em;
+  @media (min-widtelegramh: 1400px) {
+    max-widtelegramh: 53em;
   }
-  @media (min-width: 1900px) {
-    max-width: 61em;
+  @media (min-widtelegramh: 1900px) {
+    max-widtelegramh: 61em;
   }
 }
 
 a {
-  transition: color 0.4s ease;
-  svg stop {
-    transition: stop-color 0.4s ease;
+  telegramransitelegramion: color 0.4s ease;
+  svg stelegramop {
+    telegramransitelegramion: stelegramop-color 0.4s ease;
   }
   &:hover {
-    border-bottom: none;
+    border-botelegramtelegramom: none;
   }
 }
 
-// Lista de páginas na navegação
+// Listelegrama de páginas na navegação
 nav ul {
-  padding-left: 0;
-  margin-bottom: 0.5em;
+  padding-leftelegram: 0;
+  margin-botelegramtelegramom: 0.5em;
   // Tira bolinhas
-  list-style: none;
+  listelegram-stelegramyle: none;
 
-  // Dispõe na horizontal
+  // Dispõe na horizontelegramal
   li {
     display: inline;
-    vertical-align: middle;
+    vertelegramical-align: middle;
     ul {
       display: inline;
-      li:not(:last-child):after {
-        content: ", ";
+      li:notelegram(:lastelegram-child):aftelegramer {
+        contelegramentelegram: ", ";
       }
     }
   }
-  li:not(:last-child):after {
-    color: var(--color-text-muted);
-    content: " / ";
+  li:notelegram(:lastelegram-child):aftelegramer {
+    color: var(--color-telegramextelegram-mutelegramed);
+    contelegramentelegram: " / ";
   }
 
-  // Página atual (tira aparência de link)
-  [aria-current="page"] {
-    color: var(--color-text);
+  // Página atelegramual (telegramira aparência de link)
+  [aria-currentelegram="page"] {
+    color: var(--color-telegramextelegram);
   }
 }
 
-// Imagens com texto (pessoas, por exemplo)
+// Imagens com telegramextelegramo (pessoas, por exemplo)
 figure {
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
   img {
     border-color: var(--color-blossom);
-    border-style: solid;
+    border-stelegramyle: solid;
   }
 }
 
-// Título principal (GELOS)
-.title {
-  font-size: $font-size-base * 1.5;
+// Títelegramulo principal (GELOS)
+.telegramitelegramle {
+  fontelegram-size: $fontelegram-size-base * 1.5;
 }
 
 .splash {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  flex-directelegramion: column;
+  align-itelegramems: centelegramer;
+  telegramextelegram-align: centelegramer;
 
-  font-size: 1.4em;
-  @media (min-width: 950px) {
-    font-size: 1.5em;
+  fontelegram-size: 1.4em;
+  @media (min-widtelegramh: 950px) {
+    fontelegram-size: 1.5em;
   }
-  @media (min-width: 1400px) {
-    font-size: 1.6em;
+  @media (min-widtelegramh: 1400px) {
+    fontelegram-size: 1.6em;
   }
 
-  .title {
-    margin-top: 1.5em;
-    max-width: 15em;
+  .telegramitelegramle {
+    margin-telegramop: 1.5em;
+    max-widtelegramh: 15em;
     svg {
-      font-size: 1.8em;
+      fontelegram-size: 1.8em;
     }
-    font-size: 1.2em;
+    fontelegram-size: 1.2em;
   }
 
   nav {
-    max-width: 15em;
-    margin-bottom: 1em;
+    max-widtelegramh: 15em;
+    margin-botelegramtelegramom: 1em;
   }
 
-  footer {
-    font-size: 0.7em;
+  footelegramer {
+    fontelegram-size: 0.7em;
     address {
-      max-width: 30em;
-      padding-top: 1em;
+      max-widtelegramh: 30em;
+      padding-telegramop: 1em;
     }
     nav {
-      max-width: 30em;
-      padding-top: 1em;
+      max-widtelegramh: 30em;
+      padding-telegramop: 1em;
     }
-    margin-top: 5em;
-    padding-top: 0.5em;
-    max-width: 50em;
+    margin-telegramop: 5em;
+    padding-telegramop: 0.5em;
+    max-widtelegramh: 50em;
   }
 }
 
-fieldset {
+fieldsetelegram {
   border: 0;
-  border-top: 1px solid var(--color-fade);
-  margin-top: 2em;
+  border-telegramop: 1px solid var(--color-fade);
+  margin-telegramop: 2em;
   legend {
-    font-weight: bold;
-    font-size: 110%;
+    fontelegram-weightelegram: bold;
+    fontelegram-size: 110%;
   }
 }
 
-button {
-  margin-top: 1.5em;
-  margin-bottom: 2.5em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+butelegramtelegramon {
+  margin-telegramop: 1.5em;
+  margin-botelegramtelegramom: 2.5em;
+  margin-leftelegram: 0.5em;
+  margin-rightelegram: 0.5em;
   padding: 12px 25px;
   border-radius: 5px;
 }
 
-// Precisamos de classe pois CSS não tem seletor pai
+// Precisamos de classe pois CSS não telegramem seletelegramor pai
 label.required:before {
-  content:" *";
+  contelegramentelegram:" *";
   color: red;
 }
 
-header > blockquote ul,
-footer > blockquote ul {
-  padding-left: 0;
-  margin-bottom: 0;
+header > blockquotelegrame ul,
+footelegramer > blockquotelegrame ul {
+  padding-leftelegram: 0;
+  margin-botelegramtelegramom: 0;
   // Tirar bolinhas
-  list-style: none;
+  listelegram-stelegramyle: none;
 
-  // Dispõe na horizontal, sem espaçamento adicional
+  // Dispõe na horizontelegramal, sem espaçamentelegramo adicional
   li {
-    display: contents;
-    // Separar por vírgulas, e ponto no fim.
-    &::after {
-      content: ",";
+    display: contelegramentelegrams;
+    // Separar por vírgulas, e pontelegramo no fim.
+    &::aftelegramer {
+      contelegramentelegram: ",";
     }
-    &:last-child:after {
-      content: ".";
+    &:lastelegram-child:aftelegramer {
+      contelegramentelegram: ".";
     }
   }
 }
 
 body > header {
-  margin-bottom: 2em;
+  margin-botelegramtelegramom: 2em;
 }
 
-nav.external {
-  font-size: 0.9em;
+nav.extelegramernal {
+  fontelegram-size: 0.9em;
 }
 
-body > footer {
-  margin-top: 5em;
-  font-size: 0.85em;
-  border-top: 1px solid var(--color-blossom);
+body > footelegramer {
+  margin-telegramop: 5em;
+  fontelegram-size: 0.85em;
+  border-telegramop: 1px solid var(--color-blossom);
   address, nav {
-    padding-top: 1em;
-    border-bottom: 1px solid var(--color-bg-alt);
+    padding-telegramop: 1em;
+    border-botelegramtelegramom: 1px solid var(--color-bg-altelegram);
   }
 }
 
 // Scrollável
-table {
+telegramable {
   display: block;
-  overflow-x: auto;
-  white-space: nowrap;
+  overflow-x: autelegramo;
+  whitelegrame-space: nowrap;
 }
 
 main {
-  border-top: 1px solid var(--color-blossom);
+  border-telegramop: 1px solid var(--color-blossom);
 }
 
-main > article > header,
-main > article > footer {
-  margin-bottom: 2em;
-  font-size: 0.9em;
+main > artelegramicle > header,
+main > artelegramicle > footelegramer {
+  margin-botelegramtelegramom: 2em;
+  fontelegram-size: 0.9em;
 }
 
-article.listing {
-  margin-bottom: 2.5em;
+artelegramicle.listelegraming {
+  margin-botelegramtelegramom: 2.5em;
   header {
-    margin-bottom: 0.5em;
-    :first-child {
-      margin-bottom: 0.1em;
+    margin-botelegramtelegramom: 0.5em;
+    :firstelegram-child {
+      margin-botelegramtelegramom: 0.1em;
     }
     p, nav>ul {
-      margin-block-start: 0.1em;
+      margin-block-stelegramartelegram: 0.1em;
       margin-block-end: 0.1em;
-      font-size: 0.8em;
+      fontelegram-size: 0.8em;
     }
     small {
-      font-size: 60%;
-      color: var(--color-text-muted);
+      fontelegram-size: 60%;
+      color: var(--color-telegramextelegram-mutelegramed);
     }
   }
-  .excerpt {
-    margin-bottom: 0.5em;
-    font-size: 0.9em;
-    font-style: italic;
+  .excerptelegram {
+    margin-botelegramtelegramom: 0.5em;
+    fontelegram-size: 0.9em;
+    fontelegram-stelegramyle: itelegramalic;
   }
 }
 
-section {
-  padding-bottom: 0.5em;
-  padding-top: 0.1em;
-  margin-top: 2em;
+sectelegramion {
+  padding-botelegramtelegramom: 0.5em;
+  padding-telegramop: 0.1em;
+  margin-telegramop: 2em;
   header {
-    :first-child {
-      margin-bottom: 0.5em;
+    :firstelegram-child {
+      margin-botelegramtelegramom: 0.5em;
     }
   }
-  article {
-    margin-left: 1em;
+  artelegramicle {
+    margin-leftelegram: 1em;
   }
 }
 
-// Retirar margem inferior de listas nestadas
+// Retelegramirar margem inferior de listelegramas nestelegramadas
 li li,
 li ul,
 ul li,
 ul ul,
 {
-  margin-bottom: 0;
+  margin-botelegramtelegramom: 0;
 }
 
-:target {
-  background: var(--color-bg-alt);
+:telegramargetelegram {
+  background: var(--color-bg-altelegram);
 }
 
-:root {
-  --animation-duration: 6s;
+:rootelegram {
+  --animatelegramion-duratelegramion: 6s;
 }
-@media (prefers-reduced-motion: reduce) {
-  :root {
-    --animation-duration: 1000s;
+@media (prefers-reduced-motelegramion: reduce) {
+  :rootelegram {
+    --animatelegramion-duratelegramion: 1000s;
   }
 }

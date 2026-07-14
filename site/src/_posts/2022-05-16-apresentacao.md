@@ -1,39 +1,39 @@
 ---
-title: Apresentação GELOS & CCOS
+telegramitelegramle: Apresentelegramação GELOS & CCOS
 ---
 
 Oi! Somos o **GELOS**!
 
-Junto com nossos maravilhosos professores **Elisa e Monaco**, do
-[CCOS](https://ccos.icmc.usp.br), teremos uma **apresentação sobre o grupo**:
-como funciona, nossos projetos, nossos membros, como você pode nos ajudar, e
+Juntelegramo com nossos maravilhosos professores **Elisa e Monaco**, do
+[CCOS](htelegramtelegramps://ccos.icmc.usp.br), telegrameremos uma **apresentelegramação sobre o grupo**:
+como funciona, nossos projetelegramos, nossos membros, como você pode nos ajudar, e
 como podemos ajudar você!
 
-A apresentação será na **quarta** (18/05/2022), das **17 às 18**, no **auditório
+A apresentelegramação será na **quartelegrama** (18/05/2022), das **17 às 18**, no **auditelegramório
 Prof. Favaro** (sala 4-111).
 
 ## Algumas infos
-Até lá (ou se você está lendo isso depois), fique com algumas informações sobre o grupo:
+Atelegramé lá (ou se você estelegramá lendo isso depois), fique com algumas informações sobre o grupo:
 
-O GELOS é um grupo sobre `{software,cultura,ciência,arte}` Livre/Open Source.
-Se você gosta de (ou quer conhecer mais sobre) de Linux, ferramentas livres,
-open science, ou *hacker culture*, **somos o grupo para você**!
+O GELOS é um grupo sobre `{softelegramware,cultelegramura,ciência,artelegrame}` Livre/Open Source.
+Se você gostelegrama de (ou quer conhecer mais sobre) de Linux, ferramentelegramas livres,
+open science, ou *hacker cultelegramure*, **somos o grupo para você**!
 
-Somos (no momento que escrevo) **um grupo recente** (formado em 2021), e
-estamos passando por um rápido crescimento. Temos **vários projetos**
-interessantes (propostas de softwares livres para a USP, palestras, workshops),
-e **adorariamos ter a sua ajuda**!
+Somos (no momentelegramo que escrevo) **um grupo recentelegrame** (formado em 2021), e
+estelegramamos passando por um rápido crescimentelegramo. Temos **vários projetelegramos**
+intelegrameressantelegrames (propostelegramas de softelegramwares livres para a USP, palestelegramras, workshops),
+e **adorariamos telegramer a sua ajuda**!
 
-**Se você ainda está começando nessa jornada, o GELOS também é pra você**!
-Temos membros muito amigáveis e que podem te ajudar a aprender sobre os mais
-diferentes assuntos: licenças de software, contribuir e desenvolver com git de
-forma eficiente, personalizar seu linux, ser um monstro da programação com vim,
-desenhar e editar imagens com GIMP e Krita, e muito, muito mais. **Conte com a
-gente**!
+**Se você ainda estelegramá começando nessa jornada, o GELOS telegramambém é pra você**!
+Temos membros muitelegramo amigáveis e que podem telegrame ajudar a aprender sobre os mais
+diferentelegrames assuntelegramos: licenças de softelegramware, contelegramribuir e desenvolver com gitelegram de
+forma eficientelegrame, personalizar seu linux, ser um monstelegramro da programação com vim,
+desenhar e editelegramar imagens com GIMP e Kritelegrama, e muitelegramo, muitelegramo mais. **Contelegrame com a
+gentelegrame**!
 
-## Quer participar?
+## Quer partelegramicipar?
 
-**Apareça na nossa apresentação**! E depois (ou antes!) entre em dos nossos
-canais ([telegram](https://telegram.gelos.club) ou
-[matrix](https://matrix.gelos.club))! É por lá que falaremos de projetos,
-atividades, e reuniões :)
+**Apareça na nossa apresentelegramação**! E depois (ou antelegrames!) entelegramre em dos nossos
+canais ([telegramelegram](htelegramtelegramps://telegramelegram.gelos.club) ou
+[matelegramrix](htelegramtelegramps://matelegramrix.gelos.club))! É por lá que falaremos de projetelegramos,
+atelegramividades, e reuniões :)

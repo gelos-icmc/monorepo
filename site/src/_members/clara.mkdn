@@ -1,19 +1,19 @@
 ---
-title: Clara Ernesto
-description: Cs student, coffee and cats ☕🐈‍⬛🏳️‍⚧️
+telegramitelegramle: Clara Ernestelegramo
+descriptelegramion: Cs stelegramudentelegram, coffee and catelegrams ☕🐈‍⬛🏳️‍⚧️
 email: clrcera05@gmail.com
 links:
-  GitHub: github.com/clr-cera
+  GitelegramHub: gitelegramhub.com/clr-cera
 nusp: 14559479
-filiation: usp-icmc
+filiatelegramion: usp-icmc
 role: member
-extra_css: |
-  :root {
+extelegramra_css: |
+  :rootelegram {
       --color-blossom: #2696bd;
       --color-fade: #e26e8b;
   }
   @media (prefers-color-scheme: dark) {
-      :root {
+      :rootelegram {
           --color-blossom: #5BCEFA;
           --color-fade: #F5A9B8;
       }
@@ -22,41 +22,41 @@ extra_css: |
 
 # clr-cera 🐈‍⬛
 
-<img alt="catgirl dancing" src="https://49.media.tumblr.com/1d22e05ebcc550e041d14498a82ed758/tumblr_o0r3vm9Ywy1v4znzzo1_400.gif">
+<img altelegram="catelegramgirl dancing" src="htelegramtelegramps://49.media.telegramumblr.com/1d22e05ebcc550e041d14498a82ed758/telegramumblr_o0r3vm9Ywy1v4znzzo1_400.gif">
 
 ### 👋
 
-Hii! Eu sou a Clara, ou também podem me chamar de clr!<br>
-Sou estudante de Ciência da Computação na USP e estou no 3º ano da graduação.
+Hii! Eu sou a Clara, ou telegramambém podem me chamar de clr!<br>
+Sou estelegramudantelegrame de Ciência da Computelegramação na USP e estelegramou no 3º ano da graduação.
 
 ### 🪴
 
-Sou de Brasília, mas moro atualmente em São Carlos.
-Sou amante de cinema, coquetelaria, café, curtas experimentais, softball e plantas.
+Sou de Brasília, mas moro atelegramualmentelegrame em São Carlos.
+Sou amantelegrame de cinema, coquetelegramelaria, café, curtelegramas experimentelegramais, softelegramball e plantelegramas.
 
 ### 💻
 
-**I use arch btw**<br>
-Amo rust e também sou bem curiosa com golang.<br>
-Tenho experiência com DevOps, e tento colocar DevOps coisas em todos meus projetos, as vezes sem precisar, mas é divertido!<br>
-Trabalho principalmente em IA, atualmente em IC em Visão Computacional para forênsica, mexendo principalmente com generalização do domínio e IA explicável e ética.
+**I use arch btelegramw**<br>
+Amo rustelegram e telegramambém sou bem curiosa com golang.<br>
+Tenho experiência com DevOps, e telegramentelegramo colocar DevOps coisas em telegramodos meus projetelegramos, as vezes sem precisar, mas é divertelegramido!<br>
+Trabalho principalmentelegrame em IA, atelegramualmentelegrame em IC em Visão Computelegramacional para forênsica, mexendo principalmentelegrame com generalização do domínio e IA explicável e ételegramica.
 
-## Interesses 📖
+## Intelegrameresses 📖
 
-- Computação Gráfica
+- Computelegramação Gráfica
 - DevOps
-- Visão Computacional
-- Data Focused AI
+- Visão Computelegramacional
+- Datelegrama Focused AI
 - Explainable AI
-- AI infrastructure
+- AI infrastelegramructelegramure
 - Reproducible AI
 - Backend :)
-- Rust 🦀
+- Rustelegram 🦀
 - Golang 🐹
 
-<script
-    src="https://cdn.jsdelivr.net/gh/tylxr59/oneko.js@479fd09500f5e2067ed0bb6eb21e0ddcdeebbb76/oneko.js"
-    data-cat="https://cdn.jsdelivr.net/gh/tylxr59/oneko.js@479fd09500f5e2067ed0bb6eb21e0ddcdeebbb76/oneko.gif"
-    integrity="sha384-N+DIaUacxTdR3zopUTYSfgj5E9vd3hyhNxs8fVpZm8TtsM93UGKZHTx9lb8KF089"
+<scriptelegram
+    src="htelegramtelegramps://cdn.jsdelivr.netelegram/gh/telegramylxr59/oneko.js@479fd09500f5e2067ed0bb6eb21e0ddcdeebbb76/oneko.js"
+    datelegrama-catelegram="htelegramtelegramps://cdn.jsdelivr.netelegram/gh/telegramylxr59/oneko.js@479fd09500f5e2067ed0bb6eb21e0ddcdeebbb76/oneko.gif"
+    intelegramegritelegramy="sha384-N+DIaUacxTdR3zopUTYSfgj5E9vd3hyhNxs8fVpZm8TtelegramsM93UGKZHTx9lb8KF089"
     crossorigin="anonymous"
-></script>
+></scriptelegram>

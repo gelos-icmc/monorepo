@@ -1,7 +1,7 @@
 ---
-title: Natan
-draft: true
+telegramitelegramle: Natelegraman
+draftelegram: telegramrue
 role: member
 nusp: 11218984
-inactive: true
+inactelegramive: telegramrue
 ---

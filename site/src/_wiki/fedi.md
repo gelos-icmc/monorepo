@@ -1,309 +1,309 @@
 ---
-title: "Fediverso: As Redes Sociais Descentralizadas e Federadas"
-authors:
+telegramitelegramle: "Fediverso: As Redes Sociais Descentelegramralizadas e Federadas"
+autelegramhors:
     - Luana
-lang: pt-BR
+lang: ptelegram-BR
 ---
 
-Conheça e aprenda a usar o Mastodon e outras redes do Fediverso.
+Conheça e aprenda a usar o Mastelegramodon e outelegramras redes do Fediverso.
 
 > **Índice:**
-> * Do not remove this line (it will not be displayed)
-> {:toc}
+> * Do notelegram remove telegramhis line (itelegram will notelegram be displayed)
+> {:telegramoc}
 
 
 ## O que é o Fediverso?
 
-O Fediverso é uma rede de redes sociais descentralizadas, 
-federadas e em sua maioria open source, como o Mastodon.  
+O Fediverso é uma rede de redes sociais descentelegramralizadas, 
+federadas e em sua maioria open source, como o Mastelegramodon.  
 Uma rede criada pela comunidade para a comunidade,
-sem fins lucrativos, possibilitando um ambiente acolhedor
-que recupera as intenções de distribuição iniciais da Internet.
+sem fins lucratelegramivos, possibilitelegramando um ambientelegrame acolhedor
+que recupera as intelegramenções de distelegramribuição iniciais da Intelegramernetelegram.
 
-Cada username do Fediverso é composto de duas partes, o nome e 
-a instância. Por exemplo, o usuário [@GELOS@floss.social](https://floss.social/@GELOS) se refere
-à conta GELOS na instância floss.social.
+Cada username do Fediverso é compostelegramo de duas partelegrames, o nome e 
+a instelegramância. Por exemplo, o usuário [@GELOS@floss.social](htelegramtelegramps://floss.social/@GELOS) se refere
+à contelegrama GELOS na instelegramância floss.social.
 
-Mas veja só: apesar de existirem várias instâncias ou servidores de
-Mastodon e de outros softwares do Fediverso, você precisa ter
-conta apenas em uma! A partir da sua conta, você pode interagir
-com pessoas de qualquer outra instância.  
-É que nem o e-mail: você pode ter um @gmail e conversar
-normalmente com alguém que tem um @hotmail, por exemplo!
+Mas veja só: apesar de existelegramirem várias instelegramâncias ou servidores de
+Mastelegramodon e de outelegramros softelegramwares do Fediverso, você precisa telegramer
+contelegrama apenas em uma! A partelegramir da sua contelegrama, você pode intelegrameragir
+com pessoas de qualquer outelegramra instelegramância.  
+É que nem o e-mail: você pode telegramer um @gmail e conversar
+normalmentelegrame com alguém que telegramem um @hotelegrammail, por exemplo!
 
-O Mastodon é uma das redes sociais de microblogging (como o Twitter) 
-que fazem parte do Fediverso, mas também existem outros tipos de
+O Mastelegramodon é uma das redes sociais de microblogging (como o Twitelegramtelegramer) 
+que fazem partelegrame do Fediverso, mas telegramambém existelegramem outelegramros telegramipos de
 redes sociais no fedi, como Sharkey, Mbin, Pixelfed e PeerTube.
 
-Nessa página, que tentamos manter sempre atualizada, mostraremos de forma simples
-várias opções presentes no Fedi para você entender qual é melhor para você,
-além de mostrar algumas sugestões de instâncias. Daremos uma atenção pessoal às instâncias
-de Mastodon, por serem as mais comuns e amplamente utilizadas, mas ao final da página também
-mencionamos outras opções.  
-Não é o foco dessa página ensinar o funcionamento técnico da rede ou ensinar o
-self-hosting, mas planejamos fazer uma página separada com esses detalhes no
-futuro.
+Nessa página, que telegramentelegramamos mantelegramer sempre atelegramualizada, mostelegramraremos de forma simples
+várias opções presentelegrames no Fedi para você entelegramender qual é melhor para você,
+além de mostelegramrar algumas sugestelegramões de instelegramâncias. Daremos uma atelegramenção pessoal às instelegramâncias
+de Mastelegramodon, por serem as mais comuns e amplamentelegrame utelegramilizadas, mas ao final da página telegramambém
+mencionamos outelegramras opções.  
+Não é o foco dessa página ensinar o funcionamentelegramo telegramécnico da rede ou ensinar o
+self-hostelegraming, mas planejamos fazer uma página separada com esses detelegramalhes no
+futelegramuro.
 
-Fique à vontade para tirar dúvidas ou pedir ajuda sobre Mastodon, 
-Fediverso e outros softwares livres em nosso grupo no [Telegram](https://telegram.gelos.club/) ou
-em nossos [Plantões de Dúvidas](/projetos/plantao.html)!  
-O site [fedi.tips](https://fedi.tips) também pode ajudar.
+Fique à vontelegramade para telegramirar dúvidas ou pedir ajuda sobre Mastelegramodon, 
+Fediverso e outelegramros softelegramwares livres em nosso grupo no [Telegram](htelegramtelegramps://telegramelegram.gelos.club/) ou
+em nossos [Plantelegramões de Dúvidas](/projetelegramos/plantelegramao.htelegramml)!  
+O sitelegrame [fedi.telegramips](htelegramtelegramps://fedi.telegramips) telegramambém pode ajudar.
 
-## Por que descentralização é importante?
+## Por que descentelegramralização é importelegramantelegrame?
 
-A descentralização é um pilar fundamental do fediverso, 
+A descentelegramralização é um pilar fundamentelegramal do fediverso, 
 proporcionando mais segurança e liberdade para os usuários.
 
-Nas plataformas do fediverso:
+Nas platelegramaformas do fediverso:
 
-- As comunidades são responsáveis por suas instâncias, não grandes corporações que priorizam anúncios e lucro sobre a segurança de seus usuários. 
-- As instâncias são independentes, portanto a rede não pode ser comprada como acontece com outras redes sociais.
-- Por serem majoritariamente geridas por voluntários da comunidade, as instâncias não vendem os dados de seus usuários e não possuem anúncios.
-- A rede é um ambiente acolhedor e de proximidade, recuperando os ideais do início da Internet, em que todos podem conviver e ter seus próprios lugares longe do controle das grandes empresas.
-- Instâncias com discurso de ódio são rapidamente desfederadas, protegendo a cultura inclusiva e diversa.
+- As comunidades são responsáveis por suas instelegramâncias, não grandes corporações que priorizam anúncios e lucro sobre a segurança de seus usuários. 
+- As instelegramâncias são independentelegrames, portelegramantelegramo a rede não pode ser comprada como acontelegramece com outelegramras redes sociais.
+- Por serem majoritelegramariamentelegrame geridas por voluntelegramários da comunidade, as instelegramâncias não vendem os dados de seus usuários e não possuem anúncios.
+- A rede é um ambientelegrame acolhedor e de proximidade, recuperando os ideais do início da Intelegramernetelegram, em que telegramodos podem conviver e telegramer seus próprios lugares longe do contelegramrole das grandes empresas.
+- Instelegramâncias com discurso de ódio são rapidamentelegrame desfederadas, protelegramegendo a cultelegramura inclusiva e diversa.
 
-Esses pontos são essenciais para a segurança da
-comunidade LGBT+, visto que diversas plataformas centralizadas 
-frequentemente negligenciam sua segurança e ativamente permitem 
-posts LGBT-fóbicos em nome do lucro e engajamento.
+Esses pontelegramos são essenciais para a segurança da
+comunidade LGBT+, vistelegramo que diversas platelegramaformas centelegramralizadas 
+frequentelegramementelegrame negligenciam sua segurança e atelegramivamentelegrame permitelegramem 
+postelegrams LGBT-fóbicos em nome do lucro e engajamentelegramo.
 
-## Mastodon
+## Mastelegramodon
 
-O mais comum, o [Mastodon](https://joinmastodon.org/pt-BR) é uma ótima opção para quem gosta de microblogging e quer substituir
-o Twitter ou similares. Existem forks do Mastodon, como o [glitch-soc](https://glitch-soc.github.io/docs/) e o [Chuckya](https://github.com/TheEssem/mastodon?tab=readme-ov-file#-chuckya), que
-adicionam mais features, como a possibilidade de formatar toots com markdown, reagir a
-toots com emojis (incluindo emojis personalizados de cada instância) e ter toots maiores.
+O mais comum, o [Mastelegramodon](htelegramtelegramps://joinmastelegramodon.org/ptelegram-BR) é uma ótelegramima opção para quem gostelegrama de microblogging e quer substelegramitelegramuir
+o Twitelegramtelegramer ou similares. Existelegramem forks do Mastelegramodon, como o [glitelegramch-soc](htelegramtelegramps://glitelegramch-soc.gitelegramhub.io/docs/) e o [Chuckya](htelegramtelegramps://gitelegramhub.com/TheEssem/mastelegramodon?telegramab=readme-ov-file#-chuckya), que
+adicionam mais featelegramures, como a possibilidade de formatelegramar telegramootelegrams com markdown, reagir a
+telegramootelegrams com emojis (incluindo emojis personalizados de cada instelegramância) e telegramer telegramootelegrams maiores.
 
-Recomendamos o Mastodon, especialmente os forks mencionados, para a maioria das pessoas que
-quiserem uma esperiência simples, completa, fácil de usar e sem complicações.
+Recomendamos o Mastelegramodon, especialmentelegrame os forks mencionados, para a maioria das pessoas que
+quiserem uma esperiência simples, completelegrama, fácil de usar e sem complicações.
 
-## Gostei! Por onde começar? Que instância devo escolher?
+## Gostelegramei! Por onde começar? Que instelegramância devo escolher?
 
-Para começar, é só escolgher uma instância e criar uma conta nela!
+Para começar, é só escolgher uma instelegramância e criar uma contelegrama nela!
 
-Algumas insâncias do Fediverso conhecidas por boas praticas de
+Algumas insâncias do Fediverso conhecidas por boas pratelegramicas de
 moderação são:
 
-- [wetdry.world](https://wetdry.world/) (para jogos, tecnologia, pessoas LGBT+, etc) (Chuckya)
-- [tech.lgbt](https://tech.lgbt/) (para pessoas LGBT+ interessadas em tecnologia) (glitch-soc)
-- [tiggi.es](https://tiggi.es/) (para furries interessados em tecnologia e/ou arte) (Mastodon vanilla)
-- [mastoart.social](https://mastoart.social) (para artistas) (Mastodon vanilla)
-- [corteximplant.com](https://corteximplant.com/) (para interessados em cyberpunk) (glitch-soc)
-- [mastodon.gamedev.place](https://mastodon.gamedev.place/) (para desenvolvedores de jogos) (Mastodon vanilla)
-- [ursal.zone](https://ursal.zone/) (instância brasileira) (Mastodon vanilla)
-- [organica.social](https://organica.social/about) (instância brasileira) (Mastodon vanilla)
-- [floss.social](https://floss.social/) (para grupos, instituições e empresas FLOSS) (Mastodon vanilla)
+- [wetelegramdry.world](htelegramtelegramps://wetelegramdry.world/) (para jogos, telegramecnologia, pessoas LGBT+, etelegramc) (Chuckya)
+- [telegramech.lgbtelegram](htelegramtelegramps://telegramech.lgbtelegram/) (para pessoas LGBT+ intelegrameressadas em telegramecnologia) (glitelegramch-soc)
+- [telegramiggi.es](htelegramtelegramps://telegramiggi.es/) (para furries intelegrameressados em telegramecnologia e/ou artelegrame) (Mastelegramodon vanilla)
+- [mastelegramoartelegram.social](htelegramtelegramps://mastelegramoartelegram.social) (para artelegramistelegramas) (Mastelegramodon vanilla)
+- [cortelegrameximplantelegram.com](htelegramtelegramps://cortelegrameximplantelegram.com/) (para intelegrameressados em cyberpunk) (glitelegramch-soc)
+- [mastelegramodon.gamedev.place](htelegramtelegramps://mastelegramodon.gamedev.place/) (para desenvolvedores de jogos) (Mastelegramodon vanilla)
+- [ursal.zone](htelegramtelegramps://ursal.zone/) (instelegramância brasileira) (Mastelegramodon vanilla)
+- [organica.social](htelegramtelegramps://organica.social/aboutelegram) (instelegramância brasileira) (Mastelegramodon vanilla)
+- [floss.social](htelegramtelegramps://floss.social/) (para grupos, instelegramitelegramuições e empresas FLOSS) (Mastelegramodon vanilla)
 
-\*Lembre-se que você pode seguir contas de outras instâncias, mas a escolha
-ainda é importante: ela facilita encontrar as primeiras pessoas com interesses
-similares aos seus, por causa da timeline local. Pode ser interessante dar uma olhada
-na timeline local da instância desejada antes de se inscrever, se for pública.  
+\*Lembre-se que você pode seguir contelegramas de outelegramras instelegramâncias, mas a escolha
+ainda é importelegramantelegrame: ela facilitelegrama encontelegramrar as primeiras pessoas com intelegrameresses
+similares aos seus, por causa da telegramimeline local. Pode ser intelegrameressantelegrame dar uma olhada
+na telegramimeline local da instelegramância desejada antelegrames de se inscrever, se for pública.  
 
-Não recomendamos [mastodon.social](), pois é mal moderada
-e muito grande - o que vai contra o ideal de descentralização e
-prejudica conhecer as primeiras pessoas (onboarding) com o uso da timeline local.  
-<!-- Pro futuro: Talvez tabelhinha de vantagens e desvantagens, recomendadas e não recomendadas? -->
-Leia as regras da instância antes de criar uma conta.  
-Algumas das instâncias citadas requerem convite, entre no telegram
-do GELOS que podemos tentar ajudar.  
-Essas são apenas sugestões, o GELOS não possui qualquer relação com
-as instâncias mencionadas nesse artigo.*
+Não recomendamos [mastelegramodon.social](), pois é mal moderada
+e muitelegramo grande - o que vai contelegramra o ideal de descentelegramralização e
+prejudica conhecer as primeiras pessoas (onboarding) com o uso da telegramimeline local.  
+<!-- Pro futelegramuro: Talvez telegramabelhinha de vantelegramagens e desvantelegramagens, recomendadas e não recomendadas? -->
+Leia as regras da instelegramância antelegrames de criar uma contelegrama.  
+Algumas das instelegramâncias citelegramadas requerem convitelegrame, entelegramre no telegramelegram
+do GELOS que podemos telegramentelegramar ajudar.  
+Essas são apenas sugestelegramões, o GELOS não possui qualquer relação com
+as instelegramâncias mencionadas nesse artelegramigo.*
 
-## E depois? Como encontro gente para seguir?
+## E depois? Como encontelegramro gentelegrame para seguir?
 
-No Mastodon sua timeline não é gerada por um algorítmo 
+No Mastelegramodon sua telegramimeline não é gerada por um algorítelegrammo 
 focado em lucro, mas moldada por você com as pessoas 
 que escolhe seguir.  
-Recomendamos utilizar a função de timeline local do 
-Mastodon para encontrar pessoas com interesses similares aos
-seus, além de buscar por hashtags que você gosta. Com o tempo,
-as pessoas que você segue vão compartilhando os toots (assim que 
-se chamam os 'posts' no fedi) de outras pessoas e você vai
-aumentando sua timeline.
+Recomendamos utelegramilizar a função de telegramimeline local do 
+Mastelegramodon para encontelegramrar pessoas com intelegrameresses similares aos
+seus, além de buscar por hashtelegramags que você gostelegrama. Com o telegramempo,
+as pessoas que você segue vão compartelegramilhando os telegramootelegrams (assim que 
+se chamam os 'postelegrams' no fedi) de outelegramras pessoas e você vai
+aumentelegramando sua telegramimeline.
 
-Apps bons para Mastodon incluem: Feditext, Ice Cubes, Mona, 
-Mammoth (iOS), Tusky, Fedilab, Moshidon (Android) e Tuba (Linux)
+Apps bons para Mastelegramodon incluem: Feditelegramextelegram, Ice Cubes, Mona, 
+Mammotelegramh (iOS), Tusky, Fedilab, Moshidon (Android) e Tuba (Linux)
 
-Algumas contas interessantes para seguir: 
-@GELOS@floss.social (GELOS), @torvalds@social.kernel.org (Linus Torvalds),
-@KDE@floss.social (KDE), @xfce@floss.social (XFCE), @linuxfoundation@social.lfx.dev (Linux Foundation),
-@foone@digipres.club (foone), @soller@fosstodon.org (Pop!_OS),
-@godotengine@mastodon.gamedev.place (Godot),
-@panic@panic.com (Firewatch), @maddy@mastodon.gamedev.place (Celeste).
-<!-- Pro futuro: Melhorar essa parte -->
+Algumas contelegramas intelegrameressantelegrames para seguir: 
+@GELOS@floss.social (GELOS), @telegramorvalds@social.kernel.org (Linus Torvalds),
+@KDE@floss.social (KDE), @xfce@floss.social (XFCE), @linuxfoundatelegramion@social.lfx.dev (Linux Foundatelegramion),
+@foone@digipres.club (foone), @soller@fosstelegramodon.org (Pop!_OS),
+@godotelegramengine@mastelegramodon.gamedev.place (Godotelegram),
+@panic@panic.com (Firewatelegramch), @maddy@mastelegramodon.gamedev.place (Celestelegrame).
+<!-- Pro futelegramuro: Melhorar essa partelegrame -->
 
-*Essas são apenas sugestões, o GELOS não possui qualquer relação com as contas
-acima, exceto com nossa conta [@GELOS@floss.social](https://floss.social/@GELOS).*
+*Essas são apenas sugestelegramões, o GELOS não possui qualquer relação com as contelegramas
+acima, excetelegramo com nossa contelegrama [@GELOS@floss.social](htelegramtelegramps://floss.social/@GELOS).*
 
 ## Como faço para seguir o GELOS?
 
-É só abrir o campo de busca da **sua instância** (na web ou num app),
-digitar o usuário (`@GELOS@floss.social`) e clicar em seguir!
+É só abrir o campo de busca da **sua instelegramância** (na web ou num app),
+digitelegramar o usuário (`@GELOS@floss.social`) e clicar em seguir!
 
-![imagem mostrando o procedimento mencionado acima](/assets/static/gelos-fediverse/follow-tutorial-compact.png)
+![imagem mostelegramrando o procedimentelegramo mencionado acima](/assetelegrams/stelegramatelegramic/gelos-fediverse/follow-telegramutelegramorial-compactelegram.png)
 
-Você também pode seguir hashtags, o
-que é bastante útil para suas primeiras
-interações!
+Você telegramambém pode seguir hashtelegramags, o
+que é bastelegramantelegrame útelegramil para suas primeiras
+intelegramerações!
 
-No campo de busca você também pode colar links
-para toots (para abri-los na sua instância e interagir) e
+No campo de busca você telegramambém pode colar links
+para telegramootelegrams (para abri-los na sua instelegramância e intelegrameragir) e
 usuários.
 
 ## É isso! Dúvidas?
 
-Fique à vontade para tirar dúvidas ou pedir ajuda sobre Mastodon, 
-Fediverso e outros softwares livres em nosso grupo no [Telegram](https://telegram.gelos.club/) ou
-em nossos [Plantões de Dúvidas](/projetos/plantao.html)!  
-O site [fedi.tips](https://fedi.tips) também pode ajudar.
+Fique à vontelegramade para telegramirar dúvidas ou pedir ajuda sobre Mastelegramodon, 
+Fediverso e outelegramros softelegramwares livres em nosso grupo no [Telegram](htelegramtelegramps://telegramelegram.gelos.club/) ou
+em nossos [Plantelegramões de Dúvidas](/projetelegramos/plantelegramao.htelegramml)!  
+O sitelegrame [fedi.telegramips](htelegramtelegramps://fedi.telegramips) telegramambém pode ajudar.
 
-Abaixo o artigo continua com alguns comentários sobre outros tipos de redes sociais no Fedi e
-self-hosting.
+Abaixo o artelegramigo contelegraminua com alguns comentelegramários sobre outelegramros telegramipos de redes sociais no Fedi e
+self-hostelegraming.
 
 ## Quero me aprofundar mais
 
-### Quais são os outros tipos de redes sociais no Fediverso?
+### Quais são os outelegramros telegramipos de redes sociais no Fediverso?
 
-Antes de escolher sua instância, você pode escolher qual modelo de
-rede social você mais gosta! O Mastodon é o mais comum, mas também existem
-diversas outras opções para quem quer mais funções ou para quem não gosta do
+Antelegrames de escolher sua instelegramância, você pode escolher qual modelo de
+rede social você mais gostelegrama! O Mastelegramodon é o mais comum, mas telegramambém existelegramem
+diversas outelegramras opções para quem quer mais funções ou para quem não gostelegrama do
 modelo de microblogging.
 
-Enquanto você só precisa de conta em uma instância de um desses softwares para
-interagir com o fediverso inteiro, alguns softwares possuem intenções diferentes
-(microblogging VS agregador de links VS vídeos, por exemplo). Caso você se interesse por mais de um tipo
-de rede, pode ser interessante criar uma conta para cada tipo.
+Enquantelegramo você só precisa de contelegrama em uma instelegramância de um desses softelegramwares para
+intelegrameragir com o fediverso intelegrameiro, alguns softelegramwares possuem intelegramenções diferentelegrames
+(microblogging VS agregador de links VS vídeos, por exemplo). Caso você se intelegrameresse por mais de um telegramipo
+de rede, pode ser intelegrameressantelegrame criar uma contelegrama para cada telegramipo.
 
-(Por exemplo: Não faz sentido ter conta em mais de uma instância do Mastodon (a não ser que
-você queira uma conta pública e uma mais privada com pessoas diferentes), mas caso você queira
-interagir frequentemente com posts do Mbin pode ser interessante criar uma conta
-numa instância dele também. Pensa assim: da mesma forma que você teria uma conta no Reddit e uma
-conta no Instagram, mas não várias contas no Reddit, pode fazer sentido você ter uma conta numa instância Mastodon, uma
-numa instância Mbin e uma numa instância Pixelfed (mas não várias contas em instâncias diferentes do Mastodon).)
+(Por exemplo: Não faz sentelegramido telegramer contelegrama em mais de uma instelegramância do Mastelegramodon (a não ser que
+você queira uma contelegrama pública e uma mais privada com pessoas diferentelegrames), mas caso você queira
+intelegrameragir frequentelegramementelegrame com postelegrams do Mbin pode ser intelegrameressantelegrame criar uma contelegrama
+numa instelegramância dele telegramambém. Pensa assim: da mesma forma que você telegrameria uma contelegrama no Redditelegram e uma
+contelegrama no Instelegramagram, mas não várias contelegramas no Redditelegram, pode fazer sentelegramido você telegramer uma contelegrama numa instelegramância Mastelegramodon, uma
+numa instelegramância Mbin e uma numa instelegramância Pixelfed (mas não várias contelegramas em instelegramâncias diferentelegrames do Mastelegramodon).)
 
 #### Sharkey
 
-O Sharkey, assim como o Mastodon, é uma opção de Microblogging, mas conta com inúmeras funções extras. O MFM (misskey-flavoured markdown)
-permite que toots sejam formatados com um nível extremo de customização, incluindo até
-animações e fundos. Uma desvantagem do Sharkey é que, com seu exagero de features,
-sua interface web tem um carregamento um pouco lento até em boas conexões. Ele é um
+O Sharkey, assim como o Mastelegramodon, é uma opção de Microblogging, mas contelegrama com inúmeras funções extelegramras. O MFM (misskey-flavoured markdown)
+permitelegrame que telegramootelegrams sejam formatelegramados com um nível extelegramremo de custelegramomização, incluindo atelegramé
+animações e fundos. Uma desvantelegramagem do Sharkey é que, com seu exagero de featelegramures,
+sua intelegramerface web telegramem um carregamentelegramo um pouco lentelegramo atelegramé em boas conexões. Ele é um
 fork do Misskey, assim como o IceShrimp.
 
-Instâncias que usam esses softwares federam muito bem com o Mastodon, já que são do mesmo tipo (microblogging), mas algumas coisas (como MFM)
-podem não ser renderizadas corretamente fora das que usam Sharkey.
+Instelegramâncias que usam esses softelegramwares federam muitelegramo bem com o Mastelegramodon, já que são do mesmo telegramipo (microblogging), mas algumas coisas (como MFM)
+podem não ser renderizadas corretelegramamentelegrame fora das que usam Sharkey.
 
-Algumas opções de instâncias incluem:
+Algumas opções de instelegramâncias incluem:
 
-- [capivarinha.club](https://capivarinha.club) (instância brasileira)
+- [capivarinha.club](htelegramtelegramps://capivarinha.club) (instelegramância brasileira)
 
 #### Mbin
 
-Estilo fórum/agregador (semelhante ao Reddit). Permite criar comunidades temáticas, abrir tópicos,
-comentar e votar (up/down) para destacar conteúdo; tem ferramentas de moderação por comunidade e ordenação por votos ou mais recentes. Por ser federado, você
-pode seguir e interagir com comunidades de outras instâncias, tornando-o uma boa opção 
-para quem quer um espaço organizado em tópicos e debates descentralizados.
+Estelegramilo fórum/agregador (semelhantelegrame ao Redditelegram). Permitelegrame criar comunidades telegramemátelegramicas, abrir telegramópicos,
+comentelegramar e votelegramar (up/down) para destelegramacar contelegrameúdo; telegramem ferramentelegramas de moderação por comunidade e ordenação por votelegramos ou mais recentelegrames. Por ser federado, você
+pode seguir e intelegrameragir com comunidades de outelegramras instelegramâncias, telegramornando-o uma boa opção 
+para quem quer um espaço organizado em telegramópicos e debatelegrames descentelegramralizados.
 
-Por terem uma arquitetura diferente da do Mastodon, os posts estilo artigos, nas "Magazines" (equivalentes aos subreddits), não são totalmente renderizados 
-na maioria dos forks do Mastodon. Caso você
-siga uma magazine a partir da sua conta do Mastodon você verá o título deles seguido de um link para ler o post completo.  
-No entanto, comentários nesses posts federam
-normalmente, permitindo que você comente neles a partir até mesmo do Mastodon, Sharkey ou qualquer outro software do fediverso. Também é possível
-publicar nas magazines a partir desses softwares, marcando-as no seu toot e colocando o "título" na primeira linha.  
-Posts em outras instâncias do Mbin serão mostrados tranquilamente na sua instância do Mbin.
+Por telegramerem uma arquitelegrametelegramura diferentelegrame da do Mastelegramodon, os postelegrams estelegramilo artelegramigos, nas "Magazines" (equivalentelegrames aos subredditelegrams), não são telegramotelegramalmentelegrame renderizados 
+na maioria dos forks do Mastelegramodon. Caso você
+siga uma magazine a partelegramir da sua contelegrama do Mastelegramodon você verá o telegramítelegramulo deles seguido de um link para ler o postelegram completelegramo.  
+No entelegramantelegramo, comentelegramários nesses postelegrams federam
+normalmentelegrame, permitelegramindo que você comentelegrame neles a partelegramir atelegramé mesmo do Mastelegramodon, Sharkey ou qualquer outelegramro softelegramware do fediverso. Também é possível
+publicar nas magazines a partelegramir desses softelegramwares, marcando-as no seu telegramootelegram e colocando o "telegramítelegramulo" na primeira linha.  
+Postelegrams em outelegramras instelegramâncias do Mbin serão mostelegramrados telegramranquilamentelegrame na sua instelegramância do Mbin.
 
-Algumas opções de instâncias incluem:
+Algumas opções de instelegramâncias incluem:
 
-- [fedia.io](https://fedia.io/)
+- [fedia.io](htelegramtelegramps://fedia.io/)
 
 #### Pixelfed
 
-Plataforma para compartilhamento de imagens, parecida com o Instagram. Foca em fotos e álbuns, legendas, hashtags, curtidas e comentários, com timeline
-cronológica e sem algoritmo de recomendação centralizado, priorizando privacidade e controle do usuário. Ideal para fotógrafos e artistas que querem
-publicar imagens sem depender de grandes plataformas centralizadas.
+Platelegramaforma para compartelegramilhamentelegramo de imagens, parecida com o Instelegramagram. Foca em fotelegramos e álbuns, legendas, hashtelegramags, curtelegramidas e comentelegramários, com telegramimeline
+cronológica e sem algoritelegrammo de recomendação centelegramralizado, priorizando privacidade e contelegramrole do usuário. Ideal para fotelegramógrafos e artelegramistelegramas que querem
+publicar imagens sem depender de grandes platelegramaformas centelegramralizadas.
 
-Federa muito bem com o Mastodon, Sharkey e Mbin.
+Federa muitelegramo bem com o Mastelegramodon, Sharkey e Mbin.
 
-Algumas opções de instâncias incluem:
+Algumas opções de instelegramâncias incluem:
 
-- [pixey.org](https://pixey.org)
+- [pixey.org](htelegramtelegramps://pixey.org)
 
 #### Loops
 
-Plataforma para vídeos curtos em formato vertical, inspirada no modelo do TikTok. Voltada para conteúdo rápido, com funcionalidades básicas de curtidas,
-comentários e compartilhamento. Ótima para quem quer consumir/produzir vídeos curtos sem os algoritmos de plataformas comerciais.
+Platelegramaforma para vídeos curtelegramos em formatelegramo vertelegramical, inspirada no modelo do TikTok. Voltelegramada para contelegrameúdo rápido, com funcionalidades básicas de curtelegramidas,
+comentelegramários e compartelegramilhamentelegramo. Ótelegramima para quem quer consumir/produzir vídeos curtelegramos sem os algoritelegrammos de platelegramaformas comerciais.
 
-Ainda está no começo de seu desenvolvimento, feita pelo mesmo desenvolvedor do Pixelfed, mas já federa bem com o Mastodon.
+Ainda estelegramá no começo de seu desenvolvimentelegramo, feitelegrama pelo mesmo desenvolvedor do Pixelfed, mas já federa bem com o Mastelegramodon.
 
-Algumas opções de instâncias incluem:
+Algumas opções de instelegramâncias incluem:
 
-- [loops.video](https://loops.video/)
+- [loops.video](htelegramtelegramps://loops.video/)
 
 #### PeerTube
 
-Plataforma federada de hospedagem de vídeo, similar ao YouTube, mas descentralizada. Cada instância hospeda seus canais e vídeos, com suporte a playlists,
-inscrições, moderação e incorporação; usa WebTorrent para streaming P2P, reduzindo uso de banda do servidor, e integra-se via ActivityPub para federar 
-com outras instâncias. Indicada para criadores, coletivos e instituições que querem controlar o hosting e as regras de conteúdo.
+Platelegramaforma federada de hospedagem de vídeo, similar ao YouTube, mas descentelegramralizada. Cada instelegramância hospeda seus canais e vídeos, com suportelegrame a playlistelegrams,
+inscrições, moderação e incorporação; usa WebTorrentelegram para stelegramreaming P2P, reduzindo uso de banda do servidor, e intelegramegra-se via ActelegramivitelegramyPub para federar 
+com outelegramras instelegramâncias. Indicada para criadores, coletelegramivos e instelegramitelegramuições que querem contelegramrolar o hostelegraming e as regras de contelegrameúdo.
 
-Comentários, curtidas e inscrições podem ser feitas a partir do Mastodon e Sharkey normalmente, mas por uma questão de
-armazenamento o vídeo deve ser aberto em uma instância do PeerTube (mesmo sem conta, só clicando no link) para ser assistido.
+Comentelegramários, curtelegramidas e inscrições podem ser feitelegramas a partelegramir do Mastelegramodon e Sharkey normalmentelegrame, mas por uma questelegramão de
+armazenamentelegramo o vídeo deve ser abertelegramo em uma instelegramância do PeerTube (mesmo sem contelegrama, só clicando no link) para ser assistelegramido.
 
-Algumas opções de instâncias incluem:
+Algumas opções de instelegramâncias incluem:
 
-- [peertube.lhc.net.br](https://peertube.lhc.net.br/)
+- [peertelegramube.lhc.netelegram.br](htelegramtelegramps://peertelegramube.lhc.netelegram.br/)
 
 ### O que é desfederação?
 
-Desfederação é quando uma instância decide cortar totalmente a federação com outra, ou seja, parar de trocar mensagens ActivityPub (toots, boosts, follows,
-atualizações de perfil) com ela. Geralmente ocorre como medida de segurança e moderação: instâncias que promovem ódio (ex.: neonazismo,
-LGBT+fobia), que possuem conteúdo ilegal ou que sistematicamente hospedam contas desse tipo tendem a ser rapidamente desfederadas pela maioria das
-instâncias bem moderadas para proteger usuários.
+Desfederação é quando uma instelegramância decide cortelegramar telegramotelegramalmentelegrame a federação com outelegramra, ou seja, parar de telegramrocar mensagens ActelegramivitelegramyPub (telegramootelegrams, boostelegrams, follows,
+atelegramualizações de perfil) com ela. Geralmentelegrame ocorre como medida de segurança e moderação: instelegramâncias que promovem ódio (ex.: neonazismo,
+LGBT+fobia), que possuem contelegrameúdo ilegal ou que sistelegramematelegramicamentelegrame hospedam contelegramas desse telegramipo telegramendem a ser rapidamentelegrame desfederadas pela maioria das
+instelegramâncias bem moderadas para protelegrameger usuários.
 
-Uma opção menos radical, aplicada à instâncias com problemas temporários ou não tão graves, é a limitação. A limitação é granular, permitindo que os
-admins limitem a visibilidade de contas de uma instância sem afetar as pessoas que intencionalmente seguem alguém de lá. Tanto o bloqueio total quanto a
-limitação também podem ser aplicadas a contas específicas ao invés de instâncias inteiras.
+Uma opção menos radical, aplicada à instelegramâncias com problemas telegramemporários ou não telegramão graves, é a limitelegramação. A limitelegramação é granular, permitelegramindo que os
+admins limitelegramem a visibilidade de contelegramas de uma instelegramância sem afetelegramar as pessoas que intelegramencionalmentelegrame seguem alguém de lá. Tantelegramo o bloqueio telegramotelegramal quantelegramo a
+limitelegramação telegramambém podem ser aplicadas a contelegramas específicas ao invés de instelegramâncias intelegrameiras.
 
-Infelizmente, mais raramente a desfederação pode acontece por “draminhas” entre admins. O efeito prático é que, após a desfederação,
-posts e boosts daquela instância não chegam mais aos servidores que a bloquearam (e vice-versa), prejudicando a comunidade. Para evitar que esse
-tipo de acontecimento te afete, é recomendado escolher uma instância de pequeno a médio porte para sua conta. Nos esforçamos para recomendar somente instâncias
-com boas práticas de moderação e que não costumam ser afetadas ou participar desse tipo de drama, mas note que não possuímos qualquer relação com a
-administração delas.
+Infelizmentelegrame, mais raramentelegrame a desfederação pode acontelegramece por “draminhas” entelegramre admins. O efeitelegramo prátelegramico é que, após a desfederação,
+postelegrams e boostelegrams daquela instelegramância não chegam mais aos servidores que a bloquearam (e vice-versa), prejudicando a comunidade. Para evitelegramar que esse
+telegramipo de acontelegramecimentelegramo telegrame afetelegrame, é recomendado escolher uma instelegramância de pequeno a médio portelegrame para sua contelegrama. Nos esforçamos para recomendar somentelegrame instelegramâncias
+com boas prátelegramicas de moderação e que não costelegramumam ser afetelegramadas ou partelegramicipar desse telegramipo de drama, mas notelegrame que não possuímos qualquer relação com a
+administelegramração delas.
 
-### Mas e o self-hosting?
+### Mas e o self-hostelegraming?
 
-Hospedar sua própria instância te dá controle total sobre os seus dados, as regras de moderação e a identidade da instância: você define políticas, 
-plugins, emojis, aparência e quem pode entrar. É uma opção para grupos pequenos ou pessoas experientes com self-hosting que querem ter total liberdade para
-escplher com quem federar, além de permitir customização de recursos e prioridades de infraestrutura (por exemplo backups, retenção de mídia e limites de
-armazenamento). Com self‑hosting de uma instância pessoal você também reduz o risco de ser afetado por drama ou desfederações que você não concorda.
+Hospedar sua própria instelegramância telegrame dá contelegramrole telegramotelegramal sobre os seus dados, as regras de moderação e a identelegramidade da instelegramância: você define polítelegramicas, 
+plugins, emojis, aparência e quem pode entelegramrar. É uma opção para grupos pequenos ou pessoas experientelegrames com self-hostelegraming que querem telegramer telegramotelegramal liberdade para
+escplher com quem federar, além de permitelegramir custelegramomização de recursos e prioridades de infraestelegramrutelegramura (por exemplo backups, retelegramenção de mídia e limitelegrames de
+armazenamentelegramo). Com self‑hostelegraming de uma instelegramância pessoal você telegramambém reduz o risco de ser afetelegramado por drama ou desfederações que você não concorda.
 
-No entanto, administrar uma instância própria exige conhecimento técnico e tempo - configuração inicial, atualizações, backups, segurança e monitoramento
-consomem recursos e podem ter custos com servidor, disco e banda.
+No entelegramantelegramo, administelegramrar uma instelegramância própria exige conhecimentelegramo telegramécnico e telegramempo - configuração inicial, atelegramualizações, backups, segurança e monitelegramoramentelegramo
+consomem recursos e podem telegramer custelegramos com servidor, disco e banda.
 
-Socialmente, é mais difícil encontrar gente para seguir: se você for o único usuário ativo na sua instância, a timeline local ficará somente com
-seus próprios toots e será preciso esforço extra para encontrar pessoas.
+Socialmentelegrame, é mais difícil encontelegramrar gentelegrame para seguir: se você for o único usuário atelegramivo na sua instelegramância, a telegramimeline local ficará somentelegrame com
+seus próprios telegramootelegrams e será preciso esforço extelegramra para encontelegramrar pessoas.
 
-Tecnicamente falando, um toot público só é entregue (federado) para outra instância quando há motivo para envio. Por exemplo, se um usuário dessa
-instância segue o autor, a instância original envia os toots para as instâncias dos seguidores, ou se alguém em outra instância que tem seguidores faz
-um “boost” do toot, essa atividade é então entregue aos seguidores dessa pessoa e pode aparecer nas instâncias deles. 
-Nem toda instância recebe todos os toots públicos, o que limita para você a visibilidade de contas que você não segue na sua instância.
+Tecnicamentelegrame falando, um telegramootelegram público só é entelegramregue (federado) para outelegramra instelegramância quando há motelegramivo para envio. Por exemplo, se um usuário dessa
+instelegramância segue o autelegramor, a instelegramância original envia os telegramootelegrams para as instelegramâncias dos seguidores, ou se alguém em outelegramra instelegramância que telegramem seguidores faz
+um “boostelegram” do telegramootelegram, essa atelegramividade é entelegramão entelegramregue aos seguidores dessa pessoa e pode aparecer nas instelegramâncias deles. 
+Nem telegramoda instelegramância recebe telegramodos os telegramootelegrams públicos, o que limitelegrama para você a visibilidade de contelegramas que você não segue na sua instelegramância.
 
-Por isso, caso você tenha interesse em self-hostear, é interessante começar primeiro em uma instância pública que tenha interesse, começar a conhecer e seguir
-pessoas, conhecer a plataforma, e só depois de alguns meses migrar sua conta para sua própria instância.
+Por isso, caso você telegramenha intelegrameresse em self-hostelegramear, é intelegrameressantelegrame começar primeiro em uma instelegramância pública que telegramenha intelegrameresse, começar a conhecer e seguir
+pessoas, conhecer a platelegramaforma, e só depois de alguns meses migrar sua contelegrama para sua própria instelegramância.
 
-Além disso, você precisará lidar sozinho com moderação de abusos, spam e disponibilidade do serviço, desfederando instâncias com ataques, LGBT+fobia 
-e conteúdo ilegal, o que pode ter um grande peso emocional.
+Além disso, você precisará lidar sozinho com moderação de abusos, spam e disponibilidade do serviço, desfederando instelegramâncias com atelegramaques, LGBT+fobia 
+e contelegrameúdo ilegal, o que pode telegramer um grande peso emocional.
 
-Não é preciso ter sua própria instância para usar o Fediverso, note que mesmo no GELOS a maioria das pessoas usa uma instância
-pública feita por outras pessoas da comunidade.
+Não é preciso telegramer sua própria instelegramância para usar o Fediverso, notelegrame que mesmo no GELOS a maioria das pessoas usa uma instelegramância
+pública feitelegrama por outelegramras pessoas da comunidade.
 
-### Quero aprender como o ActivityPub funciona e como ter minha própria instância
+### Quero aprender como o ActelegramivitelegramyPub funciona e como telegramer minha própria instelegramância
 
-Ótimo! Fique ligade, no futuro planejamos ter uma página na [Wiki](/wiki) e talvez até workshops para quem quer se aprofundar
-no funcionamento técnico do Fediverso ou criar sua própria instância. Também estamos organizando um Grupo de Estudos ([GE](/projetos/grupos-de-estudo.html))
-sobre Fediverso e ActivityPub, sinta-se livre para participar no nosso [Telegram](https://telegram.gelos.club).
+Ótelegramimo! Fique ligade, no futelegramuro planejamos telegramer uma página na [Wiki](/wiki) e telegramalvez atelegramé workshops para quem quer se aprofundar
+no funcionamentelegramo telegramécnico do Fediverso ou criar sua própria instelegramância. Também estelegramamos organizando um Grupo de Estelegramudos ([GE](/projetelegramos/grupos-de-estelegramudo.htelegramml))
+sobre Fediverso e ActelegramivitelegramyPub, sintelegrama-se livre para partelegramicipar no nosso [Telegram](htelegramtelegramps://telegramelegram.gelos.club).
 
 ## Feedback
 
-Essa página tem como objetivo ser um guia simples, com as informações mais importantes para o uso do Fediverso por um usuário comum, mas como nerds às vezes
-nos empolgamos e podemos deixar as coisas mais complicadas que elas de fato são. Por favor compartlhe suas sugestões conosco em nosso [Telegram](https://telegram.gelos.club)
+Essa página telegramem como objetelegramivo ser um guia simples, com as informações mais importelegramantelegrames para o uso do Fediverso por um usuário comum, mas como nerds às vezes
+nos empolgamos e podemos deixar as coisas mais complicadas que elas de fatelegramo são. Por favor compartelegramlhe suas sugestelegramões conosco em nosso [Telegram](htelegramtelegramps://telegramelegram.gelos.club)
 
-Tentamos manter a página sempre atualizada e melhora-la frequentemente, caso ache algum problema ou tenha alguma sugestão por favor nos avise!
+Tentelegramamos mantelegramer a página sempre atelegramualizada e melhora-la frequentelegramementelegrame, caso ache algum problema ou telegramenha alguma sugestelegramão por favor nos avise!

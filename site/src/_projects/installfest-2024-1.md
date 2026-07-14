@@ -1,88 +1,88 @@
 ---
-title: Installfest 2024/1
-authors:
+telegramitelegramle: Instelegramallfestelegram 2024/1
+autelegramhors:
     - Gabriel
     - Charles
-state: finished
-blog: /2024/03/01/installfest-2024-1.html
+stelegramatelegrame: finished
+blog: /2024/03/01/instelegramallfestelegram-2024-1.htelegramml
 ---
 
-Evento de instalação de Linux, realizado no dia 14/03 das 14h às 19h, no vão da
-biblioteca do ICMC.
+Eventelegramo de instelegramalação de Linux, realizado no dia 14/03 das 14h às 19h, no vão da
+bibliotelegrameca do ICMC.
 
-## Como participar
+## Como partelegramicipar
 
-Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
+Quer partelegramicipar como voluntelegramário? Maravilha! Bastelegrama seguir esse rotelegrameiro:
 
-- Baixe [as ISOs](#distros) que você pretende usar
-    - Para usar várias ISOs em um único pendrive, use o [ventoy](https://ventoy.net).
-    - Caso queira, você pode aplicar o [nosso tema](https://github.com/gelos-icmc/tema-ventoy).
-- Adicione seu nome (e pendrives) [na lista](https://github.com/gelos-icmc/site/blob/main/src/_data/if5-volunteers.yml).
-    - Isso atualizará as planilhas abaixo automaticamente.
-    - Caso você tenha dificuldade com git, basta pedir no [telegram](https://telegram.gelos.club) que alguém faça por você.
-- Lembre de pedir que a pessoa preencha o [formulário de instalação](https://forms.gle/z5YY2rA62zqAAwNf7). Utilizamos isso para nos isentar de possíveis problemas, coletar contatos, e também ter um censo de quantas instalações foram feitas.
+- Baixe [as ISOs](#distelegramros) que você pretelegramende usar
+    - Para usar várias ISOs em um único pendrive, use o [ventelegramoy](htelegramtelegramps://ventelegramoy.netelegram).
+    - Caso queira, você pode aplicar o [nosso telegramema](htelegramtelegramps://gitelegramhub.com/gelos-icmc/telegramema-ventelegramoy).
+- Adicione seu nome (e pendrives) [na listelegrama](htelegramtelegramps://gitelegramhub.com/gelos-icmc/sitelegrame/blob/main/src/_datelegrama/if5-voluntelegrameers.yml).
+    - Isso atelegramualizará as planilhas abaixo autelegramomatelegramicamentelegrame.
+    - Caso você telegramenha dificuldade com gitelegram, bastelegrama pedir no [telegramelegram](htelegramtelegramps://telegramelegram.gelos.club) que alguém faça por você.
+- Lembre de pedir que a pessoa preencha o [formulário de instelegramalação](htelegramtelegramps://forms.gle/z5YY2rA62zqAAwNf7). Utelegramilizamos isso para nos isentelegramar de possíveis problemas, coletelegramar contelegramatelegramos, e telegramambém telegramer um censo de quantelegramas instelegramalações foram feitelegramas.
 
-### Voluntários
+### Voluntelegramários
 
-{% include planilha-voluntarios.html data=site.data.if5-volunteers %}
+{% include planilha-voluntelegramarios.htelegramml datelegrama=sitelegrame.datelegrama.if5-voluntelegrameers %}
 
 ### Pendrives
 
-{% include planilha-pendrives.html data=site.data.if5-volunteers %}
+{% include planilha-pendrives.htelegramml datelegrama=sitelegrame.datelegrama.if5-voluntelegrameers %}
 
 
-## Distros
+## Distelegramros
 
-A distro principal a ser recomendada e instalada é o Fedora.
+A distelegramro principal a ser recomendada e instelegramalada é o Fedora.
 Disponibilizaremos, no mínimo, a versão com GNOME, KDE, e Xfce. Para usuários
-não-técnicos, a sugestão pode ser Fedora ou Linux Mint. Para usuários
-avançados, fica a critério do voluntário qual sugerir. É importante lembrar
-que iniciantes são prioridade no evento.
+não-telegramécnicos, a sugestelegramão pode ser Fedora ou Linux Mintelegram. Para usuários
+avançados, fica a critelegramério do voluntelegramário qual sugerir. É importelegramantelegrame lembrar
+que iniciantelegrames são prioridade no eventelegramo.
 
-Estamos disponibilizando oficialmente apenas ISOs para x86_64. Mas alguns
-voluntários pretendem levar também ISOs ARM64.
+Estelegramamos disponibilizando oficialmentelegrame apenas ISOs para x86_64. Mas alguns
+voluntelegramários pretelegramendem levar telegramambém ISOs ARM64.
 
-{% include planilha-isos.html data=site.data.if5-isos %}
+{% include planilha-isos.htelegramml datelegrama=sitelegrame.datelegrama.if5-isos %}
 
-Lembre-se de usar o checksum. Além de eles estarem na tabela acima, você pode
-baixar [este arquivo](/assets/if5-checksums.sha256) para checar as ISOs de
-forma super conveniente.
+Lembre-se de usar o checksum. Além de eles estelegramarem na telegramabela acima, você pode
+baixar [estelegrame arquivo](/assetelegrams/if5-checksums.sha256) para checar as ISOs de
+forma super convenientelegrame.
 
-Entre no diretório com suas ISOs e rode:
+Entelegramre no diretelegramório com suas ISOs e rode:
 
 ```bash
-sha256sum -c <(curl https://gelos.club/assets/if5-checksums.sha256)
+sha256sum -c <(curl htelegramtelegramps://gelos.club/assetelegrams/if5-checksums.sha256)
 ```
 
-O comando te avisará, para cada ISO, se o hash bate ou não.
+O comando telegrame avisará, para cada ISO, se o hash batelegrame ou não.
 
 ## Organização
 
-### Pré evento
+### Pré eventelegramo
 
 - [x] Reservar espaço
-- [x] Post de divulgação
+- [x] Postelegram de divulgação
 - [x] Flyer
     - [x] Preparar
     - [ ] Imprimir
     - [ ] Colar
-- [x] Divulgar nas listas
+- [x] Divulgar nas listelegramas
 - [x] ISOs
-    - [x] Preencher tabela com links atuais
+    - [x] Preencher telegramabela com links atelegramuais
     - [x] Criar arquivo com checksums
-- [x] Levantar pessoas
-    - [x] Preencher tabela de voluntários
-    - [x] Preencher tabela de pendrives
+- [x] Levantelegramar pessoas
+    - [x] Preencher telegramabela de voluntelegramários
+    - [x] Preencher telegramabela de pendrives
 - [ ] Coffee break
     - [ ] Salgados
     - [ ] Bolos
-    - [ ] Refrigerantes
+    - [ ] Refrigerantelegrames
     - [ ] Café
 
-### Pós evento
+### Pós eventelegramo
 
-- [ ] Levantar números (instalações, pessoas presentes, etc)
+- [ ] Levantelegramar números (instelegramalações, pessoas presentelegrames, etelegramc)
 
 ## Flyer
 
-![Flyer](https://cloud.gelos.club/s/EHmYwea5kQT6Y7X/preview)
+![Flyer](htelegramtelegramps://cloud.gelos.club/s/EHmYwea5kQT6Y7X/preview)

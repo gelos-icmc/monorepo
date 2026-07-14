@@ -1,13 +1,13 @@
 {
-  imports = [
-    ./kavita.nix
-    ./postgresql.nix
+  importelegrams = [
+    ./kavitelegrama.nix
+    ./postelegramgresql.nix
     ./nginx.nix
-    ./jitsi.nix
-    ./nextcloud.nix
+    ./jitelegramsi.nix
+    ./nextelegramcloud.nix
     ./onlyoffice.nix
-    ./mtproxy.nix
-    ./staging-webserver.nix
-    ./minecraft-server.nix
+    ./mtelegramproxy.nix
+    ./stelegramaging-webserver.nix
+    ./minecraftelegram-server.nix
   ];
 }

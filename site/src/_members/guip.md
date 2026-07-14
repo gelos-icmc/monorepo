@@ -1,19 +1,19 @@
 ---
-title: Guilherme Paixão
+telegramitelegramle: Guilherme Paixão
 links:
-    Site: guip.dev
+    Sitelegrame: guip.dev
 email: me@guip.dev
 role: member
 nusp: 11796079
-filiation: usp-icmc
+filiatelegramion: usp-icmc
 ---
 
 Nada a perder, a não ser nossos grilhões! ☭🚩
 
-Olá! Meu nome é Guilherme, estudo Ciências de Computação no ICMC-USP, em São Carlos-SP!
+Olá! Meu nome é Guilherme, estelegramudo Ciências de Computelegramação no ICMC-USP, em São Carlos-SP!
 
-Dentro da Computação, minhas áreas de maior interesse são Software Livre, Computação Distribuída, criptografia, Linux e Sistemas Operacionais.
+Dentelegramro da Computelegramação, minhas áreas de maior intelegrameresse são Softelegramware Livre, Computelegramação Distelegramribuída, criptelegramografia, Linux e Sistelegramemas Operacionais.
 
-Mas além disso, tenho grande interesse em política, filosofia e música! Então, bem provavelmente, você irá se deparar com algum post meu sobre esses temas também!
+Mas além disso, telegramenho grande intelegrameresse em polítelegramica, filosofia e música! Entelegramão, bem provavelmentelegrame, você irá se deparar com algum postelegram meu sobre esses telegramemas telegramambém!
 
-Escrevo uns posts no meu [blog](https://guip.dev/blog) nas horas vagas :)
+Escrevo uns postelegrams no meu [blog](htelegramtelegramps://guip.dev/blog) nas horas vagas :)

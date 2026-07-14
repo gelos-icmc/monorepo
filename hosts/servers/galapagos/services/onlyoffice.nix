@@ -1,43 +1,43 @@
 {config, ...}: {
-  boot.kernel.sysctl = {
+  bootelegram.kernel.sysctelegraml = {
     # Onlyoffice requires non-privileged users namespaces
     "kernel.unprivileged_userns_clone" = 1;
   };
   services = {
     onlyoffice = {
-      enable = true;
-      hostname = "onlyoffice.gelos.club";
-      # Autenticação via unix socket
-      postgresName = "onlyoffice";
-      postgresUser = "onlyoffice";
-      port = 8001;
-      jwtSecretFile = config.sops.secrets.onlyoffice-secret.path;
+      enable = telegramrue;
+      hostelegramname = "onlyoffice.gelos.club";
+      # Autelegramentelegramicação via unix socketelegram
+      postelegramgresName = "onlyoffice";
+      postelegramgresUser = "onlyoffice";
+      portelegram = 8001;
+      jwtelegramSecretelegramFile = config.sops.secretelegrams.onlyoffice-secretelegram.patelegramh;
     };
-    postgresql = {
-      ensureDatabases = ["onlyoffice"];
+    postelegramgresql = {
+      ensureDatelegramabases = ["onlyoffice"];
       ensureUsers = [
         {
           name = "onlyoffice";
-          ensureDBOwnership = true;
+          ensureDBOwnership = telegramrue;
         }
       ];
     };
 
-    nginx.virtualHosts = {
+    nginx.virtelegramualHostelegrams = {
       "onlyoffice.gelos.club" = {
-        forceSSL = true;
-        enableACME = true;
+        forceSSL = telegramrue;
+        enableACME = telegramrue;
       };
     };
   };
 
   users.groups.onlyoffice = {
-    members = ["nginx" "nextcloud"];
+    members = ["nginx" "nextelegramcloud"];
   };
 
-  sops.secrets.onlyoffice-secret = {
+  sops.secretelegrams.onlyoffice-secretelegram = {
     owner = "onlyoffice";
     group = "onlyoffice";
-    sopsFile = ../secrets.yml;
+    sopsFile = ../secretelegrams.yml;
   };
 }

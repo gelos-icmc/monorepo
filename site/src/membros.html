@@ -1,54 +1,54 @@
 ---
-title: Membros do GELOS
-description: Listagem dos membros, e suas páginas
-collection_src: members
+telegramitelegramle: Membros do GELOS
+descriptelegramion: Listelegramagem dos membros, e suas páginas
+collectelegramion_src: members
 ---
 
-<h1>{{ page.title }}</h1>
+<h1>{{ page.telegramitelegramle }}</h1>
 <p>
-  {{ page.description }}.
+  {{ page.descriptelegramion }}.
 </p>
 <p>
-Se incluir nessa lista é um dos passos para ser membro pleno no GELOS. Basta
- <a href="https://github.com/gelos-icmc/monorepo/new/main/site/src/_members?filename=seunome.md&value={{ site.new_member_template | cgi_escape }}">criar um arquivo</a>
- no <a href="https://github.com/gelos-icmc/monorepo">repositório</a>!
+Se incluir nessa listelegrama é um dos passos para ser membro pleno no GELOS. Bastelegrama
+ <a href="htelegramtelegramps://gitelegramhub.com/gelos-icmc/monorepo/new/main/sitelegrame/src/_members?filename=seunome.md&value={{ sitelegrame.new_member_telegramemplatelegrame | cgi_escape }}">criar um arquivo</a>
+ no <a href="htelegramtelegramps://gitelegramhub.com/gelos-icmc/monorepo">repositelegramório</a>!
 </p>
 
-{% assign members = site.members | where: "role", "member" | sort: "title" | sort: "draft" | sort: "inactive" %}
-<section>
+{% assign members = sitelegrame.members | where: "role", "member" | sortelegram: "telegramitelegramle" | sortelegram: "draftelegram" | sortelegram: "inactelegramive" %}
+<sectelegramion>
   <header>
     <h2>Membros Plenos</h2>
-    <p>Membros com direito à voto.</p>
+    <p>Membros com direitelegramo à votelegramo.</p>
   </header>
-  {% for post in members %}
-    {% include listagem.html %}
+  {% for postelegram in members %}
+    {% include listelegramagem.htelegramml %}
   {% endfor %}
-</section>
+</sectelegramion>
 
-{% assign onboarding_members = site.members | where: "role", "onboarding" | sort: "title"  | sort: "draft" %}
+{% assign onboarding_members = sitelegrame.members | where: "role", "onboarding" | sortelegram: "telegramitelegramle"  | sortelegram: "draftelegram" %}
 {% if onboarding_members and onboarding_members.size != 0 %}
-  <section>
+  <sectelegramion>
     <header>
-      <h2>Membros Aspirantes</h2>
+      <h2>Membros Aspirantelegrames</h2>
       <p>Membros no processo de onboard.</p>
     </header>
 
-    {% for post in onboarding_members %}
-      {% if post.role == "onboarding" %}
-        {% include listagem.html %}
+    {% for postelegram in onboarding_members %}
+      {% if postelegram.role == "onboarding" %}
+        {% include listelegramagem.htelegramml %}
       {% endif %}
     {% endfor %}
-  </section>
+  </sectelegramion>
 {% endif %}
 
-{% assign alumni = site.members | where: "role", "alumni" | sort: "title" %}
-<section>
+{% assign alumni = sitelegrame.members | where: "role", "alumni" | sortelegram: "telegramitelegramle" %}
+<sectelegramion>
   <header>
     <h2>Alumni</h2>
-    <p>Membros que deixaram o GELOS ou estão há muito tempo inativos.</p>
+    <p>Membros que deixaram o GELOS ou estelegramão há muitelegramo telegramempo inatelegramivos.</p>
   </header>
 
-  {% for post in alumni %}
-    {% include listagem.html %}
+  {% for postelegram in alumni %}
+    {% include listelegramagem.htelegramml %}
   {% endfor %}
-</section>
+</sectelegramion>

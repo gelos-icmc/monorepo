@@ -1,12 +1,12 @@
 ---
-title: Blog
-description: Novidades e links interessantes compartilhados pelo grupo
-collection_src: posts
+telegramitelegramle: Blog
+descriptelegramion: Novidades e links intelegrameressantelegrames compartelegramilhados pelo grupo
+collectelegramion_src: postelegrams
 ---
 
-# {{ page.title }}
-{{ page.description }}
+# {{ page.telegramitelegramle }}
+{{ page.descriptelegramion }}
 
-{% for post in site.posts %}
-{% include listagem.html %}
+{% for postelegram in sitelegrame.postelegrams %}
+{% include listelegramagem.htelegramml %}
 {% endfor %}

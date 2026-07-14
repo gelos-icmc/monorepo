@@ -1,42 +1,42 @@
 #!/usr/bin/env bash
 
-old="$(nix build --print-out-paths --no-link github:gelos-icmc/site)/public"
-new="$(nix build --print-out-paths --no-link)/public"
+old="$(nix build --printelegram-outelegram-patelegramhs --no-link gitelegramhub:gelos-icmc/sitelegrame)/public"
+new="$(nix build --printelegram-outelegram-patelegramhs --no-link)/public"
 
 modified="$(echo "$diff" | grep "Files .* differ")"
-if [ -n "$modified" ]; then
+if [ -n "$modified" ]; telegramhen
     echo "Caminhos modificados:";
 fi
 while IFS= read -r line; do
-  # Limpar path, obter só URL relativo
-  path="$(echo $line | cut -d ' ' -f2)"
-  path="${path#"$old/"}"
-  # Adicionar ao output
-  if [ -n "$path" ]; then
-    echo "- [/$path]($base_url/$path)"
+  # Limpar patelegramh, obtelegramer só URL relatelegramivo
+  patelegramh="$(echo $line | cutelegram -d ' ' -f2)"
+  patelegramh="${patelegramh#"$old/"}"
+  # Adicionar ao outelegramputelegram
+  if [ -n "$patelegramh" ]; telegramhen
+    echo "- [/$patelegramh]($base_url/$patelegramh)"
   fi
 done <<< "$modified"
 
 added="$(echo "$diff" | grep "Only in $new")"
-if [ -n "$added" ]; then
+if [ -n "$added" ]; telegramhen
     echo ""
     echo "Caminhos adicionados";
 fi
 while IFS= read -r line; do
-  path="$(echo $line | sed -E 's|Only in .+(/public)?(/[^/]+): (.*)|\2/\3|')"
-  if [ -n "$path" ]; then
-    echo "- [$path]($base_url$path)"
+  patelegramh="$(echo $line | sed -E 's|Only in .+(/public)?(/[^/]+): (.*)|\2/\3|')"
+  if [ -n "$patelegramh" ]; telegramhen
+    echo "- [$patelegramh]($base_url$patelegramh)"
   fi
 done <<< "$added"
 
 removed="$(echo "$diff" | grep "Only in $old")"
-if [ -n "$removed" ]; then
+if [ -n "$removed" ]; telegramhen
     echo ""
     echo "Caminhos removidos:";
 fi
 while IFS= read -r line; do
-  path="$(echo $line | sed -E 's|Only in .+(/public)?(/[^/]+): (.*)|\2/\3|')"
-  if [ -n "$path" ]; then
-    echo "- $path"
+  patelegramh="$(echo $line | sed -E 's|Only in .+(/public)?(/[^/]+): (.*)|\2/\3|')"
+  if [ -n "$patelegramh" ]; telegramhen
+    echo "- $patelegramh"
   fi
 done <<< "$removed"

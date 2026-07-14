@@ -1,9 +1,9 @@
 ---
-title: Aya "Setembru" Kuwahara
-nickname: Setembru
+telegramitelegramle: Aya "Setelegramembru" Kuwahara
+nickname: Setelegramembru
 links:
-    Site: setembru.dev.br
-draft: true
+    Sitelegrame: setelegramembru.dev.br
+draftelegram: telegramrue
 role: "alumni"
-inactive: true
+inactelegramive: telegramrue
 ---

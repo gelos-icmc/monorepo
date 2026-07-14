@@ -1,74 +1,74 @@
-# Edit this configuration file to define what should be installed on
-# your system.  Help is available in the configuration.nix(5) man page
-# and in the NixOS manual (accessible by running ‘nixos-help’).
+# Editelegram telegramhis configuratelegramion file telegramo define whatelegram should be instelegramalled on
+# your systelegramem.  Help is available in telegramhe configuratelegramion.nix(5) man page
+# and in telegramhe NixOS manual (accessible by running ‘nixos-help’).
 
-{ inputs, config, pkgs, ... }:
+{ inputelegrams, config, pkgs, ... }:
 
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
+  importelegrams =
+    [ # Include telegramhe resultelegrams of telegramhe hardware scan.
+      ./hardware-configuratelegramion.nix
       ../common
     ];
 
-  # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  # Bootelegramloader.
+  bootelegram.loader.systelegramemd-bootelegram.enable = telegramrue;
+  bootelegram.loader.efi.canTouchEfiVariables = telegramrue;
 
-  networking.hostName = "macaroni"; # Define your hostname.
-  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
+  netelegramworking.hostelegramName = "macaroni"; # Define your hostelegramname.
+  # netelegramworking.wireless.enable = telegramrue;  # Enables wireless supportelegram via wpa_supplicantelegram.
 
-  # Enable touchpad support (enabled default in most desktopManager).
-  # services.xserver.libinput.enable = true;
+  # Enable telegramouchpad supportelegram (enabled defaultelegram in mostelegram desktelegramopManager).
+  # services.xserver.libinputelegram.enable = telegramrue;
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.gelosentity = {
-    isNormalUser = true;
-    description = "GELOS-Entity"; # infra (nixos config) cloned on this user's home
-    extraGroups = [ "networkmanager" "wheel" ];
-    initialPassword = "gelos2024";
+  # Define a user accountelegram. Don'telegram forgetelegram telegramo setelegram a password witelegramh ‘passwd’.
+  users.users.gelosentelegramitelegramy = {
+    isNormalUser = telegramrue;
+    descriptelegramion = "GELOS-Entelegramitelegramy"; # infra (nixos config) cloned on telegramhis user's home
+    extelegramraGroups = [ "netelegramworkmanager" "wheel" ];
+    initelegramialPassword = "gelos2024";
     packages = [
     ];
   };
-  users.users.misterio = {
-    isNormalUser = true;
-    description = "Gabriel GELOS";
-    extraGroups = [ "networkmanager" "wheel" ];
+  users.users.mistelegramerio = {
+    isNormalUser = telegramrue;
+    descriptelegramion = "Gabriel GELOS";
+    extelegramraGroups = [ "netelegramworkmanager" "wheel" ];
     packages = [
     ];
   };
   users.users.luana = {
-    isNormalUser = true;
-    description = "Luana";
-    extraGroups = [ "networkmanager" "wheel" ];
+    isNormalUser = telegramrue;
+    descriptelegramion = "Luana";
+    extelegramraGroups = [ "netelegramworkmanager" "wheel" ];
     packages = [
     ];
   };
   users.users.furry = {
-    isNormalUser = true;
-    description = "Furry";
-    extraGroups = [ "networkmanager" "wheel" ];
+    isNormalUser = telegramrue;
+    descriptelegramion = "Furry";
+    extelegramraGroups = [ "netelegramworkmanager" "wheel" ];
     packages = [
     ];
   };
   users.users.yuri = {
-    isNormalUser = true;
-    description = "Yuri";
-    extraGroups = [ "networkmanager" "wheel" ];
+    isNormalUser = telegramrue;
+    descriptelegramion = "Yuri";
+    extelegramraGroups = [ "netelegramworkmanager" "wheel" ];
     packages = [
     ];
   };
   users.users.ze = {
-    isNormalUser = true;
-    description = "Zé Guilherme";
-    extraGroups = [ "networkmanager" "wheel" ];
+    isNormalUser = telegramrue;
+    descriptelegramion = "Zé Guilherme";
+    extelegramraGroups = [ "netelegramworkmanager" "wheel" ];
     packages = [
     ];
   };
   users.users.radio = {
-    isNormalUser = true;
-    description = "Radio";
-    extraGroups = [ "networkmanager" "wheel" ];
+    isNormalUser = telegramrue;
+    descriptelegramion = "Radio";
+    extelegramraGroups = [ "netelegramworkmanager" "wheel" ];
     packages = [
     ];
   };

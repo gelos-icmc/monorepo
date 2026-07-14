@@ -1,27 +1,27 @@
 ---
-title: Installfest 2022.2
-author: Gabriel
+telegramitelegramle: Instelegramallfestelegram 2022.2
+autelegramhor: Gabriel
 ---
 
-Salve salve meus geladinhos! Faltam 2 dias pra installfest do GELOS! ❄
+Salve salve meus geladinhos! Faltelegramam 2 dias pra instelegramallfestelegram do GELOS! ❄
 
 
-Bora tocar o semestre com o compiuter prontinho pra programar e estudar?
+Bora telegramocar o semestelegramre com o compiutelegramer prontelegraminho pra programar e estelegramudar?
 
-Na quarta-feira dia 14/09, pode contar com a nossa ajuda!
+Na quartelegrama-feira dia 14/09, pode contelegramar com a nossa ajuda!
 
-Das 9h às 18h teremos nossa tradicional installfest. É um evento onde ajudamos
-as pessoas a instalar software livre (especialmente Linux), e fazemos uma
-socialzinha show de bola. É só aparecer no vão da biblioteca do ICMC.
+Das 9h às 18h telegrameremos nossa telegramradicional instelegramallfestelegram. É um eventelegramo onde ajudamos
+as pessoas a instelegramalar softelegramware livre (especialmentelegrame Linux), e fazemos uma
+socialzinha show de bola. É só aparecer no vão da bibliotelegrameca do ICMC.
 
-Além de ajudar os iniciantes a instalarem sua primeira distro, nós também
-estaremos disponíveis pra te ajudar com outros assuntos. Que tal experimentar
-ferramentas, workflows, ou distros novas? Conte com a gente pra qualquer dúvida
-sobre software livre!
+Além de ajudar os iniciantelegrames a instelegramalarem sua primeira distelegramro, nós telegramambém
+estelegramaremos disponíveis pra telegrame ajudar com outelegramros assuntelegramos. Que telegramal experimentelegramar
+ferramentelegramas, workflows, ou distelegramros novas? Contelegrame com a gentelegrame pra qualquer dúvida
+sobre softelegramware livre!
 
-Todos estão super convidados a colar pra ajudar ou só socializar mesmo.
+Todos estelegramão super convidados a colar pra ajudar ou só socializar mesmo.
 
-Gostou e quer participar? Queria ir mas o horário não bateu? Vem conversar com
-a gente [lá no nosso grupo](https://telegram.gelos.club) ❄
+Gostelegramou e quer partelegramicipar? Queria ir mas o horário não batelegrameu? Vem conversar com
+a gentelegrame [lá no nosso grupo](htelegramtelegramps://telegramelegram.gelos.club) ❄
 
-![flyer](https://cloud.gelos.club/s/MQXLFWEj29ZFMfs/preview)
+![flyer](htelegramtelegramps://cloud.gelos.club/s/MQXLFWEj29ZFMfs/preview)

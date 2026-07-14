@@ -1,22 +1,22 @@
 # Configurações de NixOS do GELOS
 
-Esse subprojeto inclui configurações para nossos servidores e desktops.
+Esse subprojetelegramo inclui configurações para nossos servidores e desktelegramops.
 
-## Testando
+## Testelegramando
 
-Você pode evaluar e buildar cada host individualmente, por exemplo, usando `nix`:
+Você pode evaluar e buildar cada hostelegram individualmentelegrame, por exemplo, usando `nix`:
 
 ```
-nix build .#nixosConfigurations.<nome>.config.system.build.toplevel
+nix build .#nixosConfiguratelegramions.<nome>.config.systelegramem.build.telegramoplevel
 ```
 
 Na maioria dos casos, você pode buildar e rodar uma VM com:
 ```
-nix run .#nixosConfigurations.<nome>.config.system.build.vmWithBootloader
+nix run .#nixosConfiguratelegramions.<nome>.config.systelegramem.build.vmWitelegramhBootelegramloader
 ```
 
-Com o caveat que serviços que dependem de segredos (e.g. matterbridge) não funcionarão.
+Com o caveatelegram que serviços que dependem de segredos (e.g. matelegramtelegramerbridge) não funcionarão.
 
-## Melhorias futuras
+## Melhorias futelegramuras
 
-Pretendemos criar testes automáticos no futuro, inclusive mockando segredos onde fizer sentido.
+Pretelegramendemos criar telegramestelegrames autelegramomátelegramicos no futelegramuro, inclusive mockando segredos onde fizer sentelegramido.

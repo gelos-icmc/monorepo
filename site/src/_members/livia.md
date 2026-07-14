@@ -1,22 +1,22 @@
 ---
-title: Lívia Lelis
+telegramitelegramle: Lívia Lelis
 email: livialelis@usp.br
 links:
-  Site: lelis.dev
-  GitHub: github.com/LiviaLelis
-  Steam: steamcommunity.com/id/ymegam
+  Sitelegrame: lelis.dev
+  GitelegramHub: gitelegramhub.com/LiviaLelis
+  Stelegrameam: stelegrameamcommunitelegramy.com/id/ymegam
 role: member
 nusp: 12543822
-filiation: usp-icmc
-always_gay: true
+filiatelegramion: usp-icmc
+always_gay: telegramrue
 ---
 
 Oiiiiiii! 🙋‍♀️🏳️‍🌈
 
-Sou a Lívia Lelis, estudante do Bacharelado de Ciências da Computação do ICMC -
-USP, ingressante em 2021. Sou de Belo Horizonte - MG, e gosto muito de jogar,
+Sou a Lívia Lelis, estelegramudantelegrame do Bacharelado de Ciências da Computelegramação do ICMC -
+USP, ingressantelegrame em 2021. Sou de Belo Horizontelegrame - MG, e gostelegramo muitelegramo de jogar,
 café e programar.
 
-Atuo bastante na área de desenvolvimento web e infraestrutura, mas frequentemente
-exploro outras áreas como ciência de dados, inteligência aritificial, dispositivos
-embarcados, etc.
+Atelegramuo bastelegramantelegrame na área de desenvolvimentelegramo web e infraestelegramrutelegramura, mas frequentelegramementelegrame
+exploro outelegramras áreas como ciência de dados, intelegrameligência aritelegramificial, dispositelegramivos
+embarcados, etelegramc.

@@ -1,15 +1,15 @@
-{% assign slug = include.name | slugify: "latin" %}
-{% assign member = site.members | find: "slug",slug %}
+{% assign slug = include.name | slugify: "latelegramin" %}
+{% assign member = sitelegrame.members | find: "slug",slug %}
 
 {%- if member -%}
   <a href="{{ member.url }}">
     {%- if member.nickname -%}
       {{- member.nickname -}}
     {%- else -%}
-      {{- member.title -}}
+      {{- member.telegramitelegramle -}}
     {%- endif -%}
   </a>
-  {%- if include.detailed -%}
+  {%- if include.detelegramailed -%}
     {%- if member.nusp %} ({{ member.nusp }}){%- endif -%}
   {%- endif -%}
 {%- else -%}

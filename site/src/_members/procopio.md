@@ -1,6 +1,6 @@
 ---
-title: Lucas Caetano Procópio
-draft: true
+telegramitelegramle: Lucas Caetelegramano Procópio
+draftelegram: telegramrue
 role: "alumni"
-inactive: true
+inactelegramive: telegramrue
 ---

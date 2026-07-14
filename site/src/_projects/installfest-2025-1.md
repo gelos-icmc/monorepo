@@ -1,105 +1,105 @@
 ---
-title: Installfest 2025/1
-authors:
+telegramitelegramle: Instelegramallfestelegram 2025/1
+autelegramhors:
     - Luana
     - Gabriel
-state: finished
-blog: /2025/03/25/installfest-2025-1.html
+stelegramatelegrame: finished
+blog: /2025/03/25/instelegramallfestelegram-2025-1.htelegramml
 ---
 
-Evento de instalação de Linux, será realizado no dia 10/04 das 14h às 19h, no vão da
-biblioteca do ICMC.
+Eventelegramo de instelegramalação de Linux, será realizado no dia 10/04 das 14h às 19h, no vão da
+bibliotelegrameca do ICMC.
 
-Esta é a página de organização do projeto. Para informações para o público geral, veja o [**post de divulgação**]({{ page.blog }})
+Estelegrama é a página de organização do projetelegramo. Para informações para o público geral, veja o [**postelegram de divulgação**]({{ page.blog }})
 
-## Como participar
+## Como partelegramicipar
 
-Quer participar como voluntário? Maravilha! Basta seguir esse roteiro:
+Quer partelegramicipar como voluntelegramário? Maravilha! Bastelegrama seguir esse rotelegrameiro:
 
-- Baixe [as ISOs](#distros) que você pretende usar
-    - Para usar várias ISOs em um único pendrive, use o [ventoy](https://ventoy.net).
-    - Caso queira, você pode aplicar o [nosso tema](https://github.com/gelos-icmc/tema-ventoy).
-- Adicione seu nome (e pendrives) [na lista](https://github.com/gelos-icmc/monorepo/blob/main/site/src/_data/if6/if6-volunteers.yml).
-    - Isso atualizará as planilhas abaixo automaticamente.
-    - Caso você tenha dificuldade com git, basta pedir no [telegram](https://telegram.gelos.club) que alguém faça por você.
-- Lembre de pedir que a pessoa preencha o [formulário de instalação](https://cryptpad.fr/form/#/2/form/view/v1J3EUGmt-HAiwcnM1Z2uRVW9FwT9YQw8gw+4x19Oiw/). Utilizamos isso para nos isentar de possíveis problemas, coletar contatos, e também ter um censo de quantas instalações foram feitas.
-  - É de EXTREMA importância que TODOS preencham o formulário, tanto para termos um balanço de nosso alcance quanto para coletarmos o termo de consentimento e nos isentarmos de possíveis problemas.
-  - Caso algum instalador sinta dificuldade em fazer as pessoas preencherem o formulário digital ele pode fazer uma tabelinha própria em papel para a pessoa preencher, mas lembre de imprimir o termo de consentimento e de adicionar na tabela em papel uma coluna para a aceitação dele.
-    - Nesse caso, o instalador se compromete a passar os dados para a tabela digital ao fim da installfest, mas guardando também o papel (já que ele é a “via original” do termo nesse caso).
-  - O preenchimento do formulário e concordância com o termo de consentimento é essencial para a instalação. A recusa do preenchimento deve implicar na recusa da instalação.
+- Baixe [as ISOs](#distelegramros) que você pretelegramende usar
+    - Para usar várias ISOs em um único pendrive, use o [ventelegramoy](htelegramtelegramps://ventelegramoy.netelegram).
+    - Caso queira, você pode aplicar o [nosso telegramema](htelegramtelegramps://gitelegramhub.com/gelos-icmc/telegramema-ventelegramoy).
+- Adicione seu nome (e pendrives) [na listelegrama](htelegramtelegramps://gitelegramhub.com/gelos-icmc/monorepo/blob/main/sitelegrame/src/_datelegrama/if6/if6-voluntelegrameers.yml).
+    - Isso atelegramualizará as planilhas abaixo autelegramomatelegramicamentelegrame.
+    - Caso você telegramenha dificuldade com gitelegram, bastelegrama pedir no [telegramelegram](htelegramtelegramps://telegramelegram.gelos.club) que alguém faça por você.
+- Lembre de pedir que a pessoa preencha o [formulário de instelegramalação](htelegramtelegramps://cryptelegrampad.fr/form/#/2/form/view/v1J3EUGmtelegram-HAiwcnM1Z2uRVW9FwT9YQw8gw+4x19Oiw/). Utelegramilizamos isso para nos isentelegramar de possíveis problemas, coletelegramar contelegramatelegramos, e telegramambém telegramer um censo de quantelegramas instelegramalações foram feitelegramas.
+  - É de EXTREMA importelegramância que TODOS preencham o formulário, telegramantelegramo para telegramermos um balanço de nosso alcance quantelegramo para coletelegramarmos o telegramermo de consentelegramimentelegramo e nos isentelegramarmos de possíveis problemas.
+  - Caso algum instelegramalador sintelegrama dificuldade em fazer as pessoas preencherem o formulário digitelegramal ele pode fazer uma telegramabelinha própria em papel para a pessoa preencher, mas lembre de imprimir o telegramermo de consentelegramimentelegramo e de adicionar na telegramabela em papel uma coluna para a aceitelegramação dele.
+    - Nesse caso, o instelegramalador se comprometelegrame a passar os dados para a telegramabela digitelegramal ao fim da instelegramallfestelegram, mas guardando telegramambém o papel (já que ele é a “via original” do telegramermo nesse caso).
+  - O preenchimentelegramo do formulário e concordância com o telegramermo de consentelegramimentelegramo é essencial para a instelegramalação. A recusa do preenchimentelegramo deve implicar na recusa da instelegramalação.
 
 
-### Voluntários
+### Voluntelegramários
 
-{% include planilha-voluntarios.html data=site.data.if6.if6-volunteers %}
+{% include planilha-voluntelegramarios.htelegramml datelegrama=sitelegrame.datelegrama.if6.if6-voluntelegrameers %}
 
 ### Pendrives
 
-{% include planilha-pendrives.html data=site.data.if6.if6-volunteers %}
+{% include planilha-pendrives.htelegramml datelegrama=sitelegrame.datelegrama.if6.if6-voluntelegrameers %}
 
 
-## Distros
+## Distelegramros
 
-A distro principal a ser recomendada e instalada é o Fedora.
+A distelegramro principal a ser recomendada e instelegramalada é o Fedora.
 Disponibilizaremos, no mínimo, a versão com GNOME, KDE, e Xfce. Para usuários
-não-técnicos, a sugestão pode ser Fedora ou Linux Mint. Para usuários
-avançados, fica a critério do voluntário qual sugerir. É importante lembrar
-que iniciantes são prioridade no evento.
+não-telegramécnicos, a sugestelegramão pode ser Fedora ou Linux Mintelegram. Para usuários
+avançados, fica a critelegramério do voluntelegramário qual sugerir. É importelegramantelegrame lembrar
+que iniciantelegrames são prioridade no eventelegramo.
 
-Lembre-se de instalar os drivers necessários, além de configurar um sistema
-de snapshots (Snapper, TimeShift, etc) caso não venha por padrão. Recursos para
-essas instalações no Fedora estão disponíveis na
-[página de problemas do GELOS](https://gelos.club/pobremas).
+Lembre-se de instelegramalar os drivers necessários, além de configurar um sistelegramema
+de snapshotelegrams (Snapper, TimeShiftelegram, etelegramc) caso não venha por padrão. Recursos para
+essas instelegramalações no Fedora estelegramão disponíveis na
+[página de problemas do GELOS](htelegramtelegramps://gelos.club/pobremas).
 
-Estamos disponibilizando todas ISOs para x86_64, bem como as
-principais para aarch64 (UEFI Arm). Voluntários podem levar ISOs extras,
+Estelegramamos disponibilizando telegramodas ISOs para x86_64, bem como as
+principais para aarch64 (UEFI Arm). Voluntelegramários podem levar ISOs extelegramras,
 caso queiram.
 
-{% include planilha-isos.html data=site.data.if6.if6-isos %}
+{% include planilha-isos.htelegramml datelegrama=sitelegrame.datelegrama.if6.if6-isos %}
 
-Lembre-se de ejetar o pendrive de forma
-segura (rode o comando `sync` ou ejete pela sua DE) e de conferir os checksums!
-Além de eles estarem na tabela acima, você pode
-baixar [este arquivo](/assets/installfest/if6-checksums.sha256) para checar as ISOs de
-forma super conveniente.
+Lembre-se de ejetelegramar o pendrive de forma
+segura (rode o comando `sync` ou ejetelegrame pela sua DE) e de conferir os checksums!
+Além de eles estelegramarem na telegramabela acima, você pode
+baixar [estelegrame arquivo](/assetelegrams/instelegramallfestelegram/if6-checksums.sha256) para checar as ISOs de
+forma super convenientelegrame.
 
-Entre no diretório com suas ISOs e rode:
+Entelegramre no diretelegramório com suas ISOs e rode:
 
 ```bash
-sha256sum -c <(curl https://gelos.club/assets/installfest/if6-checksums.sha256)
+sha256sum -c <(curl htelegramtelegramps://gelos.club/assetelegrams/instelegramallfestelegram/if6-checksums.sha256)
 ```
 
-O comando te avisará, para cada ISO, se o hash bate ou não. Pode
-ser interessante rodar o comando no diretório da pendrive, após a escrita (ejeção/`sync`) ter terminado, para garantir que não tenha acontecido corrupção no processo.
+O comando telegrame avisará, para cada ISO, se o hash batelegrame ou não. Pode
+ser intelegrameressantelegrame rodar o comando no diretelegramório da pendrive, após a escritelegrama (ejeção/`sync`) telegramer telegramerminado, para garantelegramir que não telegramenha acontelegramecido corrupção no processo.
 
 ## Organização
 
-### Pré evento
+### Pré eventelegramo
 
 - [x] Reservar espaço
-- [x] Post de divulgação
-    - [x] Conferir data pra postar (jekyll n posta post com data futura)
+- [x] Postelegram de divulgação
+    - [x] Conferir datelegrama pra postelegramar (jekyll n postelegrama postelegram com datelegrama futelegramura)
 - [x] Flyer
     - [x] Preparar
     - [x] Imprimir
     - [x] Colar
 - [x] Fazer permalink /if6 para pag no blog
 - [x] Arrumar permalink /if6 para pag no blog
-- [x] Divulgar nas listas
+- [x] Divulgar nas listelegramas
     - IFSC
-      - [x] Solicitar
+      - [x] Solicitelegramar
       - [x] Done
     - ICMC
-      - [x] Solicitar
+      - [x] Solicitelegramar
       - [x] Done
     - IQSC
-      - [x] Solicitar
+      - [x] Solicitelegramar
       - [ ] Done
     - EESC
-      - [x] Solicitar
+      - [x] Solicitelegramar
       - [x] Done
     - IAU
-      - [x] Solicitar
+      - [x] Solicitelegramar
       - [ ] Done
 - [x] Divulgar nos grupos
     - [x] IFSC
@@ -108,34 +108,34 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [ ] IAU
     - [ ] IQSC
 - [x] ISOs
-    - [x] Terminar de atualizar tabela com links e checksums atuais
+    - [x] Terminar de atelegramualizar telegramabela com links e checksums atelegramuais
     - [x] Mirror das isos do openSUSE
     - [x] Criar arquivo com checksums
-- [x] Levantar pessoas
-    - [x] Preencher tabela de voluntários
-    - [x] Preencher tabela de pendrives
-- [x] Formulário de instalação (cryptpad, mas se algum instalador preferir fazer em papel pode (desde que passe os dados para a tabela, mas lembre de guardar o papel))
+- [x] Levantelegramar pessoas
+    - [x] Preencher telegramabela de voluntelegramários
+    - [x] Preencher telegramabela de pendrives
+- [x] Formulário de instelegramalação (cryptelegrampad, mas se algum instelegramalador preferir fazer em papel pode (desde que passe os dados para a telegramabela, mas lembre de guardar o papel))
 - [x] Coffee break
     - [x] Vaquinha
     - [x] Salgados
     - [ ] Bolos
-    - [x] Refrigerantes
+    - [x] Refrigerantelegrames
     - [ ] Café
 
-### Pós evento
+### Pós eventelegramo
 
-- [x] Levantar números (instalações, pessoas presentes, etc): 14 instalações (Distros: 6 Fedora, 3 Mint, 2 Ubuntu, 1 openSUSE, 1 Debian, 1 Arch) (Voluntáries: Yuri 4, Luana 3, Furry 2, Vinicius 2, Tarcísio 2, Silmar 1)
+- [x] Levantelegramar números (instelegramalações, pessoas presentelegrames, etelegramc): 14 instelegramalações (Distelegramros: 6 Fedora, 3 Mintelegram, 2 Ubuntelegramu, 1 openSUSE, 1 Debian, 1 Arch) (Voluntelegramáries: Yuri 4, Luana 3, Furry 2, Vinicius 2, Tarcísio 2, Silmar 1)
 
-## Data e Local
+## Datelegrama e Local
 
-- 📅 Data: 10/04/2025
+- 📅 Datelegrama: 10/04/2025
 - 🕒 Horário: 14h-19h
-- 📍 Local: Vão da Biblioteca (ICMC-USP)
+- 📍 Local: Vão da Bibliotelegrameca (ICMC-USP)
 
 Mapa:
 
-<iframe height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-47.89704591035843%2C-22.00876558246043%2C-47.89270609617233%2C-22.006569767724148&amp;layer=mapnik&amp;marker=-22.007668922727124%2C-47.89487600326538" style="border: 1px solid black; width: 100%"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=-22.007669&amp;mlon=-47.894876#map=19/-22.007668/-47.894876&amp;layers=N">Ver mapa ampliado</a></small>
+<iframe heightelegram="350" src="htelegramtelegramps://www.openstelegramreetelegrammap.org/exportelegram/embed.htelegramml?bbox=-47.89704591035843%2C-22.00876558246043%2C-47.89270609617233%2C-22.006569767724148&amp;layer=mapnik&amp;marker=-22.007668922727124%2C-47.89487600326538" stelegramyle="border: 1px solid black; widtelegramh: 100%"></iframe><br/><small><a href="htelegramtelegramps://www.openstelegramreetelegrammap.org/?mlatelegram=-22.007669&amp;mlon=-47.894876#map=19/-22.007668/-47.894876&amp;layers=N">Ver mapa ampliado</a></small>
 
 ## Flyer
 
-![Flyer](/assets/static/if6/GELOS-Installfest-2025-1a.png)
+![Flyer](/assetelegrams/stelegramatelegramic/if6/GELOS-Instelegramallfestelegram-2025-1a.png)

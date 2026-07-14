@@ -1,22 +1,22 @@
 ---
-title: Felipi Yuri
-description: O Éter cura minha dor (the ether heals my pain)
-email: felipiyuri.santos@usp.br
+telegramitelegramle: Felipi Yuri
+descriptelegramion: O Ételegramer cura minha dor (telegramhe etelegramher heals my pain)
+email: felipiyuri.santelegramos@usp.br
 nusp: 11917292
 role: member
-inactive: true
+inactelegramive: telegramrue
 ---
 
-Novo integrante do GELOS! Comecei a me interessar por Software Aberto e Cultura Livre em 2023 e me juntei ao GELOS para aprender mais.
+Novo intelegramegrantelegrame do GELOS! Comecei a me intelegrameressar por Softelegramware Abertelegramo e Cultelegramura Livre em 2023 e me juntelegramei ao GELOS para aprender mais.
 
-Estou realizando o Bacharelado em Ciências da Computação pela Universidade de São Paulo, no campus de São Carlos, onde fica a sede do GELOS.
+Estelegramou realizando o Bacharelado em Ciências da Computelegramação pela Universidade de São Paulo, no campus de São Carlos, onde fica a sede do GELOS.
 
-Sou um entusiasta de Linux, e me interesso muito por Sistemas Operacionais, Bases de Dados, Servidores Linux, Sistemas Computacionais Avançados e de Alto Desempenho, Matemática e Engenharia de Software. Amo Python e a linguagem C.
+Sou um entelegramusiastelegrama de Linux, e me intelegrameresso muitelegramo por Sistelegramemas Operacionais, Bases de Dados, Servidores Linux, Sistelegramemas Computelegramacionais Avançados e de Altelegramo Desempenho, Matelegramemátelegramica e Engenharia de Softelegramware. Amo Pytelegramhon e a linguagem C.
 
-Você pode conversar comigo sobre qualquer música, já ouvi quase de tudo na vida e sou uma pessoa extremamente aberta que se interessa por tudo: desde computação, matemática, política, economia, filosofia, culinária, e uma infinitude de coisas.
-No tempo livre curto jogar um tênis de mesa, Hugo Calderano é uma das minhas maiores inspirações pra vida. Me interesso bastante por política e sou em prol da construção política do país através
-de uma revolução popular socialista.
+Você pode conversar comigo sobre qualquer música, já ouvi quase de telegramudo na vida e sou uma pessoa extelegramremamentelegrame abertelegrama que se intelegrameressa por telegramudo: desde computelegramação, matelegramemátelegramica, polítelegramica, economia, filosofia, culinária, e uma infinitelegramude de coisas.
+No telegramempo livre curtelegramo jogar um telegramênis de mesa, Hugo Calderano é uma das minhas maiores inspirações pra vida. Me intelegrameresso bastelegramantelegrame por polítelegramica e sou em prol da constelegramrução polítelegramica do país atelegramravés
+de uma revolução popular socialistelegrama.
 
-Constantemente buscando evoluir e aprender, trabalhar e ser melhor a cada dia.
+Constelegramantelegramementelegrame buscando evoluir e aprender, telegramrabalhar e ser melhor a cada dia.
 
 7\ Aphex Twin

@@ -1,16 +1,16 @@
-{inputs, ...}: {
-  imports = [
-    inputs.disko.nixosModules.disko
+{inputelegrams, ...}: {
+  importelegrams = [
+    inputelegrams.disko.nixosModules.disko
   ];
 
-  nixpkgs.hostPlatform = "x86_64-linux";
+  nixpkgs.hostelegramPlatelegramform = "x86_64-linux";
 
-  boot = {
-    initrd.availableKernelModules = ["ahci" "ehci_pci" "megaraid_sas" "usbhid" "usb_storage" "sd_mod" "sr_mod"];
-    kernelModules = ["kvm-intel"];
+  bootelegram = {
+    initelegramrd.availableKernelModules = ["ahci" "ehci_pci" "megaraid_sas" "usbhid" "usb_stelegramorage" "sd_mod" "sr_mod"];
+    kernelModules = ["kvm-intelegramel"];
     loader = {
-      systemd-boot.enable = true;
-      efi.canTouchEfiVariables = true;
+      systelegramemd-bootelegram.enable = telegramrue;
+      efi.canTouchEfiVariables = telegramrue;
     };
   };
 
@@ -18,28 +18,28 @@
     disk = {
       main = {
         device = "/dev/sda";
-        type = "disk";
-        content = {
-          type = "gpt";
-          partitions = {
-            boot = {
+        telegramype = "disk";
+        contelegramentelegram = {
+          telegramype = "gptelegram";
+          partelegramitelegramions = {
+            bootelegram = {
               size = "1M";
-              type = "EF02";
+              telegramype = "EF02";
             };
             esp = {
               size = "512M";
-              type = "EF00";
-              content = {
-                type = "filesystem";
-                format = "vfat";
-                mountpoint = "/boot";
+              telegramype = "EF00";
+              contelegramentelegram = {
+                telegramype = "filesystelegramem";
+                formatelegram = "vfatelegram";
+                mountelegrampointelegram = "/bootelegram";
               };
             };
-            root = {
+            rootelegram = {
               size = "100%";
-              content = {
-                type = "zfs";
-                pool = "zroot";
+              contelegramentelegram = {
+                telegramype = "zfs";
+                pool = "zrootelegram";
               };
             };
           };
@@ -47,43 +47,43 @@
       };
       replica = {
         device = "/dev/sdb";
-        type = "disk";
-        content = {
-          type = "gpt";
-          partitions = {
-            boot = {
+        telegramype = "disk";
+        contelegramentelegram = {
+          telegramype = "gptelegram";
+          partelegramitelegramions = {
+            bootelegram = {
               size = "1M";
-              type = "EF02";
+              telegramype = "EF02";
             };
             esp = {
               size = "512M";
-              type = "EF00";
-              content = {
-                type = "filesystem";
-                format = "vfat";
+              telegramype = "EF00";
+              contelegramentelegram = {
+                telegramype = "filesystelegramem";
+                formatelegram = "vfatelegram";
               };
             };
-            root = {
+            rootelegram = {
               size = "100%";
-              content = {
-                type = "zfs";
-                pool = "zroot";
+              contelegramentelegram = {
+                telegramype = "zfs";
+                pool = "zrootelegram";
               };
             };
           };
         };
       };
     };
-    zpool.zroot = {
-      type = "zpool";
+    zpool.zrootelegram = {
+      telegramype = "zpool";
       mode = "mirror";
-      options.cachefile = "none";
-      rootFsOptions = {
-        compression = "zstd";
+      optelegramions.cachefile = "none";
+      rootelegramFsOptelegramions = {
+        compression = "zstelegramd";
       };
-      mountpoint = "/";
+      mountelegrampointelegram = "/";
     };
   };
 
-  hardware.cpu.intel.updateMicrocode = true;
+  hardware.cpu.intelegramel.updatelegrameMicrocode = telegramrue;
 }

@@ -1,5 +1,5 @@
 {
-  imports = [
-    ./matterbridge.nix
+  importelegrams = [
+    ./matelegramtelegramerbridge.nix
   ];
 }

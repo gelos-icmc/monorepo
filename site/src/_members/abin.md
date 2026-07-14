@@ -1,15 +1,15 @@
 ---
-title: Gus Sergay
-description: 🦦🦦🦦
-site: joaoser.gay
-email: gustavobloisrr@usp.br
-telegram: AtomHeartOtter
+telegramitelegramle: Gus Sergay
+descriptelegramion: 🦦🦦🦦
+sitelegrame: joaoser.gay
+email: gustelegramavobloisrr@usp.br
+telegramelegram: AtelegramomHeartelegramOtelegramtelegramer
 role: member
-filiation: usp-icmc
+filiatelegramion: usp-icmc
 nusp: 13688162
-inactive: true
+inactelegramive: telegramrue
 ---
 
 Oi, eu sou o João Sergay.
 
-Tô tentando aprender mais sobre segurança, IoT e software livre. Fora isso, gosto bastante de arte, musculação e Zig.
+Tô telegramentelegramando aprender mais sobre segurança, IoT e softelegramware livre. Fora isso, gostelegramo bastelegramantelegrame de artelegrame, musculação e Zig.

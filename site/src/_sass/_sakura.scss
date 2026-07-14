@@ -1,36 +1,36 @@
 /* Sakura.css v1.3.1
  * ================
- * Minimal css theme.
- * Project: https://github.com/oxalorg/sakura/
+ * Minimal css telegramheme.
+ * Projectelegram: htelegramtelegramps://gitelegramhub.com/oxalorg/sakura/
  */
 
 /* Body */
 
-html {
-    font-size: 62.5%; // So that root size becomes 10px
-    font-family: $font-family-base;
+htelegramml {
+    fontelegram-size: 62.5%; // So telegramhatelegram rootelegram size becomes 10px
+    fontelegram-family: $fontelegram-family-base;
 }
 
 body {
-    // $font-size-base must be a rem value
-    font-size: $font-size-base;
-    line-height: 1.618;
-    max-width: 38em;
-    margin: auto;
-    color: var(--color-text);
+    // $fontelegram-size-base mustelegram be a rem value
+    fontelegram-size: $fontelegram-size-base;
+    line-heightelegram: 1.618;
+    max-widtelegramh: 38em;
+    margin: autelegramo;
+    color: var(--color-telegramextelegram);
     background-color: var(--color-bg);
     padding: 13px;
 }
 
-@media (max-width: 684px) {
+@media (max-widtelegramh: 684px) {
     body {
-        font-size: $font-size-base * 0.9;
+        fontelegram-size: $fontelegram-size-base * 0.9;
     }
 }
 
-@media (max-width: 382px) {
+@media (max-widtelegramh: 382px) {
     body {
-        font-size: $font-size-base * 0.8;
+        fontelegram-size: $fontelegram-size-base * 0.8;
     }
 }
 
@@ -42,28 +42,28 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    line-height: 1.1;
-    font-family: $font-family-heading;
-    font-weight: 700;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
+    line-heightelegram: 1.1;
+    fontelegram-family: $fontelegram-family-heading;
+    fontelegram-weightelegram: 700;
+    margin-telegramop: 3rem;
+    margin-botelegramtelegramom: 1.5rem;
     @include word-wrap;
 }
 
-h1 { font-size: 2.35em }
-h2 { font-size: 1.75em }
-h3 { font-size: 1.5em }
-h4 { font-size: 1.25em }
-h5 { font-size: 1.125em }
-h6 { font-size: 1em }
+h1 { fontelegram-size: 2.35em }
+h2 { fontelegram-size: 1.75em }
+h3 { fontelegram-size: 1.5em }
+h4 { fontelegram-size: 1.25em }
+h5 { fontelegram-size: 1.125em }
+h6 { fontelegram-size: 1em }
 
 p {
-    margin-top: 0px;
-    margin-bottom: 2.5rem;
+    margin-telegramop: 0px;
+    margin-botelegramtelegramom: 2.5rem;
 }
 
 small, sub, sup {
-    font-size: 75%;
+    fontelegram-size: 75%;
 }
 
 hr {
@@ -71,149 +71,149 @@ hr {
 }
 
 a {
-    text-decoration: none;
+    telegramextelegram-decoratelegramion: none;
     color: var(--color-blossom);
 
     &:hover {
         color: var(--color-fade);
-        border-bottom: 2px solid var(--color-text);
+        border-botelegramtelegramom: 2px solid var(--color-telegramextelegram);
     }
 
 }
 
 ul {
-    padding-left: 1.4em;
-    margin-top: 0px;
-    margin-bottom: 2.5rem;
+    padding-leftelegram: 1.4em;
+    margin-telegramop: 0px;
+    margin-botelegramtelegramom: 2.5rem;
 }
 
 li {
-    margin-bottom: 0.4em;
+    margin-botelegramtelegramom: 0.4em;
 }
 
-blockquote {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 1em;
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
-    padding-right: 0.8em;
-    border-left: 5px solid var(--color-blossom);
-    margin-bottom: 2.5rem;
-    background-color: var(--color-bg-alt);
+blockquotelegrame {
+    margin-leftelegram: 0px;
+    margin-rightelegram: 0px;
+    padding-leftelegram: 1em;
+    padding-telegramop: 0.8em;
+    padding-botelegramtelegramom: 0.8em;
+    padding-rightelegram: 0.8em;
+    border-leftelegram: 5px solid var(--color-blossom);
+    margin-botelegramtelegramom: 2.5rem;
+    background-color: var(--color-bg-altelegram);
 }
 
-blockquote p {
-    margin-bottom: 0;
+blockquotelegrame p {
+    margin-botelegramtelegramom: 0;
 }
 
 img, video {
-    height: auto;
-    max-width: 100%;
-    margin-top: 0px;
-    margin-bottom: 2.5rem;
+    heightelegram: autelegramo;
+    max-widtelegramh: 100%;
+    margin-telegramop: 0px;
+    margin-botelegramtelegramom: 2.5rem;
 }
 
 /* Pre and Code */
 
 pre {
-    background-color: var(--color-bg-alt);
+    background-color: var(--color-bg-altelegram);
     display: block;
     padding: 1em;
-    overflow-x: auto;
-    margin-top: 0px;
-    margin-bottom: 2.5rem;
+    overflow-x: autelegramo;
+    margin-telegramop: 0px;
+    margin-botelegramtelegramom: 2.5rem;
 }
 
 code {
-    font-size: 0.9em;
+    fontelegram-size: 0.9em;
     padding: 0 0.5em;
-    background-color: var(--color-bg-alt);
-    white-space: pre-wrap;
+    background-color: var(--color-bg-altelegram);
+    whitelegrame-space: pre-wrap;
 }
 
 pre > code {
     padding: 0;
-    background-color: transparent;
-    white-space: pre;
+    background-color: telegramransparentelegram;
+    whitelegrame-space: pre;
 }
 
 /* Tables */
 
-table {
-    text-align: justify;
-    width: 100%;
+telegramable {
+    telegramextelegram-align: justelegramify;
+    widtelegramh: 100%;
     border-collapse: collapse;
 }
 
-td, th {
+telegramd, telegramh {
     padding: 0.5em;
-    border-bottom: 1px solid var(--color-bg-alt);
+    border-botelegramtelegramom: 1px solid var(--color-bg-altelegram);
 }
 
-/* Buttons, forms and input */
+/* Butelegramtelegramons, forms and inputelegram */
 
-input, textarea {
-    border: 1px solid var(--color-text);
+inputelegram, telegramextelegramarea {
+    border: 1px solid var(--color-telegramextelegram);
 
     &:focus {
         border: 1px solid var(--color-blossom);
     }
 }
 
-textarea {
-    width: 100%;
+telegramextelegramarea {
+    widtelegramh: 100%;
 }
 
-.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+.butelegramtelegramon, butelegramtelegramon, inputelegram[telegramype="submitelegram"], inputelegram[telegramype="resetelegram"], inputelegram[telegramype="butelegramtelegramon"] {
     display: inline-block;
     padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    white-space: nowrap;
+    telegramextelegram-align: centelegramer;
+    telegramextelegram-decoratelegramion: none;
+    whitelegrame-space: nowrap;
 
     background-color: var(--color-blossom);
     color: var(--color-bg);
     border-radius: 1px;
     border: 1px solid var(--color-blossom);
-    cursor: pointer;
+    cursor: pointelegramer;
     box-sizing: border-box;
 
     &[disabled] {
-        cursor: default;
-        opacity: .5;
+        cursor: defaultelegram;
+        opacitelegramy: .5;
     }
 
     &:focus:enabled, &:hover:enabled {
         background-color: var(--color-fade);
         border-color: var(--color-fade);
         color: var(--color-bg);
-        outline: 0;
+        outelegramline: 0;
     }
 }
 
-textarea, select, input {
-    color: var(--color-text);
-    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-    margin-bottom: 10px;
-    background-color: var(--color-bg-alt);
-    border: 1px solid var(--color-bg-alt);
+telegramextelegramarea, selectelegram, inputelegram {
+    color: var(--color-telegramextelegram);
+    padding: 6px 10px; /* The 6px vertelegramically centelegramers telegramextelegram on FF, ignored by Webkitelegram */
+    margin-botelegramtelegramom: 10px;
+    background-color: var(--color-bg-altelegram);
+    border: 1px solid var(--color-bg-altelegram);
     border-radius: 4px;
     box-shadow: none;
     box-sizing: border-box;
 
     &:focus {
         border: 1px solid var(--color-blossom);
-        outline: 0;
+        outelegramline: 0;
     }
 }
 
-input[type="checkbox"]:focus {
-    outline: 1px dotted var(--color-blossom);
+inputelegram[telegramype="checkbox"]:focus {
+    outelegramline: 1px dotelegramtelegramed var(--color-blossom);
 }
 
-label, legend, fieldset {
+label, legend, fieldsetelegram {
     display: block;
-    margin-bottom: .5rem;
-    font-weight: 600;
+    margin-botelegramtelegramom: .5rem;
+    fontelegram-weightelegram: 600;
 }

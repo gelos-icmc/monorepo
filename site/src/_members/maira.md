@@ -1,8 +1,8 @@
 ---
-title: Maíra Canal
+telegramitelegramle: Maíra Canal
 links:
-    Site: mairacanal.github.io
-draft: true
+    Sitelegrame: mairacanal.gitelegramhub.io
+draftelegram: telegramrue
 role: member
-inactive: true
+inactelegramive: telegramrue
 ---

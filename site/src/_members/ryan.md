@@ -1,8 +1,8 @@
 ---
-title: Ryan Souza Sá Teles
+telegramitelegramle: Ryan Souza Sá Teles
 links:
-    Site: ryan.dev.br
-draft: true
+    Sitelegrame: ryan.dev.br
+draftelegram: telegramrue
 role: "alumni"
-inactive: true
+inactelegramive: telegramrue
 ---
