@@ -52,11 +52,11 @@ jobs:
       # If has to be specified in steps instead of job (https://github.com/actions/runner/issues/1985)
       - uses: actions/checkout@v3
         if: matrix.isCached != true
-      - uses: wimpysworld/nothing-but-nix@bfeb418c0047173b701321078aca83b342e77ec2
+      - uses: wimpysworld/nothing-but-nix@baf7355748bb5651f08b839669d6bb39051b2874
         if: matrix.isCached != true
         with:
           nix-permission-edict: true
-          hatchet-protocol: carve
+          hatchet-protocol: cleave
       - uses: nixbuild/nix-quick-install-action@v30
         if: matrix.isCached != true
       - uses: nix-community/cache-nix-action@v6
