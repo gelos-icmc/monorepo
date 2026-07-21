@@ -44,33 +44,18 @@ jobs:
   nix-build:
     name: ${{ matrix.name }} (${{ matrix.system }})
     needs: nix-matrix
-    runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false # Give me all the errors.
       matrix: ${{fromJSON(needs.nix-matrix.outputs.matrix)}}
-    steps:
-      # If has to be specified in steps instead of job (https://github.com/actions/runner/issues/1985)
-      - uses: actions/checkout@v3
-        if: matrix.isCached != true
-      - uses: wimpysworld/nothing-but-nix@baf7355748bb5651f08b839669d6bb39051b2874
-        if: matrix.isCached != true
-        with:
-          nix-permission-edict: true
-          hatchet-protocol: cleave
-      - uses: nixbuild/nix-quick-install-action@v30
-        if: matrix.isCached != true
-      - uses: nix-community/cache-nix-action@v6
-        if: matrix.isCached != true
-        with:
-          primary-key: nix-build-${{ matrix.name }}-${{ matrix.system }}
-      - uses: cachix/cachix-action@v14
-        if: matrix.isCached != true
-        with:
-          name: gelos-icmc
-          authToken: '${{ secrets.CACHIX_KEY }}'
-      - name: Build
-        if: matrix.isCached != true
-        run: nix build -L '.#${{ matrix.attr }}'
+    uses: ./.github/workflows/nix-build.yml
+    with:
+      attr: ${{ matrix.attr }}
+      is_cached: ${{ matrix.isCached }}
+      name: ${{ matrix.name }}
+      os: ${{ matrix.os }}
+      system: ${{ matrix.system }}
+    secrets:
+      CACHIX_KEY: ${{ secrets.CACHIX_KEY }}
 
   required: # group all required workflows into one to avoid reconfiguring this in Actions settings
     needs:
