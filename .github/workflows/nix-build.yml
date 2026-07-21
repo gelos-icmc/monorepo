@@ -1,0 +1,45 @@
+name: Nix Build
+
+on:
+  workflow_call:
+    inputs:
+      attr:
+        required: true
+        type: string
+      is_cached:
+        required: true
+        type: boolean
+      name:
+        required: true
+        type: string
+      os:
+        required: true
+        type: string
+      system:
+        required: true
+        type: string
+    secrets:
+      CACHIX_KEY:
+        required: false
+
+jobs:
+  build:
+    name: Build
+    if: inputs.is_cached != true
+    runs-on: ${{ inputs.os }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: wimpysworld/nothing-but-nix@baf7355748bb5651f08b839669d6bb39051b2874
+        with:
+          nix-permission-edict: true
+          hatchet-protocol: cleave
+      - uses: nixbuild/nix-quick-install-action@v30
+      - uses: nix-community/cache-nix-action@v6
+        with:
+          primary-key: nix-build-${{ inputs.name }}-${{ inputs.system }}
+      - uses: cachix/cachix-action@v14
+        with:
+          name: gelos-icmc
+          authToken: ${{ secrets.CACHIX_KEY }}
+      - name: Build
+        run: nix build -L '.#${{ inputs.attr }}'
