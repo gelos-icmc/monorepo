@@ -94,3 +94,7 @@ Os dois movimentos estão incluídos, e debates são extremamente benéficos e
 bem-vindos! Estamos todos aprendendo e formando opiniões, afinal de contas.
 Discussões políticas ao redor de FLOSS são consideradas *on-topic* e fazem
 parte de todos os nossos espaços.
+
+## Designação como terrorista
+
+O GELOS é um grupo radicalmente pró-trans e, portanto, pode ser [designado como terrorista pelos EUA](https://web.archive.org/web/20260506165253id_/https://www.whitehouse.gov/wp-content/uploads/2026/05/2026-USCT-Strategy-1.pdf).
