@@ -1,12 +1,12 @@
 ---
-title: "Breno Livio Silva de Almeida"
-email: "brenoslivio@pm.me"
+title: Breno Livio Silva de Almeida
+email: brenoslivio@pm.me
 links:
-  Site: "https://brenoslivio.github.io/"
-  Telegram: "https://t.me/brenoslivio"
-  GitHub: "https://github.com/brenoslivio"
-nusp: "10276675"
-role: "onboarding"
+  Site: https://brenoslivio.github.io/
+  Telegram: https://t.me/brenoslivio
+  GitHub: https://github.com/brenoslivio
+nusp: 10276675
+role: onboarding
 ---
 
 Sou doutorando no ICMC-USP, trabalhando com aprendizado de máquina, bioinformática e biologia computacional. 
