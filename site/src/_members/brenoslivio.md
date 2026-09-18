@@ -2,9 +2,9 @@
 title: Breno Livio Silva de Almeida
 email: brenoslivio@pm.me
 links:
-    Site: https://brenoslivio.github.io/
-    Telegram: @brenoslivio
-    GitHub: https://github.com/brenoslivio
+  Site: https://brenoslivio.github.io/
+  Telegram: https://t.me/brenoslivio
+  GitHub: https://github.com/brenoslivio
 nusp: 10276675
 role: onboarding
 ---
