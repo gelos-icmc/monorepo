@@ -1,6 +1,6 @@
 ---
 title: Caipyra 2026
-state: in_progress
+state: finished
 author: Gabriel
 ---
 

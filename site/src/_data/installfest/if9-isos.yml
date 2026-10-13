@@ -1,0 +1,6 @@
+- name: TO-DO
+  size: 69GB
+  link: https://example.com
+  filename: to-do.iso
+  sha256: to-do
+

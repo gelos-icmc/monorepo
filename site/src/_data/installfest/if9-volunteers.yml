@@ -1,0 +1,13 @@
+- nome: Luana
+  email: neder@usp.br
+  horarios: 14:00 ~ 19:00
+  pendrives:
+    - descricao: Lexar prateada USB C e A c/ chaveiro GELOS
+      tamanho: 256GB
+      isos: Todas
+    - descricao: SanDisk vermelho e preto c/ chaveiro openSUSE
+      tamanho: 8GB
+      isos: Linux Mint Cinnamon (ventoyless)
+    - descricao: Kingston preto DT101 G2 c/ chaveiro GELOS
+      tamanho: 16GB
+      isos: Mint Cinnamon e Xfce, Fedora KDE, Endeavour e Alpine 
