@@ -10,4 +10,11 @@
       isos: Linux Mint Cinnamon (ventoyless)
     - descricao: Kingston preto DT101 G2 c/ chaveiro GELOS
       tamanho: 16GB
-      isos: Mint Cinnamon e Xfce, Fedora KDE, Endeavour e Alpine 
+      isos: Mint Cinnamon e Xfce, Fedora KDE, Endeavour e Alpine
+- nome: Breno Livio Silva de Almeida
+  email: brenoslivio@usp.br
+  horarios: 14:00 ~ 19:00
+  pendrives:
+    - descricao: Intenso Micro Line (pequenininho)
+      tamanho: 128GB
+      isos: Todas
