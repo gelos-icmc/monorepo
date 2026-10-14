@@ -90,29 +90,29 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
 - [x] Fazer permalink /if9 para pag no blog
 - [ ] Divulgar nas listas
     - IFSC
-      - [ ] Solicitar
+      - [x] Solicitar
       - [ ] Done
     - ICMC
-      - [ ] Solicitar
+      - [x] Solicitar
       - [ ] Done
     - IQSC
-      - [ ] Solicitar
+      - [x] Solicitar
       - [ ] Done
     - EESC
-      - [ ] Solicitar
+      - [x] Solicitar
       - [ ] Done
     - IAU
-      - [ ] Solicitar
+      - [x] Solicitar
       - [ ] Done
 - [ ] Divulgar nos grupos (1a vez, mas bom ir relembrando várias vezes!)
-    - [ ] IFSC
-    - [ ] ICMC
+    - [x] IFSC
+    - [x] ICMC
     - [ ] EESC
     - [ ] IAU
     - [ ] IQSC
     - [ ] Outros grupos
 - [ ] Divulgar nas redes sociais
-    - [ ] Fediverso
+    - [x] Fediverso
     - [ ] Instagram 🤢
     - [ ] Outras
 - [ ] Divulgações Extras
