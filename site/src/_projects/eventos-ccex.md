@@ -15,6 +15,8 @@ O GELOS, em seu status de grupo de extensão no ICMC, preza pela participação 
 
 | Data       | Nome                      | Local               | Presentes      |
 |------------|---------------------------|---------------------|----------------|
+| 2026-08-20 | Visita Monitorada         |ICMC/USP             | João, Niko     |
+| 2026-06-09 | Workshop dos Grupos       |ICMC/USP             | Lívia, Gabs    |
 | 2026-05-21 | Visita Monitorada         |ICMC/USP             | Luana, Ada     |
 | 2026-02-25 | Semana de Recepção        |ICMC/USP             | Gabs, Luana    |
 | 2025-12-05 | Workshop dos Grupos       |ICMC/USP             | Luana, Lívia   |
