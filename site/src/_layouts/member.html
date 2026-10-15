@@ -12,7 +12,13 @@ layout: default
         <p>Email: <a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
       {% endif %}
       {% for link in page.links %}
-        <p>{{ link[0] }}: <a href="https://{{ link[1] }}">{{ link[1] }}</a></p>
+        {% assign url = link[1] | strip %}
+        {% assign https_prefix = url | slice: 0, 8 %}
+        {% assign http_prefix = url | slice: 0, 7 %}
+        {% unless https_prefix == 'https://' or http_prefix == 'http://' %}
+          {% assign url = url | prepend: 'https://' %}
+        {% endunless %}
+        <p>{{ link[0] }}: <a href="{{ url | escape }}">{{ link[1] }}</a></p>
       {% endfor %}
     </blockquote>
   </header>
