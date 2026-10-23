@@ -1,0 +1,7 @@
+---
+---
+{%- for iso in site.data.installfest.if9-isos -%}
+{{ iso.link }}
+  out={{ iso.filename }}
+  checksum=sha-256={{ iso.sha256 }}
+{% endfor -%}

@@ -7,7 +7,10 @@
     </tr>
   </thead>
   <tbody>
+    {% assign total_size = 0 %}
     {% for iso in include.data %}
+    {% assign size = iso.size | remove: 'GB' | plus: 0 %}
+    {% assign total_size = total_size | plus: size %}
     <tr>
       <td><a href="{{ iso.link }}">{{ iso.name }}</a></td>
       <td>{{ iso.size }}</td>
@@ -15,4 +18,11 @@
     </tr>
     {% endfor %}
   </tbody>
+  <tfoot>
+    <tr>
+      <th scope="row">Total aproximado</th>
+      <td>{{ total_size | round: 2 }} GB</td>
+      <td></td>
+    </tr>
+  </tfoot>
 </table>

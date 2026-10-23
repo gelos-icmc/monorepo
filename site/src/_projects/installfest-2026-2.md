@@ -62,9 +62,26 @@ caso queiram.
 
 Lembre-se de ejetar o pendrive de forma
 segura (rode o comando `sync .` ou ejete pela sua DE) e de conferir as checksums!
-Além de eles estarem na tabela acima, você pode
-baixar [este arquivo](/assets/installfest/if9-checksums.sha256) para checar as ISOs de
-forma super conveniente.
+
+Dica: Para baixar todas as ISOs no seu diretório atual de forma conveniente, você pode usar o comando abaixo.
+A lista de links e checksums é gerada automaticamente a partir da tabela.
+O aria2 verifica o SHA256 de cada arquivo ao terminar o download, e `-c` permite
+retomar downloads interrompidos. Com `--check-integrity=true`, arquivos já baixados
+também são verificados e podem ser baixados novamente se estiverem corrompidos.
+
+Com Nix:
+
+curl -fsSL https://gelos.club/assets/installfest/if9-isos.txt | nix run nixpkgs#aria2 -- -UMozilla/5.0 -c --check-integrity=true -i -
+```
+
+Sem Nix, instale `aria2` pelo gerenciador de pacotes da sua distro e rode:
+
+curl -fsSL https://gelos.club/assets/installfest/if9-isos.txt | aria2c -UMozilla/5.0 -c --check-integrity=true -i -
+```
+
+Para conferir os checksums separadamente do aria2, use o `sha256sum` com
+[nosso arquivo de checksums](/assets/installfest/if9-checksums.sha256).
+Isso também serve para ISOs baixadas por outro programa ou para verificar a cópia no pendrive.
 
 Entre no diretório com suas ISOs e rode:
 
