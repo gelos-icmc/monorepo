@@ -1,6 +1,77 @@
-- name: TO-DO
-  size: 69GB
-  link: https://example.com
-  filename: to-do.iso
-  sha256: to-do
+- name: Linux Mint 22.3 Cinnamon
+  size: 2.9GB
+  link: https://mint.c3sl.ufpr.br/stable/22.3/linuxmint-22.3-cinnamon-64bit.iso
+  filename: linuxmint-22.3-cinnamon-64bit.iso
+  sha256: a081ab202cfda17f6924128dbd2de8b63518ac0531bcfe3f1a1b88097c459bd4
 
+- name: Linux Mint 22.3 XFCE
+  size: 2.8GB
+  link: https://mint.c3sl.ufpr.br/stable/22.3/linuxmint-22.3-xfce-64bit.iso
+  filename: linuxmint-22.3-xfce-64bit.iso
+  sha256: 45a835b5dddaf40e84d776549e0b19b3fbd49673b6cc6434ebddbfcd217df776
+
+- name: Debian 13.7
+  size: 3.7GB
+  link: https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-13.7.0-amd64-DVD-1.iso
+  filename: debian-13.7.0-amd64-DVD-1.iso
+  sha256: 347b6c67a3cc0b7ddb60b178f683470c4e2b7ac426c996d9337a2ff36c1a32d2
+
+- name: NixOS 26.05
+  size: 3.5GB
+  link: https://releases.nixos.org/nixos/26.05/nixos-26.05.12400.da6dc0e7b260/nixos-graphical-26.05.12400.da6dc0e7b260-x86_64-linux.iso
+  filename: nixos-graphical-26.05.12400.da6dc0e7b260-x86_64-linux.iso
+  sha256: 43c54768bfdace43cdceeae5a2be0d475bd041caec2092d1a51a34d2526df387
+
+- name: openSUSE Tumbleweed 20261021
+  size: 4.4GB
+  link: https://opensuse.c3sl.ufpr.br/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20261021-Media.iso
+  filename: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20261021-Media.iso
+  sha256: bb9d68c17412cefa34599e12c6a32f6951a7211f2b407d3084e28c28dc54ce94
+
+- name: EndeavourOS Titan Nova 2026.08.15
+  size: 3.63GB
+  link: https://mirror.rznet.fr/endeavouros/iso/EndeavourOS_Titan-Nova-2026.08.15.iso
+  filename: EndeavourOS_Titan-Nova-2026.08.15.iso
+  sha256: 0487f46fe29e0ab2ed153ba874568cc542a0507fb6029f29ad552b36ba447393
+
+- name: Chimera Linux 20251220
+  size: 2.4GB
+  link: https://repo.chimera-linux.org/live/20251220/chimera-linux-x86_64-LIVE-20251220-plasma.iso
+  filename: chimera-linux-x86_64-LIVE-20251220-plasma.iso
+  sha256: a963ec89f349c56578cca5a9811f0bd5c383bc0c6f2de36871462607d32050c1
+
+- name: NetBSD 11.0
+  size: 1.3GB
+  link: https://cdn.netbsd.org/pub/NetBSD/NetBSD-11.0/images/NetBSD-11.0-amd64-install.img.gz
+  filename: NetBSD-11.0-amd64-install.img.gz
+  sha256: 9a5bf7ad5cba4e263168861cc265299c36ba00bf8f1a582972c9f2c5cf8902ee
+
+- name: Arch Linux 2026.10.01
+  size: 1.5GB
+  link: https://mirror.ufscar.br/archlinux/iso/2026.10.01/archlinux-2026.10.01-x86_64.iso
+  filename: archlinux-2026.10.01-x86_64.iso
+  sha256: 684ded26c63240ff4a41e8c25ee84ea6da233f557364821f13d12c2b0a9059a5
+
+- name: Fedora KDE 44 (x86_64)
+  size: 3.1GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/44/KDE/x86_64/iso/Fedora-KDE-Desktop-Live-44-1.7.x86_64.iso
+  filename: Fedora-KDE-Desktop-Live-44-1.7.x86_64.iso
+  sha256: c8295961d4c41adbf785a31a17c21a971d3b7415fda72dcad0c11c49577bf03a
+
+- name: Fedora KDE 44 (aarch64)
+  size: 2.9GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/44/KDE/aarch64/iso/Fedora-KDE-Desktop-Live-44-1.7.aarch64.iso
+  filename: Fedora-KDE-Desktop-Live-44-1.7.aarch64.iso
+  sha256: 61b39df9bb19aff38b7b7c81d7b2a647aa43948b6683c8467091e0edce833a94
+
+- name: Fedora GNOME 44
+  size: 2.7GB
+  link: https://download.fedoraproject.org/pub/fedora/linux/releases/44/Workstation/x86_64/iso/Fedora-Workstation-Live-44-1.7.x86_64.iso
+  filename: Fedora-Workstation-Live-44-1.7.x86_64.iso
+  sha256: 1620295f6a00c27c3208f0c00b8ece4eab1ec69b9002152d97488bf26a426ddf
+
+- name: Ubuntu 26.10
+  size: 5.9GB
+  link: https://releases.ubuntu.com/26.10/ubuntu-26.10-desktop-amd64.iso
+  filename: ubuntu-26.10-desktop-amd64.iso
+  sha256: 19efc38dde60055b192526bfbba075ac1da23992f1b006ddd41cbd30db0d9b0c

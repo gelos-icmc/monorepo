@@ -88,13 +88,13 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [ ] Colar
 - [ ] Pegar posters CCEx
 - [x] Fazer permalink /if9 para pag no blog
-- [ ] Divulgar nas listas
+- [x] Divulgar nas listas
     - IFSC
       - [x] Solicitar
-      - [ ] Done
+      - [x] Done
     - ICMC
       - [x] Solicitar
-      - [ ] Done
+      - [x] Done
     - IQSC
       - [x] Solicitar
       - [ ] Done
@@ -104,10 +104,10 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - IAU
       - [x] Solicitar
       - [ ] Done
-- [ ] Divulgar nos grupos (1a vez, mas bom ir relembrando várias vezes!)
+- [x] Divulgar nos grupos (1a vez, mas bom ir relembrando várias vezes!)
     - [x] IFSC
     - [x] ICMC
-    - [ ] EESC
+    - [x] EESC
     - [ ] IAU
     - [ ] IQSC
     - [ ] Outros grupos
@@ -116,13 +116,13 @@ ser interessante rodar o comando no diretório da pendrive, após a escrita (eje
     - [ ] Instagram 🤢
     - [ ] Outras
 - [ ] Divulgações Extras
-    - [ ] [EndOf10](https://endof10.org/events/)
+    - [x] [EndOf10](https://endof10.org/events/)
     - [ ] Atualizar [mapeamento.softwarelivre.tec.br installfest](https://mapeamento.softwarelivre.tec.br/locais/gelos-linux-installfest/)
     - [ ] [movimento.softwarelivre.tec.br](https://movimento.softwarelivre.tec.br/eventos/)
-- [ ] ISOs
-    - [ ] Atualizar tabela com links e checksums atuais
+- [x] ISOs
+    - [x] Atualizar tabela com links e checksums atuais
     - [ ] Mirror das isos do openSUSE
-    - [ ] Criar arquivo com checksums
+    - [x] Criar arquivo com checksums
 - [ ] Levantar pessoas
     - [ ] Preencher tabela de voluntários
     - [ ] Preencher tabela de pendrives
