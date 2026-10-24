@@ -24,9 +24,9 @@
 
 - name: openSUSE Tumbleweed 20261021
   size: 4.4GB
-  link: https://opensuse.c3sl.ufpr.br/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20261021-Media.iso
-  filename: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20261021-Media.iso
-  sha256: bb9d68c17412cefa34599e12c6a32f6951a7211f2b407d3084e28c28dc54ce94
+  link: https://opensuse.c3sl.ufpr.br/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20261022-Media.iso
+  filename: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20261022-Media.iso
+  sha256: 14576ac490eecdd752c8f044a818cb5bd725753dc28f0baf45867e44184a32a5
 
 - name: EndeavourOS Titan Nova 2026.08.15
   size: 3.63GB
