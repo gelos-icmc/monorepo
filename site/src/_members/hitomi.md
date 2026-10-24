@@ -3,8 +3,8 @@ title: Gustavo Hitomi
 nickanme: Marrone
 email: gustavohitomi@usp.br
 nusp: 11801202
-role: member
 inactive: true
+role: alumni
 ---
 
 Olá! Vou me apresentar aqui...
