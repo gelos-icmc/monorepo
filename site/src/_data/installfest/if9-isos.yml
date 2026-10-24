@@ -22,7 +22,7 @@
   filename: nixos-graphical-26.05.12400.da6dc0e7b260-x86_64-linux.iso
   sha256: 43c54768bfdace43cdceeae5a2be0d475bd041caec2092d1a51a34d2526df387
 
-- name: openSUSE Tumbleweed 20261021
+- name: openSUSE Tumbleweed 20261022
   size: 4.4GB
   link: https://opensuse.c3sl.ufpr.br/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20261022-Media.iso
   filename: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20261022-Media.iso
