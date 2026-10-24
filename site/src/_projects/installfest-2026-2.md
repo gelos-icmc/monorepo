@@ -71,12 +71,8 @@ também são verificados e podem ser baixados novamente se estiverem corrompidos
 
 Com Nix:
 
+```sh
 curl -fsSL https://gelos.club/assets/installfest/if9-isos.txt | nix run nixpkgs#aria2 -- -UMozilla/5.0 -c --check-integrity=true -i -
-```
-
-Sem Nix, instale `aria2` pelo gerenciador de pacotes da sua distro e rode:
-
-curl -fsSL https://gelos.club/assets/installfest/if9-isos.txt | aria2c -UMozilla/5.0 -c --check-integrity=true -i -
 ```
 
 Para conferir os checksums separadamente do aria2, use o `sha256sum` com
