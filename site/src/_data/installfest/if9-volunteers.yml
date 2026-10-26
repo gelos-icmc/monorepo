@@ -32,3 +32,10 @@
     - descricao: Sandisk vermelho e preto
       tamanha: 32GB
       isos: Mint Debian NixOS EndeavourOS Chimera NetBSD Arch Fedora
+- nome: Gabs
+  email: g.fontes@usp.br
+  horarios: 16:00 ~ 19:00
+  pendrives:
+    - descricao: Sandisk Prata 256GB (USB-A e USB-C)
+      tamanha: 32GB
+      isos: Mint Debian NixOS Arch
