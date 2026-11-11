@@ -1,8 +1,8 @@
 ---
 title: Ryan Souza Sá Teles
 links:
-    Site: ryan.dev.br
+    Site: ryansouza.dev
 draft: true
-role: "alumni"
+role: alumni
 inactive: true
 ---
