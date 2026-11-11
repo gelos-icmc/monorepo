@@ -1,7 +1,7 @@
 ---
 title: Carlos Henrique Craveiro Aquino Veras
-role: member
 inactive: true
+role: alumni
 nusp: 12547187
 ---
 
